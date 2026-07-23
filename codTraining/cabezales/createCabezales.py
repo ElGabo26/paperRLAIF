@@ -25,7 +25,7 @@ DEVICE = torch.device(
     "cuda" if torch.cuda.is_available() else "cpu"
 )
 
-rutaModelo=dowloadModel(MODEL_DOWLOAD,MODEL_ROUTE)
+rutaModelo="/workspace/models/deberta-v3-large"
 
 # ============================================================
 # CARGAR TOKENIZADOR Y MODELO
