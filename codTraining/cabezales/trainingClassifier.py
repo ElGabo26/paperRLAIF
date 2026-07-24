@@ -47,16 +47,17 @@ result=[]
 for db in bases:
     pooling=db.split('_')[1].split('.')[0]
     print(pooling)
-    for seed in seeds:
-        print(seed)
-        datos = torch.load(
-            f"{DATA_ROUTE}/{db}",
-            map_location="cpu",
-            weights_only=True)
-        input_dim = datos.tensors[0].shape[1]
-        train, test, eval =makeDivision(datos,0.30,seed)
-        trainL, testL , evalL=createLoaders(16,train,test,eval)
-        with tqdm(total=27) as barra:
+    with tqdm(total=27) as barra:
+        for seed in seeds:
+            print(seed)
+            datos = torch.load(
+                f"{DATA_ROUTE}/{db}",
+                map_location="cpu",
+                weights_only=True)
+            input_dim = datos.tensors[0].shape[1]
+            train, test, eval =makeDivision(datos,0.30,seed)
+            trainL, testL , evalL=createLoaders(256,train,test,eval)
+            
             for hidden_dim in hidden_dim_options:
                 config = {
                     "input_dim": input_dim,
@@ -84,9 +85,9 @@ for db in bases:
                 
                 result.append(data)
                 barra.update(1)
-            
-            
-            print(f"ENTRANAMIENTO COMPLETADO")
+                
+                
+                print(f"ENTRANAMIENTO COMPLETADO")
         
 
 resultado=concat(result)
