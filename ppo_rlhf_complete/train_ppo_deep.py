@@ -145,7 +145,7 @@ CONFIG: dict[str, Any] = {
 
         # Con 67 % de VRAM inicial, 4 es un punto de partida razonable.
 
-        "per_device_train_batch_size": 1,
+        "per_device_train_batch_size": 2,
 
 
 
