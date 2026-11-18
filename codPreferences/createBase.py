@@ -16,7 +16,7 @@ from metrics import medir_recursos
 
 REPETITIONS = 4
 
-BATCH_SIZE = 32
+BATCH_SIZE = 128
 
 MAX_NEW_TOKENS = 600
 
