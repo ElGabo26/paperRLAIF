@@ -29,7 +29,7 @@ OUTPUT_MODEL="/workspace/adaptedModels/cabezales"
 OUTPUT_EVAL="/workspace/papaerRLAIF/codTraining/cabezales/"
 PARAMS_ROUTE="/workspace/papaerRLAIF/codTraining/cabezales/finalCabezalParams.joblib"
 SEED=42
-NUM_CLASSES=6
+NUM_CLASSES=5
 NUM_EPOCHS=20
 MIN_DELTA=0.001
 
