@@ -2,7 +2,7 @@
 from huggingface_hub import snapshot_download
 
 
-LOCALROOT="/workspace/models/deberta-v3-large"
+LOCALROOT="/workspace/models/"
 MODELROOT="microsoft/deberta-v3-large"
 
 def  dowloadModel(modelroot:str, localRoot:str):
