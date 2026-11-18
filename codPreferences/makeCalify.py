@@ -32,7 +32,7 @@ for model in models:
 
 
 for k in dataset.keys():
-    r=prompts
+    r=db['prompt'].copy()
     dbs=dataset[k]
     for db1  in dbs:
         r=pd.merge(r,db1,on='prompt')
