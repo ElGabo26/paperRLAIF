@@ -72,11 +72,11 @@ CONFIG: dict[str, Any] = {
 
         # Batch utilizado durante la evaluación. Como no calcula gradientes,
         # normalmente puede ser mayor que el batch de entrenamiento.
-        "per_device_eval_batch_size": 64,
+        "per_device_eval_batch_size": 16,
 
         # Acumula gradientes antes de actualizar los pesos.
         # Con una GPU, batch efectivo = 2 × 4 = 8 preferencias.
-        "gradient_accumulation_steps": 1,
+        "gradient_accumulation_steps": 8,
 
         # PRIORITARIO. Longitud máxima de prompt + respuesta.
         # No reduce el dataset; solo recorta secuencias que superan este límite.
