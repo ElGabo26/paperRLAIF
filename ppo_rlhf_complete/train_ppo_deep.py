@@ -186,13 +186,13 @@ CONFIG: dict[str, Any] = {
 
         # Se incrementa ligeramente porque solo se ejecutará una época PPO.
 
-        "learning_rate": 5e-6,
+        "learning_rate": 5e-5,
 
 
 
         # Una única actualización PPO por rollout.
 
-        "num_ppo_epochs": 1,
+        "num_ppo_epochs": 5,
 
 
 
@@ -234,13 +234,13 @@ CONFIG: dict[str, Any] = {
 
         # Principal reducción del costo de generación.
 
-        "response_length": 64,
+        "response_length": 600,
 
 
 
         # Mantiene diversidad suficiente para PPO.
 
-        "temperature": 0.70,
+        "temperature": 0.3,
 
 
 
