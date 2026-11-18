@@ -30,12 +30,16 @@ RUTAOUTPUT = "/workspace/papaerRLAIF/codPreferences/bases"
 
 RUTAPROMPTS = "/workspace/papaerRLAIF/codPreferences/prompts.csv"
 
+'''
 MODELOS = [
     "/workspace/models/Qwen2.5-1.5B-Instruct",
     "/workspace/models/DeepSeek-R1-Distill-Qwen-1.5B",
-    "/workspace/models/meta-llama/Llama-3.2-1B-Instruct"
+    "/workspace/models/Llama-3.2-1B-Instruct"
 ]
-
+'''
+MODELOS = [
+    "/workspace/models/Llama-3.2-1B-Instruct"
+]
 
 # ============================================================
 # 2. GENERACIÓN DE RESPUESTAS POR LOTES
