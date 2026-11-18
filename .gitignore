@@ -8,7 +8,7 @@
 # ==========================================
 # Specific files to ignore
 # ==========================================
-cedentials.txt
+credentials.txt
 
 # ==========================================
 # Specific directories to ignore
