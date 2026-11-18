@@ -28,10 +28,7 @@ dataset={}
 for model in models:
     dataset[model]=[pd.read_csv(root/x,index_col=0) for x in bases if model in x.name]
 
-prompts=dataset['Qwen2.5-1.5B-Instruct'][0]['prompt']
 
-if len(prompts)!=db.shape[0]:
-    raise ValueError("LEN PROMPTS  NO COINSIDE")
 
 
 for k in dataset.keys():
