@@ -159,7 +159,7 @@ CONFIG: dict[str, Any] = {
 
         # Reducir a 8 si aparece CUDA OOM.
 
-        "local_rollout_forward_batch_size": 2,
+        "local_rollout_forward_batch_size": 4,
 
 
 
