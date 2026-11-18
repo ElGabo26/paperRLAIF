@@ -171,7 +171,7 @@ CONFIG: dict[str, Any] = {
 
         # Ajustar según los núcleos reales de la máquina.
 
-        "dataloader_num_workers": 8,
+        "dataloader_num_workers": 4,
 
 
 
