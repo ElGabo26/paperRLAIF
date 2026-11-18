@@ -33,6 +33,7 @@ rutaModelo="/workspace/models/deberta-v3-large"
 tokenizer = AutoTokenizer.from_pretrained(
         rutaModelo,
         backend="sentencepiece",
+        use_fast=False,
         local_files_only=True,
         fix_mistral_regex=True
     )
