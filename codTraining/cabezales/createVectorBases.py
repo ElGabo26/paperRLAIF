@@ -55,7 +55,7 @@ print("Dimensión oculta:", modelo_bert.config.hidden_size)
 # CARGA  DE  DATOS
 # ============================================================
 
-dataroutes=['skill.csv']
+dataroutes=listdir(DATABASES_ROUTE)
 poolins=['cls','mean', 'max']
 
 for base in dataroutes:
