@@ -145,7 +145,7 @@ CONFIG: dict[str, Any] = {
 
         # Con 67 % de VRAM inicial, 4 es un punto de partida razonable.
 
-        "per_device_train_batch_size": 2,
+        "per_device_train_batch_size": 1,
 
 
 
@@ -159,7 +159,7 @@ CONFIG: dict[str, Any] = {
 
         # Reducir a 8 si aparece CUDA OOM.
 
-        "local_rollout_forward_batch_size": 3,
+        "local_rollout_forward_batch_size": 2,
 
 
 
@@ -347,7 +347,7 @@ CONFIG: dict[str, Any] = {
 
         # Más rápido mientras exista suficiente VRAM.
 
-        "gradient_checkpointing": False,
+        "gradient_checkpointing": True,
 
 
 
