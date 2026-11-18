@@ -144,13 +144,13 @@ CONFIG: dict[str, Any] = {
 
         # Con 67 % de VRAM inicial, 4 es un punto de partida razonable.
 
-        "per_device_train_batch_size": 4,
+        "per_device_train_batch_size": 1,
 
 
 
         # Evita varios forward/backward antes de actualizar.
 
-        "gradient_accumulation_steps": 1,
+        "gradient_accumulation_steps": 4,
 
 
 
@@ -158,7 +158,7 @@ CONFIG: dict[str, Any] = {
 
         # Reducir a 8 si aparece CUDA OOM.
 
-        "local_rollout_forward_batch_size": 16,
+        "local_rollout_forward_batch_size": 2,
 
 
 
@@ -170,7 +170,7 @@ CONFIG: dict[str, Any] = {
 
         # Ajustar según los núcleos reales de la máquina.
 
-        "dataloader_num_workers": 8,
+        "dataloader_num_workers": 4,
 
 
 
@@ -186,13 +186,13 @@ CONFIG: dict[str, Any] = {
 
         # Se incrementa ligeramente porque solo se ejecutará una época PPO.
 
-        "learning_rate": 5e-6,
+        "learning_rate": 5e-5,
 
 
 
         # Una única actualización PPO por rollout.
 
-        "num_ppo_epochs": 1,
+        "num_ppo_epochs": 5,
 
 
 
@@ -234,13 +234,13 @@ CONFIG: dict[str, Any] = {
 
         # Principal reducción del costo de generación.
 
-        "response_length": 64,
+        "response_length": 600,
 
 
 
         # Mantiene diversidad suficiente para PPO.
 
-        "temperature": 0.70,
+        "temperature": 0.3,
 
 
 
@@ -346,7 +346,7 @@ CONFIG: dict[str, Any] = {
 
         # Más rápido mientras exista suficiente VRAM.
 
-        "gradient_checkpointing": False,
+        "gradient_checkpointing": True,
 
 
 
@@ -1117,9 +1117,25 @@ def print_training_summary(
 
 
 
+def fix_ppo_ddp_policy() -> None:
+    """Compatibilidad con versiones de TRL PPO que acceden a self.model.policy
+    después de envolver el modelo PPO en DistributedDataParallel.
+
+    Se mantiene DDP para conservar la sincronización de gradientes.
+    Esta es una solución de compatibilidad, no un arreglo oficial de TRL.
+    """
+    if not hasattr(DDP, "policy"):
+        DDP.policy = property(lambda self: self.module.policy)
+
+
 def main(config: dict[str, Any]) -> None:
 
     """Carga los componentes, ejecuta PPO y exporta las métricas."""
+
+    fix_ppo_ddp_policy()
+    distributed_state = PartialState()
+    if distributed_state.is_main_process:
+        print(f"Procesos distribuidos: {distributed_state.num_processes}")
 
     seed = config["training"]["seed"]
 
@@ -1479,6 +1495,9 @@ def main(config: dict[str, Any]) -> None:
 
 
 
+    # El resto de procesos espera a que la GPU 0 complete el baseline.
+    distributed_state.wait_for_everyone()
+
     trainer = PPOTrainer(
 
         args=ppo_args,
@@ -1505,12 +1524,23 @@ def main(config: dict[str, Any]) -> None:
 
 
 
+    if isinstance(trainer.model, DDP):
+        print(
+            f"[rank {distributed_state.process_index}] DDP activo; "
+            f"policy accesible: {trainer.model.policy is not None}; "
+            f"dispositivo: {distributed_state.device}"
+        )
+
     trainer.train()
 
+    # Trainer coordina el guardado de los pesos del modelo.
     trainer.save_model(config["paths"]["output_dir"])
 
-    tokenizer.save_pretrained(config["paths"]["output_dir"])
+    # Evita escrituras simultáneas de archivos auxiliares.
+    if trainer.accelerator.is_main_process:
+        tokenizer.save_pretrained(config["paths"]["output_dir"])
 
+    trainer.accelerator.wait_for_everyone()
     metrics_callback.save(trainer.state)
 
 
