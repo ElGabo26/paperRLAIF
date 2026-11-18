@@ -145,13 +145,13 @@ CONFIG: dict[str, Any] = {
 
         # Con 67 % de VRAM inicial, 4 es un punto de partida razonable.
 
-        "per_device_train_batch_size": 4,
+        "per_device_train_batch_size": 1,
 
 
 
         # Evita varios forward/backward antes de actualizar.
 
-        "gradient_accumulation_steps": 1,
+        "gradient_accumulation_steps": 4,
 
 
 
@@ -159,7 +159,7 @@ CONFIG: dict[str, Any] = {
 
         # Reducir a 8 si aparece CUDA OOM.
 
-        "local_rollout_forward_batch_size": 16,
+        "local_rollout_forward_batch_size": 2,
 
 
 
