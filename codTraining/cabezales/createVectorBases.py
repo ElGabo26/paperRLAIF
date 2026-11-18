@@ -24,7 +24,7 @@ SEED =42
 DEVICE = torch.device(
     "cuda" if torch.cuda.is_available() else "cpu"
 )
-rutaModelo="/workspace/models/deberta-v3-large/deberta-v3-large"
+rutaModelo="/workspace/models/deberta-v3-large"
 
 
 # ============================================================
