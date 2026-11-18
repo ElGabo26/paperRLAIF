@@ -1,6 +1,5 @@
 import pandas  as pd
 import re
-import matplotlib.pyplot as plt
 from pathlib import Path
 
 BASES="/workspace/papaerRLAIF/codPreferences/bases"
@@ -45,7 +44,7 @@ for k in dataset.keys():
 
 
 tocalify={}
-root="/workspace/papaerRLAIF/codPreferences/calify"
+root="/workspace/papaerRLAIF/codPreferences/tocalify"
 for k in dataset.keys():
     r=make4(dataset[k])
     print('MADE ==',k)
