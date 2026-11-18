@@ -7,7 +7,7 @@ from metrics import medir_recursos
 REPETITIONS=4
 RUTAOUTPUT="/workspace/papaerRLAIF/codPreferences/bases"
 base=pd.read_csv("/workspace/papaerRLAIF/codPreferences/prompts.csv")
-prompts=base.sample(frac=1.0, random_state=42)
+prompts=base
 prompts1=prompts['prompt'].values
 total=len(prompts1)
 
