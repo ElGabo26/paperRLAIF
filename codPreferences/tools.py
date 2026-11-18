@@ -29,36 +29,6 @@ def testModel(rutaModelo):
 
     print("Modelo cargado correctamente")
     print("Arquitectura:", model.__class__.__name__)
-    
-    #prueba de funcionamiento
-    mensajes=[{
-        "role": "user",
-        "content":"make a  question for elementary  school student  to learn addition"
-    }]
-    
-    texto=tokenizer.apply_chat_template(
-        mensajes,
-        tokenize=False,
-        add_generation_promot=True
-    )
-    
-    inputs=tokenizer(
-        texto,
-        return_tensors="pt"
-    ).to(model.device)
-    
-    with torch.no_grad():
-        salida = model.generate(
-        **inputs,
-        max_new_tokens=100,
-        do_sample=True,
-        pad_token_id=tokenizer.eos_token_id )
-
-    respuesta = tokenizer.decode(
-        salida[0][inputs["input_ids"].shape[1]:],
-        skip_special_tokens=True)
-
-    print(respuesta)
     return tokenizer, model
 
 def makeResponse(tokenizer, model, prompt, temperature=0.3):
@@ -81,7 +51,7 @@ def makeResponse(tokenizer, model, prompt, temperature=0.3):
     with torch.no_grad():
         salida = model.generate(
         **inputs, #se  agrega  todos  los  inputs
-        max_new_tokens=200,
+        max_new_tokens=600,
         do_sample=True, # Garantiza aleatoriedad
         temperature=temperature, #Temperatura
         top_p=0.9, # top  de  probabilidad  acumulada
