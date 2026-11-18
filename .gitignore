@@ -1,6 +1,7 @@
 # ==========================================
 # Environment variables
 # ==========================================
+credentials.txt
 .env
 .env.*
 !.env.example
