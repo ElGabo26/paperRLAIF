@@ -15,5 +15,6 @@ def  dowloadModel(modelroot:str, localRoot:str):
     return ruta_modelo
 
 if __name__=="__main__":
+    m=MODELROOT
     ruta =dowloadModel(m,LOCALROOT)
     print(ruta)
