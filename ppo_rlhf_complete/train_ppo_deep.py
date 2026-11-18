@@ -19,6 +19,7 @@ import pandas as pd
 import torch
 
 from accelerate import PartialState
+from torch.nn.parallel import DistributedDataParallel as DDP
 
 from datasets import Dataset
 
@@ -158,7 +159,7 @@ CONFIG: dict[str, Any] = {
 
         # Reducir a 8 si aparece CUDA OOM.
 
-        "local_rollout_forward_batch_size": 24,
+        "local_rollout_forward_batch_size": 16,
 
 
 
@@ -1117,9 +1118,25 @@ def print_training_summary(
 
 
 
+def fix_ppo_ddp_policy() -> None:
+    """Compatibilidad con versiones de TRL PPO que acceden a self.model.policy
+    después de envolver el modelo PPO en DistributedDataParallel.
+
+    Se mantiene DDP para conservar la sincronización de gradientes.
+    Esta es una solución de compatibilidad, no un arreglo oficial de TRL.
+    """
+    if not hasattr(DDP, "policy"):
+        DDP.policy = property(lambda self: self.module.policy)
+
+
 def main(config: dict[str, Any]) -> None:
 
     """Carga los componentes, ejecuta PPO y exporta las métricas."""
+
+    fix_ppo_ddp_policy()
+    distributed_state = PartialState()
+    if distributed_state.is_main_process:
+        print(f"Procesos distribuidos: {distributed_state.num_processes}")
 
     seed = config["training"]["seed"]
 
@@ -1479,6 +1496,9 @@ def main(config: dict[str, Any]) -> None:
 
 
 
+    # El resto de procesos espera a que la GPU 0 complete el baseline.
+    distributed_state.wait_for_everyone()
+
     trainer = PPOTrainer(
 
         args=ppo_args,
@@ -1505,12 +1525,23 @@ def main(config: dict[str, Any]) -> None:
 
 
 
+    if isinstance(trainer.model, DDP):
+        print(
+            f"[rank {distributed_state.process_index}] DDP activo; "
+            f"policy accesible: {trainer.model.policy is not None}; "
+            f"dispositivo: {distributed_state.device}"
+        )
+
     trainer.train()
 
+    # Trainer coordina el guardado de los pesos del modelo.
     trainer.save_model(config["paths"]["output_dir"])
 
-    tokenizer.save_pretrained(config["paths"]["output_dir"])
+    # Evita escrituras simultáneas de archivos auxiliares.
+    if trainer.accelerator.is_main_process:
+        tokenizer.save_pretrained(config["paths"]["output_dir"])
 
+    trainer.accelerator.wait_for_everyone()
     metrics_callback.save(trainer.state)
 
 
