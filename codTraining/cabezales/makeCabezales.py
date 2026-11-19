@@ -25,6 +25,7 @@ DEVICE = torch.device(
 
 LEARNING_RATE= 3e-4
 DATA_ROUTE="/workspace/paperRLAIF/codTraining/cabezales/vectorBases"
+SKILL_ENCODER="/workspace/paperRLAIF/codTraining/cabezales/encoders/skill.joblib"
 OUTPUT_MODEL="/workspace/adaptedModels/cabezales"
 OUTPUT_EVAL="/workspace/paperRLAIF/codTraining/cabezales/"
 PARAMS_ROUTE="/workspace/paperRLAIF/codTraining/cabezales/finalCabezalParams.joblib"
@@ -111,6 +112,9 @@ for i,j in params1.items():
     trainL, testL , evalL=createLoaders(256,train,test,eval)
     
     if i=='skill':
+        encoder=joblib.load(SKILL_ENCODER)
+        class_names=encoder.classes_.tolist()
+        print(class_names)
         param1=param.copy()
         param1['num_classes']=NUM_CLASSES
         config={x:param1[x] for x in config_multiclass_model}
