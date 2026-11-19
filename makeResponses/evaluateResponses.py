@@ -8,7 +8,7 @@ from evaluateResponsesTools import evaluateResponses
 # 1. Configuración
 # ============================================================
 
-ROUTE_BERT="/workspace/models/deberta-v3-large"
+ROUTE_BERT="/workspace/models/deberta-v3-large/deberta-v3-large"
 ROUTE_CABEZALES="/workspace/adaptedModels/cabezales"
 ROUTE_ENCODER="/workspace/paperRLAIF/codTraining/cabezales/encoders"
 ROUTE_RESPONSES="/workspace/paperRLAIF/makeResponses/responses" 
