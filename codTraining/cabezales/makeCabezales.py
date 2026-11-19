@@ -114,7 +114,7 @@ for i,j in params1.items():
     if i=='skill':
         encoder=joblib.load(SKILL_ENCODER)
         class_names=encoder.classes_.tolist()
-        print(class_names)
+        print("#"*40,class_names)
         param1=param.copy()
         param1['num_classes']=NUM_CLASSES
         config={x:param1[x] for x in config_multiclass_model}
