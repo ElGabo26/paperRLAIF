@@ -24,10 +24,10 @@ DEVICE = torch.device(
 )
 
 LEARNING_RATE= 3e-4
-DATA_ROUTE="/workspace/papaerRLAIF/codTraining/cabezales/vectorBases"
+DATA_ROUTE="/workspace/paperRLAIF/codTraining/cabezales/vectorBases"
 OUTPUT_MODEL="/workspace/adaptedModels/cabezales"
-OUTPUT_EVAL="/workspace/papaerRLAIF/codTraining/cabezales/"
-PARAMS_ROUTE="/workspace/papaerRLAIF/codTraining/cabezales/finalCabezalParams.joblib"
+OUTPUT_EVAL="/workspace/paperRLAIF/codTraining/cabezales/"
+PARAMS_ROUTE="/workspace/paperRLAIF/codTraining/cabezales/finalCabezalParams.joblib"
 SEED=42
 NUM_CLASSES=5
 NUM_EPOCHS=20
