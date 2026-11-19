@@ -96,6 +96,10 @@ for i,j in params1.items():
     param=j.copy()
     param['device']=DEVICE
     param['input_dim']=1024
+    if param['pooling']!='mean':
+        raise ValueError(
+            "EL POOLING NO COINCIDE"
+        )
     name_base=f"{i}_{param['pooling']}.pt"
     data = torch.load(
             f"{DATA_ROUTE}/{name_base}",
