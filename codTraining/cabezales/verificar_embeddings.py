@@ -92,7 +92,7 @@ print("Textos originales:", len(data))
 
 
 # ============================================================
-# 4. SELECCIONAR UNA MUESTRA REPRODUCIBLE
+# 4. SELECCIONAR ÍNDICES
 # ============================================================
 
 rng = np.random.default_rng(SEED)
@@ -108,10 +108,8 @@ indices = np.sort(
 )
 
 textos = data.iloc[indices]["text"].tolist()
-
 vectores_originales = original_embeddings[indices]
 
-print("Textos seleccionados:", len(textos))
 
 
 # ============================================================
@@ -120,7 +118,8 @@ print("Textos seleccionados:", len(textos))
 
 tokenizer = AutoTokenizer.from_pretrained(
     MODEL_PATH,
-    local_files_only=True
+    local_files_only=True,
+    fix_mistral_regex=True
 )
 
 encoder = AutoModel.from_pretrained(
@@ -159,17 +158,28 @@ def mean_pooling(last_hidden_state, attention_mask):
 
 
 # ============================================================
-# 7. REGENERAR EMBEDDINGS
+# 7. REGENERAR USANDO LOTES ORIGINALES
 # ============================================================
 
 @torch.inference_mode()
-def generar_embeddings(textos):
+def generar_embeddings_comparables(indices):
 
-    all_embeddings = []
+    resultados = {}
 
-    for start in range(0, len(textos), BATCH_SIZE):
+    # Identificar los lotes originales que contienen
+    # los registros seleccionados.
+    lotes = sorted(set(
+        int(i) // BATCH_SIZE
+        for i in indices
+    ))
 
-        batch = textos[start:start + BATCH_SIZE]
+    for numero_lote in lotes:
+
+        inicio = numero_lote * BATCH_SIZE
+        fin = min(inicio + BATCH_SIZE, len(data))
+
+        # Recuperar el lote completo original.
+        batch = data.iloc[inicio:fin]["text"].tolist()
 
         tokens = tokenizer(
             batch,
@@ -180,8 +190,8 @@ def generar_embeddings(textos):
         )
 
         tokens = {
-            key: value.to(DEVICE)
-            for key, value in tokens.items()
+            k: v.to(DEVICE)
+            for k, v in tokens.items()
         }
 
         outputs = encoder(**tokens)
@@ -189,19 +199,26 @@ def generar_embeddings(textos):
         embeddings = mean_pooling(
             outputs.last_hidden_state,
             tokens["attention_mask"]
-        )
+        ).float().cpu()
 
-        all_embeddings.append(
-            embeddings.float().cpu()
-        )
+        # Conservar los embeddings de las filas solicitadas.
+        for indice in indices:
 
-    return torch.cat(all_embeddings, dim=0)
+            if inicio <= indice < fin:
+
+                posicion = int(indice) - inicio
+
+                resultados[int(indice)] = (
+                    embeddings[posicion]
+                )
+
+    return torch.stack([
+        resultados[int(i)]
+        for i in indices
+    ])
 
 
-vectores_nuevos = generar_embeddings(textos)
-
-print("Vectores regenerados:", vectores_nuevos.shape)
-
+vectores_nuevos = generar_embeddings_comparables(indices)
 
 # ============================================================
 # 8. COMPARAR EMBEDDINGS
