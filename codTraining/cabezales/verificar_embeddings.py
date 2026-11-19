@@ -90,6 +90,42 @@ assert len(data) == len(original_embeddings), (
 
 print("Textos originales:", len(data))
 
+# ============================================================
+# 3.1 VERIFICAR CORRESPONDENCIA DE ETIQUETAS
+# ============================================================
+
+
+import joblib
+import numpy as np
+
+LABEL_ENCODER_PATH = (
+    "/workspace/paperRLAIF/codTraining/"
+    "cabezales/encoders/skill.joblib"
+)
+
+label_encoder = joblib.load(LABEL_ENCODER_PATH)
+
+etiquetas_csv = label_encoder.transform(
+    data["labels"].astype(str).str.strip()
+)
+
+etiquetas_tensor = original_labels.numpy()
+
+coincidencias = (
+    etiquetas_csv == etiquetas_tensor
+)
+
+print(
+    "Etiquetas coincidentes:",
+    coincidencias.sum(),
+    "/",
+    len(coincidencias)
+)
+
+print(
+    "Porcentaje:",
+    coincidencias.mean() * 100
+)
 
 # ============================================================
 # 4. SELECCIONAR ÍNDICES
