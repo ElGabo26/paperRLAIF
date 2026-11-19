@@ -107,7 +107,7 @@ for i,j in params1.items():
     valores_unicos = torch.unique(data.tensors[1])
     print("Elementos únicos:", valores_unicos)
     
-    train, test, eval =makeDivision(data,0.30,SEED)
+    train, test, eval =makeDivision(data,0.20,SEED)
     
     trainL, testL , evalL=createLoaders(256,train,test,eval)
     
@@ -125,7 +125,7 @@ for i,j in params1.items():
         valores_unicos = torch.unique(etiquetas)
         print("Valores únicos test:", valores_unicos)
         
-        resultadoTest=eval_multiclass(model,testL,DEVICE,criterio,class_names)
+        resultadoTest=eval_multiclass(i,model,testL,DEVICE,criterio,class_names)
         
         etiquetas = torch.tensor([label for _, label in eval])
         valores_unicos = torch.unique(etiquetas)
@@ -151,9 +151,11 @@ for i,j in params1.items():
         print('MODELO EVALUADO')
         resultadoTest['type']='test'
         resultadoTest['type']='val'
+        resultadoTest['cabezal']=i
+        resultadoTest['cabezal']=i
         result_binary.append(resultadoTest)
         result_binary.append(resultadoVal)
-    torch.save(model,f"{OUTPUT_MODEL}/{i}.pt")
+    torch.save(model,f"{OUTPUT_MODEL}/{i}_{param['pooling']}.pt")
     print(f'CABEZAL {i} GUARDADO')
 
 resultBinary=pd.DataFrame(result_binary)

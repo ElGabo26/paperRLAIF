@@ -307,6 +307,7 @@ def eval_binary(
 
 
 def eval_multiclass(
+    nameCabezal,
     clasificador: nn.Module,
     loader,
     device: str | torch.device,
@@ -642,6 +643,7 @@ def eval_multiclass(
     )
 
     resultados = {
+        'cabezal':nameCabezal,
         "loss": loss_promedio,
         "accuracy": accuracy,
         "macro_precision": macro_precision,
