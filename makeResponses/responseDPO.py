@@ -20,7 +20,7 @@ for dpoRoute in dpoRoutes:
     model_path = os.path.join(DPO_MODELS_PATH, dpoRoute,'best_model')
     model, tokenizer = cargar_modelo(model_path)
     responses=generar_respuestas_batch(model,tokenizer,
-                                       prompts,batch_size=120,max_new_tokens=200,num_responses=1)
+                                       prompts,batch_size=120,max_new_tokens=600,num_responses=1)
             
     result_df = pd.DataFrame({"prompt": prompts, "response": responses})
     result_df['algin']="DPO"
@@ -28,18 +28,3 @@ for dpoRoute in dpoRoutes:
     result_df['prompt_id']=prompts_df["prompt_id"]
     result_df.to_csv(os.path.join(RESPONSES_PATH, f"responses_DPO_{dpoRoute}.csv"), index=False)
     print(f"Respuestas generadas y guardadas para el modelo DPO: {dpoRoute}")
-#respuestas PPO
-
-ppoRoutes=os.listdir(PPO_MODELS_PATH)
-for ppoRoute in ppoRoutes:
-    model_path = os.path.join(PPO_MODELS_PATH, ppoRoute)
-    model, tokenizer = cargar_modelo(model_path)
-    responses=[]
-    responses=generar_respuestas_batch(model,tokenizer,
-                                       prompts,batch_size=20,max_new_tokens=200,num_responses=1)
-    result_df = pd.DataFrame({"prompt": prompts, "response": responses})
-    result_df['algin']="PPO"
-    result_df['model']=ppoRoute
-    result_df['prompt_id']=prompts_df["prompt_id"]
-    result_df.to_csv(os.path.join(RESPONSES_PATH, f"responses_DPO_{ppoRoute}.csv"), index=False)
-    print(f"Respuestas generadas y guardadas para el modelo PPO: {ppoRoute}")
