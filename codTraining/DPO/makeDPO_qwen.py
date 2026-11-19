@@ -17,9 +17,9 @@ from trl import DPOConfig, DPOTrainer
 # 1. Configuración general
 # ============================================================
 
-MODEL_ID = input("Ruta del modelo base: ").strip()
-OUTPUT_DIR = input("Ruta del modelo de salida: ").strip()
-PREFERENCES = input("Ruta del archivo CSV de preferencias: ").strip()
+MODEL_ID = "/workspace/models/Qwen2.5-1.5B-Instruct"
+OUTPUT_DIR = "/workspace/adaptedModels/DPO/Qwen2.5-1.5B-Instruct-DPO"
+PREFERENCES = "/workspace/papaerRLAIF/codTraining/calify/preferencesQwen.csv"
 
 SEED = 42
 TEST_SIZE = 0.25
@@ -67,7 +67,7 @@ dataset = Dataset.from_pandas(
 )
 
 dataset = dataset.train_test_split(
-    test_size=TEST_SIZE,
+    test_size=TEST_SIZE, 
     seed=SEED,
 )
 
