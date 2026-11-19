@@ -13,7 +13,7 @@ ROUTE_CABEZALES="/workspace/adaptedModels/cabezales"
 ROUTE_ENCODER="/workspace/paperRLAIF/codTraining/cabezales/encoders"
 ROUTE_RESPONSES="/workspace/paperRLAIF/makeResponses/responses" 
 OUTPUT_ROUTE="/workspace/paperRLAIF/makeResponses/evaluatedResponses"
-MAX_LENGTH = 600
+MAX_LENGTH = 256
 BATCH_SIZE = 12
 
 DEVICE = torch.device(
