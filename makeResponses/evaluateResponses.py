@@ -1,0 +1,74 @@
+import pandas  as pd
+import os
+import torch 
+from pathlib import Path
+from evaluateResponsesTools import evaluateResponses
+
+# ============================================================
+# 1. Configuración
+# ============================================================
+
+ROUTE_BERT="/workspace/models/deberta-v3-large"
+ROUTE_CABEZALES="/workspace/adaptedModels/cabezales"
+ROUTE_ENCODER="/workspace/papaerRLAIF/codTraining/cabezales/encoders"
+ROUTE_RESPONSES="/workspace/papaerRLAIF/makeResponses/responses" 
+OUTPUT_ROUTE="/workspace/papaerRLAIF/makeResponses/evaluatedResponses"
+MAX_LENGTH = 256
+BATCH_SIZE = 8
+
+DEVICE = torch.device(
+    "cuda" if torch.cuda.is_available() else "cpu"
+)
+
+print(f"Dispositivo utilizado: {DEVICE}")
+
+
+# ============================================================
+# 2. calificamos por modelo  y por cabezal
+# ============================================================
+
+cabezales=os.listdir(ROUTE_CABEZALES)
+bases=os.listdir(ROUTE_RESPONSES)
+encoders=os.listdir(ROUTE_ENCODER)
+
+
+for base in bases:
+    
+    data=pd.read_csv(f"{ROUTE_RESPONSES}/{base}")
+    print(f"{base} CARGADA",data.shape[0])
+    resultBase=data['response'].copy()
+    resultBase.dropna(inplace=True)
+    
+    for i in range(len(cabezales)):
+        cabezal=cabezales[i]
+        cabezalName=cabezal.split(".")[0]
+        encoder=f"{cabezalName}.joblib"
+        
+        if cabezal.split(".")[0] != encoder.split(".")[0]:
+            print(cabezal.split(".")[0] , encoder.split(".")[0])
+            raise ValueError("no  coinciden  el  cabezal  y el encoder")
+        
+        evaluated=evaluateResponses(f"{ROUTE_RESPONSES}/{base}",'response',
+                        ROUTE_BERT,
+                        Path(f"{ROUTE_CABEZALES}/{cabezal}"),
+                        Path(f"{ROUTE_ENCODER}/{encoder}"),BATCH_SIZE,MAX_LENGTH,
+                        DEVICE)
+        columns=[f"{x}_{cabezalName}" if x != 'response' else x for  x in evaluated.columns ]
+        evaluated.columns=columns
+        print("RESULTADOS EVALUADOS")
+        print(evaluated.columns)
+        
+        
+        
+        
+        resultBase=pd.merge(
+            resultBase, evaluated,on='response', how='left'
+        )
+        print("RESULTADOS CONCATENADOS",evaluated.shape,resultBase.shape)
+    
+    resultBase.to_csv(f"{OUTPUT_ROUTE}/evaluated_{base}")
+    print(f"{base} TOTALMENTE EVALUADA")
+
+
+        
+

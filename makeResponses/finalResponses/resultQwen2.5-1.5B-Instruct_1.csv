@@ -1,0 +1,511 @@
+,prompt,response,prompt_id
+0,Genera una pregunta de matemática que combine una suma y una resta con números naturales para estudiantes de educación básica.,¿Cuál es el resultado de restar 15 menos 7 y luego sumarlo al doble de 8?,P001
+1,Crea una pregunta donde el estudiante tenga que sumar dos cantidades y luego restar una tercera para obtener la respuesta.,"Pregunta: 
+
+¿Cuál es el resultado de sumar 15 con 20 y luego restar 7?
+
+Respuesta correcta: 28
+
+Explicación:
+
+Primero, sumamos las dos primeras cantidades: 15 + 20 = 35.
+
+Luego, restamos la tercera cantidad: 35 - 7 = 28.
+
+Por lo tanto, el resultado final es 28.",P002
+2,Escribe una pregunta de adición y sustracción con números de dos cifras que pueda resolverse mediante operaciones básicas.,"Claro, aquí tienes una pregunta de adición y sustracción con números de dos cifras:
+
+Pregunta: 
+
+¿Cuánto es 45 + 32?
+
+Respuesta: 77
+
+Y ¿cuál es el resultado de restar 32 de 77?
+
+Respuesta: 45",P003
+3,Genera una pregunta que permita practicar primero una resta y después una suma usando números naturales sencillos.,¿Podrías explicarme cómo se realiza la resta de 7 - 3 y luego sumar los resultados obtenidos?,P004
+4,Crea una pregunta matemática que incluya tres cantidades y requiera decidir cuándo sumar y cuándo restar para resolverla.,"Pregunta: 
+
+¿Cuántos kilómetros recorrió un coche en 3 horas si su velocidad promedio fue de 60 km/h?
+
+A) Suma
+
+B) Resta
+
+Para resolver esta pregunta, debes:
+
+1) Calcular la distancia total recorrida multiplicando la velocidad por el tiempo (60 km/h * 3 h = 180 km).
+
+2) La respuesta es 180 km.
+
+Por lo tanto, la operación correcta es suma.
+
+Respuesta correcta: A) Suma",P005
+5,Escribe una pregunta de cálculo que combine adición y sustracción con números menores que cien para educación básica.,¿Cuánto es 45 más 27 menos 18?,P006
+6,Genera una pregunta donde se deba completar una operación combinada de suma y resta encontrando un número que falta.,¿Cuál es el resultado de la siguiente operación: 15 + 7 - ? = 20?,P007
+7,Crea una pregunta que solicite comparar dos resultados obtenidos mediante una suma y una resta con números naturales.,¿Podrías proporcionar los dos resultados para que pueda realizar la comparación?,P008
+8,Escribe una pregunta en la que el estudiante deba resolver dos sumas y una resta para encontrar el resultado final.,"Pregunta: 
+
+Un niño tiene 15 caramelos. Sus padres le regalan 7 más caramelos. Luego, el niño pierde 3 caramelos. ¿Cuántos caramelos tiene el niño después de perder algunos? 
+
+Respuesta:
+
+Primero, suma los caramelos recibidos por sus padres:
+15 + 7 = 22 caramelos
+
+Luego, resta los caramelos perdidos:
+22 - 3 = 19 caramelos
+
+El niño tiene 19 caramelos después de perder algunos.",P009
+9,Genera una pregunta de adición y sustracción que utilice números de tres cifras y tenga una única respuesta correcta.,"Pregunta: ¿Cuánto es 456 menos 123 más 789?
+
+Respuesta correcta: 1022",P010
+10,Crea una pregunta donde el estudiante deba identificar qué operación de suma o resta permite obtener un resultado indicado.,"Pregunta: 
+
+¿Cuál es la operación matemática que permite obtener el siguiente resultado:
+
+12 + 3 = 15
+
+A) Suma
+B) Resta
+C) Multiplicación
+D) División
+
+Respuesta correcta: A) Suma
+
+Explicación: La respuesta correcta es ""Suma"" porque cuando se suman 12 y 3, se obtiene como resultado 15. Esta operación cumple con la condición dada en la pregunta.",P011
+11,Escribe una pregunta matemática que incluya una suma incompleta y una resta incompleta para encontrar los valores faltantes.,"Claro, aquí tienes una pregunta matemática con ambas operaciones:
+
+¿Cuál es el valor de x en la siguiente ecuación?
+
+\[ 3 + x - 2 = 5 \]
+
+Esta ecuación combina una suma (3 + x) y una resta (-2), lo cual te pide resolver por x para completar la igualdad.",P012
+12,Genera una pregunta que permita comprobar una resta mediante una suma y solicite determinar si el resultado es correcto.,"Pregunta: 
+
+¿Podrías calcular la siguiente resta utilizando solo sumas? 
+15 - 7 = ?
+
+Respuesta esperada: 8
+
+Sugerencia: Para resolver este problema, necesitarás sumar números hasta obtener un total de 15. Luego, restará ese número del total para encontrar el resultado final.
+
+Esta pregunta se enfoca en verificar si el candidato puede realizar una operación matemática compleja (resta) utilizando solo sumas, lo cual es una habilidad importante en muchas áreas de la vida cotidiana y en ciertas disciplinas académicas.",P013
+13,Crea una pregunta con cuatro números naturales donde sea necesario realizar sumas y restas en el orden adecuado.,"¿Podrías proporcionar los cuatro números naturales que necesitarás para crear la pregunta? Una vez que tengamos esos datos, podré ayudarte a formular una pregunta de suma y resta correctamente estructurada.",P014
+14,Escribe una pregunta para practicar cálculo mental combinando una suma y una resta con números menores que cincuenta.,¿Puedes resolver esta operación mentalmente: 24 + 17 - 15?,P015
+15,Genera una pregunta donde se presenten dos expresiones con sumas y restas y se deba indicar cuál resultado es mayor.,¿Cuál de las siguientes expresiones resulta en un número mayor: 5 + 3 - 2 o 7 - 4 + 1?,P016
+16,Crea una pregunta de adición y sustracción que requiera encontrar el valor inicial a partir de un resultado final conocido.,"Pregunta: Un libro costó $15 en la librería original. Después de 3 meses, el precio del libro aumentó a $20. ¿Cuánto se incrementó el costo del libro?
+
+Respuesta: Para resolver esta situación, primero debemos restar el costo inicial del libro del costo actual para obtener el aumento:
+
+$20 (precio actual) - $15 (precio inicial) = $5
+
+Por lo tanto, el costo del libro aumentó $5.
+
+Esta pregunta combina conceptos básicos de adición y sustracción para demostrar cómo calcular cambios en valores financieros.",P017
+17,Escribe una pregunta donde el estudiante tenga que corregir el resultado de una operación que combina suma y resta.,"Claro, aquí tienes una pregunta para el estudiante:
+
+""Si sumamos 15 y 20, luego restamos 7, ¿cuál es el resultado?""
+
+Esta pregunta requiere al estudiante realizar dos pasos: primero sumar 15 y 20, y luego restar 7 del resultado obtenido.",P018
+18,Genera una pregunta con números naturales consecutivos que requiera realizar una adición y una sustracción para resolverla.,¿Cuál es el resultado de la siguiente operación: 123 - 45 + 678?,P019
+19,Crea una pregunta que evalúe el dominio de sumas y restas mediante una expresión numérica con tres operaciones sencillas.,"¿Podrías proporcionar más detalles sobre la estructura específica de la expresión numérica o las reglas específicas para resolverla? Por ejemplo, ¿debería incluir multiplicaciones o divisiones además de suma y resta? ¿Deberíamos usar números enteros o decimales? ¿Qué tipo de operación (suma, resta, multiplicación o división) se debe realizar primero en cada paso del cálculo? Estos detalles te ayudarán a crear una pregunta más precisa y efectiva.",P020
+20,Genera una pregunta de sustracción con números naturales de dos cifras para que un estudiante encuentre la diferencia correcta.,¿Cuál es el resultado de restar 45 de 67?,P021
+21,Crea una pregunta donde el estudiante tenga que restar un número de tres cifras de otro número mayor.,"Pregunta: 
+
+¿Cuál es la diferencia entre 567 y 432?
+
+Respuesta:
+
+La diferencia entre 567 y 432 es 135.
+
+Explicación:
+
+Para resolver esta operación, primero debemos identificar los números dados en la pregunta:
+Número 1: 567
+Número 2: 432
+
+Luego, realizamos la resta siguiendo las reglas del orden de las operaciones (PEMDAS/BODMAS):
+
+567 - 432 = 135
+
+Por lo tanto, la respuesta correcta es 135.",P022
+22,Escribe una pregunta de sustracción que incluya un valor desconocido y solicite encontrar el número que falta.,¿Cuál es el número que falta si se resta 56789 del resultado de restar este mismo número al doble de 12345?,P023
+23,Genera una pregunta para practicar una resta con reagrupación usando números naturales apropiados para educación básica.,¿Puedes resolver esta operación de resta: 15 - (7 + 3)?,P024
+24,Crea una pregunta de cálculo mental basada únicamente en una sustracción con números menores que cien.,¿Cuánto es 75 menos 38?,P025
+25,Escribe una pregunta donde se presenten dos restas y el estudiante tenga que determinar cuál resultado es mayor.,"Pregunta: 
+
+¿Cuál de las siguientes expresiones resulta en un número mayor?
+
+A) 12 - 5
+
+B) 8 - 3
+
+C) 6 - 4
+
+D) 9 - 7
+
+E) 10 - 6
+
+Respuesta:
+
+Para resolver esta pregunta, primero debemos realizar cada resta individualmente.
+
+A) 12 - 5 = 7
+B) 8 - 3 = 5
+C) 6 - 4 = 2
+D) 9 - 7 = 2
+E) 10 - 6 = 4
+
+Ahora, comparamos los resultados obtenidos:
+- A) 7
+- B) 5
+- C) 2
+- D) 2
+- E) 4
+
+El resultado más grande es 7, lo cual corresponde al primer término de la primera resta (12 - 5",P026
+26,Genera una pregunta que solicite comprobar mediante cálculo si una sustracción presentada tiene un resultado correcto.,¿Podrías proporcionar la sustracción que necesito para verificar si el resultado es correcto?,P027
+27,Crea una pregunta de sustracción con números de cuatro cifras que tenga una única respuesta numérica correcta.,¿Cuál es el resultado de restar 2456 de 7891?,P028
+28,Escribe una pregunta donde el estudiante deba completar los dígitos faltantes de una operación de sustracción.,"Claro, aquí tienes un ejemplo:
+
+¿Cuánto es 56 - 23?
+
+Esta pregunta te pide que realices la operación de sustracción y completes los números faltantes para obtener el resultado correcto.",P029
+29,Genera una pregunta que pida ordenar tres diferencias de menor a mayor después de resolver las sustracciones correspondientes.,"Pregunta: 
+
+""Si tienes 10 unidades y restas 3, luego restas 2 más, ¿cuál es la diferencia final?""
+
+Respuesta esperada:
+
+1. 10 - 3 = 7
+2. 7 - 2 = 5
+3. La diferencia final es 5.
+
+Por lo tanto, la respuesta correcta sería ""5"".",P030
+30,Crea una pregunta de sustracción donde el resultado sea conocido y se deba encontrar uno de los números iniciales.,"Pregunta: Siendo 15 la suma de dos números enteros, uno de ellos es 7. ¿Cuál es el otro número?
+
+Respuesta: Para resolver esta situación, podemos utilizar la fórmula para hallar un número desconocido en una ecuación lineal:
+
+Suma = Número A + Número B
+
+Donde:
+- Suma = 15 (la suma de los dos números)
+- Número A = 7 (el número que ya sabemos)
+
+Para encontrar el segundo número (Núm. B), simplemente restamos el valor del primer número (Núm. A) de la suma total:
+
+Núm. B = Suma - Núm. A
+Núm. B = 15 - 7
+Núm. B = 8
+
+Por lo tanto, el otro número es 8.",P031
+31,Escribe una pregunta que permita practicar la resta de decenas completas utilizando únicamente números naturales.,¿Podrías restar 300 de 700?,P032
+32,Genera una pregunta donde el estudiante tenga que elegir entre varias restas cuál produce una diferencia indicada.,"¿Cuál de las siguientes operaciones resulta en un resultado de 10?
+
+A) 25 - 15
+
+B) 30 - 20
+
+C) 40 - 30
+
+D) 50 - 40
+
+E) 60 - 50
+
+La respuesta correcta es B) 30 - 20, ya que este es el único cálculo que da como resultado 10.",P033
+33,Crea una pregunta de sustracción que incluya un número cercano a una centena para practicar el cálculo preciso.,¿Cuánto es 98 menos 12?,P034
+34,Escribe una pregunta donde se deban resolver dos sustracciones consecutivas para obtener un único resultado final.,¿Cuál es el resultado de restar 15 menos 7 y luego restar ese resultado de 20?,P035
+35,Genera una pregunta de sustracción con números naturales que permita identificar y corregir un error de cálculo.,"¿Cuánto es 123456789 - 987654321? 
+
+Esta operación puede ser difícil de resolver por razones matemáticas, pero si se realiza correctamente, el resultado debería ser -854207522. Si hay algún error en la resolución del problema, ¿puedes identificarlo y corregirlo?",P036
+36,Crea una pregunta donde el estudiante compare la diferencia entre dos pares distintos de números naturales.,"Pregunta: 
+
+Compara y describe la diferencia entre los siguientes par de números naturales:
+
+1. 7 y 9
+
+2. 15 y 18
+
+3. 40 y 60
+
+4. 23 y 32
+
+Explica por qué cada par tiene una diferencia mayor o menor que el otro.
+
+Respuesta:
+
+1. La diferencia entre 7 y 9 es 2 (9 - 7 = 2). Esta diferencia es menor que cualquier otra diferencia en este conjunto.
+
+2. La diferencia entre 15 y 18 es 3 (18 - 15 = 3). Esta diferencia es mayor que la del primer par pero sigue siendo menor que las diferencias restantes.
+
+3. La diferencia entre 40 y 60 es 20 (60 - 40 = 20). Esta diferencia es mayor que todas las anteriores.
+
+4. La diferencia entre",P037
+37,Escribe una pregunta de sustracción que requiera calcular cuánto falta para pasar de un número menor a uno mayor.,¿Cuántos números hay entre 10 y 20?,P038
+38,Genera una pregunta para practicar una resta con ceros intermedios en el número mayor y obtener la diferencia.,"¿Podrías explicarme cómo se realiza una resta con ceros intermedios en un número mayor y cómo se obtiene la diferencia? Por ejemplo, si restamos 234567890 de 1234567890, ¿qué operación necesitamos realizar y cuál es el resultado final?",P039
+39,Crea una pregunta que evalúe la sustracción mediante un número desconocido colocado como sustraendo en una operación.,¿Podrías proporcionar más detalles sobre el contexto o los números específicos con los que se realizaría esta operación? Estos datos serían necesarios para crear una pregunta efectiva y relevante.,P040
+40,Genera una pregunta que combine una multiplicación y una división con números naturales y produzca un resultado entero.,¿Cuánto es el producto de 12 por 5 dividido entre 3?,P041
+41,Crea una pregunta donde el estudiante deba multiplicar dos números y luego dividir el resultado por otro número.,"Pregunta: 
+
+Un fabricante de productos farmacéuticos necesita calcular la cantidad total de medicamentos que deben producir para satisfacer las necesidades de un hospital durante un mes. Si el hospital requiere 1200 litros de medicamento diariamente y desea mantener este nivel de consumo durante todo el mes (30 días), ¿cuántos litros de medicamento debe producir el fabricante en total? Además, si cada botella contiene 500 ml, ¿cuántas botellas de medicamento se necesitarán?
+
+Respuesta:
+
+Primero, calculamos el total de medicamentos requeridos por el hospital durante el mes:
+1200 litros/día × 30 días = 36000 litros
+
+Luego, dividimos este número por 1000 (para convertir litros a mililitros) para obtener la cantidad en mililitros:
+3600",P042
+42,Escribe una pregunta que permita practicar una división exacta y comprobar el resultado mediante una multiplicación.,¿Podrías dividir 12345 entre 9 y luego verificar si el resultado es correcto multiplicando por 9?,P043
+43,Genera una pregunta de multiplicación con dos factores y una división posterior adecuada para estudiantes de educación básica.,¿Cuántos caramelos tendrías si tienes 5 paquetes de 8 caramelos cada uno y luego divides el total entre 2?,P044
+44,Crea una pregunta donde falte un factor y sea necesario utilizar multiplicación o división para encontrar su valor.,¿Cuál es el resultado de dividir 48 entre 6?,P045
+45,Escribe una pregunta que presente dos multiplicaciones y solicite determinar cuál de sus productos es mayor.,¿Cuál es el resultado más grande entre 7 x 8 y 9 x 6?,P046
+46,Genera una pregunta donde se deba encontrar el divisor desconocido a partir del dividendo y el cociente conocidos.,¿Cuál es el divisor si sabemos que un número dividido por 5 da como resultado 12?,P047
+47,Crea una pregunta que permita practicar tablas de multiplicar y una división exacta utilizando números naturales pequeños.,"¿Podrías proporcionarme un ejemplo de una tabla de multiplicar y una división exacta utilizando números naturales pequeños? Por favor, no me digas los resultados finales, solo el problema en sí mismo.",P048
+48,Escribe una pregunta donde el estudiante compare el resultado de una multiplicación con el resultado de una división.,"Pregunta: ¿Qué ocurre si se multiplica un número por otro y luego se divide ese producto entre el mismo número? ¿Es igual al número original o no?
+
+Respuesta: Sí, es igual al número original.
+
+Explicación: Si multiplicamos un número por otro, obtenemos un nuevo número. Luego, si dividimos este nuevo número entre el mismo número original, obtenemos exactamente el mismo número que multiplicamos inicialmente. Esto se debe a la propiedad matemática conocida como ""propiedad distributiva"" de las operaciones de multiplicación y división.",P049
+49,Genera una pregunta con tres números naturales que requiera decidir si corresponde multiplicar o dividir para resolverla.,"¿Cuál de las siguientes operaciones es correcta para resolver el siguiente problema: ""Si tengo 12 manzanas y quiero compartirlas entre 3 amigos iguales, ¿cuántas manzanas recibirá cada amigo?""",P050
+50,Crea una pregunta donde se presente una multiplicación incompleta y el estudiante tenga que encontrar el factor faltante.,"Pregunta: 
+
+El producto de 5 por un número es igual a 30. ¿Cuál es ese número?
+
+Respuesta:
+
+Para resolver esta situación, debemos dividir el resultado del producto (30) entre el primer factor (5). Esto nos dará la respuesta.
+
+30 ÷ 5 = 6
+
+Por lo tanto, el número que falta en la multiplicación es 6.",P051
+51,Escribe una pregunta de división exacta donde el cociente tenga dos cifras y pueda verificarse con una multiplicación.,¿Cuál es la división exacta que tiene un cociente de 12 y puede ser confirmada por una multiplicación?,P052
+52,Genera una pregunta que incluya dos divisiones exactas y solicite ordenar sus cocientes de menor a mayor.,"Pregunta: ¿Cuál es el cociente más pequeño entre 120 dividido por 6 y 80 dividido por 4?
+
+Respuesta: Primero, calculamos los cocientes:
+
+- Cociente de 120 dividido por 6: \( 120 \div 6 = 20 \)
+- Cociente de 80 dividido por 4: \( 80 \div 4 = 20 \)
+
+Ambos cocientes son iguales, así que no hay diferencia para ordenarlos de menor a mayor.
+
+Por lo tanto, la respuesta correcta sería ""Los cocientes son iguales"" o simplemente ""El cociente es 20"".",P053
+53,Crea una pregunta para practicar multiplicación por diez y división entre diez utilizando únicamente números naturales.,"¿Podrías explicarme cómo se realiza la multiplicación por diez en los números naturales? Por ejemplo, ¿cómo se obtiene 70 al multiplicar 7 por 10?
+
+Y ¿y qué pasa si quiero dividir un número natural entre diez? ¿Cómo puedo obtener el resultado de esta operación? Por ejemplo, ¿qué es el resultado de dividir 45 entre 10?",P054
+54,Escribe una pregunta donde se deba completar una igualdad que contenga una multiplicación y una división.,¿Cuál es el resultado de dividir 48 por 6 y luego multiplicarlo por 3?,P055
+55,Genera una pregunta que solicite identificar cuál multiplicación corresponde correctamente a una división exacta presentada.,"¿Cuál es la respuesta correcta para la siguiente división: 12 ÷ 3 = ? 
+
+A) 4  
+B) 5  
+C) 6  
+D) 7  
+E) 8
+
+La respuesta correcta es C) 6, ya que 12 dividido por 3 da como resultado 4, pero si se intenta encontrar un número que cuando se multiplica por 3 resulte en 12, ese número será 4 (porque 4 x 3 = 12). Sin embargo, el problema plantea ""cuál multiplicación corresponde"", lo cual implica buscar un número que, al ser multiplicado por otro número, resulte en 12. En este caso, el número adecuado sería 4, porque 4 x 3 = 12. Por lo tanto, la pregunta busca identificar la multiplicación que corresponde a esa división exact",P056
+56,Crea una pregunta con números naturales donde una multiplicación permita obtener el dividendo necesario para una división.,"¿Podrías proporcionar más detalles o especificaciones sobre qué tipo de operación y cuáles son los números específicos que estás buscando? Por ejemplo, ¿estas trabajando con números enteros, fracciones, decimales o números complejos? ¿Qué operaciones (multiplicación o división) deseas utilizar?",P057
+57,Escribe una pregunta donde el estudiante tenga que corregir un resultado equivocado de multiplicación o división.,"Pregunta: 
+
+¿Cuántos kilómetros recorrió la carrera si se sabe que en 2 horas se recorrieron 160 kilómetros?
+
+A) 40 km/h
+
+B) 80 km/h
+
+C) 320 km/h
+
+D) 160 km/h
+
+Respuesta correcta: B) 80 km/h
+
+Corrección: La respuesta correcta es B) 80 km/h. Para calcular la velocidad, usamos la fórmula: Velocidad = Distancia / Tiempo. En este caso, la distancia es de 160 kilómetros y el tiempo es de 2 horas, por lo tanto, la velocidad sería 160 km / 2 h = 80 km/h.
+
+Esta pregunta requiere al estudiante recordar cómo calcular la velocidad y aplicarla correctamente a un problema de multiplicación y división.",P058
+58,Genera una pregunta que combine dos multiplicaciones sencillas y una división exacta para encontrar el resultado final.,¿Cuál es el resultado de dividir 120 entre la suma de 35 y 45?,P059
+59,Crea una pregunta para evaluar multiplicación y división mediante una expresión numérica breve con operaciones exactas.,¿Cuál es el resultado de dividir 120 entre 6 y luego multiplicar por 5?,P060
+60,Genera una pregunta de álgebra sencilla donde el estudiante tenga que encontrar el valor de una letra desconocida.,"Pregunta: Si \( x + 3 = 7 \), ¿cuál es el valor de \( x \)?",P061
+61,Crea una pregunta con una igualdad que incluya una variable y una suma para encontrar el valor faltante.,"¿Cuál es el número que falta en la siguiente secuencia: 2, 4, 6, __, 10?",P062
+62,Escribe una pregunta algebraica donde una variable aparezca en una resta y tenga que ser determinada.,¿Cuál es la variable x si se restan 5 unidades de x y el resultado es igual a -3?,P063
+63,Genera una pregunta con una multiplicación y una variable desconocida que pueda resolverse usando números naturales.,"¿Cuánto es 7 x (n + 3)? Si el resultado de esta multiplicación es igual a 56, ¿cuál sería el valor de n?",P064
+64,Crea una pregunta con una división sencilla donde el dividendo sea una variable y el cociente sea conocido.,"Pregunta: 
+
+Si dividimos un número por 5 y obtenemos como resultado 12, ¿cuál es este número?
+
+Respuesta:
+
+Para resolver esta división sencilla, podemos utilizar la fórmula de la división directa:
+
+Dividendo = Cociente × Divisor
+
+En este caso, el cociente es 12 y el divisor es 5. Entonces, el dividendo sería:
+
+Dividendo = 12 × 5 = 60
+
+Por lo tanto, el número que estamos buscando es 60.",P065
+65,Escribe una pregunta que pida completar una secuencia numérica y expresar la regla mediante una operación sencilla.,"Pregunta: ""Completar la siguiente secuencia de números: 2, 4, 6, __, 10, 12. ¿Cuál es la regla matemática que sigue esta secuencia?""
+
+Respuesta: La regla es sumar 2 al número anterior para completar la secuencia.
+
+Explicación: Esta secuencia consta de números pares que se incrementan en 2 con cada paso. Por lo tanto, el número que falta después de 6 debe ser 8 (6 + 2 = 8).",P066
+66,Genera una pregunta donde el estudiante determine si dos expresiones algebraicas sencillas tienen el mismo valor.,"Pregunta: ¿Cuál de las siguientes expresiones tiene el mismo valor para x = 2 y x = -1?
+
+A) 3x + 4  
+B) x^2 - 5  
+C) 2x + 7  
+D) 4x - 6
+
+Respuesta correcta: C) 2x + 7
+
+Explicación:
+Para determinar si dos expresiones algebraicas tienen el mismo valor para ciertos valores de x, simplemente sustitúyela en cada expresión y verifique que ambos resultados sean iguales.
+
+Por ejemplo:
+
+A) Para x = 2: 3(2) + 4 = 6 + 4 = 10
+Para x = -1: 3(-1) + 4 = -3 + 4 = 1
+
+B) Para x = 2: (2)^2 - 5 = 4 - 5 = -1",P067
+67,Crea una pregunta que incluya una variable en ambos lados de una igualdad muy sencilla para educación básica.,¿Cuál es el resultado de la siguiente operación: 5 + 3 = ?,P068
+68,Escribe una pregunta donde el estudiante sustituya un valor dado en una expresión algebraica y calcule el resultado.,"Claro, aquí tienes una pregunta que cumple con tus especificaciones:
+
+""Supongamos que la expresión algebraica es 3x + 2y - 5z y x = 4, y = 6, z = 1. ¿Cuál es el valor de esta expresión si se reemplaza los valores correspondientes?""
+
+Esta pregunta requiere al estudiante:
+1. Reemplazar los valores dados en la expresión.
+2. Realizar las operaciones matemáticas necesarias para obtener el resultado final.
+
+La respuesta correcta sería: 
+(3 * 4) + (2 * 6) - (5 * 1) = 12 + 12 - 5 = 24 - 5 = 19
+
+Por lo tanto, el valor de la expresión cuando x = 4, y = 6, y z = 1 es 19.",P069
+69,Genera una pregunta para identificar cuál valor de una variable hace verdadera una igualdad matemática sencilla.,"¿Cuál es el valor que debe asignarle a la variable ""x"" en la siguiente ecuación: 2x + 3 = 7?",P070
+70,Crea una pregunta donde se deba escribir una expresión algebraica sencilla a partir de una relación entre números.,"¿Podrías proporcionarme un conjunto de dos números y una operación matemática simple (suma, resta, multiplicación o división) para que pueda crear una expresión algebraica basada en esa relación? Por ejemplo, si me dices que los números son 5 y 10 y la operación es suma, puedo decirte que la expresión sería ""5 + 10"".",P071
+71,Escribe una pregunta que presente una expresión con una variable y solicite calcularla para dos valores diferentes.,¿Cuál es el resultado de la siguiente operación: 2x + 3 cuando x = 4 y cuando x = -1?,P072
+72,Genera una pregunta donde el estudiante encuentre el término desconocido de un patrón numérico creciente sencillo.,"Pregunta: 
+
+Un patrón numérico creciente comienza en 5 y aumenta en 3 con cada siguiente número. Si el primer número es 5, ¿cuál será el sexto número en este patrón?",P073
+73,Crea una pregunta algebraica que utilice una letra para representar un número desconocido en una operación de suma.,"¿Podrías proporcionar más detalles o especificaciones sobre qué tipo de operación quieres que se realice con la variable? Por ejemplo, ¿es una suma simple, multiplicación, división, etc.? También necesitaría saber si deseas que el resultado sea igual a un número específico o si simplemente quieres expresar la relación entre los números y la variable.",P074
+74,Escribe una pregunta donde una variable represente un factor desconocido y deba encontrarse usando una multiplicación.,¿Cuántos números primos hay entre 100 y 200?,P075
+75,Genera una pregunta que pida seleccionar cuál expresión algebraica representa correctamente una igualdad numérica dada.,"¿Cuál de las siguientes expresiones algebraicas representa correctamente la igualdad numérica 3x + 2 = 11?
+
+A) 3(x + 2) = 11  
+B) 3x - 2 = 11  
+C) 3x + 2 = 10  
+D) 3x + 4 = 11
+
+Esta pregunta evalúa tu comprensión de cómo se representan las ecuaciones algebraicas y tu capacidad para distinguir entre diferentes formas de expresar la misma igualdad numérica.",P076
+76,Crea una pregunta donde el estudiante complete una tabla numérica sencilla siguiendo una regla expresada con una variable.,"Claro, aquí tienes un ejemplo de cómo podrías crear esa pregunta:
+
+Pregunta: 
+""La siguiente tabla muestra los precios de diferentes productos en una tienda. Observa la columna 'Precio' y completa la tabla siguiendo esta regla: cada precio es igual al anterior más 5 euros.""
+
+Tabla inicial:
+| Producto | Precio |
+|----------|--------|
+| Chocolate| 10     |
+
+Regla: Cada precio es igual al anterior más 5 euros.
+
+Respuesta esperada:
+| Producto | Precio |
+|----------|--------|
+| Chocolate| 15     |
+| Chocolate| 20     |
+| Chocolate| 25     |
+| Chocolate| 30     |
+| Chocolate| 35     |
+
+Esta pregunta te ayudará a evaluar si el estudiante puede identificar y seguir una regla matemática para completar una tabla numérica.",P077
+77,Escribe una pregunta algebraica donde sea necesario descubrir una regla sencilla observando varios pares de números.,"¿Podrías proporcionar algunos pares de números para que pueda ayudarte a encontrar la regla o relación entre ellos? Una vez que tenga esos datos, podré crear una pregunta algebraica que te permita descubrir esa regla. Por ejemplo:
+
+""Observa los siguientes pares de números y encuentra la regla que relaciona cada uno: (2, 4), (3, 6), (5, 10), (7, 14). ¿Qué número debes multiplicar por el primer número para obtener el segundo número en cada par?""
+
+Esta pregunta busca identificar la relación matemática que existe entre los dos números en cada par, lo cual es un problema comúnmente resuelto utilizando una fórmula algebraica simple.",P078
+78,Genera una pregunta que incluya dos valores posibles para una variable y solicite indicar cuál satisface la igualdad.,"¿Cuál de los siguientes números es mayor: 5 o 7? Indícame el número que cumple con la igualdad.
+
+Esta pregunta combina dos valores posibles (5 y 7) en una sola afirmación y pide al usuario determinar cuál de ellos satisfacerá una igualdad específica.",P079
+79,"Crea una pregunta de álgebra elemental que combine una variable, una suma y una multiplicación con números pequeños.","Pregunta: ¿Cuál es el resultado de multiplicar 3 por la suma de 4 y 5?
+
+Respuesta: Primero sumamos 4 y 5, obteniendo 9. Luego multiplicamos este resultado por 3, lo que da como resultado 27.
+
+Explicación: La respuesta se obtiene siguiendo los pasos del problema: primero realizamos la operación dentro del paréntesis (suma), luego realizamos la multiplicación.",P080
+80,Genera una pregunta de geometría que permita identificar una figura plana según su número de lados y vértices.,¿Cuántos lados tiene la siguiente figura plana: un polígono con 5 vértices?,P081
+81,Crea una pregunta donde el estudiante tenga que calcular el perímetro de un rectángulo con medidas enteras dadas.,"Pregunta: Un rectángulo tiene dos lados de 5 metros y otros dos lados de 10 metros. ¿Cuál es su perímetro? 
+
+Respuesta correcta: El perímetro del rectángulo es igual a la suma de los lados, por lo tanto, se multiplica cada lado por 2 para obtener el perímetro total. En este caso, sería (5 + 10) x 2 = 30 metros.",P082
+82,Escribe una pregunta para calcular el perímetro de un cuadrado conociendo la medida de uno de sus lados.,¿Cómo se calcula el perímetro de un cuadrado si conoces la longitud de su lado?,P083
+83,Genera una pregunta donde se comparen dos figuras geométricas según la cantidad de lados que posee cada una.,¿Cuántos lados tiene un polígono regular y cuántos lados tiene un pentágono?,P084
+84,Crea una pregunta que solicite identificar cuántos vértices tiene una figura geométrica plana indicada por su nombre.,"¿Cuántos vértices tiene la figura geométrica plana cuyo nombre es ""cubo""?",P085
+85,Escribe una pregunta donde el estudiante tenga que calcular el área de un rectángulo con medidas naturales sencillas.,"¿Podrías darme las dimensiones del rectángulo y yo te ayudaré a calcular su área? Por ejemplo, si me dices que el ancho es 5 metros y la longitud es 10 metros, puedo decirte que su área es 50 metros cuadrados.",P086
+86,Genera una pregunta para calcular el área de un cuadrado a partir de la longitud conocida de su lado.,¿Cómo se calcula el área de un cuadrado si se conoce la longitud del lado?,P087
+87,"Crea una pregunta que permita diferenciar un triángulo, un cuadrado y un rectángulo mediante sus propiedades geométricas.","¿Cuál de los siguientes objetos es un triángulo: un cuadrado o un rectángulo? La respuesta correcta sería el triángulo, ya que tiene tres lados iguales (en este caso, todos son ángulos rectos) y no tiene lados paralelos ni diagonales interiores. En contraste, un cuadrado tiene cuatro lados iguales y cuatro ángulos rectos, mientras que un rectángulo también tiene cuatro lados iguales pero solo dos ángulos rectos.",P088
+88,Escribe una pregunta donde el estudiante determine la medida de un lado faltante conociendo el perímetro de un rectángulo.,Pregunta: Un rectángulo tiene un perímetro de 36 centímetros y uno de sus lados mide 10 centímetros. ¿Cuánto mide el otro lado?,P089
+89,Genera una pregunta de geometría que solicite clasificar un triángulo según la longitud de sus lados.,¿Cómo podrías clasificar un triángulo si conoces el valor exacto de cada uno de sus lados?,P090
+90,Crea una pregunta donde el estudiante identifique cuál figura tiene cuatro lados iguales y cuatro ángulos rectos.,"Una buena pregunta para este contexto sería:
+
+""¿Cuál de las siguientes figuras geométricas es un cuadrado?""
+
+Las opciones podrían ser:
+1. Triángulo equilátero
+2. Rectángulo
+3. Cuadrado
+4. Trapecio
+
+La respuesta correcta sería ""cuadrado"", ya que todos los lados del cuadrado son iguales y todos sus ángulos miden 90 grados (recto).",P091
+91,Escribe una pregunta para determinar cuántos lados y vértices tiene un pentágono y expresar ambos valores.,¿Cuántos lados y vértices tiene exactamente un pentágono?,P092
+92,Genera una pregunta donde se deba comparar el perímetro de dos cuadrados con diferentes longitudes de lado.,¿Cuál es el perímetro del primer cuadrado que tiene un lado de 5 metros y el segundo cuadrado que tiene un lado de 7 metros?,P093
+93,Crea una pregunta que solicite reconocer líneas paralelas y perpendiculares mediante una descripción escrita sencilla.,"¿Podrías proporcionar más detalles sobre cómo identificar las líneas paralelas y perpendiculares en un gráfico o dibujo? Por ejemplo, ¿cómo podrías distinguir entre dos líneas que están en la misma dirección (paralelas) y otras que se encuentran perpendicularmente a ellas?",P094
+94,"Escribe una pregunta donde el estudiante tenga que identificar un ángulo recto, agudo u obtuso según su medida.","Pregunta: 
+
+¿Cuál de los siguientes ángulos es recto? ¿Agudo? ¿Oblíquo?
+
+1) 90 grados
+
+2) 60 grados
+
+3) 180 grados
+
+4) 150 grados
+
+Respuesta:
+
+El ángulo recto tiene 90 grados.
+
+El ángulo agudo tiene menos de 90 grados.
+
+El ángulo obtuso tiene más de 90 grados pero menos de 180 grados.
+
+Por lo tanto, la respuesta correcta sería:
+
+1) 90 grados (recto)
+
+2) 60 grados (agudo)
+
+3) 180 grados (obtuso)
+
+4) 150 grados (agudo)",P095
+95,Genera una pregunta que permita calcular la medida de un lado de un cuadrado conociendo su perímetro.,¿Cómo se calcula el lado de un cuadrado si se conoce su perímetro?,P096
+96,Crea una pregunta donde se comparen las áreas de dos rectángulos a partir de sus medidas de largo y ancho.,¿Cómo se comparan las áreas de dos rectángulos dados su longitud y anchura?,P097
+97,"Escribe una pregunta de geometría que solicite identificar una figura tridimensional según sus caras, aristas y vértices.",¿Podrías describirme la forma geométrica de un cubo? ¿Cuántos lados tiene este objeto y cómo se conectan entre sí?,P098
+98,Genera una pregunta donde el estudiante tenga que determinar cuántos ejes de simetría tiene una figura geométrica sencilla.,"Pregunta: ¿Cuántos ejes de simetría tienen la siguiente figura geométrica simple? 
+
+A) Una esfera
+
+B) Un círculo
+
+C) Un triángulo equilátero
+
+D) Un paralelogramo rectangular
+
+E) Un romboide isósceles
+
+Respuesta: La figura con más ejes de simetría es:
+
+F) Una esfera
+
+Explicación: Cada esfera tiene un número ilimitado de ejes de simetría, ya que cualquier línea que pasa por su centro es un eje de simetría. En cambio, los otros figuras solo tienen ciertos números específicos de ejes de simetría.
+
+Esta pregunta evalúa no solo la capacidad del estudiante para identificar ejes de simetría en diferentes figuras geométricas, sino también su comprensión de cómo se calculan estos ejes y cuál",P099
+99,"Crea una pregunta que evalúe el reconocimiento de círculo, triángulo, cuadrado y rectángulo mediante propiedades escritas.","¿Podrías proporcionar más detalles sobre cómo se evaluarán las propiedades para cada figura geométrica? Por ejemplo, ¿se evaluará la cantidad de lados o los ángulos internos?",P100

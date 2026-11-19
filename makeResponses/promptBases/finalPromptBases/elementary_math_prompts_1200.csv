@@ -1,0 +1,101 @@
+﻿skill,prompt,prompt_id
+geometry,Generate a geometry question where the student identifies a plane shape from its number of sides and vertices. Use text only.,P001
+geometry,Create a question where the student calculates the perimeter of a rectangle from given whole-number measurements. Use text only.,P002
+geometry,Write a question asking the student to calculate the perimeter of a square from the length of one side. Use text only.,P003
+geometry,Generate a question comparing two geometric shapes by the number of sides each shape has. Use text only.,P004
+geometry,Create a question asking how many vertices a named plane shape has. Use text only.,P005
+geometry,Write a question where the student calculates the area of a rectangle using simple whole-number measurements. Use text only.,P006
+geometry,Generate a question asking the student to calculate the area of a square from its side length. Use text only.,P007
+geometry,"Create a question that distinguishes a triangle, square, and rectangle using their geometric properties. Use text only.",P008
+geometry,Write a question where the student finds a missing side length from the known perimeter of a rectangle. Use text only.,P009
+geometry,Generate a geometry question asking the student to classify a triangle by the lengths of its sides. Use text only.,P010
+geometry,Create a question where the student identifies the shape with four equal sides and four right angles. Use text only.,P011
+geometry,Write a question asking how many sides and vertices a pentagon has. Use text only.,P012
+geometry,Generate a question where the student compares the perimeters of two squares with different side lengths. Use text only.,P013
+geometry,Create a question asking the student to recognize parallel and perpendicular lines from a simple written description. Use text only.,P014
+geometry,"Write a question where the student identifies an angle as right, acute, or obtuse from its measure. Use text only.",P015
+geometry,Generate a question where the student finds the side length of a square from its known perimeter. Use text only.,P016
+geometry,Create a question comparing the areas of two rectangles from their lengths and widths. Use text only.,P017
+geometry,"Write a geometry question asking the student to identify a three-dimensional shape from its faces, edges, and vertices. Use text only.",P018
+geometry,Generate a question where the student determines the number of lines of symmetry in a simple geometric shape. Use text only.,P019
+geometry,"Create a question that assesses recognition of circles, triangles, squares, and rectangles from written properties. Use text only.",P020
+geometry,Create a word problem where a rectangular garden has given length and width and the student finds its perimeter. Use text only.,P021
+geometry,Generate a word problem where square tiles cover a small rectangular floor and the student finds the total area. Use text only.,P022
+geometry,Write a geometry problem where the student compares two routes made of straight line segments and determines which is longer. Use text only.,P023
+geometry,Create a problem where the student finds an unknown rectangle dimension from its area and one known side. Use text only.,P024
+geometry,"Generate a problem describing a simple solid shape and ask the student to identify it using its faces, edges, and vertices. Use text only.",P025
+division-multiplication,Generate a question combining multiplication and division with natural numbers that gives a whole-number result. Use text only.,P026
+division-multiplication,Create a question where the student multiplies two numbers and then divides the result by another number. Use text only.,P027
+division-multiplication,Write a question that practices exact division and asks the student to check the result using multiplication. Use text only.,P028
+division-multiplication,Generate a multiplication question with two factors followed by a division suitable for elementary students. Use text only.,P029
+division-multiplication,Create a question with a missing factor where multiplication or division is needed to find its value. Use text only.,P030
+division-multiplication,Write a question with two multiplications and ask the student to determine which product is greater. Use text only.,P031
+division-multiplication,Generate a question where the student finds an unknown divisor from a known dividend and quotient. Use text only.,P032
+division-multiplication,Create a question that practices multiplication facts and exact division using small natural numbers. Use text only.,P033
+division-multiplication,Write a question where the student compares the result of a multiplication with the result of a division. Use text only.,P034
+division-multiplication,Generate a question with three natural numbers where the student decides whether to multiply or divide. Use text only.,P035
+division-multiplication,Create a question with an incomplete multiplication where the student must find the missing factor. Use text only.,P036
+division-multiplication,Write an exact-division question with a two-digit quotient that can be checked using multiplication. Use text only.,P037
+division-multiplication,Generate a question with two exact divisions and ask the student to order the quotients from least to greatest. Use text only.,P038
+division-multiplication,Create a question that practices multiplication by ten and division by ten using natural numbers. Use text only.,P039
+division-multiplication,Write a question where the student completes an equation containing both multiplication and division. Use text only.,P040
+division-multiplication,Generate a question asking which multiplication correctly matches a given exact division. Use text only.,P041
+division-multiplication,Create a question where multiplication produces the dividend needed for a division with natural numbers. Use text only.,P042
+division-multiplication,Write a question where the student corrects an incorrect multiplication or division result. Use text only.,P043
+division-multiplication,Generate a question combining two simple multiplications and one exact division to find the final result. Use text only.,P044
+division-multiplication,Create a question that assesses multiplication and division using a short numerical expression with exact operations. Use text only.,P045
+division-multiplication,Create a word problem where equal groups are formed and the student uses multiplication to find the total number of objects. Use text only.,P046
+division-multiplication,Generate a word problem where a set of objects is shared equally and the student uses division to find how many each group receives. Use text only.,P047
+division-multiplication,Write a problem where the student first finds a total using multiplication and then shares it equally using division. Use text only.,P048
+division-multiplication,Create a problem involving rows and columns where the student uses multiplication to find the total and division to verify it. Use text only.,P049
+division-multiplication,Generate a word problem where the student finds how many equal packages can be made from a total number of items. Use text only.,P050
+addition-subtraction,Generate a math question that combines addition and subtraction with natural numbers for elementary students. Use text only.,P051
+addition-subtraction,Create a question where the student adds two quantities and then subtracts a third quantity to find the answer. Use text only.,P052
+addition-subtraction,Write an addition and subtraction question with two-digit numbers that can be solved using basic operations. Use text only.,P053
+addition-subtraction,Generate a question that practices subtraction first and then addition using simple natural numbers. Use text only.,P054
+addition-subtraction,Create a math question with three quantities where the student must decide when to add and when to subtract. Use text only.,P055
+addition-subtraction,Write a calculation question combining addition and subtraction with numbers below 100 for elementary education. Use text only.,P056
+addition-subtraction,Generate a question where the student completes a combined addition and subtraction operation by finding a missing number. Use text only.,P057
+addition-subtraction,Create a question asking the student to compare two results obtained from an addition and a subtraction with natural numbers. Use text only.,P058
+addition-subtraction,Write a question where the student solves two additions and one subtraction to find the final result. Use text only.,P059
+addition-subtraction,Generate an addition and subtraction question using three-digit numbers with one correct answer. Use text only.,P060
+addition-subtraction,Create a question where the student identifies which addition or subtraction operation produces a given result. Use text only.,P061
+addition-subtraction,Write a math question with an incomplete addition and an incomplete subtraction where the missing values must be found. Use text only.,P062
+addition-subtraction,Generate a question where the student checks a subtraction using addition and decides whether the result is correct. Use text only.,P063
+addition-subtraction,Create a question with four natural numbers that requires additions and subtractions in the correct order. Use text only.,P064
+addition-subtraction,Write a mental-math question combining one addition and one subtraction with numbers below 50. Use text only.,P065
+addition-subtraction,Generate a question with two expressions containing additions and subtractions and ask which result is greater. Use text only.,P066
+addition-subtraction,Create an addition and subtraction question where the student finds the starting value from a known final result. Use text only.,P067
+addition-subtraction,Write a question where the student must correct an incorrect result from an operation combining addition and subtraction. Use text only.,P068
+addition-subtraction,Generate a question with consecutive natural numbers that requires one addition and one subtraction to solve. Use text only.,P069
+addition-subtraction,Create a question that assesses addition and subtraction using a numerical expression with three simple operations. Use text only.,P070
+addition-subtraction,Generate a subtraction question with two-digit natural numbers where the student must find the correct difference. Use text only.,P071
+addition-subtraction,Create a question where the student subtracts a three-digit number from a larger number. Use text only.,P072
+addition-subtraction,Write a subtraction question with an unknown value and ask the student to find the missing number. Use text only.,P073
+addition-subtraction,Generate a subtraction question with regrouping using natural numbers appropriate for elementary students. Use text only.,P074
+addition-subtraction,Create a mental-math question based on subtraction with numbers below 100. Use text only.,P075
+algebra,Generate a simple algebra question where the student must find the value of an unknown letter. Use text only.,P076
+algebra,Create a question with an equation containing a variable and addition where the missing value must be found. Use text only.,P077
+algebra,Write an algebra question where a variable appears in a subtraction and must be determined. Use text only.,P078
+algebra,Generate a question with multiplication and an unknown variable that can be solved using natural numbers. Use text only.,P079
+algebra,Create a simple division question where the dividend is a variable and the quotient is known. Use text only.,P080
+algebra,Write a question asking the student to complete a number sequence and describe the rule using a simple operation. Use text only.,P081
+algebra,Generate a question where the student decides whether two simple algebraic expressions have the same value. Use text only.,P082
+algebra,Create a question with a variable on both sides of a very simple equation for elementary students. Use text only.,P083
+algebra,Write a question where the student substitutes a given value into an algebraic expression and calculates the result. Use text only.,P084
+algebra,Generate a question asking which value of a variable makes a simple mathematical equation true. Use text only.,P085
+algebra,Create a question where the student writes a simple algebraic expression from a relationship between numbers. Use text only.,P086
+algebra,Write a question with an expression containing a variable and ask the student to evaluate it for two different values. Use text only.,P087
+algebra,Generate a question where the student finds the unknown term in a simple increasing number pattern. Use text only.,P088
+algebra,Create an algebra question that uses a letter to represent an unknown number in an addition operation. Use text only.,P089
+algebra,Write a question where a variable represents an unknown factor and must be found using multiplication. Use text only.,P090
+algebra,Generate a question asking the student to select which algebraic expression correctly represents a given numerical equality. Use text only.,P091
+algebra,Create a question where the student completes a simple number table by following a rule written with a variable. Use text only.,P092
+algebra,Write an algebra question where the student discovers a simple rule by observing several pairs of numbers. Use text only.,P093
+algebra,Generate a question with two possible values for a variable and ask which one satisfies the equation. Use text only.,P094
+algebra,"Create an elementary algebra question combining a variable, addition, and multiplication with small numbers. Use text only.",P095
+algebra,Create a word problem where an unknown number of objects is represented by x and the student writes and solves an addition equation. Use text only.,P096
+algebra,Generate a simple balance problem where two expressions must be equal and the student finds the missing value. Use text only.,P097
+algebra,"Write a problem where a number is doubled and then increased by a small amount, and the student finds the starting number. Use text only.",P098
+algebra,Create a pattern problem where the student predicts the next two terms and writes a simple rule using n. Use text only.,P099
+algebra,Generate a word problem where the student translates a short statement into an equation with one unknown and solves it. Use text only.,P100

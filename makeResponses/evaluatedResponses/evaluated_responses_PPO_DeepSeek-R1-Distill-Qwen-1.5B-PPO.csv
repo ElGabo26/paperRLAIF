@@ -1,0 +1,1387 @@
+,response,predicted_index_claridad,predicted_label_claridad,confidence_claridad,probability_class_0_claridad,probability_class_1_claridad,prob_0_claridad,prob_1_claridad,predicted_index_subject,predicted_label_subject,confidence_subject,probability_class_0_subject,probability_class_1_subject,prob_mathematics_subject,prob_otro_subject,predicted_index_skill,predicted_label_skill,confidence_skill,prob_addition-subtraction_skill,prob_algebra_skill,prob_division-multiplication_skill,prob_geometry_skill,prob_otro_skill,prob_subtraction_skill,predicted_index_level,predicted_label_level,confidence_level,probability_class_0_level,probability_class_1_level,prob_ELEMENTARY_level,prob_OTRO_level
+0,"Primero, necesito identificar los conceptos clave del question. El usuario me ha pedido una pregunta de matemática que combine una suma y una resta con números naturales para estudiantes de educación básica.
+
+Entonces, debo asegurarme de que la pregunta incluya operaciones básicas de suma y resta. Además, los números deben ser naturales, lo que significa que no hay números negativos, decimales o fracciones.
+
+Luego, debo estructurar la pregunta de manera clara y amigable para que los estudiantes puedan entender y resolverlo. Quizás use un enfoque con una operación central, como un número que se modifique con suma y resta.
+
+Finalmente, revisaré la pregunta para asegurarme de que sea clara, simple y que use números de un nivel adecuado para los estudiantes de educación básica.
+</think>
+
+Claro, aquí tienes una pregunta de matemática combinando suma y resta con números",1,1,0.9952947497367859,0.004705250263214111,0.9952947497367859,0.004705250263214111,0.9952947497367859,1,otro,0.9885686635971069,0.011431336402893066,0.9885686635971069,0.011431336402893066,0.9885686635971069,4,otro,0.8841413259506226,0.0016740611754357815,0.009522722102701664,0.10442082583904266,0.00022218702360987663,0.8841413259506226,1.898183109005913e-05,1,OTRO,0.996866762638092,0.003133237361907959,0.996866762638092,0.003133237361907959,0.996866762638092
+1,"Primero, necesito identificar las dos cantidades que el estudiante debe sumar. Supongamos que las dos cantidades son 12 y 15.
+
+Luego, sumar estas dos cantidades da 27.
+
+Después, el estudiante debe restar una tercera cantidad al resultado de la suma. Supongamos que la tercera cantidad es 10.
+
+Finalmente, restar 10 de 27 obtenemos 17.
+</think>
+
+Claro, aquí tienes una pregunta para el estudiante que requiere sumar dos cantidades y luego restar una tercera:
+
+**Pregunta:**
+
+""Suma los siguientes dos números y luego resta el tercer número: 12 + 15 - 10 = ?""
+
+**Respuesta:**
+
+\[
+12 + 15 = 27
+\]
+\[
+27 - 10 = 17
+\",1,1,0.9955535531044006,0.004446446895599365,0.9955535531044006,0.004446446895599365,0.9955535531044006,1,otro,0.9866244792938232,0.013375520706176758,0.9866244792938232,0.013375520706176758,0.9866244792938232,4,otro,0.9513269662857056,0.00366673874668777,0.00228300248272717,0.03960216045379639,0.0018744326662272215,0.9513269662857056,0.0012466585030779243,1,OTRO,0.98089200258255,0.01910799741744995,0.98089200258255,0.01910799741744995,0.98089200258255
+2,"Primero, necesito identificar números de dos cifras para que se puedan aplicar operaciones básicas como suma y resta.
+
+Luego, debo formular una pregunta de adición que pueda resolverse de manera sencilla, como 23 + 45.
+
+Finalmente, debo formular una pregunta de sustracción que también pueda resolverse de manera sencilla, como 78 - 32.
+
+Debemos asegurarnos de que las operaciones sean claras y que las frases sean claras para que el respondente pueda entender y resolver correctamente.
+</think>
+
+Claro, aquí tienes una pregunta de **adición** y una pregunta de **sustracción** con números de dos cifras que pueden resolverse mediante operaciones básicas:
+
+**Pregunta de adición:**
+¿Cuál es el resultado de la suma de 23 y 45?
+
+**Pregunta de sustr",1,1,0.9999585151672363,4.1484832763671875e-05,0.9999585151672363,4.1484832763671875e-05,0.9999585151672363,1,otro,0.9788559079170227,0.021144092082977295,0.9788559079170227,0.021144092082977295,0.9788559079170227,4,otro,0.6998134851455688,0.006219896022230387,0.034038037061691284,0.25875580310821533,0.0009189863922074437,0.6998134851455688,0.00025388828362338245,1,OTRO,0.9912816286087036,0.008718371391296387,0.9912816286087036,0.008718371391296387,0.9912816286087036
+3,"Primero, necesito identificar los números que se usarán en la pregunta. El usuario menciona que se usen números naturales sencillos, así que optaré por números menores para facilitar la operación.
+
+Luego, debo estructurar la pregunta de manera que permita que el usuario realice una operación de resta primero y luego una suma. Esto significa que la pregunta debe incluir both ways, primero restando y luego sumando.
+
+Finalmente, revisaré la pregunta para asegurarme de que sea clara y fácil de entender, y que usejuez un formato sencillo y amigable para que el usuario sea fácil de entender y resolver.
+</think>
+
+Claro, aquí tienes una pregunta que permita practicar primero una resta y después una suma usando números naturales sencillos:
+
+**Pregunta:**
+
+""Calcula el resultado de restar 3 de 10 y luego sumar",1,1,0.7367335557937622,0.2632664442062378,0.7367335557937622,0.2632664442062378,0.7367335557937622,1,otro,0.9975288510322571,0.00247114896774292,0.9975288510322571,0.00247114896774292,0.9975288510322571,4,otro,0.9545847177505493,0.000411124958191067,0.006519804708659649,0.03813692554831505,0.00027313767350278795,0.9545847177505493,7.431434642057866e-05,1,OTRO,0.99324631690979,0.006753683090209961,0.99324631690979,0.006753683090209961,0.99324631690979
+4,"Primero, identifico tres cantidades relevantes en un contexto específico, como la cantidad de monedas, el número de personas o la longitud de dos figuras.
+
+Luego, determino cuándo sumar y cuándo restar dependiendo de la información proporcionada en el problema. Por ejemplo, si hay una cantidad inicial y luego una transferencia o una deductión, se sumar; si hay una cantidad inicial y luego una adopción o una inclusión, se restar.
+
+Finalmente, escribe una pregunta que involucra estas tres cantidades y requiera la aplicación de las reglas de suma y resta para resolverla.
+</think>
+
+Claro, aquí tienes una pregunta matemática que requiere decidir cuándo sumar y cuándo restar:
+
+**Pregunta:**
+""En un sistema de monedas, tienes 100 monedas de 100 centavos. Si sumas",1,1,0.996771514415741,0.003228485584259033,0.996771514415741,0.003228485584259033,0.996771514415741,1,otro,0.9935250282287598,0.006474971771240234,0.9935250282287598,0.006474971771240234,0.9935250282287598,4,otro,0.9009914398193359,0.002192441839724779,0.017456017434597015,0.07731808722019196,0.0019944580271840096,0.9009914398193359,4.7450030251638964e-05,1,OTRO,0.9953511953353882,0.004648804664611816,0.9953511953353882,0.004648804664611816,0.9953511953353882
+5,"Primero, necesito identificar los números menores que cien que puedo usar para construir una pregunta de cálculo simple. Decido usar 45 y 23, que son números menores que 100.
+
+Luego, debo determinar cómo combinar adición y sustracción. Creo que una operación adicional es la suma de los resultados de la suma y la diferencia.
+
+Finalmente, estructuro la pregunta de manera clara, incluyendo el enunciado y la operación a realizar, para que el usuario pueda resolverlo.
+</think>
+
+Claro, aquí tienes una pregunta de cálculo combinando adición y sustracción con números menores que cien:
+
+**Pregunta de cálculo:**
+
+""Calcula el resultado de la siguiente operación combinando adición y sustracción:  
+45 + 23 - (45 - 23) = ?""
+
+**Sol",1,1,0.9997970461845398,0.00020295381546020508,0.9997970461845398,0.00020295381546020508,0.9997970461845398,1,otro,0.994909942150116,0.005090057849884033,0.994909942150116,0.005090057849884033,0.994909942150116,4,otro,0.9510790705680847,0.0005620704614557326,0.003882025368511677,0.04409638047218323,0.00032740377355366945,0.9510790705680847,5.301438068272546e-05,1,OTRO,0.9962957501411438,0.003704249858856201,0.9962957501411438,0.003704249858856201,0.9962957501411438
+6,"Okay, I need to create a question where someone has to perform a combination of addition and subtraction to find a missing number. Let me think about how to structure this.
+
+First, I should come up with a scenario that involves both operations. Maybe something like a shopping situation where you add and subtract to find out how much money you have left.
+
+Let me outline the steps. I'll start by setting up a scenario where someone buys some items and then has some money left. For example, buying a book and a notebook.
+
+Next, I'll assign some values. Let's say the book costs $12 and the notebook costs $5. If someone has $20 initially, I can ask how much they have left after buying both items.
+
+Now, I'll set up the equation. The total spent is 12 + 5, which is 17. Subtracting that from the initial amount, 20 - 17, gives 3. So, the missing",1,1,0.9413186311721802,0.058681368827819824,0.9413186311721802,0.058681368827819824,0.9413186311721802,1,otro,0.7907424569129944,0.20925754308700562,0.7907424569129944,0.20925754308700562,0.7907424569129944,4,otro,0.3467088043689728,0.13850927352905273,0.16563951969146729,0.3009406626224518,0.022954663261771202,0.3467088043689728,0.02524709142744541,1,OTRO,0.8877315521240234,0.11226844787597656,0.8877315521240234,0.11226844787597656,0.8877315521240234
+7,"Primero, necesito identificar los números naturales que se usen en las operaciones de suma y resta.
+
+Luego, debo definir qué se me pide comparar: quizás la diferencia entre las dos resultados o una de las operaciones.
+
+Finalmente, construiré una pregunta que incluya estas operaciones y la comparación requerida.
+</think>
+
+Claro, aquí tienes una pregunta que solicite comparar dos resultados obtenidos mediante una suma y una resta con números naturales:
+
+**Pregunta:**
+
+""Calcular la suma de 12 y 15 y la resta de 27 y 9, luego comparar los dos resultados obtenidos.""
+
+**Respuesta:**
+
+Primero, calculamos la suma de 12 y 15:
+\[ 12 + 15 = 27 \]
+
+Luego, calculamos la resta de 27 y 9:
+\[ 27 - 9 =",1,1,0.9998438358306885,0.00015616416931152344,0.9998438358306885,0.00015616416931152344,0.9998438358306885,1,otro,0.9656236171722412,0.03437638282775879,0.9656236171722412,0.03437638282775879,0.9656236171722412,4,otro,0.9142788648605347,0.0017623478779569268,0.006631618365645409,0.07538663595914841,0.0011912923073396087,0.9142788648605347,0.0007491774740628898,1,OTRO,0.9707286357879639,0.029271364212036133,0.9707286357879639,0.029271364212036133,0.9707286357879639
+8,"Primero, identifico que el usuario quiere que el estudiante resuelva dos sumas y una resta para encontrar el resultado final.
+
+Luego, determino cómo estructurar la pregunta de manera clara y instructiva, incluyendo ejemplos claros para facilitar la comprensión.
+
+Después, escribe la pregunta en español, asegurándolo que el estudiante comprenda los pasos necesarios para resolver la operación.
+
+Finalmente, presento el ejemplo de respuesta para ilustrar cómo se aplican las operaciones matemáticas en este contexto.
+</think>
+
+Claro, aquí tienes una pregunta que el estudiante debe resolver dos sumas y una resta para encontrar el resultado final:
+
+**Pregunta:**
+
+""Resuelve las siguientes operaciones matemáticas y encuentra el resultado final:**
+
+1. \( 12 + 15 = \)
+2. \( 23 + 17 = \)
+3. \(",1,1,0.9735960960388184,0.02640390396118164,0.9735960960388184,0.02640390396118164,0.9735960960388184,1,otro,0.9953421354293823,0.004657864570617676,0.9953421354293823,0.004657864570617676,0.9953421354293823,4,otro,0.9869676232337952,0.0021587638184428215,0.0017833731835708022,0.008848926052451134,0.00020412055891938508,0.9869676232337952,3.719606320373714e-05,1,OTRO,0.989560604095459,0.010439395904541016,0.989560604095459,0.010439395904541016,0.989560604095459
+9,"Okay, I need to create a question that involves both addition and subtraction with three-digit numbers and ensure there's only one correct answer. Let me think about how to structure this.
+
+First, I'll choose two three-digit numbers. Maybe 456 and 789. That seems straightforward. Now, I need to set up an equation that combines both addition and subtraction. Perhaps I can have the result of the subtraction equal to the addition. So, if I subtract one number from the other, the result should match the sum of the two numbers.
+
+Let me try this: 456 + 789 = 1245. Now, if I subtract 456 from 789, I get 333. But that's not equal to 1245. Hmm, maybe I need to adjust the numbers so that the subtraction result equals the addition result.
+
+Wait, perhaps I should set it up as 789",1,1,0.8203791379928589,0.1796208620071411,0.8203791379928589,0.1796208620071411,0.8203791379928589,0,mathematics,0.9823711421340704,0.9823711421340704,0.017628857865929604,0.9823711421340704,0.017628857865929604,0,addition-subtraction,0.37830036878585815,0.37830036878585815,0.025856081396341324,0.24238915741443634,0.1641174852848053,0.05963192135095596,0.12970495223999023,1,OTRO,0.901704728603363,0.09829527139663696,0.901704728603363,0.09829527139663696,0.901704728603363
+10,"Okay, I need to create a question where the student has to figure out whether to use addition or subtraction. Let me think about how to set this up.
+
+First, I should come up with a scenario that involves both addition and subtraction. Maybe something with money or something relatable. Let's say a student has some money and spends some, then receives more.
+
+So, imagine a student has $20. They spend $5 on a book, so they have $15 left. Then they receive $10 as a gift. The question would be, ""How much money do they have now?"" The answer is $25, but the student needs to determine if it's addition or subtraction.
+
+Wait, but in this case, it's a combination of both. Maybe I should adjust the question to focus on the operation needed. Let me think of a simpler scenario.
+
+Perhaps a student has $10 and spends $3. They then receive $5. The question would be",1,1,0.6899711489677429,0.3100288510322571,0.6899711489677429,0.3100288510322571,0.6899711489677429,1,otro,0.8987389206886292,0.10126107931137085,0.8987389206886292,0.10126107931137085,0.8987389206886292,4,otro,0.39773470163345337,0.11208244413137436,0.08111882954835892,0.2907409965991974,0.0064169843681156635,0.39773470163345337,0.11190605163574219,1,OTRO,0.909259021282196,0.09074097871780396,0.909259021282196,0.09074097871780396,0.909259021282196
+11,"Primero, identifico que necesito crear una pregunta matemática que incluya una suma incompleta y una resta incompleta para encontrar los valores faltantes.
+
+Luego, decido seleccionar dos números completos que serán los resultados de las operaciones restantes.
+
+Después, establezco las ecuaciones correspondientes para cada operación, lo que me permitirá establecer las ecuaciones que necesitan ser resoluciones.
+
+Finalmente, resuelvo las ecuaciones para encontrar los valores faltantes.
+
+Finalmente, presento la pregunta matemática con las ecuaciones necesarias para que el usuario pueda resolverla.
+</think>
+
+Claro, aquí tienes una pregunta matemática que incluye una suma incompleta y una resta incompleta para encontrar los valores faltantes:
+
+**Pregunta Matemática:**
+
+**Suma incompleta:**
+\[ 12 + \boxed{?} =",1,1,0.988060712814331,0.011939287185668945,0.988060712814331,0.011939287185668945,0.988060712814331,1,otro,0.9746819734573364,0.025318026542663574,0.9746819734573364,0.025318026542663574,0.9746819734573364,4,otro,0.8631760478019714,0.0011497581144794822,0.002827761461958289,0.13051415979862213,0.0015399513067677617,0.8631760478019714,0.0007923142984509468,1,OTRO,0.926872730255127,0.07312726974487305,0.926872730255127,0.07312726974487305,0.926872730255127
+12,"Primero, necesito entender qué se pide en este problema. El usuario me ha pedido una pregunta que permita comprobar una resta mediante una suma y determinar si el resultado es correcto.
+
+Entonces, debo crear una pregunta que use la suma para verificar una resta. Esto significa que debo definir dos números, una minuendo y un sustraendo, y luego aplicar la suma correspondiente.
+
+Me preocupa que no use el mismo número que en el ejemplo proporcionado, pero no es necesario que use los números exactos. Por ejemplo, puedo usar 42 y 17.
+
+Luego, debo formular una pregunta que use la suma para verificar la resta. Por ejemplo, ""¿Cuál es el resultado de 42 - 17, y si lo sumas 17 + 15, ¿es igual a 42?""
+
+Finalmente, debo asegurarme de que el respondiente",1,1,0.9954586029052734,0.0045413970947265625,0.9954586029052734,0.0045413970947265625,0.9954586029052734,1,otro,0.9876750707626343,0.012324929237365723,0.9876750707626343,0.012324929237365723,0.9876750707626343,4,otro,0.877237856388092,0.000390493543818593,0.03981466218829155,0.08236449211835861,0.00016842377954162657,0.877237856388092,2.4160715838661417e-05,1,OTRO,0.9925375580787659,0.007462441921234131,0.9925375580787659,0.007462441921234131,0.9925375580787659
+13,"Primero, necesito crear cuatro números naturales diferentes para que el usuario utilicen sumas y restas en el orden adecuado para resolver el problema.
+
+Luego, debo estructurar la pregunta de manera que el usuario pueda identificar la secuencia correcta de operaciones y obtener el resultado final.
+
+Finalmente, debo asegurarme de que el problema sea claramente resoluble utilizando operaciones básicas y que no haya necesidad de operaciones más complejas o de operaciones mixtas.
+
+Debo asegurarme de que el problema sea claro y que el usuario pueda entender el enfoque adecuado para resolverlo.
+</think>
+
+Claro, aquí tienes una pregunta con cuatro números naturales donde es necesario realizar sumas y restas en el orden adecuado:
+
+**Pregunta:**
+
+Utiliza los números 12, 7, 3 y 5 para resolver el siguiente problema de operaciones básicas. ¿",1,1,0.9989707469940186,0.0010292530059814453,0.9989707469940186,0.0010292530059814453,0.9989707469940186,1,otro,0.9944562315940857,0.005543768405914307,0.9944562315940857,0.005543768405914307,0.9944562315940857,4,otro,0.9919940233230591,0.0002927398309111595,0.0009103842894546688,0.006502178963273764,0.0002804203541018069,0.9919940233230591,2.040312574536074e-05,1,OTRO,0.9975632429122925,0.0024367570877075195,0.9975632429122925,0.0024367570877075195,0.9975632429122925
+14,"Primero, necesito identificar los números menores que cincuenta que se pueden usar en una suma o una resta.
+
+Luego, debo formular una pregunta que involuza al usuario a través de una operación combinada de suma y resta.
+
+También debo asegurarme de que la pregunta sea clara y fácil de entender para que el usuario pueda resolverla sin dificultades.
+
+Finalmente, revisaré la pregunta para asegurarme de que contenga todos los elementos requeridos y que sea adecuada para la práctica mental.
+</think>
+
+Pregunta: ¿Cuál es el resultado de sumar 12 y restar 7 a 25?",1,1,0.9999650716781616,3.4928321838378906e-05,0.9999650716781616,3.4928321838378906e-05,0.9999650716781616,1,otro,0.9903422594070435,0.009657740592956543,0.9903422594070435,0.009657740592956543,0.9903422594070435,4,otro,0.840376615524292,0.0003695855266414583,0.09523081034421921,0.06378424912691116,0.000170186729519628,0.840376615524292,6.859725544927642e-05,1,OTRO,0.9975041747093201,0.0024958252906799316,0.9975041747093201,0.0024958252906799316,0.9975041747093201
+15,"Primero, necesito identificar las dos expresiones con sumas y restas que se presentan en la pregunta.
+
+Luego, debo calcular cada expresión separadamente para obtener dos resultados diferentes.
+
+Finalmente, compararé los dos resultados para determinar cuál de las dos es mayor.
+
+Finalmente, presentaré la pregunta con los dos ejemplos y su respuesta correspondiente.
+</think>
+
+Claro, aquí tienes una pregunta con dos expresiones con sumas y restas, y necesitamos determinar cuál de las dos es mayor.
+
+**Pregunta:**
+
+¿Cuál de las siguientes expresiones tiene un resultado mayor?
+
+1. \( 12 + 5 - 3 \)
+2. \( 10 + 7 - 4 \)
+
+**Respuesta:**
+
+1. \( 12 + 5 - 3 = 14 \)
+2. \( 10 + 7 - 4 = 1",1,1,0.9973633885383606,0.0026366114616394043,0.9973633885383606,0.0026366114616394043,0.9973633885383606,1,otro,0.9856234788894653,0.014376521110534668,0.9856234788894653,0.014376521110534668,0.9856234788894653,4,otro,0.9629614949226379,0.0022021897602826357,0.006244723219424486,0.025085672736167908,0.0026609424967318773,0.9629614949226379,0.0008449109154753387,1,OTRO,0.9691286683082581,0.030871331691741943,0.9691286683082581,0.030871331691741943,0.9691286683082581
+16,"Primero, necesito determinar cuál de las operaciones es la mejor para crear una pregunta de adición o sustracción. Decido usar adición porque es más straightforward y fácil de entender.
+
+Luego, debo definir un valor inicial que será el número que me interrumpirá en la operación. Por ejemplo, si el valor inicial es 15, theno.
+
+Después, necesito definir el resultado final que será el resultado de la operación. Supongamos que el resultado final es 20.
+
+Finalmente, construiré la pregunta de manera que indique la operación y los valores conocidos, y me pidiendo encontrar el valor inicial. Por ejemplo, ""Calcular el valor inicial x, sabiendo que x + 15 = 20.""
+
+Finalmente, reviso para asegurarme de que la pregunta sea clara y que el usuario pueda resolverla de manera efectiva.
+</think>
+
+Cl",1,1,0.9042989611625671,0.09570103883743286,0.9042989611625671,0.09570103883743286,0.9042989611625671,1,otro,0.9909844398498535,0.009015560150146484,0.9909844398498535,0.009015560150146484,0.9909844398498535,4,otro,0.9866788983345032,0.0011397948255762458,0.004106328822672367,0.0078657241538167,0.0001436976162949577,0.9866788983345032,6.556871085194871e-05,1,OTRO,0.9945212602615356,0.0054787397384643555,0.9945212602615356,0.0054787397384643555,0.9945212602615356
+17,"Okay, I need to come up with a question where the student has to fix an operation that combines addition and subtraction. Let me think about how to structure this.
+
+First, I should create a simple equation that includes both addition and subtraction. Maybe something like 15 - 7 + 3. That way, the student has to perform both operations in the correct order.
+
+Next, I'll give the student an incorrect answer. For example, 11. I need to explain why this is wrong, pointing out that subtraction should be done before addition. So, I'll write it as 15 - (7 + 3) = 5.
+
+Then, I'll ask the student to solve the equation again. I'll make sure the question is clear and direct, prompting them to correct their mistake.
+
+I should also provide the correct answer and explain the steps they should take. This helps reinforce the correct order of operations.
+
+Finally, I'll add a note to remind the student",1,1,0.9907585382461548,0.009241461753845215,0.9907585382461548,0.009241461753845215,0.9907585382461548,1,otro,0.9531418681144714,0.046858131885528564,0.9531418681144714,0.046858131885528564,0.9531418681144714,2,division-multiplication,0.5392412543296814,0.03651273995637894,0.05072646588087082,0.5392412543296814,0.012127800844609737,0.32877227663993835,0.032619498670101166,1,OTRO,0.9416267275810242,0.05837327241897583,0.9416267275810242,0.05837327241897583,0.9416267275810242
+18,"Primero, necesito identificar números naturales consecutivos que puedan ser utilizados en una adición y una sustracción para resolver una ecuación.
+
+Puedo elegir dos números consecutivos, como 12 y 13.
+
+Luego, debo establecer una ecuación que requiera una suma y una resta. Por ejemplo, 12 + 13 = 25 y 25 - 13 = 12.
+
+Esto me permite aplicar ambas operaciones para resolver la ecuación.
+</think>
+
+Claro, aquí tienes una pregunta con números naturales consecutivos que requiere realizar una adición y una sustracción para resolverla:
+
+**Pregunta:**
+*Escribe una ecuación con dos números naturales consecutivos que requiera realizar una suma y una sustracción para resolverla.*
+
+**Solución:**
+
+Puedes crear una ecuación con",1,1,0.9993671774864197,0.0006328225135803223,0.9993671774864197,0.0006328225135803223,0.9993671774864197,1,otro,0.9882928729057312,0.011707127094268799,0.9882928729057312,0.011707127094268799,0.9882928729057312,4,otro,0.8752408623695374,0.005575984250754118,0.022920848801732063,0.09340109676122665,0.0026446422562003136,0.8752408623695374,0.0002165564219467342,1,OTRO,0.9823989272117615,0.017601072788238525,0.9823989272117615,0.017601072788238525,0.9823989272117615
+19,"Primero, necesito definir qué se entiende por ""dominio de sumas y restas"". En este contexto, el dominio probablemente se refiere a la variedad de números que pueden ser sumados o restados en una expresión numérica.
+
+Luego, debo construir una expresión numérica con tres operaciones sencillas que evalúe el dominio. Es decir, shebo una suma y dos restas o dos sumas y una resta de manera que permita observar cómo el dominio se distribue en diferentes combinaciones.
+
+Finalmente, revisaré la expresión para asegurarme de que sea correcta y clara, y que sea fácil de entender y aplicable.
+</think>
+
+Claro, aquí tienes una pregunta que evalúa el dominio de sumas y restas mediante una expresión numérica con tres operaciones sencillas:
+
+**Pregunta:**
+¿Cuál es el domin",1,1,0.9926658272743225,0.00733417272567749,0.9926658272743225,0.00733417272567749,0.9926658272743225,1,otro,0.996129035949707,0.0038709640502929688,0.996129035949707,0.0038709640502929688,0.996129035949707,4,otro,0.9369542002677917,0.0005305144586600363,0.0028594580944627523,0.05908353626728058,0.0005603798199445009,0.9369542002677917,1.1996638022537809e-05,1,OTRO,0.997329592704773,0.0026704072952270508,0.997329592704773,0.0026704072952270508,0.997329592704773
+20,"Okay, I need to create a subtraction question using two-digit natural numbers. Let me think about how to structure this. The user wants a problem where the student has to find the difference correctly. 
+
+First, I'll choose two two-digit numbers. Let's say 45 and 23. That seems straightforward. Now, I need to set up the problem so that the student has to subtract the smaller number from the larger one. 
+
+So, the question would be: ""45 minus 23 equals what?"" This clearly asks for the difference, which is 22. 
+
+I should make sure the numbers are easy to work with for a student. 45 and 23 are both two-digit numbers, and the subtraction doesn't require borrowing, which might be a bit advanced for some students. 
+
+Alternatively, I could use 32 minus 17, which also results in a two-digit number without borrowing. Both examples are suitable for a student to",0,0,0.5727303922176361,0.5727303922176361,0.4272696077823639,0.5727303922176361,0.4272696077823639,0,mathematics,0.5609398782253265,0.5609398782253265,0.43906012177467346,0.5609398782253265,0.43906012177467346,2,division-multiplication,0.8433891534805298,0.011681368574500084,0.02758757956326008,0.8433891534805298,0.006715061608701944,0.10651442408561707,0.0041123987175524235,1,OTRO,0.9674575924873352,0.032542407512664795,0.9674575924873352,0.032542407512664795,0.9674575924873352
+21,"Primero, necesito identificar los números que se van a restar. El primer número debe tener tres cifras, y el segundo número debe ser mayor que el primero.
+
+Luego, debo establecer un ejemplo con números concretos para facilitar la comprensión.
+
+Finalmente, presentaré una pregunta que involuza la resta de dos números de tres cifras, con el objetivo de practicar el cálculo de restas de tres cifras.
+</think>
+
+Claro, aquí tienes una pregunta para el estudiante que implica restar dos números de tres cifras:
+
+**Pregunta:**
+
+""Resta dos números de tres cifras. El primer número es 456 y el segundo número es 123. ¿Cuál es el resultado de la resta?""
+
+**Solución:**
+
+Para resolver esta pregunta, seguimos estos pasos:
+
+1. **Identificar los números a restar:**
+   - Primer número:",1,1,0.9876953363418579,0.01230466365814209,0.9876953363418579,0.01230466365814209,0.9876953363418579,1,otro,0.9853103160858154,0.01468968391418457,0.9853103160858154,0.01468968391418457,0.9853103160858154,2,division-multiplication,0.7873620986938477,0.004543012473732233,0.023576272651553154,0.7873620986938477,0.001368520432151854,0.18308310210704803,6.692471652058885e-05,1,OTRO,0.9888017177581787,0.011198282241821289,0.9888017177581787,0.011198282241821289,0.9888017177581787
+22,"Okay, the user has asked me to create a subtraction question that includes a variable and asks for the missing number. I need to make sure the question is clear and follows the format they provided in their example.
+
+First, I should identify the elements needed: a subtraction problem with a missing number. I'll choose two numbers where one is unknown. Let's go with 123 and 456. That way, the problem is straightforward and the missing number is in the middle.
+
+Next, I'll structure the question. It should be in the format of ""What is the result of [number] minus [unknown number]?"" So, I'll write it as ""What is the result of 123 minus [unknown number]?"".
+
+I should also include a question mark at the end to make it a proper question. So, the final question will be: ""What is the result of 123 minus [unknown number]?"".
+
+I think that covers everything",1,1,0.673991858959198,0.326008141040802,0.673991858959198,0.326008141040802,0.673991858959198,0,mathematics,0.9956953483633697,0.9956953483633697,0.004304651636630297,0.9956953483633697,0.004304651636630297,0,addition-subtraction,0.6686684489250183,0.6686684489250183,0.03885074704885483,0.11367025971412659,0.125199094414711,0.029934648424386978,0.023676827549934387,1,OTRO,0.5174458026885986,0.48255419731140137,0.5174458026885986,0.48255419731140137,0.5174458026885986
+23,"Okay, I need to create a subtraction question using natural numbers suitable for basic education. Let me think about how to approach this.
+
+First, I should consider the basic subtraction concept. Subtraction involves taking away a number from another number. To make it simple, I can use numbers that are easy for young learners to handle, like single-digit numbers.
+
+I want the question to be clear and straightforward. Maybe I'll use a real-life scenario to make it relatable. For example, if a child has some toys and gives some away, how many are left?
+
+Let me pick two numbers. Let's say the minuend is 5 and the subtrahend is 3. That should be a good example because it's simple and the result is also a natural number.
+
+Now, structuring the question: ""Si un chico tiene 5 monedas y le da 3 a su amigo, ¿cuántas monedas le quedan?"" This translates to """,0,0,0.5887219607830048,0.5887219607830048,0.41127803921699524,0.5887219607830048,0.41127803921699524,1,otro,0.9474155902862549,0.05258440971374512,0.9474155902862549,0.05258440971374512,0.9474155902862549,4,otro,0.8109567761421204,0.011466322466731071,0.007345777470618486,0.1279948651790619,0.020823214203119278,0.8109567761421204,0.021413085982203484,1,OTRO,0.9241682887077332,0.07583171129226685,0.9241682887077332,0.07583171129226685,0.9241682887077332
+24,"Primero, necesito seleccionar dos números menores que cien para realizar una sustracción.
+
+Luego, debo definir qué se me pide calcular, como la diferencia o el resultado de la operación.
+
+Finalmente, presentaré la pregunta de manera clara y sencilla para que el usuario pueda resolverla de manera efectiva.
+</think>
+
+Claro, aquí tienes una pregunta de cálculo mental basada en una sustracción con números menores que cien:
+
+**Pregunta:**
+""Calcular la diferencia entre 87 y 32.""
+
+**Solución:**
+Para resolver esta pregunta, restamos 32 de 87.
+
+\[
+87 - 32 = 55
+\]
+
+**Respuesta Final:**
+\[
+\boxed{55}
+\]",1,1,0.9982666969299316,0.0017333030700683594,0.9982666969299316,0.0017333030700683594,0.9982666969299316,1,otro,0.9938216209411621,0.006178379058837891,0.9938216209411621,0.006178379058837891,0.9938216209411621,4,otro,0.6733806133270264,0.0008741084602661431,0.07200362533330917,0.2520718276500702,0.0014146222965791821,0.6733806133270264,0.00025524297961965203,1,OTRO,0.9859861135482788,0.014013886451721191,0.9859861135482788,0.014013886451721191,0.9859861135482788
+25,"Okay, I need to create a question where the student has to determine which of two subtraction problems has a larger result. Let me think about how to structure this.
+
+First, I should come up with two simple subtraction problems. Maybe using numbers that are close to each other to make the comparison interesting. Let's say the first problem is 15 minus 7, and the second is 13 minus 5. These are both single-digit numbers, so the results won't be too large, which should be manageable for a student.
+
+Next, I'll write the questions clearly. The first one is straightforward: 15 - 7. The second one is 13 - 5. Now, I need to present them in a way that's easy for the student to compare. Maybe using symbols like >, <, or = to indicate the relationship.
+
+I should also make sure the question is clear and direct. The student should be able to see the two problems and decide",1,1,0.6624876856803894,0.3375123143196106,0.6624876856803894,0.3375123143196106,0.6624876856803894,1,otro,0.907417356967926,0.09258264303207397,0.907417356967926,0.09258264303207397,0.907417356967926,2,division-multiplication,0.34871530532836914,0.07535875588655472,0.19957074522972107,0.34871530532836914,0.032191239297389984,0.33996260166168213,0.004201377741992474,1,OTRO,0.9336065649986267,0.06639343500137329,0.9336065649986267,0.06639343500137329,0.9336065649986267
+26,"Primero, necesito entender qué significa que la pregunta solicite comprobar una sustracción para ver si el resultado es correcto. Es decir, debo proporcionar una pregunta que use un ejemplo de sustracción con una solución conocida y que el usuario debe aplicar el mismo método para verificar su resultado.
+
+Luego, debo definir un ejemplo con números específicos para facilitar la comprensión. Por ejemplo, si la sustracción es 123 - 56 = 67, then el usuario debe aplicar el mismo método para verificar si su resultado es correcto.
+
+Finalmente, debo estructurar la pregunta de manera que el usuario utilice el mismo proceso para verificar su resultado de la sustracción.
+</think>
+
+Claro, aquí tienes una pregunta que solicite comprobar una sustracción mediante cálculo:
+
+**Pregunta:**
+
+""Compruebe la siguiente sustracción utilizando el método de c",1,1,0.9014516472816467,0.09854835271835327,0.9014516472816467,0.09854835271835327,0.9014516472816467,1,otro,0.9989153146743774,0.0010846853256225586,0.9989153146743774,0.0010846853256225586,0.9989153146743774,4,otro,0.9978073239326477,3.080759051954374e-05,3.9875172660686076e-05,0.0020900361705571413,2.7434309231466614e-05,0.9978073239326477,4.501784133026376e-06,1,OTRO,0.9983956217765808,0.0016043782234191895,0.9983956217765808,0.0016043782234191895,0.9983956217765808
+27,"Okay, I need to create a subtraction question with four-digit numbers that has a unique numerical answer. Let me think about how to approach this.
+
+First, I should choose two four-digit numbers where subtracting one from the other will give a specific result. I want the numbers to be such that the subtraction doesn't result in a negative number, so the answer should be positive.
+
+Let me pick the larger number as 9999. That's the highest four-digit number. Now, I need a smaller four-digit number. Maybe 1000. Subtracting 1000 from 9999 should give me 8999. But wait, that's a four-digit number, so it's valid.
+
+Wait, but 9999 - 1000 is indeed 8999. That seems straightforward. Is there a chance of any ambiguity? Let me check another example. If I take 9999 -",1,1,0.54459547996521,0.45540452003479004,0.54459547996521,0.45540452003479004,0.54459547996521,0,mathematics,0.9328201711177826,0.9328201711177826,0.06717982888221741,0.9328201711177826,0.06717982888221741,0,addition-subtraction,0.3121788799762726,0.3121788799762726,0.1121506541967392,0.08642091602087021,0.22396042943000793,0.14300692081451416,0.12228220701217651,1,OTRO,0.9425227642059326,0.05747723579406738,0.9425227642059326,0.05747723579406738,0.9425227642059326
+28,"Primero, necesito entender qué se me pide. El usuario me ha pedido que haga una pregunta en la que el estudiante debe completar los dígitos faltantes de una operación de sustracción.
+
+Para construir una pregunta adecuada, debo definir una operación de sustracción con dos números de dos dígitos. Por ejemplo, 42 - 15.
+
+Luego, debo colocar un dígito faltante en la parte derecha del resultado para que el estudiante deba completarlo. Por ejemplo, 42 - 15 = 27.
+
+Finalmente, debo formular una pregunta que pasea a la respuesta correcta, asegurándome de que el estudiante utilice el operador de igual para completar la operación correctamente.
+</think>
+
+Pregunta: 
+
+""Calcula la diferencia de 42 - 15. ¿Cuál",1,1,0.9978539347648621,0.0021460652351379395,0.9978539347648621,0.0021460652351379395,0.9978539347648621,1,otro,0.9938955903053284,0.006104409694671631,0.9938955903053284,0.006104409694671631,0.9938955903053284,4,otro,0.5088798999786377,0.0003870883083436638,0.010638119652867317,0.479787677526474,0.00023542284907307476,0.5088798999786377,7.171101606218144e-05,1,OTRO,0.995762288570404,0.004237711429595947,0.995762288570404,0.004237711429595947,0.995762288570404
+29,"Okay, so I need to create a question that asks someone to sort three differences from smallest to largest after performing subtraction. Let me break this down.
+
+First, I should figure out what the question needs to be. It's about subtraction and then ordering the results. The user provided an example, so I can use that as a template.
+
+The example question was: ""Resuelve las sustracciones correspondientes y ordena las tres diferencias de menor a mayor."" That makes sense because it first subtracts and then sorts the differences.
+
+So, I need to make sure my new question follows the same structure. It should first present three subtraction problems, then ask the user to solve them and sort the results.
+
+I should also make sure the numbers are appropriate. Maybe use two-digit numbers to keep it simple. Let's say 15 - 7, 23 - 12, and 18 - 9.
+
+Now, I'll write the question: ""Resuelve",1,1,0.8110693693161011,0.18893063068389893,0.8110693693161011,0.18893063068389893,0.8110693693161011,1,otro,0.8289913535118103,0.1710086464881897,0.8289913535118103,0.1710086464881897,0.8289913535118103,4,otro,0.46617066860198975,0.06847895681858063,0.038642518222332,0.4009532332420349,0.01360468752682209,0.46617066860198975,0.012149970047175884,1,OTRO,0.8693277835845947,0.13067221641540527,0.8693277835845947,0.13067221641540527,0.8693277835845947
+30,"Primero, identifico que el resultado de la resta es 12.
+
+Luego, determino que el minuendo es 45.
+
+Finalmente, resuelvo la ecuación 45 - x = 12 para encontrar el valor de x, que es 33.
+</think>
+
+Claro, aquí tienes una pregunta de sustracción con el resultado conocido y que deba encontrar uno de los números iniciales:
+
+**Pregunta:**
+Si \( 45 - x = 12 \), ¿ cuál es el valor de \( x \)?
+
+**Solución:**
+
+1. **Determine el minuendo y el resultado:**
+   - Minuendo: 45
+   - Resultado: 12
+
+2. **Usa la ecuación de sustracción para encontrar \( x \):**
+   \[
+   45 - x = 12
+   \]
+
+3",0,0,0.650589793920517,0.650589793920517,0.34941020607948303,0.650589793920517,0.34941020607948303,1,otro,0.9885104894638062,0.011489510536193848,0.9885104894638062,0.011489510536193848,0.9885104894638062,4,otro,0.7329825758934021,0.015227066352963448,0.12334494292736053,0.059546761214733124,0.06009344384074211,0.7329825758934021,0.008805199526250362,1,OTRO,0.9388509392738342,0.06114906072616577,0.9388509392738342,0.06114906072616577,0.9388509392738342
+31,"Primero, necesito definir qué se refiere a ""resta de decenas completas"". Esto significa restando dos números naturales que terminan en cero, es decir, que son múltiplos de 10.
+
+Luego, debo constructurar una pregunta que use este concepto. Decido preguntar sobre la resta de dos decenas completas, como 80 menos 50.
+
+Para facilitar la interpretación, puedo mencionar que se está restando dos decenas completas, lo que me asegura que el resultado también será una decena completa.
+
+Finalmente, reviso que la pregunta sea clara y que use solo números naturales, que son los números que se utilizan en contabilidades, como 80 y 50.
+
+Finalmente, reviso que la pregunta sea sencilla y fácil de entender para que el usuario pueda resolverla de manera sencilla.
+</think>
+
+Claro",1,1,0.9969143867492676,0.003085613250732422,0.9969143867492676,0.003085613250732422,0.9969143867492676,1,otro,0.9861050248146057,0.013894975185394287,0.9861050248146057,0.013894975185394287,0.9861050248146057,4,otro,0.8644013404846191,0.0008873185724951327,0.015746932476758957,0.11832118779420853,0.0005732144927605987,0.8644013404846191,7.002992060733959e-05,1,OTRO,0.9908458590507507,0.009154140949249268,0.9908458590507507,0.009154140949249268,0.9908458590507507
+32,"Okay, I need to create a question where the student has to choose between different subtraction options that result in a specific difference. Let me think about how to structure this.
+
+First, I should decide on the target difference. Maybe 15? That seems reasonable.
+
+Next, I need to come up with several subtraction problems that result in 15. Let's see:
+
+1. 30 - 15 = 15
+2. 40 - 25 = 15
+3. 50 - 35 = 15
+4. 20 - 5 = 15
+5. 25 - 10 = 15
+
+These examples cover a range of numbers, so the student has to consider which pair of numbers actually subtracts to 15.
+
+Now, I'll phrase the question in a way that's clear and instructive. It should prompt the student to evaluate each option and choose the correct",1,1,0.9469377398490906,0.053062260150909424,0.9469377398490906,0.053062260150909424,0.9469377398490906,1,otro,0.8802548050880432,0.11974519491195679,0.8802548050880432,0.11974519491195679,0.8802548050880432,4,otro,0.8224447965621948,0.014572725631296635,0.002998754847794771,0.1544196754693985,0.004489012993872166,0.8224447965621948,0.0010750609217211604,1,OTRO,0.9264686703681946,0.07353132963180542,0.9264686703681946,0.07353132963180542,0.9264686703681946
+33,"Primero, necesito identificar un número cercano a una centena para construir una pregunta de sustracción precisa.
+
+Luego, debo seleccionar un número que esté a dos unidades arriba de la centena. Por ejemplo, 102.
+
+Después, debo determinar el resultado de la sustracción para que sea un número cercano a una centena. En este caso, 98 es un número cercano a 100.
+
+Finalmente, formaré la pregunta de sustracción: 102 menos 98 equals ?
+</think>
+
+Claro, aquí tienes una pregunta de sustracción con un número cercano a una centena para practicar el cálculo preciso:
+
+**Pregunta de sustracción:**
+
+**¿Cuál es el resultado de 102 menos 98?**
+
+**Solución:**
+
+1. **Paso 1:** Identificar los números",1,1,0.9864689111709595,0.013531088829040527,0.9864689111709595,0.013531088829040527,0.9864689111709595,1,otro,0.994120180606842,0.005879819393157959,0.994120180606842,0.005879819393157959,0.994120180606842,4,otro,0.928263247013092,0.001146043767221272,0.009222527034580708,0.05473813787102699,0.006204091943800449,0.928263247013092,0.00042601305176503956,1,OTRO,0.9906854033470154,0.00931459665298462,0.9906854033470154,0.00931459665298462,0.9906854033470154
+34,"Primero, identifico las dos sustracciones consecutivas que se proporcionan.
+
+Luego, calculo cada sustracción separadamente.
+
+Después, comparo los resultados de las dos sustracciones.
+
+Finalmente, combino los dos resultados para obtener el resultado final final.
+</think>
+
+Claro, aquí tienes una pregunta que implica resolver dos sustracciones consecutivas para obtener un único resultado final:
+
+**Pregunta:**
+""Resuelve las siguientes sustracciones consecutivas y obtén un solo resultado final.""
+
+1. \( 15 - 7 = \)
+2. \( 12 - 5 = \)
+
+**Solución:**
+
+1. \( 15 - 7 = 8 \)
+2. \( 12 - 5 = 7 \)
+
+**Respuesta Final:**
+\[
+\boxed{8 \text{ y } 7}
+\]",1,1,0.9819765090942383,0.01802349090576172,0.9819765090942383,0.01802349090576172,0.9819765090942383,1,otro,0.9695927500724792,0.030407249927520752,0.9695927500724792,0.030407249927520752,0.9695927500724792,4,otro,0.9635611176490784,0.005793299060314894,0.0009038107236847281,0.020815975964069366,0.008451384492218494,0.9635611176490784,0.0004743238678202033,1,OTRO,0.9582949280738831,0.04170507192611694,0.9582949280738831,0.04170507192611694,0.9582949280738831
+35,"Primero, necesito identificar un error de cálculo con números naturales. Supongamos que un usuario ha calculado 123 - 67 y ha obtenido 56, pero el error correcto es 56. 
+
+Luego, debo construir una pregunta que pasea por este error. Puedo preguntar a un usuario que realice la operación correctamente y ver si el resultado es 56.
+
+Finalmente, revisaré la pregunta para asegurarme de que sea clara y fácil de entender, y que incluya una respuesta correcta para verificar el error.
+</think>
+
+Claro, aquí tienes una pregunta de sustracción con números naturales que permitirá identificar y corregir un error de cálculo:
+
+**Pregunta:**
+""Calcular la diferencia entre 123 y 67. ¿Cuál es el resultado correcto?""
+
+**Respuesta correcta:",1,1,0.9519102573394775,0.04808974266052246,0.9519102573394775,0.04808974266052246,0.9519102573394775,1,otro,0.9950373768806458,0.004962623119354248,0.9950373768806458,0.004962623119354248,0.9950373768806458,4,otro,0.8871874809265137,0.0006410894566215575,0.011945405043661594,0.09962709993124008,0.0005493350327014923,0.8871874809265137,4.957854253007099e-05,1,OTRO,0.9967808723449707,0.003219127655029297,0.9967808723449707,0.003219127655029297,0.9967808723449707
+36,"Primero, necesito identificar dos pares diferentes de números naturales que se van a comparar.
+
+Luego, debo determinar qué aspecto de estos números se wanta analizar. Por ejemplo, podría comparar su suma, diferencia, producto o cociente.
+
+Después, debo establecer un ejemplo con números específicos para facilitar la comprensión.
+
+Finalmente, debo formular una pregunta que pase por estos pasos, asegurándome de que sea clara y fácil de entender para el estudiante.
+</think>
+
+Claro, aquí tienes una pregunta para el estudiante que compare la diferencia entre dos pares diferentes de números naturales:
+
+**Pregunta:**
+
+""Compara la diferencia entre los números 12 y 7. ¿Cuál es la diferencia entre ellos?""
+
+**Respuesta:**
+
+La diferencia entre 12 y 7 es **5**, ya que 12 - 7 = 5.",1,1,0.9995916485786438,0.00040835142135620117,0.9995916485786438,0.00040835142135620117,0.9995916485786438,1,otro,0.9929996728897095,0.007000327110290527,0.9929996728897095,0.007000327110290527,0.9929996728897095,4,otro,0.9700607657432556,0.0009155080770142376,0.002061005448922515,0.025976737961173058,0.0008434614283032715,0.9700607657432556,0.00014255527639761567,1,OTRO,0.9937660694122314,0.006233930587768555,0.9937660694122314,0.006233930587768555,0.9937660694122314
+37,"Primero, identifico que el usuario quiere una pregunta de sustracción que requiera calcular cuánto falta para pasar de un número menor a uno mayor.
+
+Para esto, puedo considerar dos números, por ejemplo, 5 y 7. La diferencia entre ellos es 2, lo que significa que falta 2 para pasar de 5 a 7.
+
+Luego, escribe la pregunta de sustracción que refleje este concepto: ""¿Cuánto falta para pasar de 5 a 7?"".
+
+Finalmente, explica que la respuesta al questionario será la diferencia entre los dos números, que en este caso es 2.
+</think>
+
+Claro, aquí tienes una pregunta de sustracción que requiere calcular cuánto falta para pasar de un número menor a uno mayor:
+
+**Pregunta de sustracción:**
+
+""¿Cuánto falta para pasar de 5 a 7?""",1,1,0.9997567534446716,0.00024324655532836914,0.9997567534446716,0.00024324655532836914,0.9997567534446716,1,otro,0.889552116394043,0.11044788360595703,0.889552116394043,0.11044788360595703,0.889552116394043,4,otro,0.7835221886634827,0.005312140565365553,0.01202187966555357,0.19742701947689056,0.0011479707900434732,0.7835221886634827,0.0005688411765731871,1,OTRO,0.9550618529319763,0.04493814706802368,0.9550618529319763,0.04493814706802368,0.9550618529319763
+38,"Primero, necesito identificar el número mayor que tenga ceros intermedios. Por ejemplo, el número 2000 es un número mayor que tiene ceros intermedios.
+
+Luego, debo seleccionar un número menor que este, como 1000.
+
+Después, calcular la diferencia entre ambos números: 2000 - 1000 = 1000.
+
+Finalmente, formaré una pregunta que incluya estos números y la operación de resta, lo que me dará una pregunta adecuada para practicar la resta con ceros intermedios.
+</think>
+
+Claro, aquí tienes una pregunta para practicar una resta con ceros intermedios en el número mayor y obtener la diferencia:
+
+**Pregunta:**
+
+**¿Cuál es la diferencia entre 2000 y 1000?**
+
+**Solución:**
+
+Para resolver esta pregunta, sigamos estos pas",1,1,0.9828183054924011,0.017181694507598877,0.9828183054924011,0.017181694507598877,0.9828183054924011,1,otro,0.9838433861732483,0.01615661382675171,0.9838433861732483,0.01615661382675171,0.9838433861732483,4,otro,0.932253897190094,0.0012718583457171917,0.004269520752131939,0.05844440311193466,0.003014003625139594,0.932253897190094,0.0007464527152478695,1,OTRO,0.9664087891578674,0.03359121084213257,0.9664087891578674,0.03359121084213257,0.9664087891578674
+39,"Primero, necesito definir el número desconocido que será el sustraendo en una operación de sustracción.
+
+Luego, debo establecer la operación de sustracción utilizando este número desconocido.
+
+Finalmente, debo preguntar a la persona para que evalúe la resultado de esta operación.
+</think>
+
+Claro, aquí tienes una pregunta que evalúa la sustracción mediante un número desconocido colocado como sustraendo en una operación:
+
+**Pregunta:**
+""¿Cómo evalúas la sustracción de un número desconocido en una operación de sustracción, donde este número está colocado como sustraendo?""
+
+¿Te gustaría que me evalúe esta pregunta?",1,1,0.9956619143486023,0.004338085651397705,0.9956619143486023,0.004338085651397705,0.9956619143486023,1,otro,0.9962180256843567,0.0037819743156433105,0.9962180256843567,0.0037819743156433105,0.9962180256843567,4,otro,0.9211511015892029,0.00028849521186202765,0.000773614679928869,0.07682198286056519,0.0008144707535393536,0.9211511015892029,0.0001504244573879987,1,OTRO,0.9780884385108948,0.021911561489105225,0.9780884385108948,0.021911561489105225,0.9780884385108948
+40,"Primero, necesito definir los números naturales que serán usados en la multiplicación y la división. Decido usar 12, 3, 4 y 5, ya que son números naturales y facilitan el cálculo.
+
+Luego, debo establecer cómo aplicar la multiplicación y la división entre estos números para obtener un resultado entero. Decido multiplicar 3 por 4, lo que da 12.
+
+Finalmente, divido el resultado de la multiplicación, 12, por 5 para obtener el resultado final, que es 2.4. Sin embargo, el usuario me ha pedido que el resultado sea entero, así que reviso para asegurarme de que el resultado sea entero. Si no es entero, reviso los números seleccionados o la operación.
+
+Si no he logrado obtener un resultado entero, reviso los números y la operación. Dec",1,1,0.9998902082443237,0.00010979175567626953,0.9998902082443237,0.00010979175567626953,0.9998902082443237,1,otro,0.9417552947998047,0.05824470520019531,0.9417552947998047,0.05824470520019531,0.9417552947998047,4,otro,0.8819005489349365,0.0017521858680993319,0.012697465717792511,0.10337322950363159,0.00015927024651318789,0.8819005489349365,0.00011723618808900937,1,OTRO,0.9956009387969971,0.00439906120300293,0.9956009387969971,0.00439906120300293,0.9956009387969971
+41,"Primero, necesito identificar los números que se van a multiplicar y el número que se va a dividir. Supongamos que el estudiante ha elegido los números 5 y 6 para multiplicar.
+
+Luego, el estudiante debe realizar la multiplicación de 5 por 6, lo que da 30.
+
+Finalmente, el resultado de la multiplicación debe ser dividido por otro número, digamos que el estudiante ha elegido 3.
+
+Finalmente, realizo la división de 30 por 3, obteniendo 10.
+</think>
+
+Claro, aquí tienes una pregunta para el estudiante que implica multiplicar dos números y luego dividir el resultado por otro número:
+
+**Pregunta:**
+
+""Multiplica 5 por 6 y luego divide el resultado por 3. ¿Cuál es el resultado final?""
+
+**Solución:**
+
+1. **Multiplicación:** \(5 \times 6",1,1,0.9976361989974976,0.0023638010025024414,0.9976361989974976,0.0023638010025024414,0.9976361989974976,1,otro,0.9849815368652344,0.015018463134765625,0.9849815368652344,0.015018463134765625,0.9849815368652344,4,otro,0.8604549765586853,0.0032427951227873564,0.005032226908951998,0.12817533314228058,0.0018096244893968105,0.8604549765586853,0.0012851275969296694,1,OTRO,0.974937379360199,0.025062620639801025,0.974937379360199,0.025062620639801025,0.974937379360199
+42,"Primero, necesito definir qué se entiende por ""dividir por cero"". En general, la división por cero es una operación matemática que no tiene un resultado definido, ya que no hay números que al multiplicarlos por cero den un número diferente de cero.
+
+Sin embargo, en algunos casos, se puede considerar que la división por cero es igual a infinity, pero esto es solo una interpretación informal y no está bien definida en el sistema matemático standard.
+
+Por lo tanto, la división por cero no es una operación que puede ser practicada para probar una multiplicación, ya que no hay una definición rigurosa o bien definida para esto.
+
+En conclusión, la división por cero no es una operación que se use para probar una multiplicación, ya que no tiene un resultado bien definido.
+</think>
+
+Claro, podemos crear una pregunta",1,1,0.9916837215423584,0.008316278457641602,0.9916837215423584,0.008316278457641602,0.9916837215423584,1,otro,0.9907921552658081,0.009207844734191895,0.9907921552658081,0.009207844734191895,0.9907921552658081,4,otro,0.9751249551773071,0.00015616428572684526,0.0006408181507140398,0.023655030876398087,0.0003939828893635422,0.9751249551773071,2.9102619009790942e-05,1,OTRO,0.9953818917274475,0.00461810827255249,0.9953818917274475,0.00461810827255249,0.9953818917274475
+43,"Okay, I need to create a multiplication question with two factors and then include a division step for basic education students. Let me think about how to approach this.
+
+First, I should choose two numbers to multiply. Maybe 12 and 15. That seems reasonable. Then, after multiplying, I need to divide by one of the factors to get a whole number. If I multiply 12 by 15, I get 180. Dividing 180 by 12 gives me 15, which is a whole number. Alternatively, dividing by 15 would give me 12, which is also fine. I think dividing by 12 is a bit more straightforward because the result is the other factor.
+
+So, the problem would be 12 multiplied by 15, and then divided by 12. That way, students can see that multiplication and division are inverse operations. It's a good example to illustrate the relationship",1,1,0.9875076413154602,0.012492358684539795,0.9875076413154602,0.012492358684539795,0.9875076413154602,0,mathematics,0.5056498348712921,0.5056498348712921,0.4943501651287079,0.5056498348712921,0.4943501651287079,2,division-multiplication,0.6774387359619141,0.027905136346817017,0.08771035820245743,0.6774387359619141,0.023705098778009415,0.079836405813694,0.10340429097414017,1,OTRO,0.9277283549308777,0.07227164506912231,0.9277283549308777,0.07227164506912231,0.9277283549308777
+44,"Primero, identifico que necesito crear una pregunta que tenga un factor faltante y que requiera la multiplicación o la división para encontrar su valor.
+
+Luego, decido definir una variable para el valor desconocido que es la raíz cuadrada de 16.
+
+Después, establezco una ecuación que relaciona esta raíz con la suma de dos números enteros consecutivos.
+
+Finalmente, resuelvo la ecuación para encontrar el valor de la raíz cuadrada requerida.
+</think>
+
+Claro, aquí tienes una pregunta con un factor faltante y necesidad de multiplicación o división para encontrar su valor:
+
+**Pregunta:**
+
+**¿Cuál es el valor de \( x \) en la ecuación siguiente?**
+
+\[
+x + (x + 1) = 16
+\]
+
+**Solución:**
+
+Para encontrar el valor de \(",1,1,0.9927669763565063,0.007233023643493652,0.9927669763565063,0.007233023643493652,0.9927669763565063,1,otro,0.9942454695701599,0.005754530429840088,0.9942454695701599,0.005754530429840088,0.9942454695701599,4,otro,0.9138279557228088,0.00242359540425241,0.008422881364822388,0.06741851568222046,0.007686569821089506,0.9138279557228088,0.0002204637712566182,1,OTRO,0.9845725297927856,0.015427470207214355,0.9845725297927856,0.015427470207214355,0.9845725297927856
+45,"Okay, I need to create a question that presents two multiplication problems and asks which product is larger. Let me think about how to structure this.
+
+First, I should come up with two different multiplication scenarios. Maybe one with larger numbers and another with smaller ones to make it interesting. Let's say the first problem is 12 multiplied by 15, and the second is 10 multiplied by 18. That way, both are two-digit numbers, and the products are in the 100s.
+
+Next, I need to phrase the question clearly. It should be straightforward but instructive. I'll start by stating that I have two multiplication problems and then present them. Then, I'll ask which product is larger.
+
+I should also make sure the question is concise and easy to understand. Maybe use some adjectives to make it sound natural, like ""multiplicaciones"" for multiplication and ""determinar"" for determine.
+
+Putting it all together, I'll write",1,1,0.9192785620689392,0.08072143793106079,0.9192785620689392,0.08072143793106079,0.9192785620689392,1,otro,0.6475714445114136,0.3524285554885864,0.6475714445114136,0.3524285554885864,0.6475714445114136,2,division-multiplication,0.5769579410552979,0.06014488264918327,0.02904547192156315,0.5769579410552979,0.0036139674484729767,0.3233148753643036,0.00692285131663084,1,OTRO,0.9492890238761902,0.050710976123809814,0.9492890238761902,0.050710976123809814,0.9492890238761902
+46,"Primero, necesito identificar los datos proporcionados en la pregunta. Supongamos que se conoce el dividendo y el cociente, pero el divisor es desconocido.
+
+Luego, reconozco que la relación entre los dividendo, divisor y cociente se puede expresar con la ecuación: Dividendo = Divisor × Cociente.
+
+Finalmente, para encontrar el divisor, debo dividir el dividendo por el cociente.
+</think>
+
+Para resolver una pregunta en la que se necesite encontrar el divisor desconocido, siga estos pasos:
+
+1. **Identificar los datos proporcionados:**
+   - **Dividendo (D):** El número que se divide.
+   - **Cociente (C):** El resultado de la división.
+   - **Divisor (d):** El número que se divide a los dividendos.
+
+2. **Expresión matemática:**
+   La relación entre los",1,1,0.9551898241043091,0.04481017589569092,0.9551898241043091,0.04481017589569092,0.9551898241043091,1,otro,0.9931849837303162,0.006815016269683838,0.9931849837303162,0.006815016269683838,0.9931849837303162,4,otro,0.9284704327583313,0.003392636077478528,0.01240992546081543,0.04680273309350014,0.006358272861689329,0.9284704327583313,0.00256601651199162,1,OTRO,0.8969119191169739,0.10308808088302612,0.8969119191169739,0.10308808088302612,0.8969119191169739
+47,"Primero, necesito definir qué se pide en la pregunta. El usuario menciona que se usen números naturales pequeños y que la operación sea multiplicar y división exacta.
+
+Luego, debo constructurar una pregunta que incluya estos conceptos. Decido seleccionar dos números naturales pequeños, como 4 y 5, para facilitar la multiplicación y la división.
+
+Luego, debo establecer una relación entre estas operaciones. Por ejemplo, pidiendo que la multiplicación de 4 por 5 sea igual a la división de 20 entre 4.
+
+Finalmente, reviso que la pregunta sea clara y que use una estructura lógica para que sea fácil de entender y resolverse.
+</think>
+
+Claro, aquí tienes una pregunta que permita practicar tablas de multiplicar y una división exacta utilizando números naturales pequeños:
+
+**Pregunta:**",1,1,0.9909959435462952,0.009004056453704834,0.9909959435462952,0.009004056453704834,0.9909959435462952,1,otro,0.9925214648246765,0.007478535175323486,0.9925214648246765,0.007478535175323486,0.9925214648246765,4,otro,0.9217208027839661,0.00026690185768529773,0.005186805967241526,0.0724281594157219,0.0003266182029619813,0.9217208027839661,7.065601676004007e-05,1,OTRO,0.9795011878013611,0.020498812198638916,0.9795011878013611,0.020498812198638916,0.9795011878013611
+48,"Okay, I need to come up with a question where the student has to compare the results of a multiplication and a division problem. Let me think about how to structure this.
+
+First, I should create two simple equations. Maybe start with single-digit numbers to keep it straightforward. For multiplication, I can use 5 times 3, which is 15. For division, perhaps 15 divided by 3, which is also 5. That way, the results are different but related.
+
+Now, the question should ask the student to compare these two results. I want it to be clear that they need to see which is larger or if they are equal. So, I'll phrase it as asking if the multiplication result is greater than the division result.
+
+Putting it all together, the question would be: ""Escribe una pregunta donde el estudiante compare el resultado de una multiplicación con el resultado de una división. Puedes usar los números 5, 3 y",1,1,0.8369697332382202,0.16303026676177979,0.8369697332382202,0.16303026676177979,0.8369697332382202,1,otro,0.8336312770843506,0.16636872291564941,0.8336312770843506,0.16636872291564941,0.8336312770843506,2,division-multiplication,0.5008619427680969,0.08132278174161911,0.24571044743061066,0.5008619427680969,0.006969446782022715,0.16363289952278137,0.0015024796593934298,1,OTRO,0.8953245282173157,0.10467547178268433,0.8953245282173157,0.10467547178268433,0.8953245282173157
+49,"Primero, necesito identificar tres números naturales que puedan ser multiplicados o divididos para obtener el resultado deseado.
+
+Luego, debo determinar cuál de los dos operadores es más adecuado para resolver la ecuación.
+
+Finalmente, presentaré la pregunta con这三个 números y la ecuación que se propongo resolver, asegurándome de que la respuesta sea consistente y lógica.
+</think>
+
+Claro, aquí tienes una pregunta con tres números naturales que requiere decidir si corresponde multiplicar o dividir para resolverla:
+
+**Pregunta:**
+
+¿Cuáles son los tres números naturales que, al multiplicarse entre sí, dan como resultado 60? ¿O al dividir entre sí, también dan como resultado 60? ¿Cómo resuelvemos esta pregunta?
+
+**Solución:**
+
+Para resolver esta pregunta, necesitamos identificar tres números naturales que, al",1,1,0.9945417046546936,0.0054582953453063965,0.9945417046546936,0.0054582953453063965,0.9945417046546936,1,otro,0.9968510270118713,0.003148972988128662,0.9968510270118713,0.003148972988128662,0.9968510270118713,4,otro,0.8769669532775879,0.0007756739505566657,0.020912248641252518,0.10064572095870972,0.0006006936309859157,0.8769669532775879,9.870210487861186e-05,1,OTRO,0.997003972530365,0.0029960274696350098,0.997003972530365,0.0029960274696350098,0.997003972530365
+50,"Primero, necesito identificar la multiplicación incompleta que se me presente. Supongamos que la multiplicación incompleta es 12 × 15 = 180.
+
+Luego, debo proporcionar al estudiante que encuentre el factor faltante, que es el número que falta en la multiplicación para obtener el resultado correcto.
+
+Finalmente, presentaré la pregunta de manera clara y estructurada, incluyendo el ejemplo de la multiplicación incompleta y el factor faltante que el estudiante debe encontrar.
+</think>
+
+Claro, aquí tienes una pregunta donde se presenta una multiplicación incompleta y el estudiante debe encontrar el factor faltante:
+
+**Pregunta:**
+
+**¿Cuál es el factor faltante en la multiplicación siguiente?**
+
+\[
+12 \times 15 = \boxed{?}
+\]
+
+**Respuesta:**
+
+La multiplicación incom",1,1,0.822547197341919,0.17745280265808105,0.822547197341919,0.17745280265808105,0.822547197341919,1,otro,0.9899895191192627,0.010010480880737305,0.9899895191192627,0.010010480880737305,0.9899895191192627,4,otro,0.9648799300193787,0.0008694591815583408,0.0006113956333138049,0.031181607395410538,0.002188283484429121,0.9648799300193787,0.00026939803501591086,1,OTRO,0.9729669690132141,0.02703303098678589,0.9729669690132141,0.02703303098678589,0.9729669690132141
+51,"Primero, necesito definir qué se me pide. El usuario me ha pedido que escriba una pregunta de división exacta donde el cociente tenga dos cifras y pueda verificarse con una multiplicación.
+
+Entonces, debo pensar en un número que pueda dividir entre otro número que resulte en un cociente de dos cifras. Además, el usuario me ha indicado que el usuario debe ser capaz de verificar la división con una multiplicación, lo que significa que el cociente debe ser un número entero.
+
+Me preocupa que el cociente no sea entero, así que debo buscar dos números que al dividirlos entre sí no resulten en un número entero. Por ejemplo, divido 1234 entre 12, lo que me da 102.833..., que no es entero. Sin embargo, si divido 1234 entre 13, me",1,1,0.9998433589935303,0.00015664100646972656,0.9998433589935303,0.00015664100646972656,0.9998433589935303,1,otro,0.9315006732940674,0.06849932670593262,0.9315006732940674,0.06849932670593262,0.9315006732940674,2,division-multiplication,0.52936190366745,0.0015333333285525441,0.025675920769572258,0.52936190366745,0.001341501367278397,0.4417087733745575,0.0003786313463933766,1,OTRO,0.9794377088546753,0.020562291145324707,0.9794377088546753,0.020562291145324707,0.9794377088546753
+52,"Primero, necesito definir qué se me pide. La pregunta debe incluir dos divisiones exactas y solicite ordenar los cocientes de menor a mayor.
+
+Para esto, puedo seleccionar dos números enteros que sean divisibles por otro número entero, lo que me dará dos cocientes exactos.
+
+Luego, debo calcular los cocientes de las divisiones correspondientes.
+
+Finalmente, debo ordenar los cocientes de menor a mayor.
+
+Al final, puedo presentar la pregunta con un ejemplo concretos para que sea fácil de entender y aplicar.
+</think>
+
+Claro, aquí tienes una pregunta que incluye dos divisiones exactas y solicite ordenar sus cocientes de menor a mayor:
+
+**Pregunta:**
+
+""Divide 48 entre 6 y 3, luego ordena los cocientes de menor a mayor.""
+
+**Solución:**
+
+1. **Primera división:**  
+   \( 48",1,1,0.9990484118461609,0.0009515881538391113,0.9990484118461609,0.0009515881538391113,0.9990484118461609,1,otro,0.9821135401725769,0.017886459827423096,0.9821135401725769,0.017886459827423096,0.9821135401725769,4,otro,0.6924068331718445,0.0005824250401929021,0.00741549814119935,0.29591867327690125,0.003317663911730051,0.6924068331718445,0.00035890412982553244,1,OTRO,0.9888133406639099,0.011186659336090088,0.9888133406639099,0.011186659336090088,0.9888133406639099
+53,"Primero, necesito definir los números naturales que serán utilizados en la multiplicación por diez y la división entre diez.
+
+Luego, debo establecer una relación entre estos números para que la multiplicación por diez de un número sea igual al doble de otro número.
+
+Finalmente, construiré una pregunta que refleje esta relación, asegurándolo que el respondiente determine el valor de un número desconocido utilizando las operaciones definidas.
+</think>
+
+Claro, aquí tienes una pregunta para practicar multiplicación por diez y división entre diez utilizando únicamente números naturales:
+
+**Pregunta:**
+
+Si multiplicas un número natural \( x \) por 10 y divides el resultado por 10, ¿qué número obtienes?
+
+**Solución:**
+
+Para resolver esta pregunta, sigamos estos pasos:
+
+1. **Multiplicación por 10:** \( x \times",1,1,0.9990441203117371,0.0009558796882629395,0.9990441203117371,0.0009558796882629395,0.9990441203117371,1,otro,0.9908359050750732,0.009164094924926758,0.9908359050750732,0.009164094924926758,0.9908359050750732,4,otro,0.7592440843582153,0.001197264646179974,0.013975678011775017,0.22127549350261688,0.003975224681198597,0.7592440843582153,0.0003323029086459428,1,OTRO,0.995984673500061,0.004015326499938965,0.995984673500061,0.004015326499938965,0.995984673500061
+54,"Okay, I need to create a question where the answer involves a multiplication and a division. Let me think about how to structure this. Maybe I can set up an equation where the variables are multiplied and then divided. 
+
+Let's say I have an equation like (x * y) / z = something. I want to make sure that the equation is solvable and that the answer will involve both multiplication and division. 
+
+I'll choose numbers that are easy to work with. Let's say x is 10, y is 5, and z is 2. Plugging these in, the equation becomes (10 * 5) / 2 = 25. 
+
+Now, the question should be something like, ""Si (x * y) / z = 25, y sabemos que x es 10 y z es 2, ¿qué es el valor de y?"" 
+
+This way, the question requires solving for y, which involves both",1,1,0.9463127255439758,0.05368727445602417,0.9463127255439758,0.05368727445602417,0.9463127255439758,1,otro,0.9623913168907166,0.03760868310928345,0.9623913168907166,0.03760868310928345,0.9623913168907166,4,otro,0.32991543412208557,0.16622281074523926,0.04783281683921814,0.15452809631824493,0.29640308022499084,0.32991543412208557,0.005097807385027409,1,OTRO,0.833928108215332,0.16607189178466797,0.833928108215332,0.16607189178466797,0.833928108215332
+55,"Okay, so I need to figure out how to create a question that asks someone to identify which multiplication correctly corresponds to an exact division. Let me start by understanding the problem better.
+
+First, I know that division and multiplication are inverse operations. That means if I have a division problem, say 12 ÷ 3 = 4, the corresponding multiplication would be 3 × 4 = 12. So, the question should present a division problem and then give several multiplication options, asking which one is correct.
+
+I should make sure the question is clear and straightforward. Maybe I can structure it as a multiple-choice question where the user has to choose the correct multiplication from the options provided. That way, it's easy to assess which one is the right match.
+
+Let me think about how to phrase it. Perhaps something like, ""¿Cuál de las siguientes multiplicaciones corresponde correctamente a la división exacta de 12 por 3?"" Then list the options like",0,0,0.6314451694488525,0.6314451694488525,0.36855483055114746,0.6314451694488525,0.36855483055114746,1,otro,0.9970231652259827,0.002976834774017334,0.9970231652259827,0.002976834774017334,0.9970231652259827,4,otro,0.767148494720459,0.015216384083032608,0.014090023934841156,0.18534725904464722,0.01617809757590294,0.767148494720459,0.0020197478588670492,1,OTRO,0.9574865102767944,0.042513489723205566,0.9574865102767944,0.042513489723205566,0.9574865102767944
+56,"Primero, necesito definir los conceptos clave: los divisores, el dividenddo y el divisor. El dividenddo es el número que se divide, el divisor es el número que divide a al dividenddo, y el dividenddo es el resultado de la división.
+
+Luego, debo establecer una relación entre estos conceptos usando una multiplicación. Si el dividenddo es el resultado de una división, entonces el dividenddo es igual al divisor multiplicado por el divisor.
+
+Finalmente, debo formular una pregunta que requiera la multiplicación para obtener el dividenddo necesario para una división. Por ejemplo, ""Si el divisor es 5 y el dividenddo es 25, ¿cuál es el resultado de la división?""
+</think>
+
+Claro, aquí tienes una pregunta con números naturales que requiere la multiplicación para obtener el dividendo necesario para una división:
+
+**Pregunta:**
+Si el divisor es 5 y el",1,1,0.9995172023773193,0.00048279762268066406,0.9995172023773193,0.00048279762268066406,0.9995172023773193,1,otro,0.9897220730781555,0.010277926921844482,0.9897220730781555,0.010277926921844482,0.9897220730781555,4,otro,0.858017086982727,0.0017030807211995125,0.05250110104680061,0.0724659264087677,0.014637500047683716,0.858017086982727,0.0006752811023034155,1,OTRO,0.8581805229187012,0.14181947708129883,0.8581805229187012,0.14181947708129883,0.8581805229187012
+57,"Okay, I need to come up with a question where the student has to fix a multiplication or division mistake. Let me think about common errors in these operations.
+
+First, multiplication errors. Maybe they confuse the order, like multiplying 12 by 3 instead of 3 by 12. Or they might forget to carry over a number, like 24 times 5 equals 120 instead of 120. Hmm, which one is more common? I think the order is a bit more frequent because it's a fundamental concept.
+
+Now, division errors. Perhaps they forget to divide by the correct number, like dividing 12 by 3 instead of 3 by 12. Or they might misplace the decimal point, like 12 divided by 3 equals 4 instead of 4.0. Again, which is more common? I'm not sure, but maybe division is a bit trickier because it's more about understanding the process",1,1,0.9714561104774475,0.02854388952255249,0.9714561104774475,0.02854388952255249,0.9714561104774475,1,otro,0.9650134444236755,0.03498655557632446,0.9650134444236755,0.03498655557632446,0.9650134444236755,4,otro,0.4574182629585266,0.09453223645687103,0.09519443660974503,0.1592918485403061,0.02669363282620907,0.4574182629585266,0.16686959564685822,1,OTRO,0.9321995973587036,0.06780040264129639,0.9321995973587036,0.06780040264129639,0.9321995973587036
+58,"Primero, necesito definir las dos multiplicaciones sencillas que quiero usar en la pregunta.
+
+Luego, debo establecer una relación entre las dos multiplicaciones para que la división sea exacta y que el resultado final sea consistente.
+
+Finalmente, reescribo la pregunta de manera clara y sencilla, asegurándome de que la estructura sea clara y fácil de entender.
+</think>
+
+Claro, aquí tienes una pregunta que combina dos multiplicaciones sencillas y una división exacta para encontrar el resultado final:
+
+**Pregunta:**
+
+""Calcular el resultado de la división exacta de la multiplicación de 12 por 5 entre la multiplicación de 3 por 4.""
+
+**Solución:**
+
+Primero, realizamos las multiplicaciones:
+
+- \( 12 \times 5 = 60 \)
+- \( 3 \times 4 = 12 \)
+
+Luego",1,1,0.9992086291313171,0.0007913708686828613,0.9992086291313171,0.0007913708686828613,0.9992086291313171,1,otro,0.9709693193435669,0.029030680656433105,0.9709693193435669,0.029030680656433105,0.9709693193435669,4,otro,0.9094904661178589,0.0018063922179862857,0.002037923550233245,0.07957242429256439,0.006546781864017248,0.9094904661178589,0.0005460670217871666,1,OTRO,0.9666745066642761,0.03332549333572388,0.9666745066642761,0.03332549333572388,0.9666745066642761
+59,"Primero, necesito identificar la operación que quiero evaluar: la multiplicación y la división.
+
+Luego, debo construir una expresión numérica breva que involuca ambas operaciones. Decido usar números enteros para facilitar la interpretación.
+
+Soy goinga usar 12, 3, 4 y 5. Al multiplicar 12 por 3, obtengo 36. Luego, divido este resultado por 4, obteniendo 9. Finalmente, divido por 5 para obtener el resultado final de 1.8.
+
+Esto me permite evaluar la multiplicación y la división de manera clara y sencilla.
+</think>
+
+Claro, aquí tienes una pregunta para evaluar la multiplicación y la división mediante una expresión numérica breve con operaciones exactas:
+
+**Pregunta:**
+¿Cuál es el resultado de la siguiente expresión numérica",1,1,0.9966580867767334,0.0033419132232666016,0.9966580867767334,0.0033419132232666016,0.9966580867767334,1,otro,0.9881725907325745,0.011827409267425537,0.9881725907325745,0.011827409267425537,0.9881725907325745,4,otro,0.9182760715484619,0.0031284510623663664,0.012271671555936337,0.06510322540998459,0.001043326803483069,0.9182760715484619,0.00017720094183459878,1,OTRO,0.9857609868049622,0.014239013195037842,0.9857609868049622,0.014239013195037842,0.9857609868049622
+60,"Primero, necesito identificar la ecuación que debo usar para construir la pregunta. Supongamos que la ecuación sea 2x + 5 = 15.
+
+Luego, debo determinar cuál de las variables es la que se me pide encontrar. En este caso, la variable desconocida es x.
+
+Después, necesito formular la pregunta de manera clara y sencilla, que incluya a la ecuación y a la letra desconocida que se me pide encontrar.
+
+Finalmente, revisaré la pregunta para asegurarme de que sea clara, lógica y que sea fácil de entender para que el estudiante pueda resolverla.
+</think>
+
+Claro, aquí tienes una pregunta de álgebra sencilla que te pide encontrar el valor de una letra desconocida:
+
+**Pregunta:**
+**Ecuación:** \( 2x + 5 = 15",1,1,0.9936568140983582,0.006343185901641846,0.9936568140983582,0.006343185901641846,0.9936568140983582,1,otro,0.9911876916885376,0.008812308311462402,0.9911876916885376,0.008812308311462402,0.9911876916885376,4,otro,0.9111131429672241,0.0012680854415521026,0.004177821334451437,0.08303017914295197,0.0003137935418635607,0.9111131429672241,9.693024185253307e-05,1,OTRO,0.9943656921386719,0.005634307861328125,0.9943656921386719,0.005634307861328125,0.9943656921386719
+61,"Primero, necesito identificar la igualdad que quiero crear. Necesito una variable y una suma para encontrar el valor faltante.
+
+Luego, debo seleccionar un valor conocido que incluya la variable y la suma. Por ejemplo, podría ser 12 + 5 = 17.
+
+Después, necesito resolver la ecuación para encontrar el valor faltante. En este caso, 12 + 5 = 17, por lo que el valor faltante es 17.
+
+Finalmente, presentaré la pregunta con la igualdad y el valor faltante que necesito encontrar.
+</think>
+
+Claro, aquí tienes una pregunta con una igualdad que incluya una variable y una suma para encontrar el valor faltante:
+
+**Pregunta:**
+
+¿Cuál es el valor de \( x \) en la siguiente igualdad?  
+\( 12 + x = 17 \)
+
+**",1,1,0.9497216939926147,0.050278306007385254,0.9497216939926147,0.050278306007385254,0.9497216939926147,1,otro,0.9935378432273865,0.006462156772613525,0.9935378432273865,0.006462156772613525,0.9935378432273865,4,otro,0.957923173904419,0.002967278240248561,0.011720070615410805,0.019082868471741676,0.007806229870766401,0.957923173904419,0.0005003286642022431,1,OTRO,0.978348433971405,0.02165156602859497,0.978348433971405,0.02165156602859497,0.978348433971405
+62,"Primero, identifico que la pregunta debe incluir una variable que aparezca en una resta y que debe ser determinada.
+
+Luego, decido definir la variable de interest como \( x \).
+
+Después, constructo una ecuación que incluya la resta de la variable \( x \) con un número.
+
+Finalmente, escribe la pregunta algebraica que pide resolver para la variable \( x \).
+</think>
+
+Claro, aquí tienes una pregunta algebraica que incluye una variable que aparezca en una resta y que debe ser determinada:
+
+**Pregunta Algebraica:**
+
+**¿Cuál es la valor de \( x \) en la siguiente ecuación?**
+
+\[
+x - 5 = 10
+\]
+
+**Respuesta:**
+
+Para resolver la ecuación, sumamos 5 a ambos lados:
+
+\[
+x - 5 + 5 = 10 + 5
+\]
+
+S",1,1,0.8686922192573547,0.13130778074264526,0.8686922192573547,0.13130778074264526,0.8686922192573547,1,otro,0.9674125909805298,0.032587409019470215,0.9674125909805298,0.032587409019470215,0.9674125909805298,4,otro,0.8089500069618225,0.00620640441775322,0.047142378985881805,0.021720921620726585,0.10596457123756409,0.8089500069618225,0.010015747509896755,1,OTRO,0.9064993262290955,0.09350067377090454,0.9064993262290955,0.09350067377090454,0.9064993262290955
+63,"Primero, necesito definir una variable que represente la cantidad desconocida. Usaré \( x \) para esto.
+
+Luego, debo establecer una ecuación que involuza la multiplicación de esta variable por un número natural. Por ejemplo, podría ser \( 3x = 12 \).
+
+Después, resolveré la ecuación para encontrar el valor de la variable. En este caso, divido ambos lados de la ecuación por 3, obteniendo \( x = 4 \).
+
+Finalmente, revisaré la solución para asegurarme de que no haya errores y que la ecuación se cumpla.
+</think>
+
+Claro, aquí tienes una pregunta con una multiplicación y una variable desconocida que pueda resolverse usando números naturales:
+
+**Pregunta:**
+Si un número natural multiplicado por 3 da 12, ¿qué número es?
+
+**Solución:**
+
+1.",1,1,0.9899847507476807,0.010015249252319336,0.9899847507476807,0.010015249252319336,0.9899847507476807,1,otro,0.993598222732544,0.006401777267456055,0.993598222732544,0.006401777267456055,0.993598222732544,4,otro,0.9579830169677734,0.0007360238232649863,0.005582221783697605,0.03355416655540466,0.0018316793721169233,0.9579830169677734,0.0003129142278339714,1,OTRO,0.9927632212638855,0.007236778736114502,0.9927632212638855,0.007236778736114502,0.9927632212638855
+64,"Primero, identifico que el dividendo es una variable, que puedo representar con la letra x, y el cociente es conocido, que en este caso es 5.
+
+Luego, reconozco que la división está estructurada como x dividido entre 5, lo que se puede expresar como x/5.
+
+Finalmente, reescribo la división en forma de ecuación para clarificar la relación entre el dividendo, el divisor y el cociente.
+</think>
+
+Claro, aquí tienes una pregunta con una división sencilla donde el dividendo es una variable y el cociente es conocido:
+
+**Pregunta:**
+Si el dividendo es la variable \( x \) y el cociente es 5, ¿qué es el divisor?
+
+**Solución:**
+La división se puede expresar como:
+
+\[
+\frac{x}{\text{divisor}} = 5
+\]
+
+Para encontrar",1,1,0.9921259880065918,0.007874011993408203,0.9921259880065918,0.007874011993408203,0.9921259880065918,1,otro,0.9967503547668457,0.003249645233154297,0.9967503547668457,0.003249645233154297,0.9967503547668457,4,otro,0.9399241805076599,0.002210307167842984,0.008435447700321674,0.038815513253211975,0.0097897844389081,0.9399241805076599,0.000824792601633817,1,OTRO,0.9804760813713074,0.019523918628692627,0.9804760813713074,0.019523918628692627,0.9804760813713074
+65,"Okay, I need to create a question that asks someone to complete a numerical sequence and explain the rule using a simple operation. Let me think about how to approach this.
+
+First, I should choose a sequence that's easy to understand but has a clear pattern. Maybe something like 2, 4, 6, 8, 10... That's an even number sequence, and the rule is adding 2 each time.
+
+Next, I need to phrase the question in a way that's clear and instructive. It should guide the person to both complete the sequence and identify the rule. I'll make sure to ask for the next few numbers and the rule.
+
+I should also consider the structure of the question. It should be straightforward but not too obvious so that the person knows exactly what to do. Maybe start with a question mark to prompt a response.
+
+Putting it all together, I'll craft a question that asks for the next few numbers and the rule. I'll make sure",1,1,0.5419446229934692,0.45805537700653076,0.5419446229934692,0.45805537700653076,0.5419446229934692,1,otro,0.7283583283424377,0.27164167165756226,0.7283583283424377,0.27164167165756226,0.7283583283424377,4,otro,0.4127056896686554,0.07858575135469437,0.37827959656715393,0.09535868465900421,0.020687825977802277,0.4127056896686554,0.014382429420948029,1,OTRO,0.7244252562522888,0.2755747437477112,0.7244252562522888,0.2755747437477112,0.7244252562522888
+66,"Primero, necesito entender qué significa determinar si dos expresiones algebraicas sencillas tienen el mismo valor. Es decir, necesito identificar si, para cualquier valor de la variable, las dos expresiones dan el mismo resultado.
+
+Luego, debo construir una pregunta que involuya a la persona que determine si las expresiones tienen el mismo valor. Es importante que la pregunta sea clara y que use un enfoque claro, como ""¿Qué explica tu respuesta?""
+
+Después, debo establecer un ejemplo con un ejemplo numérico para ilustrar la pregunta. Por ejemplo, comparar 2x + 5 y 3x - 2. En este caso, al resolver la ecuación 2x + 5 = 3x - 2, se obtiene x = 7. Esto demuestra que las expresiones tienen el mismo valor cuando x es 7.
+
+Finalmente, revisaré la pregunta para",1,1,0.9279194474220276,0.07208055257797241,0.9279194474220276,0.07208055257797241,0.9279194474220276,1,otro,0.9970608353614807,0.002939164638519287,0.9970608353614807,0.002939164638519287,0.9970608353614807,4,otro,0.8557770252227783,0.0003200929204467684,0.04052288085222244,0.10311270505189896,0.00021969714725855738,0.8557770252227783,4.753468601847999e-05,1,OTRO,0.9972378015518188,0.0027621984481811523,0.9972378015518188,0.0027621984481811523,0.9972378015518188
+67,"Primero, necesito definir una variable para que se use en ambos lados de la igualdad. Decido usar la letra x para facilitar la visualización.
+
+Luego, debo construir una ecuación simple que incluya x en ambos lados. Para esto, puedo sumar x a ambos lados de una expresión algebraica, lo que me asegura que x permanezca en ambos lados.
+
+Finalmente, reviso que la ecuación sea sencilla y que use only una variable, lo que facilitará la comprensión de los estudiantes.
+</think>
+
+Claro, aquí tienes una pregunta que incluye una variable en ambos lados de una igualdad muy sencilla para educación básica:
+
+**Pregunta:**  
+""¿Cuál es la solución de la ecuación \( x + 5 = x + 3 \)?""
+
+**Respuesta:**  
+Para resolver la ecuación, restamos \( x \)",1,1,0.9812921285629272,0.018707871437072754,0.9812921285629272,0.018707871437072754,0.9812921285629272,1,otro,0.9934555888175964,0.0065444111824035645,0.9934555888175964,0.0065444111824035645,0.9934555888175964,4,otro,0.9035529494285583,0.001656282227486372,0.004343927372246981,0.08415772765874863,0.0058413720689713955,0.9035529494285583,0.0004478218615986407,1,OTRO,0.9767900109291077,0.023209989070892334,0.9767900109291077,0.023209989070892334,0.9767900109291077
+68,"Primero, necesito identificar el valor assignado al simbolo \( x \) en la expresión algebraica proporcionada.
+
+Luego, reemplazar \( x \) por este valor en la expresión.
+
+Finalmente, simplificar la expresión para obtener el resultado final.
+
+De esta manera, el estudiante puedo entender cómo sustituir valores en expresiones algebraicas y calcular el resultado correcto.
+</think>
+
+Claro, aquí tienes una pregunta para el estudiante que implica sustituir un valor dado en una expresión algebraica y calcular el resultado:
+
+**Pregunta:**
+
+""En la expresión algebraica \( 3x + 2 \), si \( x = 4 \), ¿qué es el resultado final?""
+
+**Solución:**
+
+1. Reemplaza \( x \) por \( 4 \) en la expresión:
+   \[
+   3(4) + 2
+   \]
+2. Simplifica",0,0,0.514896810054779,0.514896810054779,0.48510318994522095,0.514896810054779,0.48510318994522095,1,otro,0.9836369156837463,0.016363084316253662,0.9836369156837463,0.016363084316253662,0.9836369156837463,4,otro,0.8967022895812988,0.0040341634303331375,0.003449800191447139,0.01311336550861597,0.08140874654054642,0.8967022895812988,0.00129161705262959,1,OTRO,0.9607791304588318,0.03922086954116821,0.9607791304588318,0.03922086954116821,0.9607791304588318
+69,"Okay, I need to create a question to identify which value of a variable makes a simple mathematical equality true. Let me think about how to approach this.
+
+First, I should consider what a simple equality looks like. It's usually something like a + b = c, where a, b, and c are numbers. The goal is to find the value of one of these variables that makes the equation correct.
+
+I should choose a variable that's easy to work with. Maybe something like x, since it's commonly used and straightforward. Let's say the equation is x + 5 = 10. I need to find the value of x that makes this true.
+
+So, the question could be: ""¿Cuál de las siguientes opciones es la solución a la ecuación x + 5 = 10?"" But I need to make sure the options are clear and the question is clear.
+
+Alternatively, I could phrase it as a multiple-choice question. For example: ""¿",1,1,0.7342236638069153,0.2657763361930847,0.7342236638069153,0.2657763361930847,0.7342236638069153,1,otro,0.9668580293655396,0.03314197063446045,0.9668580293655396,0.03314197063446045,0.9668580293655396,4,otro,0.8702683448791504,0.00959710218012333,0.004326437599956989,0.09820032864809036,0.016857082024216652,0.8702683448791504,0.0007507624686695635,1,OTRO,0.9771836996078491,0.02281630039215088,0.9771836996078491,0.02281630039215088,0.9771836996078491
+70,"Primero, identifico que se necesita una relación entre números que se representen con variables.
+
+Luego, decido definir las variables que representen a los números. Por ejemplo, sea \( x \) el número mayor y \( y \) el número menor.
+
+Después, establezco la relación entre \( x \) y \( y \). Supongamos que \( x \) es el triple de \( y \).
+
+Finalmente, convierto esta relación en una expresión algebraica sencilla, es decir, \( x = 3y \).
+</think>
+
+Claro, aquí tienes una pregunta que implica la creación de una expresión algebraica sencilla basada en una relación entre números:
+
+**Pregunta:**
+""Si un número mayor es el triple de un número menor, ¿qué relación se puede expresar con una expresión algebraica sencilla?""
+
+**Solución:**
+
+1. **Definir las variables:",1,1,0.9923646450042725,0.007635354995727539,0.9923646450042725,0.007635354995727539,0.9923646450042725,1,otro,0.9841687083244324,0.015831291675567627,0.9841687083244324,0.015831291675567627,0.9841687083244324,4,otro,0.9755310416221619,0.0013983453391119838,0.0013388022780418396,0.006231890060007572,0.014809153974056244,0.9755310416221619,0.0006908455397933722,1,OTRO,0.9606273174285889,0.03937268257141113,0.9606273174285889,0.03937268257141113,0.9606273174285889
+71,"Primero, necesito identificar la expresión con una variable que quiero utilizar. Decido usar la expresión \( x^2 \) para que sea simple y fácil de evaluar.
+
+Luego, debo proporcionar dos valores diferentes para la variable \( x \). Para facilitar la interpretación, opto por usar números enteros, como 3 y 4.
+
+Finalmente, reescribo la pregunta para que sea clara y fácil de entender, incluyendo la expresión, los valores y la operación que debo realizar.
+</think>
+
+Claro, aquí tienes una pregunta que presents una expresión con una variable y solicita calcularla para dos valores diferentes:
+
+**Pregunta:**
+
+""Calcular la expresión \( x^2 \) para \( x = 3 \) y \( x = 4 \).""
+
+**Respuesta:**
+
+Para calcular la expresión \( x^2 \) para \( x = 3 \)",1,1,0.9931683540344238,0.006831645965576172,0.9931683540344238,0.006831645965576172,0.9931683540344238,1,otro,0.9853904247283936,0.014609575271606445,0.9853904247283936,0.014609575271606445,0.9853904247283936,4,otro,0.9778924584388733,0.00035539615782909095,0.0011021819664165378,0.01783725619316101,0.0020700020249933004,0.9778924584388733,0.0007426911615766585,1,OTRO,0.9901624917984009,0.009837508201599121,0.9901624917984009,0.009837508201599121,0.9901624917984009
+72,"Okay, I need to create a question where the student has to find a missing term in a simple increasing numerical pattern. Let me think about how to approach this.
+
+First, I should come up with a clear pattern. Maybe something like 2, 4, 6, 8, __, 12. That's a common pattern where each term increases by 2. It's straightforward and easy to understand.
+
+Next, I'll phrase the question in a way that the student has to figure out the missing number. So, the question should prompt them to recognize the pattern and apply it to find the missing term.
+
+I should make sure the question is clear and not too vague. Maybe start with a statement that leaves the student to deduce the pattern.
+
+Putting it all together, the question could be: ""El siguiente patrón numérico es creciente y sencillo: 2, 4, 6, 8, __, 12",0,0,0.5083802044391632,0.5083802044391632,0.4916197955608368,0.5083802044391632,0.4916197955608368,1,otro,0.9881390929222107,0.011860907077789307,0.9881390929222107,0.011860907077789307,0.9881390929222107,4,otro,0.8961173892021179,0.02924943156540394,0.013633828610181808,0.02206282690167427,0.037632618099451065,0.8961173892021179,0.0013038398465141654,1,OTRO,0.879716694355011,0.12028330564498901,0.879716694355011,0.12028330564498901,0.879716694355011
+73,"Primero, necesito identificar la operación que se está realizando. En este caso, es una suma.
+
+Luego, debo representar el número desconocido con una letra. Usar ""x"" es una commonly adoptada variable para denotar números desconocidos.
+
+Finalmente, construir la pregunta algebraica utilizando esta letra en la operación de suma.
+</think>
+
+Claro, aquí tienes una pregunta algebraica que utiliza una letra para representar un número desconocido en una operación de suma:
+
+**Pregunta Algebraica:**
+
+\[
+\text{Calcular } x + 5 \text{ si } x = 3.
+\]
+
+**Respuesta:**
+
+\[
+x + 5 = 3 + 5 = 8
+\]
+
+\[
+\boxed{8}
+\]",1,1,0.6543842554092407,0.3456157445907593,0.6543842554092407,0.3456157445907593,0.6543842554092407,1,otro,0.9831011891365051,0.016898810863494873,0.9831011891365051,0.016898810863494873,0.9831011891365051,4,otro,0.6547545790672302,0.02407880499958992,0.006781600881367922,0.20857492089271545,0.10372354090213776,0.6547545790672302,0.0020864729303866625,1,OTRO,0.9553756713867188,0.04462432861328125,0.9553756713867188,0.04462432861328125,0.9553756713867188
+74,"Okay, so I need to create a question where a hidden variable has to be found using multiplication. Hmm, let me think about how to approach this. 
+
+First, I should define what the hidden variable is. Let's say the hidden variable is the number of apples in a basket. That seems straightforward. Now, I need to set up a scenario where multiplication is the key to finding this number. 
+
+Maybe I can describe a situation where the apples are being multiplied by a certain factor. For example, if each apple is in a bag and there are multiple bags, the total number of apples would be the number of apples per bag multiplied by the number of bags. 
+
+Wait, but the question should be a question, not a statement. So I need to phrase it as a question. Let me try to structure it. 
+
+Perhaps: ""How many apples are in the basket if each bag contains 5 apples and there are 4 bags?"" 
+
+In this case, the hidden variable",1,1,0.9671810865402222,0.03281891345977783,0.9671810865402222,0.03281891345977783,0.9671810865402222,1,otro,0.8397117853164673,0.16028821468353271,0.8397117853164673,0.16028821468353271,0.8397117853164673,4,otro,0.4474605321884155,0.1901124119758606,0.02466355264186859,0.17787377536296844,0.15550847351551056,0.4474605321884155,0.004381265491247177,1,OTRO,0.9155088663101196,0.08449113368988037,0.9155088663101196,0.08449113368988037,0.9155088663101196
+75,"Okay, I need to create a question that asks which algebraic expression correctly represents a numerical equality. Let me think about how to approach this.
+
+First, I should define what a numerical equality is. It's an equation where both sides have the same value. So, I need an expression that, when simplified, equals another expression.
+
+Let me consider an example. Suppose I have an equation like 2x + 3 = 5. I need to find which algebraic expression matches this. The correct answer would be 2x + 3 = 5.
+
+Wait, but maybe I should provide a more general question. Perhaps I can ask for an expression that, when simplified, equals another expression. For instance, if I have 3y - 2 = 4y - 6, the correct expression would be 3y - 2 = 4y - 6.
+
+I should make sure the question is clear and asks for the correct expression that represents the equality",1,1,0.6158397197723389,0.38416028022766113,0.6158397197723389,0.38416028022766113,0.6158397197723389,1,otro,0.5727468132972717,0.42725318670272827,0.5727468132972717,0.42725318670272827,0.5727468132972717,0,addition-subtraction,0.4986712634563446,0.4986712634563446,0.2667233943939209,0.05541665852069855,0.1565110683441162,0.02072867564857006,0.0019489937694743276,1,OTRO,0.85373854637146,0.14626145362854004,0.85373854637146,0.14626145362854004,0.85373854637146
+76,"Okay, I need to create a question where the student fills in a simple number table using a variable rule. Let me think about how to approach this.
+
+First, I should define a variable that represents the rule. Maybe something like ""the sum of the two numbers."" That seems straightforward and easy to understand.
+
+Next, I'll set up the table with two columns: one for the first number and one for the second number. I'll include a few rows with numbers to give the student something to work with.
+
+Now, I need to provide the answer, which is the sum of the two numbers in each row. This will guide the student on what to fill in.
+
+I should make sure the question is clear and direct, asking the student to fill in the missing sum in each row. This way, the student can practice applying the rule they've been given.
+
+I'll structure the question to be simple and easy to follow, ensuring that the table is clear and the answer is easy to read",1,1,0.9516357183456421,0.04836428165435791,0.9516357183456421,0.04836428165435791,0.9516357183456421,0,mathematics,0.5479118227958679,0.5479118227958679,0.4520881772041321,0.5479118227958679,0.4520881772041321,2,division-multiplication,0.7405052781105042,0.09326932579278946,0.019142797216773033,0.7405052781105042,0.07757348567247391,0.06819777190685272,0.0013114025350660086,1,OTRO,0.7959440350532532,0.20405596494674683,0.7959440350532532,0.20405596494674683,0.7959440350532532
+77,"Primero, identifico que necesito establecer una regla sencilla que explique cómo se transforman un par de números en otro. 
+
+Luego, observo varios pares de números y analizo cómo cada número se convierte en otro. 
+
+Me aseguro de que la regla sea consistente y aplicable a todos los casos observados.
+
+Finalmente, formulo una pregunta algebraica que pasea a la persona que necesite deducir la regla utilizando los datos proporcionados.
+</think>
+
+Claro, aquí tienes una pregunta algebraica que te permitirá descubrir una regla sencilla observando varios pares de números:
+
+**Pregunta Algebraica:**
+
+""¿Cómo se convierte un par de números en otro siguiendo una regla sencilla? ¿Podrías proporcionar un ejemplo con varios pares de números?""
+
+**Solución:**
+
+Para resolver esta pregunta, necesitarías identificar la relación",1,1,0.9953385591506958,0.004661440849304199,0.9953385591506958,0.004661440849304199,0.9953385591506958,1,otro,0.9970018267631531,0.002998173236846924,0.9970018267631531,0.002998173236846924,0.9970018267631531,4,otro,0.8577062487602234,0.0006540108006447554,0.011854204349219799,0.12905147671699524,0.000596977595705539,0.8577062487602234,0.0001370568643324077,1,OTRO,0.9901706576347351,0.009829342365264893,0.9901706576347351,0.009829342365264893,0.9901706576347351
+78,"Primero, necesito identificar las dos opciones posibles para la variable que se solicitó.
+
+Luego, debo establecer la igualdad que se debe cumplir con dicha variable.
+
+Después, procederé a resolver la ecuación para encontrar la valor de la variable que satisface la igualdad.
+
+Finalmente, presentaré la pregunta y su respuesta resolviendo la ecuación.
+</think>
+
+Claro, aquí tienes una pregunta que incluye dos valores posibles para una variable y solicita indicar cuál satisface la igualdad:
+
+**Pregunta:**
+¿Cuál de los siguientes valores satisface la ecuación \( x + 5 = 12 \)?  
+A) 7  
+B) 8  
+
+**Respuesta:**
+
+Para resolver la ecuación \( x + 5 = 12 \), restamos 5 a ambos lados:
+
+\[
+x + 5 -",1,1,0.9830454587936401,0.016954541206359863,0.9830454587936401,0.016954541206359863,0.9830454587936401,1,otro,0.9968857169151306,0.0031142830848693848,0.9968857169151306,0.0031142830848693848,0.9968857169151306,4,otro,0.9608199000358582,0.001111539895646274,0.0027660608757287264,0.03474864736199379,0.0004394557327032089,0.9608199000358582,0.00011454969353508204,1,OTRO,0.9949041604995728,0.005095839500427246,0.9949041604995728,0.005095839500427246,0.9949041604995728
+79,"Primero, necesito identificar las partes necesarias para construir una pregunta elemental de álgebra básica que combine una variable, una suma y una multiplicación con números pequeños.
+
+Puedo seleccionar una variable, por ejemplo, \( x \), y assignar valores a los números que se usen en la suma y la multiplicación. Por ejemplo, podría elegir que la suma use 3 y 4, y la multiplicación use 2.
+
+Luego, construiré una ecuación que incluya la suma y la multiplicación. Por ejemplo, \( x + 3 \times 4 = 11 \).
+
+Finalmente, revisaré la pregunta para asegurarme de que sea clara, simple y que use números pequeños para facilitar la resolución.
+
+Finalmente, redactaré la pregunta de manera clara y estructurada, asegurándome de que use la notación matemática correcta y que",1,1,0.998766303062439,0.0012336969375610352,0.998766303062439,0.0012336969375610352,0.998766303062439,1,otro,0.9210387468338013,0.07896125316619873,0.9210387468338013,0.07896125316619873,0.9210387468338013,4,otro,0.8981016278266907,0.0009161369525827467,0.01602548360824585,0.08326667547225952,0.0014464983250945807,0.8981016278266907,0.00024360534735023975,1,OTRO,0.9873775839805603,0.012622416019439697,0.9873775839805603,0.012622416019439697,0.9873775839805603
+80,"Primero, necesito definir qué es una figura plana. Una figura plana es una figura que se puede representar en el espacio bidimensional, es decir, en dos dimensiones, como un plano.
+
+Luego, debo identificar los elementos clave que characterize a una figura plana. Estos incluyen la forma, el número de lados, los ángulos y la cantidad de vértices.
+
+El usuario menciona que la pregunta debe permitir identificar una figura plana según su número de lados y vértices. Por lo tanto, la pregunta debe incluir una definición precisa de una figura plana y reflejar cómo el número de lados y vértices se relacionan.
+
+Me preocupa que la respuesta debo proporcionar una definición clara y clara, así que quizás debo simplificarla para que sea fácil de entender y aplicable.
+
+Finalmente, revisaré la pregunta para asegur",1,1,0.9968210458755493,0.0031789541244506836,0.9968210458755493,0.0031789541244506836,0.9968210458755493,1,otro,0.9925798773765564,0.0074201226234436035,0.9925798773765564,0.0074201226234436035,0.9925798773765564,4,otro,0.9635360836982727,0.00017485293210484087,0.005260853562504053,0.030511045828461647,0.0004676363314501941,0.9635360836982727,4.95333515573293e-05,1,OTRO,0.9977344274520874,0.0022655725479125977,0.9977344274520874,0.0022655725479125977,0.9977344274520874
+81,"Primero, necesito determinar las longitudes de los lados del rectángulo. Supongamos que las longitudes son 5 unidades y 7 unidades.
+
+Luego, aplicaré la fórmula del perímetro del rectángulo, que es 2 por la suma de las longitudes y las ancho.
+
+Calculando, el perímetro será 2*(5+7) = 2*12 = 24 unidades.
+
+Finalmente, presentaré la respuesta con el perimeter en un formato claro y estructurado.
+</think>
+
+Claro, aquí tienes una pregunta para el estudiante que implica calcular el perímetro de un rectángulo con medidas enteras:
+
+**Pregunta:**
+
+**Dado un rectángulo con longitudes de 5 unidades y 7 unidades, ¿cuál es el perímetro del rectángulo?**
+
+**Solución:**
+
+El perímetro de un rectángulo se calcula",1,1,0.9332906603813171,0.06670933961868286,0.9332906603813171,0.06670933961868286,0.9332906603813171,1,otro,0.9402316808700562,0.05976831912994385,0.9402316808700562,0.05976831912994385,0.9402316808700562,2,division-multiplication,0.4125870168209076,0.011091923341155052,0.03922579064965248,0.4125870168209076,0.15451230108737946,0.3822886049747467,0.0002943964791484177,1,OTRO,0.9666250348091125,0.03337496519088745,0.9666250348091125,0.03337496519088745,0.9666250348091125
+82,"Primero, identifico que el usuario quiere calcular el perímetro de un cuadrado conociendo la medida de uno de sus lados.
+
+Recuerdo que el perímetro de un cuadrado se calcula sumando las longitudes de todos sus lados. Como todos los lados son iguales, el perímetro se puede calcular simplemente multiplicando la medida de un lado por 4.
+
+Por lo tanto, la pregunta debe pedir que multipliquen la medida de un lado por 4 para obtener el perímetro.
+</think>
+
+Claro, aquí tienes una pregunta para calcular el perímetro de un cuadrado conociendo la medida de uno de sus lados:
+
+**Pregunta:**
+¿Cómo calcular el perímetro de un cuadrado si conoces la medida de uno de sus lados?
+
+**Respuesta:**
+Para calcular el perímetro (\( P \)) de un cuadrado, multiplica la medida (\( a \",1,1,0.9997430443763733,0.000256955623626709,0.9997430443763733,0.000256955623626709,0.9997430443763733,1,otro,0.7520096898078918,0.24799031019210815,0.7520096898078918,0.24799031019210815,0.7520096898078918,4,otro,0.676019012928009,0.013348192907869816,0.022143187001347542,0.24935680627822876,0.03833860903978348,0.676019012928009,0.0007941160001792014,1,OTRO,0.9300348162651062,0.0699651837348938,0.9300348162651062,0.0699651837348938,0.9300348162651062
+83,"Okay, I need to create a question where two geometric shapes are compared based on the number of sides each has. Let me think about how to approach this.
+
+First, I should choose two common geometric shapes. A pentagon and a hexagon come to mind because they are both regular polygons and have a clear difference in the number of sides. That should make the comparison straightforward.
+
+Next, I need to phrase the question in a way that clearly asks about the comparison. Maybe start with a general statement about shapes and then specify the comparison. Something like, ""Compare two regular polygons based on the number of sides each has.""
+
+Now, I should make sure the question is clear and direct. It should guide the user to count the sides of each shape. So, I'll include placeholders for each shape, like ""Péntagon"" for the first and ""Hexágono"" for the second.
+
+Putting it all together, the question should be: ""Compara dos polígonos regul",1,1,0.9901375770568848,0.009862422943115234,0.9901375770568848,0.009862422943115234,0.9901375770568848,1,otro,0.8075587153434753,0.19244128465652466,0.8075587153434753,0.19244128465652466,0.8075587153434753,4,otro,0.40084215998649597,0.03188479691743851,0.15645186603069305,0.37511375546455383,0.03439885005354881,0.40084215998649597,0.0013085650280117989,1,OTRO,0.9168203473091125,0.08317965269088745,0.9168203473091125,0.08317965269088745,0.9168203473091125
+84,"Primero, necesito entender qué significa que identifique cuántos vértices una figura geométrica plana tiene, basándome en su nombre.
+
+Un vértice es un punto donde dos o más líneas o arcos se intersecan en una figura plana. Por ejemplo, en un triángulo, los tres vértices son los puntos donde los lados se intersecan.
+
+Luego, debo identificar cuántos vértices tiene la figura indicada por el nombre proporcionado. Para esto, debo recordar las diferentes figuras geométricas y sus respectivos números de vértices.
+
+Por ejemplo, un triángulo tiene 3 vértices, un cuadrilátero tiene 4, un pentágono tiene 5, y así sucesivamente.
+
+Finalmente, debo aplicar esta razonamiento al nombre proporcionado para determinar el número total de vértices de la figura plan",1,1,0.9986525177955627,0.0013474822044372559,0.9986525177955627,0.0013474822044372559,0.9986525177955627,1,otro,0.9871243238449097,0.012875676155090332,0.9871243238449097,0.012875676155090332,0.9871243238449097,4,otro,0.7504429817199707,0.0010520305950194597,0.012417851947247982,0.2349821925163269,0.0007051383727230132,0.7504429817199707,0.00039973747334443033,1,OTRO,0.9971351623535156,0.002864837646484375,0.9971351623535156,0.002864837646484375,0.9971351623535156
+85,"Primero, necesito determinar las medidas de un rectángulo, que sean naturales y sencillas. Decido usar 5 como la longitud y 3 como la ancho.
+
+Luego, aplicaré la fórmula del área del rectángulo, que es la longitud multiplicada por la ancho.
+
+Calculando 5 por 3, obtenemos un área de 15.
+</think>
+
+Claro, aquí tienes una pregunta para el estudiante que pide calcular el área de un rectángulo con medidas naturales y sencillas:
+
+**Pregunta:**
+
+""Calcular el área de un rectángulo con una longitud de 5 unidades y una ancho de 3 unidades.""
+
+**Solución:**
+
+Para calcular el área del rectángulo, utilizamos la fórmula:
+
+\[
+\text{Área} = \text{Longitud} \times \text{Ancho}
+\]
+
+Sustit",1,1,0.9893379211425781,0.010662078857421875,0.9893379211425781,0.010662078857421875,0.9893379211425781,1,otro,0.9781766533851624,0.021823346614837646,0.9781766533851624,0.021823346614837646,0.9781766533851624,4,otro,0.8651798963546753,0.003440041560679674,0.012348121963441372,0.10669199377298355,0.011883626691997051,0.8651798963546753,0.0004563037946354598,1,OTRO,0.9670759439468384,0.03292405605316162,0.9670759439468384,0.03292405605316162,0.9670759439468384
+86,"Primero, necesito determinar la longitud conocida del lado del cuadrado. Supongamos que esta longitud es denotada como \( s \).
+
+Luego, recall la fórmula para calcular el área de un cuadrado, que es el cuadrado del lado. Es decir, el área \( A \) se calcula como \( A = s^2 \).
+
+Finalmente, reemplazar la longitud conocida en la fórmula para obtener el área exacto del cuadrado.
+</think>
+
+Para calcular el área de un cuadrado basado en la longitud conocida del lado, sigamos estos pasos:
+
+1. **Denominación de la longitud del lado:**
+   Supongamos que la longitud del lado del cuadrado es \( s \).
+
+2. **Fórmula del área del cuadrado:**
+   El área \( A \) del cuadrado se puede calcular con la siguiente f",1,1,0.9770669341087341,0.02293306589126587,0.9770669341087341,0.02293306589126587,0.9770669341087341,1,otro,0.9790711402893066,0.02092885971069336,0.9790711402893066,0.02092885971069336,0.9790711402893066,4,otro,0.988544762134552,0.0004744086763821542,0.00035197913530282676,0.0060160052962601185,0.004548574332147837,0.988544762134552,6.421390571631491e-05,1,OTRO,0.9778384566307068,0.022161543369293213,0.9778384566307068,0.022161543369293213,0.9778384566307068
+87,"Primero, identifico las propiedades principales de un triángulo, un cuadrado y un rectángulo.
+
+Un triángulo tiene tres lados y un ángulo interior mayor que los otros dos.
+
+Un cuadrado tiene cuatro lados iguales y cuatro ángulos rectos.
+
+Un rectángulo tiene cuatro ángulos rectos y dos pares de lados iguales.
+
+Luego, comparo estas características para identificar las diferencias entre los tres figureados.
+
+Finalmente, formulate una pregunta que use estas diferencias para distinguir entre un triángulo, un cuadrado y un rectángulo.
+</think>
+
+Claro, aquí tienes una pregunta que permitirá diferenciar un triángulo, un cuadrado y un rectángulo mediante sus propiedades geométricas:
+
+**Pregunta:**
+¿Cuál de los siguientes elementos es characteristico de un triángulo, un cuadrado y un rectáng",1,1,0.9997547268867493,0.0002452731132507324,0.9997547268867493,0.0002452731132507324,0.9997547268867493,1,otro,0.9823801517486572,0.017619848251342773,0.9823801517486572,0.017619848251342773,0.9823801517486572,4,otro,0.9730333685874939,0.0014495201176032424,0.0008065056172199547,0.008561925031244755,0.01513096783310175,0.9730333685874939,0.0010177616495639086,1,OTRO,0.9826083183288574,0.017391681671142578,0.9826083183288574,0.017391681671142578,0.9826083183288574
+88,"Primero, identifico que el estudiante necesita determinar la medida de un lado faltante del rectángulo, sabiendo su perimeter y las longitudes de los otros tres lados.
+
+Luego, establezco la fórmula del perimeter del rectángulo, que es 2*(longitud + ancho).
+
+Sustituyo los valores conocidos en la fórmula para resolver la ecuación y encontrar la longitud o ancho faltante.
+
+Finalmente, presento la pregunta en español, asegurándome de que sea clara y fácil de entender para el estudiante.
+</think>
+
+Claro, aquí tienes una pregunta para el estudiante que pide determinar la medida de un lado faltante del rectángulo, sabiendo su perimeter y las longitudes de los otros tres lados:
+
+**Pregunta:**
+
+*¿Cuál es la medida del lado faltante del rectángulo si el perimeter es",1,1,0.9775570631027222,0.022442936897277832,0.9775570631027222,0.022442936897277832,0.9775570631027222,1,otro,0.9489498138427734,0.05105018615722656,0.9489498138427734,0.05105018615722656,0.9489498138427734,4,otro,0.830300509929657,0.003595709800720215,0.016604885458946228,0.14608226716518402,0.0033020139671862125,0.830300509929657,0.00011453654587967321,1,OTRO,0.9536728262901306,0.046327173709869385,0.9536728262901306,0.046327173709869385,0.9536728262901306
+89,"Primero, necesito definir qué es un triángulo equilátero. Es un triángulo donde todos los lados son iguales en longitud.
+
+Luego, debo determinar cuándo un triángulo es equilátero. Si todos los lados son iguales, también se cumplen las condiciones necesarias para que el triángulo sea equilátero.
+
+Finalmente, puedo formular una pregunta que pida determinar si un triángulo es equilátero basándose en la longitud de sus lados.
+</think>
+
+Claro, aquí tienes una pregunta de geometría que solicite clasificar un triángulo según la longitud de sus lados:
+
+**Pregunta:**
+
+**¿Determine si un triángulo es equilátero basándose en la longitud de sus lados?**
+
+**Solución:**
+
+Para determinar si un triángulo es equilátero, necesitamos verificar",1,1,0.999813973903656,0.00018602609634399414,0.999813973903656,0.00018602609634399414,0.999813973903656,1,otro,0.9849491715431213,0.015050828456878662,0.9849491715431213,0.015050828456878662,0.9849491715431213,4,otro,0.9652225375175476,0.00028369922074489295,0.0006510565290227532,0.03313978761434555,0.0005092303617857397,0.9652225375175476,0.0001936687622219324,1,OTRO,0.9821437001228333,0.017856299877166748,0.9821437001228333,0.017856299877166748,0.9821437001228333
+90,"Primero, necesito identificar la figura que tiene cuatro lados iguales y cuatro ángulos rectos.
+
+Recuerdo que una figura con cuatro ángulos rectos se conoce como un cuadrilátero. Ahora, si el cuadrilátero tiene cuatro lados iguales, es un rombo.
+
+Para asegurar que el rombo sea un cuadrado, también debe tener ángulos iguales. Si el rombo también tiene ángulos iguales, entonces es un cuadrado.
+
+Finalmente, concluyo que la figura que cumple con estas características es un cuadrado.
+</think>
+
+Para identificar la figura que tiene cuatro lados iguales y cuatro ángulos rectos, seguiremos estos pasos:
+
+1. **Identificar la Figure con Cuatro ángulos Rectos:**
+   - La figura debe tener cuatro ángulos de 90 grados.
+
+2. **Determinar la Figure",1,1,0.9979186654090881,0.0020813345909118652,0.9979186654090881,0.0020813345909118652,0.9979186654090881,1,otro,0.9486711025238037,0.05132889747619629,0.9486711025238037,0.05132889747619629,0.9486711025238037,2,division-multiplication,0.5302509665489197,0.011352572590112686,0.00536233838647604,0.5302509665489197,0.00477954838424921,0.44324788451194763,0.005006721708923578,1,OTRO,0.9657427072525024,0.03425729274749756,0.9657427072525024,0.03425729274749756,0.9657427072525024
+91,"Primero, necesito identificar cuántos lados tiene un pentágono. Un pentágono es un polígono que tiene cinco lados.
+
+Luego, para determinar el número de vértices, note que cada lado de un polígono tiene dos vértices, pero cada vértice se cruza con otro lado. Por lo tanto, el número de vértices es igual al número de lados.
+
+Finalmente, concluyo que un pentágono tiene cinco lados y cinco vértices.
+</think>
+
+Claro, aquí tienes una pregunta para determinar cuántos lados y vértices tiene un pentágono y expresar ambos valores:
+
+**Pregunta:**
+¿Cuántos lados y vértices tiene un pentágono? Expresado de dos maneras:  
+- Lados:  
+- vértices:
+
+**Respuesta:**
+
+Un pentágono tiene **5 lados** y",1,1,0.996156632900238,0.003843367099761963,0.996156632900238,0.003843367099761963,0.996156632900238,1,otro,0.9396647214889526,0.06033527851104736,0.9396647214889526,0.06033527851104736,0.9396647214889526,4,otro,0.8342596292495728,0.004885690286755562,0.004344832617789507,0.1401970386505127,0.014289883896708488,0.8342596292495728,0.002022908302024007,1,OTRO,0.9424992203712463,0.05750077962875366,0.9424992203712463,0.05750077962875366,0.9424992203712463
+92,"Primero, necesito definir los dos cuadrados con diferentes longitudes de lado. Supongamos que el primer cuadrado tiene una longitud de lado de 5 unidades y el segundo tiene una longitud de lado de 7 unidades.
+
+Luego, calcular el perímetro del primer cuadrado sumando las longitudes de sus lados: 5 + 5 + 5 + 5 = 20 unidades.
+
+Finalmente, calcular el perímetro del segundo cuadrado sumando las longitudes de sus lados: 7 + 7 + 7 + 7 = 28 unidades.
+
+Comparando los perímetros, noto que el segundo cuadrado tiene un perímetro mayor que el primer cuadrado.
+</think>
+
+Claro, aquí tienes una pregunta para comparar el perímetro de dos cuadrados con diferentes longitudes de lado:
+
+**Pregunta:**
+""Calcular el perímetro de dos cuadrados con longitudes",1,1,0.9999513626098633,4.863739013671875e-05,0.9999513626098633,4.863739013671875e-05,0.9999513626098633,0,mathematics,0.5196068584918976,0.5196068584918976,0.4803931415081024,0.5196068584918976,0.4803931415081024,4,otro,0.45345401763916016,0.2505524158477783,0.021202461794018745,0.222903311252594,0.05138147622346878,0.45345401763916016,0.0005062715499661863,1,OTRO,0.9262469410896301,0.07375305891036987,0.9262469410896301,0.07375305891036987,0.9262469410896301
+93,"Okay, I need to create a question that asks someone to recognize parallel and perpendicular lines through a simple, written description. Let me think about how to structure this.
+
+First, I should consider the key concepts: parallel lines and perpendicular lines. I need to make sure the question clearly distinguishes between them. Maybe start by describing a figure or a scenario where these lines are present.
+
+I should use clear and straightforward language so that the question is easy to understand. Perhaps start with a visual description, like ""a figure with two lines,"" and then specify what they are.
+
+I also want to make sure the question is not too vague. Maybe include a specific example, like ""a figure with two lines that are both horizontal and vertical."" That way, it's clear what the lines are.
+
+I should avoid using any technical jargon or complex terms. Keep it simple and direct. Let me put this together: ""Can you identify the two lines in the figure that are both parallel and perpendicular?"" Hmm",1,1,0.6558834910392761,0.3441165089607239,0.6558834910392761,0.3441165089607239,0.6558834910392761,1,otro,0.9389879107475281,0.061012089252471924,0.9389879107475281,0.061012089252471924,0.9389879107475281,4,otro,0.3834610879421234,0.2313012331724167,0.024811256676912308,0.24088110029697418,0.11438846588134766,0.3834610879421234,0.005156854633241892,1,OTRO,0.9341703653335571,0.06582963466644287,0.9341703653335571,0.06582963466644287,0.9341703653335571
+94,"Okay, I need to help the user by creating a question where the student has to identify whether an angle is right, acute, or obtuse. Let me think about how to approach this.
+
+First, I should consider the user's possible scenario. They might be a teacher or a parent looking to assess students' understanding of angles. The question should be clear and direct, prompting the student to classify the angle based on its measure.
+
+I should make the question open-ended enough to allow the student to explain their reasoning. That way, I can gather more information about their understanding. Maybe include a visual element, like a protractor or angle markers, to make it more interactive.
+
+I also need to ensure the question is not too vague. The student should be able to determine the type of angle without prior knowledge. So, I'll describe a scenario where the angle is part of a geometric figure, which makes it more relatable.
+
+Let me structure the question: ""Imagine you're looking at a",1,1,0.5280812382698059,0.4719187617301941,0.5280812382698059,0.4719187617301941,0.5280812382698059,1,otro,0.9774330258369446,0.02256697416305542,0.9774330258369446,0.02256697416305542,0.9774330258369446,4,otro,0.6090862154960632,0.008001142181456089,0.009558361954987049,0.3082936704158783,0.036285024136304855,0.6090862154960632,0.02877555787563324,1,OTRO,0.9407670497894287,0.05923295021057129,0.9407670497894287,0.05923295021057129,0.9407670497894287
+95,"Primero, identifico que el perímetro de un cuadrado es igual a four veces la longitud de uno de sus lados.
+
+Luego, reconozco que la fórmula para calcular el lado del cuadrado con el perímetro es dividir el perímetro por cuatro.
+
+Finalmente, escribe la pregunta que pida calcular el lado del cuadrado al conocer su perímetro.
+</think>
+
+Claro, aquí tienes una pregunta que permita calcular la medida de un lado de un cuadrado conociendo su perímetro:
+
+**Pregunta:**
+¿Cómo calcular el lado de un cuadrado si conoces su perímetro?
+
+**Solución:**
+
+Para calcular el lado de un cuadrado conociendo su perímetro, sigamos estos pasos:
+
+1. **Recall la fórmula del perímetro del cuadrado:**
+   
+   El perímetro (\( P \)) de un cuadrado es igual",1,1,0.9986476302146912,0.0013523697853088379,0.9986476302146912,0.0013523697853088379,0.9986476302146912,1,otro,0.983489990234375,0.016510009765625,0.983489990234375,0.016510009765625,0.983489990234375,4,otro,0.9198651313781738,0.0019070227863267064,0.0019402795005589724,0.05591890960931778,0.019846927374601364,0.9198651313781738,0.0005217613652348518,1,OTRO,0.8762585520744324,0.12374144792556763,0.8762585520744324,0.12374144792556763,0.8762585520744324
+96,"Primero, necesito definir los dos rectángulos con sus longitudes y ancho.
+
+Luego, calcular la área de cada rectángulo multiplicando la longitud por el ancho.
+
+Después, comparar las áreas de ambos rectángulos.
+
+Finalmente, presentar la pregunta con los datos necesarios para que el respondido determine la relación entre las áreas.
+</think>
+
+Claro, aquí tienes una pregunta que compara las áreas de dos rectángulos basada en sus medidas de largo y ancho:
+
+**Pregunta:**
+
+""¿Cuál es la relación entre las áreas de dos rectángulos si el primero tiene una longitud de 5 unidades y un ancho de 3 unidades, y el segundo tiene una longitud de 4 unidades y un ancho de 4 unidades?""
+
+**Solución:**
+
+Para determinar la relación entre las áreas, seguiremos estos pasos:
+
+1. **Calcular la área del primer rectángulo:**",1,1,0.9998362064361572,0.00016379356384277344,0.9998362064361572,0.00016379356384277344,0.9998362064361572,1,otro,0.9875679016113281,0.012432098388671875,0.9875679016113281,0.012432098388671875,0.9875679016113281,4,otro,0.9341649413108826,0.0026593792717903852,0.005873830057680607,0.048553064465522766,0.008316886611282825,0.9341649413108826,0.00043191140866838396,1,OTRO,0.9724647998809814,0.027535200119018555,0.9724647998809814,0.027535200119018555,0.9724647998809814
+97,"Okay, I need to create a geometry question that asks someone to identify a three-dimensional figure based on its faces, edges, and vertices. Let me think about what I know about polyhedrons.
+
+First, I should recall the basic properties of common polyhedrons. The most common ones are cubes, pyramids, prisms, and maybe some others like tetrahedrons or octahedrons. Each of these has a specific number of faces, edges, and vertices.
+
+Let me list some examples:
+
+- Cube: 6 faces, 12 edges, 8 vertices.
+- Square Pyramid: 5 faces (1 square base and 4 triangular sides), 8 edges, 5 vertices.
+- Triangular Prism: 5 faces (2 triangular bases and 3 rectangular sides), 9 edges, 6 vertices.
+- Tetrahedron: 4 triangular faces, 6 edges, 4 vertices.
+- Octahedron: 8 triangular faces,",1,1,0.9932337403297424,0.006766259670257568,0.9932337403297424,0.006766259670257568,0.9932337403297424,0,mathematics,0.9296823590993881,0.9296823590993881,0.07031764090061188,0.9296823590993881,0.07031764090061188,3,geometry,0.8383607864379883,0.051307883113622665,0.01115425769239664,0.015939710661768913,0.8383607864379883,0.07612747699022293,0.007109845522791147,1,OTRO,0.6924384832382202,0.3075615167617798,0.6924384832382202,0.3075615167617798,0.6924384832382202
+98,"Primero, necesito entender qué se me pide en este problema. El usuario me pide que genere una pregunta en la que el estudiante determine cuántos ejes de simetría tiene una figura geométrica sencilla.
+
+Entonces, primero de todo, debo pensar en qué figuras geométricas son sencillas y poseen una cantidad fija de ejes de simetría. Algunas figuras son más sencillas que otras, y la cantidad de ejes de simetría puede variar.
+
+Me pregunto, ¿cómo puedo identificar una figura con una cantidad fija de ejes de simetría? Quizás las figuras simétricas, como los triángulos equiláteros, los cuadrados, las círculos, las esferas, las pirámides, las prisma y los conos. Estas figuras son sencillas y poseen",1,1,0.999384880065918,0.0006151199340820312,0.999384880065918,0.0006151199340820312,0.999384880065918,1,otro,0.9926281571388245,0.007371842861175537,0.9926281571388245,0.007371842861175537,0.9926281571388245,4,otro,0.6958352327346802,0.0017138826660811901,0.004693189170211554,0.2939254641532898,0.0027571949176490307,0.6958352327346802,0.0010750128421932459,1,OTRO,0.9984109401702881,0.001589059829711914,0.9984109401702881,0.001589059829711914,0.9984109401702881
+99,"Primero, necesito definir qué se me pide evaluar: el reconocimiento de figuras círculo, triángulo, cuadrado y rectángulo mediante propiedades escritas.
+
+Luego, debo identificar las características relevantes de cada figura que puedo usar para evaluar su reconocimiento. Por ejemplo, para el círculo, puedo considerar su roundaza, la simetría radial y la distancia constante del centro.
+
+Para el triángulo, esfuerzo en tres lados iguales y ángulos iguales en un triángulo equilátero.
+
+Un cuadrado tiene cuatro lados iguales y ángulos rectos, y su simetría es axial y central.
+
+Un rectángulo tiene cuatro lados, dos pares de quebradas y dos iguales, y su simetría es axial y central.
+
+Finalmente, debo estructurar la pregunta de manera",1,1,0.9991858601570129,0.0008141398429870605,0.9991858601570129,0.0008141398429870605,0.9991858601570129,1,otro,0.9944686889648438,0.00553131103515625,0.9944686889648438,0.00553131103515625,0.9944686889648438,4,otro,0.9659470915794373,0.001817673328332603,0.003892658744007349,0.02623957023024559,0.0019244173308834434,0.9659470915794373,0.00017864533583633602,1,OTRO,0.9960499405860901,0.003950059413909912,0.9960499405860901,0.003950059413909912,0.9960499405860901
