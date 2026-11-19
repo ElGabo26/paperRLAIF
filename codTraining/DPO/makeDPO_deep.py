@@ -172,7 +172,7 @@ training_args = DPOConfig(
     loss_type="sigmoid",
 
     # Longitud total máxima: prompt + respuesta.
-    max_length=512,
+    max_length=850,
 
     # --------------------------------------------------------
     # Memoria y precisión
