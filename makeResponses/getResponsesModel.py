@@ -9,7 +9,7 @@ from loadAlginModelTools import cargar_modelo, generar_respuestas_batch
 REPETITIONS=1
 MODEL_ROUTE="/workspace/models"
 RUTAOUTPUT="/workspace/paperRLAIF/makeResponses/responses"
-base=pd.read_csv("/workspace/papaerRLAIF/makeResponses/promptBases/finalPromptBases/elementary_math_prompts_1200.csv")
+base=pd.read_csv("/workspace/paperRLAIF/makeResponses/promptBases/finalPromptBases/elementary_math_prompts_1200.csv")
 prompts=base['prompt'].values.tolist()
 total=len(prompts)
 
