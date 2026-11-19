@@ -10,11 +10,11 @@ from evaluateResponsesTools import evaluateResponses
 
 ROUTE_BERT="/workspace/models/deberta-v3-large"
 ROUTE_CABEZALES="/workspace/adaptedModels/cabezales"
-ROUTE_ENCODER="/workspace/papaerRLAIF/codTraining/cabezales/encoders"
-ROUTE_RESPONSES="/workspace/papaerRLAIF/makeResponses/responses" 
-OUTPUT_ROUTE="/workspace/papaerRLAIF/makeResponses/evaluatedResponses"
-MAX_LENGTH = 256
-BATCH_SIZE = 8
+ROUTE_ENCODER="/workspace/paperRLAIF/codTraining/cabezales/encoders"
+ROUTE_RESPONSES="/workspace/paperRLAIF/makeResponses/responses" 
+OUTPUT_ROUTE="/workspace/paperRLAIF/makeResponses/evaluatedResponses"
+MAX_LENGTH = 600
+BATCH_SIZE = 12
 
 DEVICE = torch.device(
     "cuda" if torch.cuda.is_available() else "cpu"
