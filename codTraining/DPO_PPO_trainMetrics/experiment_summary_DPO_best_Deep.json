@@ -1,0 +1,59 @@
+{
+    "model_id": "/workspace/models/DeepSeek-R1-Distill-Qwen-1.5B",
+    "preferences_file": "/workspace/papaerRLAIF/codTraining/calify/preferencesDeep.csv",
+    "seed": 42,
+    "dataset": {
+        "total_examples": 6000,
+        "train_examples": 4500,
+        "eval_examples": 1500,
+        "test_size": 0.25
+    },
+    "dpo": {
+        "num_train_epochs": 5,
+        "learning_rate": 1e-05,
+        "beta": 0.1,
+        "loss_type": [
+            "sigmoid"
+        ],
+        "max_length": 850,
+        "per_device_train_batch_size": 8,
+        "per_device_eval_batch_size": 8,
+        "gradient_accumulation_steps": 4,
+        "effective_batch_size_single_gpu": 32
+    },
+    "lora": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.0,
+        "bias": "none",
+        "target_modules": "{'q_proj', 'v_proj'}"
+    },
+    "precision": {
+        "bf16": true,
+        "fp16": false
+    },
+    "best_model": {
+        "best_epoch": 5.0,
+        "best_eval_loss": 0.6427357196807861,
+        "best_checkpoint": "/workspace/adaptedModels/DPO/DeepSeek-R1-Distill-Qwen-1.5B-DPO/checkpoint-705",
+        "saved_path": "/workspace/adaptedModels/DPO/DeepSeek-R1-Distill-Qwen-1.5B-DPO/best_model"
+    },
+    "final_evaluation": {
+        "eval_loss": 0.6427357196807861,
+        "eval_runtime": 95.4451,
+        "eval_samples_per_second": 15.716,
+        "eval_steps_per_second": 1.97,
+        "eval_entropy": 0.9618520429159733,
+        "eval_num_tokens": 18383335.0,
+        "eval_logits/chosen": 0.9943660450345141,
+        "eval_logits/rejected": 0.9805472228353642,
+        "eval_mean_token_accuracy": 0.8111776807840835,
+        "eval_rewards/chosen": -1.094771091291245,
+        "eval_rewards/rejected": -1.2586562218184167,
+        "eval_rewards/accuracies": 0.6356382978723404,
+        "eval_rewards/margins": 0.16388513990975123,
+        "eval_logps/chosen": -229.35628769245554,
+        "eval_logps/rejected": -241.59154940666036,
+        "epoch": 5.0
+    }
+}

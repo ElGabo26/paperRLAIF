@@ -1,0 +1,125 @@
+prompt,response,algin,model,prompt_id
+Generate a geometry question where the student identifies a plane shape from its number of sides and vertices. Use text only.,What is a polygon with 5 sides?,DPO,Llama-3.2-1B-Instruct-DPO,P001
+Create a question where the student calculates the perimeter of a rectangle from given whole-number measurements. Use text only.,What is the perimeter of a rectangle with a length of 8 cm and a width of 5 cm?,DPO,Llama-3.2-1B-Instruct-DPO,P002
+Write a question asking the student to calculate the perimeter of a square from the length of one side. Use text only.,What is the perimeter of a square if the length of one side is 8 cm?,DPO,Llama-3.2-1B-Instruct-DPO,P003
+Generate a question comparing two geometric shapes by the number of sides each shape has. Use text only.,What is the difference in the number of sides between a hexagon and a square?,DPO,Llama-3.2-1B-Instruct-DPO,P004
+Create a question asking how many vertices a named plane shape has. Use text only.,How many vertices does a named plane have?,DPO,Llama-3.2-1B-Instruct-DPO,P005
+Write a question where the student calculates the area of a rectangle using simple whole-number measurements. Use text only.,What is the area of a rectangle with a length of 5 cm and a width of 3 cm?,DPO,Llama-3.2-1B-Instruct-DPO,P006
+Generate a question asking the student to calculate the area of a square from its side length. Use text only.,What is the area of a square given its side length?,DPO,Llama-3.2-1B-Instruct-DPO,P007
+"Create a question that distinguishes a triangle, square, and rectangle using their geometric properties. Use text only.",What is the difference between a triangle with two sides of equal length and a square with all sides of equal length?,DPO,Llama-3.2-1B-Instruct-DPO,P008
+Write a question where the student finds a missing side length from the known perimeter of a rectangle. Use text only.,What is the length of the missing side of a rectangle with a perimeter of 48 cm?,DPO,Llama-3.2-1B-Instruct-DPO,P009
+Generate a geometry question asking the student to classify a triangle by the lengths of its sides. Use text only.,"What type of triangle has the following side lengths: 5, 6, and 7?",DPO,Llama-3.2-1B-Instruct-DPO,P010
+Create a question where the student identifies the shape with four equal sides and four right angles. Use text only.,What is a square?,DPO,Llama-3.2-1B-Instruct-DPO,P011
+Write a question asking how many sides and vertices a pentagon has. Use text only.,How many sides and vertices does a pentagon have?,DPO,Llama-3.2-1B-Instruct-DPO,P012
+Generate a question where the student compares the perimeters of two squares with different side lengths. Use text only.,What is the perimeter of a square with a side length of 5 cm compared to the perimeter of a square with a side length of 8 cm?,DPO,Llama-3.2-1B-Instruct-DPO,P013
+Create a question asking the student to recognize parallel and perpendicular lines from a simple written description. Use text only.,What are the characteristics of parallel lines in a written description?,DPO,Llama-3.2-1B-Instruct-DPO,P014
+"Write a question where the student identifies an angle as right, acute, or obtuse from its measure. Use text only.",What is the measure of angle A in the triangle?,DPO,Llama-3.2-1B-Instruct-DPO,P015
+Generate a question where the student finds the side length of a square from its known perimeter. Use text only.,What is the side length of a square given its perimeter of 48 units?,DPO,Llama-3.2-1B-Instruct-DPO,P016
+Create a question comparing the areas of two rectangles from their lengths and widths. Use text only.,"Which rectangle has a larger area: 
+- Rectangle 1:  5 x 8 
+- Rectangle 2:  3 x 6",DPO,Llama-3.2-1B-Instruct-DPO,P017
+"Write a geometry question asking the student to identify a three-dimensional shape from its faces, edges, and vertices. Use text only.","What is the name of the three-dimensional shape with 6 faces, 12 edges, and 8 vertices?",DPO,Llama-3.2-1B-Instruct-DPO,P018
+Generate a question where the student determines the number of lines of symmetry in a simple geometric shape. Use text only.,What is the number of lines of symmetry in a square?,DPO,Llama-3.2-1B-Instruct-DPO,P019
+"Create a question that assesses recognition of circles, triangles, squares, and rectangles from written properties. Use text only.",What is the property of a square that is represented by the equation: a^2 + b^2 = c^2?,DPO,Llama-3.2-1B-Instruct-DPO,P020
+Create a word problem where a rectangular garden has given length and width and the student finds its perimeter. Use text only.,A rectangular garden measures 15 meters in length and 8 meters in width. What is the perimeter of the garden?,DPO,Llama-3.2-1B-Instruct-DPO,P021
+Generate a word problem where square tiles cover a small rectangular floor and the student finds the total area. Use text only.,"A school has a rectangular floor with dimensions 12 meters by 8 meters. The school purchased 240 square tiles, each measuring 10 cm by 10 cm. How many square meters are covered by the tiles?",DPO,Llama-3.2-1B-Instruct-DPO,P022
+Write a geometry problem where the student compares two routes made of straight line segments and determines which is longer. Use text only.,"A rectangular garden measures 15 meters by 8 meters. Two routes are made of straight line segments. Route A is 3 meters long, and Route B is 4 meters long. Which route is longer?",DPO,Llama-3.2-1B-Instruct-DPO,P023
+Create a problem where the student finds an unknown rectangle dimension from its area and one known side. Use text only.,A rectangular prism has an area of 144 square units and a side length of 12 units. What is the length of the other side?,DPO,Llama-3.2-1B-Instruct-DPO,P024
+"Generate a problem describing a simple solid shape and ask the student to identify it using its faces, edges, and vertices. Use text only.","A rectangular prism has 6 faces, 8 edges, and 4 vertices.",DPO,Llama-3.2-1B-Instruct-DPO,P025
+Generate a question combining multiplication and division with natural numbers that gives a whole-number result. Use text only.,What is 6 divided by 2 multiplied by 9?,DPO,Llama-3.2-1B-Instruct-DPO,P026
+Create a question where the student multiplies two numbers and then divides the result by another number. Use text only.,What is  24 divided by 6 multiplied by 8?,DPO,Llama-3.2-1B-Instruct-DPO,P027
+Write a question that practices exact division and asks the student to check the result using multiplication. Use text only.,What is 48 ÷ 6 = ?,DPO,Llama-3.2-1B-Instruct-DPO,P028
+Generate a multiplication question with two factors followed by a division suitable for elementary students. Use text only.,2 x 6 = ?,DPO,Llama-3.2-1B-Instruct-DPO,P029
+Create a question with a missing factor where multiplication or division is needed to find its value. Use text only.,What is 48 ÷ 6,DPO,Llama-3.2-1B-Instruct-DPO,P030
+Write a question with two multiplications and ask the student to determine which product is greater. Use text only.,What is 3 × 6 compared to 9?,DPO,Llama-3.2-1B-Instruct-DPO,P031
+Generate a question where the student finds an unknown divisor from a known dividend and quotient. Use text only.,What is the unknown divisor if 48 ÷ 12 = 4?,DPO,Llama-3.2-1B-Instruct-DPO,P032
+Create a question that practices multiplication facts and exact division using small natural numbers. Use text only.,What is 6 x 9 ÷ 3,DPO,Llama-3.2-1B-Instruct-DPO,P033
+Write a question where the student compares the result of a multiplication with the result of a division. Use text only.,What is 6 divided by 2 equal to 3?,DPO,Llama-3.2-1B-Instruct-DPO,P034
+Generate a question with three natural numbers where the student decides whether to multiply or divide. Use text only.,"What should the student do with the numbers 4, 6, and 9?",DPO,Llama-3.2-1B-Instruct-DPO,P035
+Create a question with an incomplete multiplication where the student must find the missing factor. Use text only.,What is 6 x 9?,DPO,Llama-3.2-1B-Instruct-DPO,P036
+Write an exact-division question with a two-digit quotient that can be checked using multiplication. Use text only.,What is 48 ÷ 6 = ?,DPO,Llama-3.2-1B-Instruct-DPO,P037
+Generate a question with two exact divisions and ask the student to order the quotients from least to greatest. Use text only.,What are the quotients of 12 ÷ 2 and 18 ÷ 3?,DPO,Llama-3.2-1B-Instruct-DPO,P038
+Create a question that practices multiplication by ten and division by ten using natural numbers. Use text only.,What is 5 x 10 divided by 10?,DPO,Llama-3.2-1B-Instruct-DPO,P039
+Write a question where the student completes an equation containing both multiplication and division. Use text only.,What is 6 ÷ 2 × 9,DPO,Llama-3.2-1B-Instruct-DPO,P040
+Generate a question asking which multiplication correctly matches a given exact division. Use text only.,What is 6 ÷ 2 = ?,DPO,Llama-3.2-1B-Instruct-DPO,P041
+Create a question where multiplication produces the dividend needed for a division with natural numbers. Use text only.,What is the product of 4 and 9?,DPO,Llama-3.2-1B-Instruct-DPO,P042
+Write a question where the student corrects an incorrect multiplication or division result. Use text only.,"""Professor, I think you made a mistake in the problem. 2 x 5 = 10, not 20.""",DPO,Llama-3.2-1B-Instruct-DPO,P043
+Generate a question combining two simple multiplications and one exact division to find the final result. Use text only.,What is 3 times 6 divided by 2?,DPO,Llama-3.2-1B-Instruct-DPO,P044
+Create a question that assesses multiplication and division using a short numerical expression with exact operations. Use text only.,What is the product of 4 × 9 ÷ 3?,DPO,Llama-3.2-1B-Instruct-DPO,P045
+Create a word problem where equal groups are formed and the student uses multiplication to find the total number of objects. Use text only.,A school has 18 students in each of 3 groups. How many students are in total?,DPO,Llama-3.2-1B-Instruct-DPO,P046
+Generate a word problem where a set of objects is shared equally and the student uses division to find how many each group receives. Use text only.,A group of 24 pencils are to be divided equally among 8 students. How many pencils will each student receive?,DPO,Llama-3.2-1B-Instruct-DPO,P047
+Write a problem where the student first finds a total using multiplication and then shares it equally using division. Use text only.,Tom has 48 pencils in his pencil case. He wants to share them equally among 8 of his friends. How many pencils will each friend get?,DPO,Llama-3.2-1B-Instruct-DPO,P048
+Create a problem involving rows and columns where the student uses multiplication to find the total and division to verify it. Use text only.,"A bookshelf has 5 rows and 8 columns. If a student wants to find the total number of books in the bookshelf, they can use multiplication to find the answer. 
+
+5 rows * 8 columns = ?
+
+To verify, the student can also use division to find the answer.
+
+5 * 8 = 40
+40 ÷ 5 = 8",DPO,Llama-3.2-1B-Instruct-DPO,P049
+Generate a word problem where the student finds how many equal packages can be made from a total number of items. Use text only.,"A bookshelf has 48 books. If 8 books are to be placed in each package, how many packages can be made?",DPO,Llama-3.2-1B-Instruct-DPO,P050
+Generate a math question that combines addition and subtraction with natural numbers for elementary students. Use text only.,2 + 5 - 3,DPO,Llama-3.2-1B-Instruct-DPO,P051
+Create a question where the student adds two quantities and then subtracts a third quantity to find the answer. Use text only.,What is 5 + 2 - 3?,DPO,Llama-3.2-1B-Instruct-DPO,P052
+Write an addition and subtraction question with two-digit numbers that can be solved using basic operations. Use text only.,14 + 27 - 19,DPO,Llama-3.2-1B-Instruct-DPO,P053
+Generate a question that practices subtraction first and then addition using simple natural numbers. Use text only.,What is 5 - 2 + 8?,DPO,Llama-3.2-1B-Instruct-DPO,P054
+Create a math question with three quantities where the student must decide when to add and when to subtract. Use text only.,"A bookshelf has 15 books on it. If 7 more books are added to the bookshelf, and then 3 books are removed, how many books are on the bookshelf now?",DPO,Llama-3.2-1B-Instruct-DPO,P055
+Write a calculation question combining addition and subtraction with numbers below 100 for elementary education. Use text only.,2 + 5 - 8,DPO,Llama-3.2-1B-Instruct-DPO,P056
+Generate a question where the student completes a combined addition and subtraction operation by finding a missing number. Use text only.,Tom has 250 pencils in his pencil case. He gives 75 pencils to his friend. How many pencils does Tom have left?,DPO,Llama-3.2-1B-Instruct-DPO,P057
+Create a question asking the student to compare two results obtained from an addition and a subtraction with natural numbers. Use text only.,What is the result of subtracting 5 from 23 and 17?,DPO,Llama-3.2-1B-Instruct-DPO,P058
+Write a question where the student solves two additions and one subtraction to find the final result. Use text only.,What is 457 + 279 - 125?,DPO,Llama-3.2-1B-Instruct-DPO,P059
+Generate an addition and subtraction question using three-digit numbers with one correct answer. Use text only.,What is 542 + 219 - 138?,DPO,Llama-3.2-1B-Instruct-DPO,P060
+Create a question where the student identifies which addition or subtraction operation produces a given result. Use text only.,What operation is represented by the equation: 2x + 5 = 11,DPO,Llama-3.2-1B-Instruct-DPO,P061
+Write a math question with an incomplete addition and an incomplete subtraction where the missing values must be found. Use text only.,2x + 5 = 11,DPO,Llama-3.2-1B-Instruct-DPO,P062
+Generate a question where the student checks a subtraction using addition and decides whether the result is correct. Use text only.,What is 7 + 2 - 1?,DPO,Llama-3.2-1B-Instruct-DPO,P063
+Create a question with four natural numbers that requires additions and subtractions in the correct order. Use text only.,What is  25 - 7 + 19 - 4,DPO,Llama-3.2-1B-Instruct-DPO,P064
+Write a mental-math question combining one addition and one subtraction with numbers below 50. Use text only.,What is 25 + 17 - 8?,DPO,Llama-3.2-1B-Instruct-DPO,P065
+Generate a question with two expressions containing additions and subtractions and ask which result is greater. Use text only.,Which of the following is greater:  25 + 17 - 8 or  17 - 12 + 5?,DPO,Llama-3.2-1B-Instruct-DPO,P066
+Create an addition and subtraction question where the student finds the starting value from a known final result. Use text only.,What is the starting value of  432 + 219?,DPO,Llama-3.2-1B-Instruct-DPO,P067
+Write a question where the student must correct an incorrect result from an operation combining addition and subtraction. Use text only.,What is  25 - 7 + 3?,DPO,Llama-3.2-1B-Instruct-DPO,P068
+Generate a question with consecutive natural numbers that requires one addition and one subtraction to solve. Use text only.,14 + 7 - 3,DPO,Llama-3.2-1B-Instruct-DPO,P069
+Create a question that assesses addition and subtraction using a numerical expression with three simple operations. Use text only.,What is 5 + 2 - 1?,DPO,Llama-3.2-1B-Instruct-DPO,P070
+Generate a subtraction question with two-digit natural numbers where the student must find the correct difference. Use text only.,A 5-digit number is subtracted from a 3-digit number.,DPO,Llama-3.2-1B-Instruct-DPO,P071
+Create a question where the student subtracts a three-digit number from a larger number. Use text only.,What is  456 - 219?,DPO,Llama-3.2-1B-Instruct-DPO,P072
+Write a subtraction question with an unknown value and ask the student to find the missing number. Use text only.,What is  432 - 120?,DPO,Llama-3.2-1B-Instruct-DPO,P073
+Generate a subtraction question with regrouping using natural numbers appropriate for elementary students. Use text only.,5 - 2 + 1,DPO,Llama-3.2-1B-Instruct-DPO,P074
+Create a mental-math question based on subtraction with numbers below 100. Use text only.,What is 43 - 27?,DPO,Llama-3.2-1B-Instruct-DPO,P075
+Generate a simple algebra question where the student must find the value of an unknown letter. Use text only.,Solve for x: 2x + 5 = 11,DPO,Llama-3.2-1B-Instruct-DPO,P076
+Create a question with an equation containing a variable and addition where the missing value must be found. Use text only.,What is the value of x in the equation: 2x + 5 = 11?,DPO,Llama-3.2-1B-Instruct-DPO,P077
+Write an algebra question where a variable appears in a subtraction and must be determined. Use text only.,Solve for x: 2x - 5 = 11,DPO,Llama-3.2-1B-Instruct-DPO,P078
+Generate a question with multiplication and an unknown variable that can be solved using natural numbers. Use text only.,What is 3 times 6?,DPO,Llama-3.2-1B-Instruct-DPO,P079
+Create a simple division question where the dividend is a variable and the quotient is known. Use text only.,What is 48 ÷ 8?,DPO,Llama-3.2-1B-Instruct-DPO,P080
+Write a question asking the student to complete a number sequence and describe the rule using a simple operation. Use text only.,"What is the next number in the sequence: 2, 5, 8, 11, 14, ?",DPO,Llama-3.2-1B-Instruct-DPO,P081
+Generate a question where the student decides whether two simple algebraic expressions have the same value. Use text only.,"Here's a question:
+
+2x + 5 = 11x - 3",DPO,Llama-3.2-1B-Instruct-DPO,P082
+Create a question with a variable on both sides of a very simple equation for elementary students. Use text only.,What is the value of x in the equation 2x + 5 = 11?,DPO,Llama-3.2-1B-Instruct-DPO,P083
+Write a question where the student substitutes a given value into an algebraic expression and calculates the result. Use text only.,What is the value of x in the equation 2x + 5 = 11?,DPO,Llama-3.2-1B-Instruct-DPO,P084
+Generate a question asking which value of a variable makes a simple mathematical equation true. Use text only.,What value of x makes the equation 2x + 5 = 11 true?,DPO,Llama-3.2-1B-Instruct-DPO,P085
+Create a question where the student writes a simple algebraic expression from a relationship between numbers. Use text only.,What is the value of x in the equation 2x + 5 = 11?,DPO,Llama-3.2-1B-Instruct-DPO,P086
+Write a question with an expression containing a variable and ask the student to evaluate it for two different values. Use text only.,What is the value of x when y = 5 and x = 7?,DPO,Llama-3.2-1B-Instruct-DPO,P087
+Generate a question where the student finds the unknown term in a simple increasing number pattern. Use text only.,"What is the next number in the pattern: 2, 5, 8, 11, 14, ?",DPO,Llama-3.2-1B-Instruct-DPO,P088
+Create an algebra question that uses a letter to represent an unknown number in an addition operation. Use text only.,"A bookshelf has 5 boxes, and each box contains 8 pencils. How many pencils are on the bookshelf?",DPO,Llama-3.2-1B-Instruct-DPO,P089
+Write a question where a variable represents an unknown factor and must be found using multiplication. Use text only.,What is the product of 2 and 5?,DPO,Llama-3.2-1B-Instruct-DPO,P090
+Generate a question asking the student to select which algebraic expression correctly represents a given numerical equality. Use text only.,Which of the following algebraic expressions correctly represents the equation 2x + 5 = 11?,DPO,Llama-3.2-1B-Instruct-DPO,P091
+Create a question where the student completes a simple number table by following a rule written with a variable. Use text only.,"Here's a question for you:
+
+Tom has 5 boxes of pens. He wants to put 2 boxes of pens in each box. How many boxes of pens will Tom have in total?",DPO,Llama-3.2-1B-Instruct-DPO,P092
+Write an algebra question where the student discovers a simple rule by observing several pairs of numbers. Use text only.,"A bakery sells 3 dozen loaves of bread per day. If 2 dozen loaves are sold on Monday, 4 dozen loaves are sold on Tuesday, and 5 dozen loaves are sold on Wednesday, how many dozen loaves are sold on each day?",DPO,Llama-3.2-1B-Instruct-DPO,P093
+Generate a question with two possible values for a variable and ask which one satisfies the equation. Use text only.,What is the value of x if 2x + 5 = 11?,DPO,Llama-3.2-1B-Instruct-DPO,P094
+"Create an elementary algebra question combining a variable, addition, and multiplication with small numbers. Use text only.",2x + 5 = 11,DPO,Llama-3.2-1B-Instruct-DPO,P095
+Create a word problem where an unknown number of objects is represented by x and the student writes and solves an addition equation. Use text only.,Tom has 5 boxes of pens. Each box contains 8 pens. How many pens does Tom have in total?,DPO,Llama-3.2-1B-Instruct-DPO,P096
+Generate a simple balance problem where two expressions must be equal and the student finds the missing value. Use text only.,Tom has 15 boxes of pens and 8 boxes of pencils. He wants to put them in boxes of 3 pens and 2 pencils. How many boxes of pens and pencils should Tom put together?,DPO,Llama-3.2-1B-Instruct-DPO,P097
+"Write a problem where a number is doubled and then increased by a small amount, and the student finds the starting number. Use text only.",Tom has 25 pencils in his pencil case. He doubles the number and then adds 3. What is the result?,DPO,Llama-3.2-1B-Instruct-DPO,P098
+Create a pattern problem where the student predicts the next two terms and writes a simple rule using n. Use text only.,"**Pattern Problem:**
+
+The pattern is formed by adding 3, then 6, then 9, and so on. Write the next two terms and a rule to predict the next term.
+
+**Solution:**
+
+Term 1: 3
+Term 2: 9
+Rule: 3 + 6 = 9
+
+Term 3: 9 + 12 = 21
+Rule: 3 + 6 + 9 = 18",DPO,Llama-3.2-1B-Instruct-DPO,P099
+Generate a word problem where the student translates a short statement into an equation with one unknown and solves it. Use text only.,"Tom has been saving money for a new bike and has $120 in his savings account. He plans to buy a bike that costs $180. If he wants to save $10 for a helmet, how much money will he have left for the bike?",DPO,Llama-3.2-1B-Instruct-DPO,P100

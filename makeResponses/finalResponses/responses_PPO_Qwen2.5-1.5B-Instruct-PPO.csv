@@ -1,522 +1,225 @@
 prompt,response,algin,model,prompt_id
-Genera una pregunta de matemática que combine una suma y una resta con números naturales para estudiantes de educación básica.,¿Cuál es el resultado de restar 15 menos 7 y luego sumarlo al doble de 8?,PPO,Qwen2.5-1.5B-Instruct-PPO,P001
-Crea una pregunta donde el estudiante tenga que sumar dos cantidades y luego restar una tercera para obtener la respuesta.,"Pregunta: 
-
-¿Cuál es el resultado de sumar 15 con 20 y luego restar 7?
-
-Respuesta correcta: 28
-
-Explicación:
-
-Primero, sumamos las dos primeras cantidades: 15 + 20 = 35.
-
-Luego, restamos la tercera cantidad: 35 - 7 = 28.
-
-Por lo tanto, el resultado final es 28.",PPO,Qwen2.5-1.5B-Instruct-PPO,P002
-Escribe una pregunta de adición y sustracción con números de dos cifras que pueda resolverse mediante operaciones básicas.,"Claro, aquí tienes una pregunta de adición y sustracción con números de dos cifras:
-
-Pregunta: 
-
-Adición:
-¿Cuánto es 45 + 32?
-
-Sustracción:
-¿Cuánto es 67 - 28?",PPO,Qwen2.5-1.5B-Instruct-PPO,P003
-Genera una pregunta que permita practicar primero una resta y después una suma usando números naturales sencillos.,"¿Podrías explicarme cómo se realiza la resta 7 - 3? ¿Y luego, como se hace la suma de los mismos números, 7 + 3?",PPO,Qwen2.5-1.5B-Instruct-PPO,P004
-Crea una pregunta matemática que incluya tres cantidades y requiera decidir cuándo sumar y cuándo restar para resolverla.,"Pregunta: 
-
-¿Cuántos kilómetros recorrió un coche en 3 horas si su velocidad promedio fue de 60 km/h?
-
-A) Suma
-
-B) Resta
-
-Para resolver esta pregunta, debes:
-
-1) Calcular la distancia total recorrida multiplicando la velocidad por el tiempo (60 km/h * 3 h = 180 km).
-
-2) La respuesta es 180 km.
-
-Por lo tanto, la operación correcta es suma.
-
-Respuesta correcta: A) Suma",PPO,Qwen2.5-1.5B-Instruct-PPO,P005
-Escribe una pregunta de cálculo que combine adición y sustracción con números menores que cien para educación básica.,¿Cuánto es 45 más 27 menos 18?,PPO,Qwen2.5-1.5B-Instruct-PPO,P006
-Genera una pregunta donde se deba completar una operación combinada de suma y resta encontrando un número que falta.,¿Cuál es el resultado de sumar 15 con 20 y luego restar 8?,PPO,Qwen2.5-1.5B-Instruct-PPO,P007
-Crea una pregunta que solicite comparar dos resultados obtenidos mediante una suma y una resta con números naturales.,¿Podrías proporcionar los dos resultados para que pueda realizar la comparación?,PPO,Qwen2.5-1.5B-Instruct-PPO,P008
-Escribe una pregunta en la que el estudiante deba resolver dos sumas y una resta para encontrar el resultado final.,"Pregunta: 
-
-Un niño tiene 15 caramelos. Sus padres le regalan 7 más caramelos. Luego, el niño pierde 3 caramelos. ¿Cuántos caramelos tiene el niño después de perder algunos? 
-
-Respuesta:
-
-Primero, suma los caramelos recibidos por sus padres:
-15 + 7 = 22 caramelos
-
-Luego, resta los caramelos perdidos:
-22 - 3 = 19 caramelos
-
-El niño tiene 19 caramelos después de perder algunos.",PPO,Qwen2.5-1.5B-Instruct-PPO,P009
-Genera una pregunta de adición y sustracción que utilice números de tres cifras y tenga una única respuesta correcta.,"Pregunta: ¿Cuánto es 456 menos 123 más 789?
-
-Respuesta correcta: 1022",PPO,Qwen2.5-1.5B-Instruct-PPO,P010
-Crea una pregunta donde el estudiante deba identificar qué operación de suma o resta permite obtener un resultado indicado.,"Pregunta: 
-
-¿Cuál es la operación matemática que permite obtener el resultado 15 al sumar dos números enteros consecutivos?
-
-A) Suma de tres números
-
-B) Resta de dos números
-
-C) Suma de dos números consecutivos
-
-D) Resta de tres números consecutivos
-
-E) Multiplicación de dos números
-
-Respuesta correcta: C) Suma de dos números consecutivos
-
-Explicación:
-
-Para obtener el resultado 15 al sumar dos números enteros consecutivos, debemos elegir los números 7 y 8.
-
-Sumando estos dos números consecutivos:
-7 + 8 = 15
-
-Por lo tanto, la respuesta correcta es C) Suma de dos números consecutivos.",PPO,Qwen2.5-1.5B-Instruct-PPO,P011
-Escribe una pregunta matemática que incluya una suma incompleta y una resta incompleta para encontrar los valores faltantes.,"Claro, aquí tienes una pregunta matemática con ambas operaciones:
-
-¿Cuál es el valor de x en la siguiente ecuación?
-
-\[ 3 + x = 7 - 2 \]
-
-Esta pregunta combina una suma (3 + x) y una resta (7 - 2), pidiendo al estudiante encontrar el valor de x que hace que las dos expresiones sean iguales.",PPO,Qwen2.5-1.5B-Instruct-PPO,P012
-Genera una pregunta que permita comprobar una resta mediante una suma y solicite determinar si el resultado es correcto.,"Pregunta: 
-
-¿Podrías calcular la siguiente resta utilizando solo sumas? 
-15 - 7 = ?
-
-Respuesta esperada: 8
-
-Sugerencia: Para resolver este problema, necesitarás sumar números hasta obtener un total de 15. Luego, restará ese número del total para encontrar el resultado final.
-
-Esta pregunta se enfoca en verificar si el candidato puede realizar una operación matemática compleja (resta) utilizando solo sumas, lo cual es una habilidad importante en muchas áreas de la vida cotidiana y en ciertas disciplinas académicas.",PPO,Qwen2.5-1.5B-Instruct-PPO,P013
-Crea una pregunta con cuatro números naturales donde sea necesario realizar sumas y restas en el orden adecuado.,"¿Podrías proporcionar los cuatro números naturales que necesitarás para crear la pregunta? Una vez que tengamos esos datos, podré ayudarte a formular una pregunta de suma y resta correctamente estructurada.",PPO,Qwen2.5-1.5B-Instruct-PPO,P014
-Escribe una pregunta para practicar cálculo mental combinando una suma y una resta con números menores que cincuenta.,¿Puedes resolver esta operación mentalmente: 24 + 17 - 15?,PPO,Qwen2.5-1.5B-Instruct-PPO,P015
-Genera una pregunta donde se presenten dos expresiones con sumas y restas y se deba indicar cuál resultado es mayor.,¿Cuál de las siguientes expresiones resulta en un número mayor: 5 + 3 - 2 o 7 - 4 + 1?,PPO,Qwen2.5-1.5B-Instruct-PPO,P016
-Crea una pregunta de adición y sustracción que requiera encontrar el valor inicial a partir de un resultado final conocido.,"Pregunta: Un libro costó $15 en la librería original. Después de 3 meses, el precio del libro aumentó en $2 por cada mes debido al aumento de las tasas de impuestos locales. ¿Cuánto valdría el libro después de 6 meses?
-
-Respuesta: Primero, calculamos el incremento total del precio del libro durante los 3 meses:
-$2/mes * 3 meses = $6
-
-Luego, sumamos este incremento al precio inicial del libro:
-$15 + $6 = $21
-
-Por lo tanto, el libro valdría $21 después de 6 meses.
-
-Esta pregunta combina conceptos básicos de adición (sumar el incremento) y subtracción (restar el costo inicial) para encontrar el valor final del objeto.",PPO,Qwen2.5-1.5B-Instruct-PPO,P017
-Escribe una pregunta donde el estudiante tenga que corregir el resultado de una operación que combina suma y resta.,"Claro, aquí tienes una pregunta para el estudiante:
-
-""Calcular la diferencia entre 25 y 18 después de sumar 7.""
-
-Esta pregunta requiere al estudiante realizar dos pasos: primero sumar 7 a 25, luego restar 18 del resultado obtenido. La respuesta correcta sería 10 (porque 25 + 7 = 32, y 32 - 18 = 14).",PPO,Qwen2.5-1.5B-Instruct-PPO,P018
-Genera una pregunta con números naturales consecutivos que requiera realizar una adición y una sustracción para resolverla.,¿Cuál es el resultado de la siguiente operación: 123 - (45 + 67)?,PPO,Qwen2.5-1.5B-Instruct-PPO,P019
-Crea una pregunta que evalúe el dominio de sumas y restas mediante una expresión numérica con tres operaciones sencillas.,"¿Podrías proporcionar más detalles sobre la estructura específica de la expresión numérica o las reglas específicas para resolverla? Por ejemplo, ¿debería incluir multiplicaciones o divisiones además de suma y resta? ¿Debería tener un número específico de términos en la expresión?",PPO,Qwen2.5-1.5B-Instruct-PPO,P020
-Genera una pregunta de sustracción con números naturales de dos cifras para que un estudiante encuentre la diferencia correcta.,¿Cuál es el resultado de restar 45 de 67?,PPO,Qwen2.5-1.5B-Instruct-PPO,P021
-Crea una pregunta donde el estudiante tenga que restar un número de tres cifras de otro número mayor.,"Pregunta: 
-
-¿Cuál es la diferencia entre 527 y 468?
-
-Respuesta:
-
-La diferencia entre 527 y 468 es 59.
-
-Explicación:
-
-Para resolver esta operación, primero debemos identificar los números dados en la pregunta:
-- El primer número es 527.
-- El segundo número es 468.
-
-Luego, realizamos la resta siguiendo las reglas básicas de las operaciones aritméticas:
-
-1) Comenzamos con el último dígito del primer número (7).
-   - Restamos el último dígito del segundo número (8): 7 - 8 = -1.
-     Como no podemos tener negativos, debemos mover uno al dígito anterior (el 2).
-
-2) Ahora, comparamos el penúltimo dígito del primer número (2) con el último dígito del segundo",PPO,Qwen2.5-1.5B-Instruct-PPO,P022
-Escribe una pregunta de sustracción que incluya un valor desconocido y solicite encontrar el número que falta.,¿Cuál es el número que falta si se resta 56789 del resultado de restar este mismo número al doble de sí mismo?,PPO,Qwen2.5-1.5B-Instruct-PPO,P023
-Genera una pregunta para practicar una resta con reagrupación usando números naturales apropiados para educación básica.,¿Puedes resolver esta operación de resta: 15 - (7 + 4)?,PPO,Qwen2.5-1.5B-Instruct-PPO,P024
-Crea una pregunta de cálculo mental basada únicamente en una sustracción con números menores que cien.,¿Cuánto es 75 menos 38?,PPO,Qwen2.5-1.5B-Instruct-PPO,P025
-Escribe una pregunta donde se presenten dos restas y el estudiante tenga que determinar cuál resultado es mayor.,¿Cuál de las siguientes expresiones numéricas resulta en un número más grande: 12 - 5 vs. 8 - 3?,PPO,Qwen2.5-1.5B-Instruct-PPO,P026
-Genera una pregunta que solicite comprobar mediante cálculo si una sustracción presentada tiene un resultado correcto.,¿Podrías proporcionar la sustracción que necesito para verificar si el resultado es correcto?,PPO,Qwen2.5-1.5B-Instruct-PPO,P027
-Crea una pregunta de sustracción con números de cuatro cifras que tenga una única respuesta numérica correcta.,¿Cuál es el resultado de restar 2456 de 7891?,PPO,Qwen2.5-1.5B-Instruct-PPO,P028
-Escribe una pregunta donde el estudiante deba completar los dígitos faltantes de una operación de sustracción.,"Claro, aquí tienes un ejemplo:
-
-¿Cuánto es 56 - 23?
-
-Esta pregunta requiere al estudiante completar los números faltantes en la ecuación de sustracción para obtener el resultado correcto.",PPO,Qwen2.5-1.5B-Instruct-PPO,P029
-Genera una pregunta que pida ordenar tres diferencias de menor a mayor después de resolver las sustracciones correspondientes.,"Pregunta: 
-
-""Si tienes 10 unidades y restas 3, luego restas 2 más, ¿cuál es el resultado final?""
-
-Respuesta esperada:
-
-1. 10 - 3 = 7
-2. 7 - 2 = 5
-
-Por lo tanto, la diferencia final es 5.
-
-¿Cómo se ordenan estas diferencias de menor a mayor?",PPO,Qwen2.5-1.5B-Instruct-PPO,P030
-Crea una pregunta de sustracción donde el resultado sea conocido y se deba encontrar uno de los números iniciales.,"Pregunta: Siendo 15 la suma de dos números enteros, uno de ellos es 8. ¿Cuál es el otro número?
-
-Respuesta: Para resolver esta situación, podemos utilizar la fórmula para hallar un número desconocido en una ecuación lineal:
-
-Suma = Número A + Número B
-
-Donde:
-- Suma = 15 (la suma de los dos números)
-- Número A = 8 (el número que ya sabemos)
-
-Para encontrar el segundo número (Número B), simplemente restamos el valor del número conocido de la suma total:
-
-Número B = Suma - Número A
-Número B = 15 - 8
-Número B = 7
-
-Por lo tanto, el otro número desconocido es 7.",PPO,Qwen2.5-1.5B-Instruct-PPO,P031
-Escribe una pregunta que permita practicar la resta de decenas completas utilizando únicamente números naturales.,"¿Podrías explicarme cómo se realiza la resta de dos decenas complejas? Por ejemplo, ¿cuánto es 50 - 27?",PPO,Qwen2.5-1.5B-Instruct-PPO,P032
-Genera una pregunta donde el estudiante tenga que elegir entre varias restas cuál produce una diferencia indicada.,"Pregunta: 
-
-¿Cuál de las siguientes operaciones resulta en un resultado igual a 10?
-
-A) 5 - 3
-
-B) 7 - 2
-
-C) 9 - 4
-
-D) 6 - 3
-
-E) 8 - 2
-
-Respuesta correcta: B) 7 - 2 = 5
-
-Explicación: La resta que produce un resultado de 10 es la opción D) 6 - 3 = 3. Sin embargo, si buscamos una resta que produzca exactamente 10 como resultado, debemos elegir entre las opciones A), C), y E). En este caso, la única opción que cumple con esta condición es B) 7 - 2 = 5.
-
-Esta pregunta evalúa la capacidad del estudiante para realizar correctamente las operaciones de resta y identificar la respuesta correcta cuando se proporcionan diferentes resultados esperados.",PPO,Qwen2.5-1.5B-Instruct-PPO,P033
-Crea una pregunta de sustracción que incluya un número cercano a una centena para practicar el cálculo preciso.,¿Cuánto es 98 menos 45?,PPO,Qwen2.5-1.5B-Instruct-PPO,P034
-Escribe una pregunta donde se deban resolver dos sustracciones consecutivas para obtener un único resultado final.,¿Cuál es el resultado de restar 15 menos 7 y luego restar ese resultado de 20?,PPO,Qwen2.5-1.5B-Instruct-PPO,P035
-Genera una pregunta de sustracción con números naturales que permita identificar y corregir un error de cálculo.,"¿Cuánto es 123456789 - 987654321? 
-
-Esta operación podría ser difícil de resolver sin errores debido a la gran diferencia entre los dos números. ¿Podrías intentar realizarla paso a paso para identificar cualquier posible error en el proceso de cálculo?",PPO,Qwen2.5-1.5B-Instruct-PPO,P036
-Crea una pregunta donde el estudiante compare la diferencia entre dos pares distintos de números naturales.,"Pregunta: 
-
-Compara y explica la diferencia entre los siguientes dos par de números naturales:
-
-1. 5 y 7
-2. 8 y 9
-
-¿Qué características diferentes observas en cada par? ¿Por qué es importante distinguir estos patrones?
-
-Respuesta:
-
-Para el primer par (5 y 7), podemos ver que uno es menor que el otro. En este caso, 5 es un número impar y 7 es un número par.
-
-Para el segundo par (8 y 9), ambos son números impares. Sin embargo, 8 es un número cuadrado perfecto mientras que 9 no lo es.
-
-La diferencia principal entre estos dos par de números se encuentra en su estructura numérica. El primero, 5 y 7, presenta una diferencia simple de 2 unidades. Por otro lado, el segundo par, 8 y 9, muestra una diferencia más compleja ya que 8 es un cu",PPO,Qwen2.5-1.5B-Instruct-PPO,P037
-Escribe una pregunta de sustracción que requiera calcular cuánto falta para pasar de un número menor a uno mayor.,¿Cuántos números hay entre 10 y 20?,PPO,Qwen2.5-1.5B-Instruct-PPO,P038
-Genera una pregunta para practicar una resta con ceros intermedios en el número mayor y obtener la diferencia.,"¿Podrías explicarme cómo se realiza una resta con ceros intermedios en un número mayor y cómo se obtiene la diferencia? Por ejemplo, si restamos 3456789 de 123456789, ¿qué operación necesitamos realizar y cuál es el resultado final?",PPO,Qwen2.5-1.5B-Instruct-PPO,P039
-Crea una pregunta que evalúe la sustracción mediante un número desconocido colocado como sustraendo en una operación.,"¿Podrías proporcionar más detalles sobre qué tipo de sustracción estás buscando para crear esta pregunta? Por ejemplo, ¿es una sustracción simple o compuesta? ¿Qué números estarían involucrados y cómo se presentarían en la operación?",PPO,Qwen2.5-1.5B-Instruct-PPO,P040
-Genera una pregunta que combine una multiplicación y una división con números naturales y produzca un resultado entero.,¿Cuál es el resultado de dividir 450 entre 9 y luego multiplicar ese resultado por 6?,PPO,Qwen2.5-1.5B-Instruct-PPO,P041
-Crea una pregunta donde el estudiante deba multiplicar dos números y luego dividir el resultado por otro número.,"Pregunta: 
-
-Elije los dos números que se encuentran en la fila de abajo y multiplica ambos. Luego, divide tu resultado por el número que se encuentra en la columna derecha.
-
-|  | 10 | 20 |
-|---|----|----|
-| 3 |   |   |
-| 4 |   |   |
-
-¿Cuál es el resultado?
-
-Respuesta:
-
-Primero, multiplicas 10 por 20:
-10 x 20 = 200
-
-Luego, divides este resultado por 4:
-200 ÷ 4 = 50
-
-Por lo tanto, el resultado final es 50.",PPO,Qwen2.5-1.5B-Instruct-PPO,P042
-Escribe una pregunta que permita practicar una división exacta y comprobar el resultado mediante una multiplicación.,¿Podrías dividir 48 entre 6 y luego verificar si la respuesta es correcta multiplicando 6 por el resultado de la división?,PPO,Qwen2.5-1.5B-Instruct-PPO,P043
-Genera una pregunta de multiplicación con dos factores y una división posterior adecuada para estudiantes de educación básica.,"Pregunta: ¿Cuántos huevos se obtienen si se divide un cesto de 24 huevos entre 6 personas?
-
-Respuesta: 24 ÷ 6 = 4
-
-Explicación: Esta pregunta combina la idea de dividir (división) con el concepto de multiplicación en la respuesta final. Si tienes 24 huevos y divides esto entre 6 personas, cada persona recibirá exactamente 4 huevos.",PPO,Qwen2.5-1.5B-Instruct-PPO,P044
-Crea una pregunta donde falte un factor y sea necesario utilizar multiplicación o división para encontrar su valor.,¿Cuál es el resultado de dividir 48 entre 6?,PPO,Qwen2.5-1.5B-Instruct-PPO,P045
-Escribe una pregunta que presente dos multiplicaciones y solicite determinar cuál de sus productos es mayor.,¿Cuál es el resultado más grande entre 7 x 8 y 9 x 6?,PPO,Qwen2.5-1.5B-Instruct-PPO,P046
-Genera una pregunta donde se deba encontrar el divisor desconocido a partir del dividendo y el cociente conocidos.,¿Cuál es el divisor si sabemos que un número dividido por 5 da como resultado 12?,PPO,Qwen2.5-1.5B-Instruct-PPO,P047
-Crea una pregunta que permita practicar tablas de multiplicar y una división exacta utilizando números naturales pequeños.,"¿Podrías proporcionarme un ejemplo de una tabla de multiplicar y una división exacta utilizando números naturales pequeños? Por favor, no me digas los resultados finales, solo el problema en sí mismo.",PPO,Qwen2.5-1.5B-Instruct-PPO,P048
-Escribe una pregunta donde el estudiante compare el resultado de una multiplicación con el resultado de una división.,"Pregunta: ¿Qué ocurre si se multiplica un número por otro y luego se divide ese producto entre el mismo número? ¿Es igual al número original o no?
-
-Respuesta: Sí, es igual al número original.
-
-Explicación: Si multiplicamos un número por otro, obtenemos un nuevo número que representa la cantidad del primero multiplicado por la cantidad del segundo. Luego, cuando dividimos este nuevo número entre el mismo número, estamos restituyendo la operación inicial, ya que estamos dividiendo nuevamente por el mismo factor. Por lo tanto, el resultado final será igual al número original.",PPO,Qwen2.5-1.5B-Instruct-PPO,P049
-Genera una pregunta con tres números naturales que requiera decidir si corresponde multiplicar o dividir para resolverla.,"¿Cuál de las siguientes operaciones es correcta para resolver el siguiente problema: ""Si tengo 12 manzanas y quiero compartirlas entre 3 amigos iguales, ¿cuántas manzanas recibirá cada amigo?""",PPO,Qwen2.5-1.5B-Instruct-PPO,P050
-Crea una pregunta donde se presente una multiplicación incompleta y el estudiante tenga que encontrar el factor faltante.,"Pregunta: 
-
-La multiplicación de dos números es 480. Si uno de los factores es 15, ¿cuál es el otro factor?
-
-Respuesta:
-
-Para resolver esta situación, primero debemos recordar la regla básica de las operaciones matemáticas: si multiplicamos un número por otro, obtenemos el producto. En este caso, sabemos que el producto es 480 y uno de los factores es 15.
-
-Para encontrar el otro factor, podemos dividir el producto (480) entre el factor conocido (15). Esto nos dará:
-
-\[ \frac{480}{15} = 32 \]
-
-Por lo tanto, el otro factor es 32.
-
-Esta pregunta requiere al estudiante aplicar su conocimiento sobre la multiplicación y la división para determinar el valor del factor desconocido.",PPO,Qwen2.5-1.5B-Instruct-PPO,P051
-Escribe una pregunta de división exacta donde el cociente tenga dos cifras y pueda verificarse con una multiplicación.,¿Cuál es la división exacta que tiene un cociente de 12 y un resto de 5?,PPO,Qwen2.5-1.5B-Instruct-PPO,P052
-Genera una pregunta que incluya dos divisiones exactas y solicite ordenar sus cocientes de menor a mayor.,"Pregunta: ¿Cuál es el cociente más pequeño entre 120 dividido por 6 y 80 dividido por 4?
-
-Respuesta: Primero, calculamos los cocientes:
-
-- Cociente de 120 dividido por 6: \( 120 \div 6 = 20 \)
-- Cociente de 80 dividido por 4: \( 80 \div 4 = 20 \)
-
-Ambos cocientes son iguales, por lo tanto, no hay diferencia en tamaño para este problema específico. Si tuvieran diferentes resultados, seguiría la misma estructura de preguntas y respuestas solicitando la comparación y ordenamiento de estos valores.",PPO,Qwen2.5-1.5B-Instruct-PPO,P053
-Crea una pregunta para practicar multiplicación por diez y división entre diez utilizando únicamente números naturales.,"¿Podrías explicarme cómo se realiza la multiplicación por diez en los números naturales? Por ejemplo, ¿cómo se obtiene el resultado de 7 x 10?
-
-Y ¿y qué pasa si quiero dividir un número natural entre diez? ¿Cómo puedo obtener el cociente? Por ejemplo, ¿qué es el resultado de 45 ÷ 10?",PPO,Qwen2.5-1.5B-Instruct-PPO,P054
-Escribe una pregunta donde se deba completar una igualdad que contenga una multiplicación y una división.,¿Cuál es el resultado de dividir 48 por 6 y luego multiplicarlo por 3?,PPO,Qwen2.5-1.5B-Instruct-PPO,P055
-Genera una pregunta que solicite identificar cuál multiplicación corresponde correctamente a una división exacta presentada.,"¿Cuál es la respuesta correcta para la siguiente división: 12 ÷ 3 = ? 
-
-A) 4  
-B) 5  
-C) 6  
-D) 7  
-E) 8
-
-La respuesta correcta es C) 6, ya que 12 dividido por 3 da como resultado 4, pero si se divide 6 entre 3, el resultado es exactamente 2, lo cual es la división exacta correspondiente a la multiplicación de 3 por 2.",PPO,Qwen2.5-1.5B-Instruct-PPO,P056
-Crea una pregunta con números naturales donde una multiplicación permita obtener el dividendo necesario para una división.,"¿Podrías proporcionar más detalles o especificaciones sobre qué tipo de operación y cuáles son los números específicos que estás buscando? Por ejemplo, ¿estas trabajando con números enteros, fracciones, decimales o números complejos? ¿Qué operaciones (multiplicación o división) deseas utilizar?",PPO,Qwen2.5-1.5B-Instruct-PPO,P057
-Escribe una pregunta donde el estudiante tenga que corregir un resultado equivocado de multiplicación o división.,"Pregunta: 
-
-¿Cuántos kilómetros hay en 750 metros si se divide por 10?
-
-A) 75
-B) 750
-C) 7500
-D) 75000
-
-Respuesta correcta: C) 7500
-
-Corrección: La respuesta correcta es C) 7500. Si dividimos 750 metros entre 10, obtenemos 75 metros (750 ÷ 10 = 75). No es necesario convertirlo a kilómetros porque la pregunta no especifica que debamos hacerlo.
-
-Esta pregunta requiere al estudiante recordar cómo realizar divisiones y las reglas básicas de conversión de unidades de medida, como kilómetros a metros.",PPO,Qwen2.5-1.5B-Instruct-PPO,P058
-Genera una pregunta que combine dos multiplicaciones sencillas y una división exacta para encontrar el resultado final.,¿Cuál es el resultado de dividir 120 entre la suma de 35 y 45?,PPO,Qwen2.5-1.5B-Instruct-PPO,P059
-Crea una pregunta para evaluar multiplicación y división mediante una expresión numérica breve con operaciones exactas.,¿Cuál es el resultado de dividir 120 entre 6 y luego multiplicar por 5?,PPO,Qwen2.5-1.5B-Instruct-PPO,P060
-Genera una pregunta de álgebra sencilla donde el estudiante tenga que encontrar el valor de una letra desconocida.,"Pregunta: Si \( x + 3 = 7 \), ¿cuál es el valor de \( x \)?",PPO,Qwen2.5-1.5B-Instruct-PPO,P061
-Crea una pregunta con una igualdad que incluya una variable y una suma para encontrar el valor faltante.,"¿Cuál es el número que falta en la siguiente secuencia: 2, 4, 6, __, 10?",PPO,Qwen2.5-1.5B-Instruct-PPO,P062
-Escribe una pregunta algebraica donde una variable aparezca en una resta y tenga que ser determinada.,¿Cuál es la variable x si se restan 5 unidades de x y el resultado es igual a -3?,PPO,Qwen2.5-1.5B-Instruct-PPO,P063
-Genera una pregunta con una multiplicación y una variable desconocida que pueda resolverse usando números naturales.,¿Cuánto es 7 x (n + 3)?,PPO,Qwen2.5-1.5B-Instruct-PPO,P064
-Crea una pregunta con una división sencilla donde el dividendo sea una variable y el cociente sea conocido.,"Pregunta: 
-
-Si un número es divisible entre 5 y su resultado de división es 3, ¿cuál es este número?
-
-Respuesta:
-
-Para resolver esta pregunta, utilizamos la fórmula básica de la división:
-
-Dividendo = Cociente × Divisor + Resto
-
-En este caso, sabemos que el cociente es 3 y el divisor es 5. El resto no importa en este problema porque estamos buscando solo el dividendo.
-
-Entonces, podemos escribir la ecuación como:
-
-Dividendo = 3 × 5 + R (donde R es el resto)
-
-Como el resto no afecta al resultado final, podemos simplificar esto para obtener:
-
-Dividendo = 15 + R
-
-Sin embargo, si queremos encontrar el valor exacto del dividendo, necesitamos saber cuánto sobra después de dividir por 5. Pero dado que no se proporciona información adicional",PPO,Qwen2.5-1.5B-Instruct-PPO,P065
-Escribe una pregunta que pida completar una secuencia numérica y expresar la regla mediante una operación sencilla.,"Pregunta: ""Completar la siguiente secuencia de números: 2, 4, 6, __, 10, 12. ¿Cuál es la regla matemática que sigue esta secuencia?""
-
-Respuesta: La regla es sumar 2 al número anterior para completar la secuencia.
-
-Explicación: Esta secuencia consta de números pares que se incrementan en 2 con cada paso. Por lo tanto, el número que falta después de 6 debe ser 8 (6 + 2 = 8).",PPO,Qwen2.5-1.5B-Instruct-PPO,P066
-Genera una pregunta donde el estudiante determine si dos expresiones algebraicas sencillas tienen el mismo valor.,"Pregunta: ¿Cuál de las siguientes expresiones tiene el mismo valor para x = 2 y x = -1?
-
-A) 3x + 4  
-B) x^2 - 5  
-C) 2x + 7  
-D) 4x - 6
-
-Respuesta correcta: C) 2x + 7
-
-Explicación: 
-
-Para determinar si dos expresiones algebraicas tienen el mismo valor, debemos sustituir los valores de x en cada expresión y comparar los resultados.
-
-A) Para x = 2:
-3(2) + 4 = 6 + 4 = 10
-
-Para x = -1:
-3(-1) + 4 = -3 + 4 = 1
-
-El resultado es diferente (10 vs 1), por lo que A no es la respuesta correcta.
-
-B) Para x = 2:
-(2)^2 - 5",PPO,Qwen2.5-1.5B-Instruct-PPO,P067
-Crea una pregunta que incluya una variable en ambos lados de una igualdad muy sencilla para educación básica.,¿Cuál es el resultado de la siguiente operación: 5 + 3 = ?,PPO,Qwen2.5-1.5B-Instruct-PPO,P068
-Escribe una pregunta donde el estudiante sustituya un valor dado en una expresión algebraica y calcule el resultado.,"Claro, aquí tienes una pregunta que cumple con tus especificaciones:
-
-Pregunta: 
-
-Sustituye la variable x por 3 en la siguiente expresión algebraica y calcula el resultado:
-2x + 5
-
-Respuesta esperada: 
-2(3) + 5 = 11
-
-Explicación: En esta pregunta, el estudiante debe reemplazar la letra ""x"" con el número 3 en la expresión matemática 2x + 5. Luego, realizar las operaciones de manera correcta para obtener el resultado final.
-
-Esta pregunta es útil porque permite a los estudiantes practicar la habilidad de sustituir valores en ecuaciones y luego resolverlas siguiendo las reglas básicas de álgebra. Además, proporciona una respuesta clara y precisa para que puedan verificar su trabajo o recibir retroalimentación sobre sus errores si lo hacen.",PPO,Qwen2.5-1.5B-Instruct-PPO,P069
-Genera una pregunta para identificar cuál valor de una variable hace verdadera una igualdad matemática sencilla.,"¿Cuál es el valor que debe asignarle a la variable ""x"" en la siguiente ecuación: 2*x + 3 = 7?",PPO,Qwen2.5-1.5B-Instruct-PPO,P070
-Crea una pregunta donde se deba escribir una expresión algebraica sencilla a partir de una relación entre números.,"¿Podrías proporcionarme un conjunto de dos números y una operación matemática simple (suma, resta, multiplicación o división) para que pueda crear una expresión algebraica basada en esa relación? Por ejemplo, si me dices que los números son 5 y 10 y la operación es suma, puedo decirte que la expresión sería ""5 + 10"".",PPO,Qwen2.5-1.5B-Instruct-PPO,P071
-Escribe una pregunta que presente una expresión con una variable y solicite calcularla para dos valores diferentes.,¿Cuál es el resultado de la siguiente operación: 3x + 5 cuando x = 2 y cuando x = -1?,PPO,Qwen2.5-1.5B-Instruct-PPO,P072
-Genera una pregunta donde el estudiante encuentre el término desconocido de un patrón numérico creciente sencillo.,"Pregunta: 
-
-Un patrón numérico creciente comienza en 5 y aumenta en 3 con cada siguiente número. Si el primer número es 5, ¿cuál será el quinto número del patrón?
-
-Respuesta:
-
-Para encontrar el quinto número del patrón, comenzamos desde el primer número dado (5) y sumamos los incrementos que se producen después (3). Por lo tanto, el quinto número sería:
-
-5 + 3 = 8
-
-Por lo tanto, el quinto número del patrón es 8.
-
-Esta pregunta requiere al estudiante identificar el primer número del patrón y luego aplicar la regla de aumento para calcular el siguiente número hasta llegar al quinto.",PPO,Qwen2.5-1.5B-Instruct-PPO,P073
-Crea una pregunta algebraica que utilice una letra para representar un número desconocido en una operación de suma.,¿Cuál es el resultado de sumar 5 más al doble del número desconocido?,PPO,Qwen2.5-1.5B-Instruct-PPO,P074
-Escribe una pregunta donde una variable represente un factor desconocido y deba encontrarse usando una multiplicación.,¿Cuántos números primos hay entre 100 y 200?,PPO,Qwen2.5-1.5B-Instruct-PPO,P075
-Genera una pregunta que pida seleccionar cuál expresión algebraica representa correctamente una igualdad numérica dada.,"¿Cuál de las siguientes expresiones algebraicas representa correctamente la igualdad numérica 3x + 2 = 11?
-
-A) 3(x + 2) = 11  
-B) 3x - 2 = 11  
-C) 3x + 2 = 10  
-D) 3x + 4 = 11
-
-Esta pregunta evalúa tu comprensión de cómo se representan las ecuaciones algebraicas y tu capacidad para distinguir entre diferentes formas de expresar la misma igualdad numérica.",PPO,Qwen2.5-1.5B-Instruct-PPO,P076
-Crea una pregunta donde el estudiante complete una tabla numérica sencilla siguiendo una regla expresada con una variable.,"Claro, aquí tienes un ejemplo de cómo podrías crear esa pregunta:
-
-Pregunta: 
-""La siguiente tabla muestra los precios de diferentes productos en una tienda. Observa la columna 'Precio' y completa la tabla siguiendo esta regla: cada precio es igual al anterior más 5 euros. ¿Qué precio debería tener el producto que se encuentra en la fila 4?""
-
-Respuesta:
-| Producto | Precio |
-|----------|--------|
-| A        | 10     |
-| B        | 15     |
-| C        | 20     |
-| D        | ?      |
-
-Aquí, el estudiante debe completar la tabla siguiendo la regla dada (cada precio es igual al anterior más 5 euros). La respuesta correcta sería 25 euros para el producto en la fila 4.
-
-Esta pregunta combina elementos de matemáticas y lógica, pidiendo al estudiante no solo record",PPO,Qwen2.5-1.5B-Instruct-PPO,P077
-Escribe una pregunta algebraica donde sea necesario descubrir una regla sencilla observando varios pares de números.,"¿Podrías proporcionar algunos pares de números para que pueda ayudarte a encontrar la regla o relación entre ellos? Una vez que tenga esos datos, podré crear una pregunta algebraica basada en esa información.",PPO,Qwen2.5-1.5B-Instruct-PPO,P078
-Genera una pregunta que incluya dos valores posibles para una variable y solicite indicar cuál satisface la igualdad.,"¿Cuál de los siguientes números es mayor: 5 o 7? Indícame el número que cumple con la igualdad.
-
-Esta pregunta combina dos valores posibles (5 y 7) en una sola afirmación y pide al usuario determinar cuál de ellos satisfacerá una igualdad específica.",PPO,Qwen2.5-1.5B-Instruct-PPO,P079
-"Crea una pregunta de álgebra elemental que combine una variable, una suma y una multiplicación con números pequeños.",¿Cuál es el resultado de la siguiente operación: 3 + 4 x 2?,PPO,Qwen2.5-1.5B-Instruct-PPO,P080
-Genera una pregunta de geometría que permita identificar una figura plana según su número de lados y vértices.,¿Cuántos lados tiene la siguiente figura plana: un polígono con 5 vértices?,PPO,Qwen2.5-1.5B-Instruct-PPO,P081
-Crea una pregunta donde el estudiante tenga que calcular el perímetro de un rectángulo con medidas enteras dadas.,"Pregunta: Un rectángulo tiene dos lados de 5 metros y otros dos lados de 10 metros. ¿Cuál es su perímetro? 
-
-Respuesta correcta: El perímetro del rectángulo es igual a la suma de los lados, por lo tanto, se multiplica cada lado por 2 para obtener el perímetro total. En este caso, sería (5 + 10) x 2 = 30 metros.",PPO,Qwen2.5-1.5B-Instruct-PPO,P082
-Escribe una pregunta para calcular el perímetro de un cuadrado conociendo la medida de uno de sus lados.,¿Cómo se calcula el perímetro de un cuadrado si conoces la longitud de su lado?,PPO,Qwen2.5-1.5B-Instruct-PPO,P083
-Genera una pregunta donde se comparen dos figuras geométricas según la cantidad de lados que posee cada una.,¿Cuántos lados tiene un polígono regular y cuántos lados tiene un pentágono?,PPO,Qwen2.5-1.5B-Instruct-PPO,P084
-Crea una pregunta que solicite identificar cuántos vértices tiene una figura geométrica plana indicada por su nombre.,"Pregunta: ¿Cuántos vértices tiene la figura geométrica plana cuyo nombre es ""triángulo""?
-
-Respuesta correcta: Un triángulo tiene 3 vértices.
-
-Explicación: En geometría, un triángulo se define como un polígono con tres lados y tres vértices. Cada vértice es el punto donde dos lados se intersectan en un ángulo recto. Por lo tanto, cualquier figura geométrica plana con tres lados y tres vértices será un triángulo.",PPO,Qwen2.5-1.5B-Instruct-PPO,P085
-Escribe una pregunta donde el estudiante tenga que calcular el área de un rectángulo con medidas naturales sencillas.,"¿Podrías darme las dimensiones del rectángulo y yo te ayudaré a calcular su área? Por ejemplo, si me dices que el ancho es 5 metros y la longitud es 10 metros, puedo decirte que su área es 50 metros cuadrados.",PPO,Qwen2.5-1.5B-Instruct-PPO,P086
-Genera una pregunta para calcular el área de un cuadrado a partir de la longitud conocida de su lado.,¿Cómo se calcula el área de un cuadrado si se conoce la longitud del lado?,PPO,Qwen2.5-1.5B-Instruct-PPO,P087
-"Crea una pregunta que permita diferenciar un triángulo, un cuadrado y un rectángulo mediante sus propiedades geométricas.","¿Cuál de los siguientes objetos es un triángulo: un cuadrado o un rectángulo? 
-
-Explicación:
-- Un triángulo tiene tres lados y tres ángulos.
-- Un cuadrado tiene cuatro lados iguales (todos son rectos) y cuatro ángulos iguales (cada uno mide 90 grados).
-- Un rectángulo también tiene cuatro lados iguales pero no todos son necesariamente rectos; solo dos de ellos deben ser rectos para que sea un rectángulo.
-
-Por lo tanto, el objeto que puede ser cualquier uno de estos tres tipos de figuras geométricas dependiendo del número de lados rectos que tenga, será un triángulo.",PPO,Qwen2.5-1.5B-Instruct-PPO,P088
-Escribe una pregunta donde el estudiante determine la medida de un lado faltante conociendo el perímetro de un rectángulo.,Pregunta: Un rectángulo tiene un perímetro de 36 centímetros y uno de sus lados mide 10 centímetros. ¿Cuánto mide el otro lado?,PPO,Qwen2.5-1.5B-Instruct-PPO,P089
-Genera una pregunta de geometría que solicite clasificar un triángulo según la longitud de sus lados.,¿Cómo podrías clasificar un triángulo si conoces el valor exacto de cada uno de sus lados?,PPO,Qwen2.5-1.5B-Instruct-PPO,P090
-Crea una pregunta donde el estudiante identifique cuál figura tiene cuatro lados iguales y cuatro ángulos rectos.,"Una buena pregunta para este contexto sería:
-
-""¿Cuál de las siguientes figuras geométricas es un cuadrado?""
-
-Las opciones podrían ser:
-1. Triángulo equilátero
-2. Rectángulo
-3. Cuadrado
-4. Trapecio
-
-La respuesta correcta sería ""cuadrado"", ya que todos los lados del cuadrado son iguales y todos sus ángulos miden 90 grados (recto).",PPO,Qwen2.5-1.5B-Instruct-PPO,P091
-Escribe una pregunta para determinar cuántos lados y vértices tiene un pentágono y expresar ambos valores.,¿Cuántos lados y cuántas vértices tiene exactamente un pentágono?,PPO,Qwen2.5-1.5B-Instruct-PPO,P092
-Genera una pregunta donde se deba comparar el perímetro de dos cuadrados con diferentes longitudes de lado.,¿Cuál es el perímetro del primer cuadrado que tiene un lado de 5 metros y el segundo cuadrado que tiene un lado de 7 metros?,PPO,Qwen2.5-1.5B-Instruct-PPO,P093
-Crea una pregunta que solicite reconocer líneas paralelas y perpendiculares mediante una descripción escrita sencilla.,"¿Podrías proporcionar más detalles sobre cómo identificar las líneas paralelas y perpendiculares en un gráfico o dibujo? Por ejemplo, ¿cómo podrías distinguir entre dos líneas que están perpendicularmente separadas y otras que se encuentran en línea recta pero no forman ángulos de 90° con respecto a ellas?",PPO,Qwen2.5-1.5B-Instruct-PPO,P094
-"Escribe una pregunta donde el estudiante tenga que identificar un ángulo recto, agudo u obtuso según su medida.","Pregunta: 
-
-¿Cuál de los siguientes ángulos es recto? ¿Agudo? ¿Oblíquo?
-
-1) 90 grados
-
-2) 60 grados
-
-3) 180 grados
-
-4) 150 grados
-
-Respuesta:
-
-El ángulo recto tiene 90 grados.
-
-El ángulo agudo tiene menos de 90 grados.
-
-El ángulo obtuso tiene más de 90 grados pero menos de 180 grados.
-
-Por lo tanto, la respuesta correcta sería:
-
-1) 90 grados (recto)
-
-2) 60 grados (agudo)
-
-3) 180 grados (obtuso)
-
-4) 150 grados (agudo)",PPO,Qwen2.5-1.5B-Instruct-PPO,P095
-Genera una pregunta que permita calcular la medida de un lado de un cuadrado conociendo su perímetro.,¿Cómo se calcula el lado de un cuadrado si se conoce su perímetro?,PPO,Qwen2.5-1.5B-Instruct-PPO,P096
-Crea una pregunta donde se comparen las áreas de dos rectángulos a partir de sus medidas de largo y ancho.,¿Cómo se comparan las áreas de dos rectángulos dados su longitud y anchura?,PPO,Qwen2.5-1.5B-Instruct-PPO,P097
-"Escribe una pregunta de geometría que solicite identificar una figura tridimensional según sus caras, aristas y vértices.",¿Podrías describirme la forma geométrica de un cubo? ¿Cuántos lados tiene este objeto y cómo se conectan entre sí?,PPO,Qwen2.5-1.5B-Instruct-PPO,P098
-Genera una pregunta donde el estudiante tenga que determinar cuántos ejes de simetría tiene una figura geométrica sencilla.,"Pregunta: ¿Cuántos ejes de simetría tienen la siguiente figura geométrica simple? 
-
-A) Una esfera
-
-B) Un círculo
-
-C) Un triángulo equilátero
-
-D) Un paralelogramo rectangular
-
-E) Un romboide isósceles
-
-Respuesta: La figura con más ejes de simetría es la esfera (A), ya que tiene un número ilimitado de ejes de simetría en todas las direcciones posibles. Los otros figuras solo tienen ejes de simetría limitados por sus características específicas.
-
-Explicación: 
-- Una esfera tiene 360 ejes de simetría, uno para cada punto del eje.
-- Un círculo tiene 2 ejes de simetría, uno vertical y otro horizontal.
-- Un triángulo equilátero tiene 3 ejes",PPO,Qwen2.5-1.5B-Instruct-PPO,P099
-"Crea una pregunta que evalúe el reconocimiento de círculo, triángulo, cuadrado y rectángulo mediante propiedades escritas.","¿Podrías proporcionar más detalles sobre cómo se evaluarán las propiedades para cada figura geométrica? Por ejemplo, ¿se evaluará la cantidad de lados o los ángulos internos?",PPO,Qwen2.5-1.5B-Instruct-PPO,P100
+Generate a geometry question where the student identifies a plane shape from its number of sides and vertices. Use text only.,What is the name of a polygon with 8 sides and 8 vertices?,PPO,Qwen2.5-1.5B-Instruct-PPO,P001
+Create a question where the student calculates the perimeter of a rectangle from given whole-number measurements. Use text only.,What is the total distance around your desk if it measures 3 feet in length and 2 feet in width?,PPO,Qwen2.5-1.5B-Instruct-PPO,P002
+Write a question asking the student to calculate the perimeter of a square from the length of one side. Use text only.,What is the formula for finding the perimeter of a square when you know the length of just one of its sides?,PPO,Qwen2.5-1.5B-Instruct-PPO,P003
+Generate a question comparing two geometric shapes by the number of sides each shape has. Use text only.,How many more sides does an octagon have compared to a hexagon?,PPO,Qwen2.5-1.5B-Instruct-PPO,P004
+Create a question asking how many vertices a named plane shape has. Use text only.,How many corners does a cube have?,PPO,Qwen2.5-1.5B-Instruct-PPO,P005
+Write a question where the student calculates the area of a rectangle using simple whole-number measurements. Use text only.,What is the total square unit measurement needed to cover the entire surface of this 4-foot long and 3-foot wide floor?,PPO,Qwen2.5-1.5B-Instruct-PPO,P006
+Generate a question asking the student to calculate the area of a square from its side length. Use text only.,What formula would you use to find the area of a square when given the length of one of its sides?,PPO,Qwen2.5-1.5B-Instruct-PPO,P007
+"Create a question that distinguishes a triangle, square, and rectangle using their geometric properties. Use text only.","What unique characteristics define each of these shapes: the triangle, square, and rectangle?",PPO,Qwen2.5-1.5B-Instruct-PPO,P008
+Write a question where the student finds a missing side length from the known perimeter of a rectangle. Use text only.,What is the unknown dimension if the total distance around your rectangular garden measures 60 feet and you know one side is twice as long as the other?,PPO,Qwen2.5-1.5B-Instruct-PPO,P009
+Generate a geometry question asking the student to classify a triangle by the lengths of its sides. Use text only.,What type of triangle is formed when all three side lengths measure 5 units?,PPO,Qwen2.5-1.5B-Instruct-PPO,P010
+Create a question where the student identifies the shape with four equal sides and four right angles. Use text only.,What geometric figure has all sides of equal length and all interior angles measuring 90 degrees?,PPO,Qwen2.5-1.5B-Instruct-PPO,P011
+Write a question asking how many sides and vertices a pentagon has. Use text only.,How many sides and vertices does a regular pentagon have?,PPO,Qwen2.5-1.5B-Instruct-PPO,P012
+Generate a question where the student compares the perimeters of two squares with different side lengths. Use text only.,What is the difference in perimeter between a square with sides measuring 5 units and another with sides measuring 10 units?,PPO,Qwen2.5-1.5B-Instruct-PPO,P013
+Create a question asking the student to recognize parallel and perpendicular lines from a simple written description. Use text only.,"Identify which of these pairs represents parallel lines: A) x = 3, B) y = -2x + 5, C) y = 0, D) x^2 + y^2 = 4.",PPO,Qwen2.5-1.5B-Instruct-PPO,P014
+"Write a question where the student identifies an angle as right, acute, or obtuse from its measure. Use text only.",What type of angle is formed when two lines intersect at 90 degrees?,PPO,Qwen2.5-1.5B-Instruct-PPO,P015
+Generate a question where the student finds the side length of a square from its known perimeter. Use text only.,What is the formula to calculate the side length of a square when given its perimeter?,PPO,Qwen2.5-1.5B-Instruct-PPO,P016
+Create a question comparing the areas of two rectangles from their lengths and widths. Use text only.,What is the difference between the area calculations for Rectangle A with length 10 units and width 5 units compared to Rectangle B with dimensions 8 units by 7 units?,PPO,Qwen2.5-1.5B-Instruct-PPO,P017
+"Write a geometry question asking the student to identify a three-dimensional shape from its faces, edges, and vertices. Use text only.","What is the name of this solid figure based on its description: it has 8 flat surfaces (faces), 12 straight edges, and 6 corners (vertices)?",PPO,Qwen2.5-1.5B-Instruct-PPO,P018
+Generate a question where the student determines the number of lines of symmetry in a simple geometric shape. Use text only.,How many ways can you draw a line down the middle of this rectangle so that it divides it into two identical halves?,PPO,Qwen2.5-1.5B-Instruct-PPO,P019
+"Create a question that assesses recognition of circles, triangles, squares, and rectangles from written properties. Use text only.",Which geometric shape has four equal sides but no right angles?,PPO,Qwen2.5-1.5B-Instruct-PPO,P020
+Create a word problem where a rectangular garden has given length and width and the student finds its perimeter. Use text only.,"A local school is planning to build a new rectangular sports field. The total area of this field needs to be 120 square meters for various activities like soccer, basketball, etc. If they decide that each side should have an equal length (making it a square), what would be the dimensions of this perfect square-shaped playground? To solve this, first find out how long one side must be.",PPO,Qwen2.5-1.5B-Instruct-PPO,P021
+Generate a word problem where square tiles cover a small rectangular floor and the student finds the total area. Use text only.,"A room needs to be tiled with square tiles measuring 1 foot on each side. If there are 49 tiles along one wall and 36 tiles along the adjacent wall, what is the total area of the room in square feet?",PPO,Qwen2.5-1.5B-Instruct-PPO,P022
+Write a geometry problem where the student compares two routes made of straight line segments and determines which is longer. Use text only.,"Compare the lengths of these two routes:
+
+1) A 500m path that goes around a lake.
+2) A 400m path that runs parallel to the lake but on the opposite side.
+
+Which route is longer?",PPO,Qwen2.5-1.5B-Instruct-PPO,P023
+Create a problem where the student finds an unknown rectangle dimension from its area and one known side. Use text only.,What is the length of the missing side if the area of a rectangle is 56 square units and one side measures 7 units?,PPO,Qwen2.5-1.5B-Instruct-PPO,P024
+"Generate a problem describing a simple solid shape and ask the student to identify it using its faces, edges, and vertices. Use text only.","Identify the geometric figure based on its characteristics: number of faces, edges, and vertices.",PPO,Qwen2.5-1.5B-Instruct-PPO,P025
+Generate a question combining multiplication and division with natural numbers that gives a whole-number result. Use text only.,"What is the product of 45 multiplied by 6, then divided by 9?",PPO,Qwen2.5-1.5B-Instruct-PPO,P026
+Create a question where the student multiplies two numbers and then divides the result by another number. Use text only.,"What is 45 multiplied by 67, divided by 3?",PPO,Qwen2.5-1.5B-Instruct-PPO,P027
+Write a question that practices exact division and asks the student to check the result using multiplication. Use text only.,What is the product of 72 divided by 9? Check your answer by multiplying 9 times what number equals 72.,PPO,Qwen2.5-1.5B-Instruct-PPO,P028
+Generate a multiplication question with two factors followed by a division suitable for elementary students. Use text only.,What is 12 times 3 divided by 6?,PPO,Qwen2.5-1.5B-Instruct-PPO,P029
+Create a question with a missing factor where multiplication or division is needed to find its value. Use text only.,What number multiplied by 7 equals 49?,PPO,Qwen2.5-1.5B-Instruct-PPO,P030
+Write a question with two multiplications and ask the student to determine which product is greater. Use text only.,Which is larger: 7 x 8 or 9 x 6?,PPO,Qwen2.5-1.5B-Instruct-PPO,P031
+Generate a question where the student finds an unknown divisor from a known dividend and quotient. Use text only.,What is the missing number in this division problem: 48 ÷ ? = 6?,PPO,Qwen2.5-1.5B-Instruct-PPO,P032
+Create a question that practices multiplication facts and exact division using small natural numbers. Use text only.,What is the result of multiplying 7 by itself three times and then dividing it by 49?,PPO,Qwen2.5-1.5B-Instruct-PPO,P033
+Write a question where the student compares the result of a multiplication with the result of a division. Use text only.,What is the outcome when multiplying two negative numbers compared to dividing them?,PPO,Qwen2.5-1.5B-Instruct-PPO,P034
+Generate a question with three natural numbers where the student decides whether to multiply or divide. Use text only.,What is the result when you first add 5 and then either subtract 3 or divide by 2 depending on your choice?,PPO,Qwen2.5-1.5B-Instruct-PPO,P035
+Create a question with an incomplete multiplication where the student must find the missing factor. Use text only.,What number multiplied by 7 equals 49?,PPO,Qwen2.5-1.5B-Instruct-PPO,P036
+Write an exact-division question with a two-digit quotient that can be checked using multiplication. Use text only.,What is the result of dividing 120 by 6?,PPO,Qwen2.5-1.5B-Instruct-PPO,P037
+Generate a question with two exact divisions and ask the student to order the quotients from least to greatest. Use text only.,"What is the correct sequence of these division results: 12 ÷ 3, 18 ÷ 6, 24 ÷ 8?",PPO,Qwen2.5-1.5B-Instruct-PPO,P038
+Create a question that practices multiplication by ten and division by ten using natural numbers. Use text only.,What is the result of multiplying 789 by 10 and then dividing the product by 10?,PPO,Qwen2.5-1.5B-Instruct-PPO,P039
+Write a question where the student completes an equation containing both multiplication and division. Use text only.,What is 36 divided by 4 multiplied by 2?,PPO,Qwen2.5-1.5B-Instruct-PPO,P040
+Generate a question asking which multiplication correctly matches a given exact division. Use text only.,Which number multiplied by 7 equals 49?,PPO,Qwen2.5-1.5B-Instruct-PPO,P041
+Create a question where multiplication produces the dividend needed for a division with natural numbers. Use text only.,What is the smallest number that can be both a multiple of 7 and result in a remainder of 3 when divided by 5?,PPO,Qwen2.5-1.5B-Instruct-PPO,P042
+Write a question where the student corrects an incorrect multiplication or division result. Use text only.,What is the product of 7 and 8?,PPO,Qwen2.5-1.5B-Instruct-PPO,P043
+Generate a question combining two simple multiplications and one exact division to find the final result. Use text only.,"What is the outcome when you multiply 7 by itself, then divide that product by 3?",PPO,Qwen2.5-1.5B-Instruct-PPO,P044
+Create a question that assesses multiplication and division using a short numerical expression with exact operations. Use text only.,What is the result of dividing 480 by 6 and then multiplying the quotient by 3?,PPO,Qwen2.5-1.5B-Instruct-PPO,P045
+Create a word problem where equal groups are formed and the student uses multiplication to find the total number of objects. Use text only.,There are 5 baskets of apples. Each basket contains 7 apples. How many apples are there in total?,PPO,Qwen2.5-1.5B-Instruct-PPO,P046
+Generate a word problem where a set of objects is shared equally and the student uses division to find how many each group receives. Use text only.,There were 24 apples that needed to be divided among 6 children for their snack time. How many apples would each child get?,PPO,Qwen2.5-1.5B-Instruct-PPO,P047
+Write a problem where the student first finds a total using multiplication and then shares it equally using division. Use text only.,"**Problem:**
+
+A teacher has 48 pencils to distribute evenly among her 6 students for their math class. How many pencils will each student receive? Additionally, if she decides to buy more pencils so that every student can have 5 pencils instead of just 4, how many extra pencils does she need to purchase?
+
+---
+
+**Solution Steps:**
+
+1. **Finding the Total Number of Pencils Each Student Receives:**
+   - The teacher wants to divide the 48 pencils equally among the 6 students.
+   - To find out how many pencils each student gets, we perform the following calculation:
+     \[
+     \text{Pencils per student} = \frac{\text{Total number of pencils}}{\text{Number of students}} = \frac{48}{6}
+     \]
+   - Performing this division gives us:
+     \[
+     \frac{48}{6} = 8
+     \]
+   - Therefore, each student will receive 8 pencils.
+
+2. **Calculating Extra Pencils Needed:**
+   - If each student is supposed to get 5 pencils now, but currently they are getting 4, we need to determine how many additional pencils are required.
+   - First, calculate the total number of pencils needed if each student receives 5:
+     \[
+     \text{Total pencils needed} = \text{Number of students} \times \text{Desired pencils per student} = 6 \times 5
+     \]
+   - Performing this multiplication gives us:
+     \[
+     6 \times 5 = 30
+     \]
+   - Since there are already 48 pencils available, we subtract the current amount from the desired total to find out how many extra pencils are needed:
+     \[
+     \text{Extra pencils needed} = \text{Total pencils needed} - \text{Current pencils} = 30 - 48
+     \]
+   - However, since having fewer than zero pencils doesn't make sense in this context (you can't give negative pencils), we actually need to consider whether the current distribution allows for an increase without exceeding capacity. In practical terms, if distributing 5 pencils means some students might end up with less than intended due to limited resources, you would adjust accordingly based on actual constraints or needs rather than calculating further beyond what's feasible under given conditions.
+
+In summary, each student will receive 8 pencils initially, and purchasing enough pencils to ensure everyone ends up with at least 5 requires buying 18 more pencils (since \(48 + 18 = 66\)).",PPO,Qwen2.5-1.5B-Instruct-PPO,P048
+Create a problem involving rows and columns where the student uses multiplication to find the total and division to verify it. Use text only.,"**Problem:**
+
+A classroom has 4 groups of students working on a project. Each group needs to create a poster that is 8 feet wide and 12 feet tall. How many square feet of paper will all the posters combined require? Then, if each roll of poster board covers an area of 36 square feet, how many rolls are needed to cover all the posters?
+
+---
+
+**Solution Steps:**
+
+1. **Calculate Total Area for One Poster:**  
+   - The formula for calculating the area of a rectangle is length times width.
+   - For one poster, this would be \(8 \text{ ft} \times 12 \text{ ft}\).
+
+2. **Multiply to Find Total Area for All Posters:**  
+   - Since there are 4 groups, multiply the area of one poster by 4.
+
+3. **Verify with Division:**  
+   - To check your answer, divide the total area found in step 2 by the coverage area per roll (36 sq ft) to see if you get back to the original number of posters.
+
+Let's do these calculations:
+
+- Step 1 Calculation:
+  \[
+  8 \text{ ft} \times 12 \text{ ft} = 96 \text{ square feet}
+  \]
+
+- Step 2 Multiplication:
+  \[
+  96 \text{ square feet/group} \times 4 \text{ groups} = 384 \text{ square feet}
+  \]
+
+- Step 3 Verification:
+  \[
+  384 \text{ square feet} ÷ 36 \text{ sq ft/roll} ≈ 10.67 \text{ rolls}
+  \]
+  Since we can't have a fraction of a roll, round up to ensure enough material.
+
+Therefore, all the posters together will need approximately **11 rolls** of poster board.",PPO,Qwen2.5-1.5B-Instruct-PPO,P049
+Generate a word problem where the student finds how many equal packages can be made from a total number of items. Use text only.,"If you have 48 candies and want to put them into bags with 6 candies each, how many full bags will you have?",PPO,Qwen2.5-1.5B-Instruct-PPO,P050
+Generate a math question that combines addition and subtraction with natural numbers for elementary students. Use text only.,What is the result when you subtract 27 from 53?,PPO,Qwen2.5-1.5B-Instruct-PPO,P051
+Create a question where the student adds two quantities and then subtracts a third quantity to find the answer. Use text only.,"What is the result of adding 15 and 20, then taking away 8 from that total?",PPO,Qwen2.5-1.5B-Instruct-PPO,P052
+Write an addition and subtraction question with two-digit numbers that can be solved using basic operations. Use text only.,"Sure! Here's an example of how you might create such a problem:
+
+Question: What is the sum of 45 and 37?
+
+Answer: The sum is 82.
+
+This simple arithmetic exercise involves adding two single-digit numbers together to get a result in the tens place. It also demonstrates the concept of carrying over when necessary (though no actual carrying was needed here).",PPO,Qwen2.5-1.5B-Instruct-PPO,P053
+Generate a question that practices subtraction first and then addition using simple natural numbers. Use text only.,What is the result when you subtract 7 from 15 and then add 3 to your answer?,PPO,Qwen2.5-1.5B-Instruct-PPO,P054
+Create a math question with three quantities where the student must decide when to add and when to subtract. Use text only.,What is the total cost of purchasing 5 notebooks at $2 each if there's an additional shipping fee of $3? Please show all calculations.,PPO,Qwen2.5-1.5B-Instruct-PPO,P055
+Write a calculation question combining addition and subtraction with numbers below 100 for elementary education. Use text only.,What is the result when you subtract thirty-seven from one hundred?,PPO,Qwen2.5-1.5B-Instruct-PPO,P056
+Generate a question where the student completes a combined addition and subtraction operation by finding a missing number. Use text only.,What is 15 + ? = 20?,PPO,Qwen2.5-1.5B-Instruct-PPO,P057
+Create a question asking the student to compare two results obtained from an addition and a subtraction with natural numbers. Use text only.,What is the difference between the sum of 7 and 5 compared to the result of subtracting 5 from 7?,PPO,Qwen2.5-1.5B-Instruct-PPO,P058
+Write a question where the student solves two additions and one subtraction to find the final result. Use text only.,What is the sum of 7 + 5 - 3?,PPO,Qwen2.5-1.5B-Instruct-PPO,P059
+Generate an addition and subtraction question using three-digit numbers with one correct answer. Use text only.,What is the sum of 456 and 327? What would be their difference if you subtracted the smaller number from the larger one?,PPO,Qwen2.5-1.5B-Instruct-PPO,P060
+Create a question where the student identifies which addition or subtraction operation produces a given result. Use text only.,"Which mathematical operation would you like me to demonstrate? Addition (+), Subtraction (-), Multiplication (×), Division (/)? Please provide more details so I can accurately select an example for you.",PPO,Qwen2.5-1.5B-Instruct-PPO,P061
+Write a math question with an incomplete addition and an incomplete subtraction where the missing values must be found. Use text only.,What is the sum of 789 and what number equals 1234? What is the difference between 1500 and that same unknown number?,PPO,Qwen2.5-1.5B-Instruct-PPO,P062
+Generate a question where the student checks a subtraction using addition and decides whether the result is correct. Use text only.,Is 15 + 9 equal to 24?,PPO,Qwen2.5-1.5B-Instruct-PPO,P063
+Create a question with four natural numbers that requires additions and subtractions in the correct order. Use text only.,"What is the sum of these five integers: 7, -3, 2, -4, and 5?",PPO,Qwen2.5-1.5B-Instruct-PPO,P064
+Write a mental-math question combining one addition and one subtraction with numbers below 50. Use text only.,What is the result when you add 24 to 37 and then subtract 18 from that sum?,PPO,Qwen2.5-1.5B-Instruct-PPO,P065
+Generate a question with two expressions containing additions and subtractions and ask which result is greater. Use text only.,Which is larger: 15 + 7 or 20 - 4?,PPO,Qwen2.5-1.5B-Instruct-PPO,P066
+Create an addition and subtraction question where the student finds the starting value from a known final result. Use text only.,What is 123 + 456 - 789 = ?,PPO,Qwen2.5-1.5B-Instruct-PPO,P067
+Write a question where the student must correct an incorrect result from an operation combining addition and subtraction. Use text only.,What is the final answer when you add 7 to 12 but then mistakenly subtract instead?,PPO,Qwen2.5-1.5B-Instruct-PPO,P068
+Generate a question with consecutive natural numbers that requires one addition and one subtraction to solve. Use text only.,What is the sum of all integers from 1 to 20 inclusive? Subtract the total number of even integers between 1 and 20 (inclusive) from this sum. What do you get?,PPO,Qwen2.5-1.5B-Instruct-PPO,P069
+Create a question that assesses addition and subtraction using a numerical expression with three simple operations. Use text only.,"What is the result when you first subtract 45 from 123, then add 67 to your answer?",PPO,Qwen2.5-1.5B-Instruct-PPO,P070
+Generate a subtraction question with two-digit natural numbers where the student must find the correct difference. Use text only.,What is 47 minus 23?,PPO,Qwen2.5-1.5B-Instruct-PPO,P071
+Create a question where the student subtracts a three-digit number from a larger number. Use text only.,What is 789 minus 456?,PPO,Qwen2.5-1.5B-Instruct-PPO,P072
+Write a subtraction question with an unknown value and ask the student to find the missing number. Use text only.,What is 75 minus what equals 48?,PPO,Qwen2.5-1.5B-Instruct-PPO,P073
+Generate a subtraction question with regrouping using natural numbers appropriate for elementary students. Use text only.,What is 54 minus 17?,PPO,Qwen2.5-1.5B-Instruct-PPO,P074
+Create a mental-math question based on subtraction with numbers below 100. Use text only.,What is the result of subtracting seven from eighty-two?,PPO,Qwen2.5-1.5B-Instruct-PPO,P075
+Generate a simple algebra question where the student must find the value of an unknown letter. Use text only.,What is 3x + 7 when x equals 4?,PPO,Qwen2.5-1.5B-Instruct-PPO,P076
+Create a question with an equation containing a variable and addition where the missing value must be found. Use text only.,What is the unknown number if when added to 34 equals 56?,PPO,Qwen2.5-1.5B-Instruct-PPO,P077
+Write an algebra question where a variable appears in a subtraction and must be determined. Use text only.,What is the value of x if 3x - 7 = 16?,PPO,Qwen2.5-1.5B-Instruct-PPO,P078
+Generate a question with multiplication and an unknown variable that can be solved using natural numbers. Use text only.,What is the product of 7 and some number if their sum equals 24?,PPO,Qwen2.5-1.5B-Instruct-PPO,P079
+Create a simple division question where the dividend is a variable and the quotient is known. Use text only.,What is 45 divided by x equals to 9?,PPO,Qwen2.5-1.5B-Instruct-PPO,P080
+Write a question asking the student to complete a number sequence and describe the rule using a simple operation. Use text only.,"What is the next number in this sequence: 2, 4, 8, 16, ...? Explain your reasoning.",PPO,Qwen2.5-1.5B-Instruct-PPO,P081
+Generate a question where the student decides whether two simple algebraic expressions have the same value. Use text only.,What is the outcome when you subtract 3x from both sides of the equation y = 2x + 4?,PPO,Qwen2.5-1.5B-Instruct-PPO,P082
+Create a question with a variable on both sides of a very simple equation for elementary students. Use text only.,What is the missing number in this sequence: 2 + □ = 5?,PPO,Qwen2.5-1.5B-Instruct-PPO,P083
+Write a question where the student substitutes a given value into an algebraic expression and calculates the result. Use text only.,What is the value of 3x + 4 when x equals 7?,PPO,Qwen2.5-1.5B-Instruct-PPO,P084
+Generate a question asking which value of a variable makes a simple mathematical equation true. Use text only.,What is the solution for x in the equation 2x + 3 = 7?,PPO,Qwen2.5-1.5B-Instruct-PPO,P085
+Create a question where the student writes a simple algebraic expression from a relationship between numbers. Use text only.,"If there are 7 apples on the table and you eat 3 of them, how many would remain? Write an equation to represent this situation.",PPO,Qwen2.5-1.5B-Instruct-PPO,P086
+Write a question with an expression containing a variable and ask the student to evaluate it for two different values. Use text only.,What is the result of 3x + 4 when x equals 2 and when x equals -1?,PPO,Qwen2.5-1.5B-Instruct-PPO,P087
+Generate a question where the student finds the unknown term in a simple increasing number pattern. Use text only.,"What is the next number in this sequence: 2, 4, 8, 16?",PPO,Qwen2.5-1.5B-Instruct-PPO,P088
+Create an algebra question that uses a letter to represent an unknown number in an addition operation. Use text only.,What is the sum of 7 and twice some integer? Write this as an algebraic expression.,PPO,Qwen2.5-1.5B-Instruct-PPO,P089
+Write a question where a variable represents an unknown factor and must be found using multiplication. Use text only.,What is the product of 7 and some number if their sum equals 24?,PPO,Qwen2.5-1.5B-Instruct-PPO,P090
+Generate a question asking the student to select which algebraic expression correctly represents a given numerical equality. Use text only.,Which of the following expressions corresponds to the equation 2x + 3 = 7?,PPO,Qwen2.5-1.5B-Instruct-PPO,P091
+Create a question where the student completes a simple number table by following a rule written with a variable. Use text only.,"What is the next number in this sequence: 2, 4, 8, 16, __?",PPO,Qwen2.5-1.5B-Instruct-PPO,P092
+Write an algebra question where the student discovers a simple rule by observing several pairs of numbers. Use text only.,"What is the next number in this sequence: 2, 4, 8, 16, __?",PPO,Qwen2.5-1.5B-Instruct-PPO,P093
+Generate a question with two possible values for a variable and ask which one satisfies the equation. Use text only.,What is the value of x that makes this true: 2x + 3 = 7? A) 1 B) 4,PPO,Qwen2.5-1.5B-Instruct-PPO,P094
+"Create an elementary algebra question combining a variable, addition, and multiplication with small numbers. Use text only.",What is the result of multiplying 4 by itself three times then adding 3?,PPO,Qwen2.5-1.5B-Instruct-PPO,P095
+Create a word problem where an unknown number of objects is represented by x and the student writes and solves an addition equation. Use text only.,"I have 7 apples and my friend gives me more. Now I have altogether 12 apples. How many did he give to me? Let's call the number of additional apples ""x"". The equation would be: 
+7 + x = 12
+To solve for x, we subtract 7 from both sides:
+x = 5
+So your friend gave you 5 apples.",PPO,Qwen2.5-1.5B-Instruct-PPO,P096
+Generate a simple balance problem where two expressions must be equal and the student finds the missing value. Use text only.,"Find the unknown number that makes these equations true:
+
+1/4 + 3/8 = x / 6
+
+To solve for x, first find a common denominator between 4, 8, and 6 which is 24.
+
+Then convert each fraction to have this common denominator:
+- 1/4 becomes 6/24
+- 3/8 becomes 9/24
+- 6 (which is equivalent to 6/1) becomes 144/24
+
+Now add them up: 
+6/24 + 9/24 = 15/24
+
+So now we have:
+x / 6 = 15/24
+
+Multiply both sides by 6 to get rid of the denominator on the left side:
+x = (15/24) * 6
+
+Simplify the right side:
+x = 15/4
+
+Therefore, the missing value 'x' equals 15/4 or 3.75.",PPO,Qwen2.5-1.5B-Instruct-PPO,P097
+"Write a problem where a number is doubled and then increased by a small amount, and the student finds the starting number. Use text only.","What is the original value if when it's first multiplied by 2 and then increased by 3, we end up with 15?",PPO,Qwen2.5-1.5B-Instruct-PPO,P098
+Create a pattern problem where the student predicts the next two terms and writes a simple rule using n. Use text only.,"Sure! Here's a pattern problem for you:
+
+**Pattern:**
+1. 2  
+2. 4  
+3. 6  
+4. 8  
+
+**Prediction:** What are the next two numbers in this sequence?
+
+**Rule (n):** The nth term is equal to twice the value of n.
+
+So, the next two terms would be:
+5 → 10  
+6 → 12",PPO,Qwen2.5-1.5B-Instruct-PPO,P099
+Generate a word problem where the student translates a short statement into an equation with one unknown and solves it. Use text only.,"Sally has three times as many apples as Tom. If Sally has 18 apples, how many does Tom have?",PPO,Qwen2.5-1.5B-Instruct-PPO,P100

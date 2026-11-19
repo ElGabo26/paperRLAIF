@@ -1,0 +1,59 @@
+{
+    "model_id": "/workspace/models/Qwen2.5-1.5B-Instruct",
+    "preferences_file": "/workspace/papaerRLAIF/codTraining/calify/preferencesQwen.csv",
+    "seed": 42,
+    "dataset": {
+        "total_examples": 4237,
+        "train_examples": 3177,
+        "eval_examples": 1060,
+        "test_size": 0.25
+    },
+    "dpo": {
+        "num_train_epochs": 5,
+        "learning_rate": 1e-05,
+        "beta": 0.1,
+        "loss_type": [
+            "sigmoid"
+        ],
+        "max_length": 850,
+        "per_device_train_batch_size": 8,
+        "per_device_eval_batch_size": 8,
+        "gradient_accumulation_steps": 4,
+        "effective_batch_size_single_gpu": 32
+    },
+    "lora": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.0,
+        "bias": "none",
+        "target_modules": "{'v_proj', 'q_proj'}"
+    },
+    "precision": {
+        "bf16": true,
+        "fp16": false
+    },
+    "best_model": {
+        "best_epoch": 5.0,
+        "best_eval_loss": 0.6765370965003967,
+        "best_checkpoint": "/workspace/adaptedModels/DPO/Qwen2.5-1.5B-Instruct-DPO/checkpoint-500",
+        "saved_path": "/workspace/adaptedModels/DPO/Qwen2.5-1.5B-Instruct-DPO/best_model"
+    },
+    "final_evaluation": {
+        "eval_loss": 0.6765370965003967,
+        "eval_runtime": 13.5598,
+        "eval_samples_per_second": 78.172,
+        "eval_steps_per_second": 9.808,
+        "eval_entropy": 1.2526300952846843,
+        "eval_num_tokens": 2872880.0,
+        "eval_logits/chosen": 0.6561724052717868,
+        "eval_logits/rejected": 0.6127168017088565,
+        "eval_mean_token_accuracy": 0.7046747481016288,
+        "eval_rewards/chosen": 0.09530768395030409,
+        "eval_rewards/rejected": 0.05674282814327039,
+        "eval_rewards/accuracies": 0.6362781954887218,
+        "eval_rewards/margins": 0.038564855042018724,
+        "eval_logps/chosen": -68.18555086178887,
+        "eval_logps/rejected": -70.55428173667507,
+        "epoch": 5.0
+    }
+}

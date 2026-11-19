@@ -1,0 +1,259 @@
+prompt,response,algin,model,prompt_id
+Generate a geometry question where the student identifies a plane shape from its number of sides and vertices. Use text only.,What is the name of a polygon with 8 sides and 10 vertices?,DPO,Qwen2.5-1.5B-Instruct-DPO,P001
+Create a question where the student calculates the perimeter of a rectangle from given whole-number measurements. Use text only.,What is the perimeter of a rectangle with length 12 units and width 8 units?,DPO,Qwen2.5-1.5B-Instruct-DPO,P002
+Write a question asking the student to calculate the perimeter of a square from the length of one side. Use text only.,What is the formula for calculating the perimeter of a square when you know the length of one side?,DPO,Qwen2.5-1.5B-Instruct-DPO,P003
+Generate a question comparing two geometric shapes by the number of sides each shape has. Use text only.,How many more sides does an octagon have compared to a hexagon?,DPO,Qwen2.5-1.5B-Instruct-DPO,P004
+Create a question asking how many vertices a named plane shape has. Use text only.,How many vertices does the given plane shape have?,DPO,Qwen2.5-1.5B-Instruct-DPO,P005
+Write a question where the student calculates the area of a rectangle using simple whole-number measurements. Use text only.,What is the area of a rectangle that measures 4 meters in length and 3 meters in width?,DPO,Qwen2.5-1.5B-Instruct-DPO,P006
+Generate a question asking the student to calculate the area of a square from its side length. Use text only.,What is the formula for calculating the area of a square when you know the length of one of its sides?,DPO,Qwen2.5-1.5B-Instruct-DPO,P007
+"Create a question that distinguishes a triangle, square, and rectangle using their geometric properties. Use text only.",What unique geometric property distinguishes a triangle from both a square and a rectangle?,DPO,Qwen2.5-1.5B-Instruct-DPO,P008
+Write a question where the student finds a missing side length from the known perimeter of a rectangle. Use text only.,What is the missing length of one side of a rectangle if its perimeter is 48 units and the other side measures 12 units?,DPO,Qwen2.5-1.5B-Instruct-DPO,P009
+Generate a geometry question asking the student to classify a triangle by the lengths of its sides. Use text only.,What type of triangle is formed if all three sides have different lengths?,DPO,Qwen2.5-1.5B-Instruct-DPO,P010
+Create a question where the student identifies the shape with four equal sides and four right angles. Use text only.,What is the name of a quadrilateral that has four equal sides and four right angles?,DPO,Qwen2.5-1.5B-Instruct-DPO,P011
+Write a question asking how many sides and vertices a pentagon has. Use text only.,How many sides and vertices does a pentagon have?,DPO,Qwen2.5-1.5B-Instruct-DPO,P012
+Generate a question where the student compares the perimeters of two squares with different side lengths. Use text only.,What is the difference in perimeter between a square with sides measuring 5 units and another square with sides measuring 7 units?,DPO,Qwen2.5-1.5B-Instruct-DPO,P013
+Create a question asking the student to recognize parallel and perpendicular lines from a simple written description. Use text only.,"Identify whether each pair of lines in the following set is parallel or perpendicular: Line A goes through points (1, 2) and (3, 4), while Line B goes through points (5, 6) and (7, 8).",DPO,Qwen2.5-1.5B-Instruct-DPO,P014
+"Write a question where the student identifies an angle as right, acute, or obtuse from its measure. Use text only.",What type of angle is it if you measure it and find that it measures 90 degrees?,DPO,Qwen2.5-1.5B-Instruct-DPO,P015
+Generate a question where the student finds the side length of a square from its known perimeter. Use text only.,How can you determine the side length of a square when given its perimeter?,DPO,Qwen2.5-1.5B-Instruct-DPO,P016
+Create a question comparing the areas of two rectangles from their lengths and widths. Use text only.,What is the area of Rectangle A with length 10 units and width 5 units compared to the area of Rectangle B with length 8 units and width 7 units?,DPO,Qwen2.5-1.5B-Instruct-DPO,P017
+"Write a geometry question asking the student to identify a three-dimensional shape from its faces, edges, and vertices. Use text only.","Identify the three-dimensional shape that has 8 triangular faces, 12 edges, and 6 vertices.",DPO,Qwen2.5-1.5B-Instruct-DPO,P018
+Generate a question where the student determines the number of lines of symmetry in a simple geometric shape. Use text only.,How many lines of symmetry does an equilateral triangle have?,DPO,Qwen2.5-1.5B-Instruct-DPO,P019
+"Create a question that assesses recognition of circles, triangles, squares, and rectangles from written properties. Use text only.","What geometric shapes can be identified based on the following descriptions: ""a closed figure with three straight sides and angles"" and ""a shape enclosed within four lines""?",DPO,Qwen2.5-1.5B-Instruct-DPO,P020
+Create a word problem where a rectangular garden has given length and width and the student finds its perimeter. Use text only.,A rectangular garden is 12 meters long and 8 meters wide. What is the perimeter of the garden?,DPO,Qwen2.5-1.5B-Instruct-DPO,P021
+Generate a word problem where square tiles cover a small rectangular floor and the student finds the total area. Use text only.,"A room is to be tiled with square tiles that measure 1 foot on each side. If the length of the room is 8 feet and the width is 6 feet, how many square tiles will be needed to cover the entire floor?",DPO,Qwen2.5-1.5B-Instruct-DPO,P022
+Write a geometry problem where the student compares two routes made of straight line segments and determines which is longer. Use text only.,"Two students, Alex and Jamie, have been tasked with finding the shortest route from their school to the park. They each drew different paths using straight lines on a map.
+
+Alex's path consists of 5 segments: 20 meters, 15 meters, 30 meters, 40 meters, and 25 meters.
+Jamie's path consists of 6 segments: 22 meters, 18 meters, 32 meters, 42 meters, 27 meters, and 30 meters.
+
+Which route is shorter? How much shorter is it compared to the other route?
+
+To determine which route is shorter, we need to calculate the total length of each route:
+
+For Alex:
+\[ 20 + 15 + 30 + 40 + 25 = 130 \text{ meters} \]
+
+For Jamie:
+\[ 22 + 18 + 32 + 42 + 27 + 30 = 181 \text{ meters} \]
+
+Comparing the two totals:
+- Alex's route is 130 meters long.
+- Jamie's route is 181 meters long.
+
+The difference in length between the two routes is:
+\[ 181 - 130 = 51 \text{ meters} \]
+
+Therefore, Alex's route is shorter than Jamie's route by 51 meters.",DPO,Qwen2.5-1.5B-Instruct-DPO,P023
+Create a problem where the student finds an unknown rectangle dimension from its area and one known side. Use text only.,"A rectangular garden has an area of 120 square meters. If one side is 8 meters long, what is the length of the other side?",DPO,Qwen2.5-1.5B-Instruct-DPO,P024
+"Generate a problem describing a simple solid shape and ask the student to identify it using its faces, edges, and vertices. Use text only.","Identify the following geometric figure: A three-dimensional object with 8 vertices, 12 edges, and 6 faces that includes triangular bases connected by rectangular sides. What is this shape?",DPO,Qwen2.5-1.5B-Instruct-DPO,P025
+Generate a question combining multiplication and division with natural numbers that gives a whole-number result. Use text only.,What is the smallest number greater than 10 that can be obtained as both the product of two different natural numbers and their quotient when divided?,DPO,Qwen2.5-1.5B-Instruct-DPO,P026
+Create a question where the student multiplies two numbers and then divides the result by another number. Use text only.,"What is the result of multiplying 45 by 67, and then dividing that product by 3?",DPO,Qwen2.5-1.5B-Instruct-DPO,P027
+Write a question that practices exact division and asks the student to check the result using multiplication. Use text only.,"What is the quotient when 123456789 is divided by 9, and how can you verify this answer by multiplying it back together?",DPO,Qwen2.5-1.5B-Instruct-DPO,P028
+Generate a multiplication question with two factors followed by a division suitable for elementary students. Use text only.,"What is 12 multiplied by 5? Now, if you divide that product by 3, what do you get?",DPO,Qwen2.5-1.5B-Instruct-DPO,P029
+Create a question with a missing factor where multiplication or division is needed to find its value. Use text only.,What number multiplied by 5 equals 30?,DPO,Qwen2.5-1.5B-Instruct-DPO,P030
+Write a question with two multiplications and ask the student to determine which product is greater. Use text only.,Which is greater: 7 × 8 or 9 × 6?,DPO,Qwen2.5-1.5B-Instruct-DPO,P031
+Generate a question where the student finds an unknown divisor from a known dividend and quotient. Use text only.,What is the unknown divisor in the division problem 48 ÷ x = 6?,DPO,Qwen2.5-1.5B-Instruct-DPO,P032
+Create a question that practices multiplication facts and exact division using small natural numbers. Use text only.,What is the result of multiplying 3 by itself three times and then dividing it by 9?,DPO,Qwen2.5-1.5B-Instruct-DPO,P033
+Write a question where the student compares the result of a multiplication with the result of a division. Use text only.,What is the difference between 12 multiplied by 3 and 15 divided by 5?,DPO,Qwen2.5-1.5B-Instruct-DPO,P034
+Generate a question with three natural numbers where the student decides whether to multiply or divide. Use text only.,"What is the result of multiplying 4 and 5, then dividing that product by 2?",DPO,Qwen2.5-1.5B-Instruct-DPO,P035
+Create a question with an incomplete multiplication where the student must find the missing factor. Use text only.,What is the missing factor in the equation 3 × __ = 18?,DPO,Qwen2.5-1.5B-Instruct-DPO,P036
+Write an exact-division question with a two-digit quotient that can be checked using multiplication. Use text only.,"Question: What is the largest possible two-digit quotient when dividing 98 by a whole number?
+
+To check if this division is correct, you should multiply the quotient by the divisor and add any remainder to see if it equals the original dividend (98). If the result matches 98, then the division was done correctly.
+
+Answer: The largest possible two-digit quotient is 47. 
+
+Verification:
+\[ 47 \times 2 = 94 \]
+Add the remainder from the division of 98 by 47, which is 0 in this case since 98 divided by 47 gives no remainder.
+\[ 47 \times 2 + 0 = 94 \]
+
+So, \( 98 \div 47 = 2 \) with a remainder of 0, confirming our answer.",DPO,Qwen2.5-1.5B-Instruct-DPO,P037
+Generate a question with two exact divisions and ask the student to order the quotients from least to greatest. Use text only.,"What is the correct sequence of quotients when dividing 120 by 5, then 36 by 4?",DPO,Qwen2.5-1.5B-Instruct-DPO,P038
+Create a question that practices multiplication by ten and division by ten using natural numbers. Use text only.,What is the result of multiplying 45 by 10 and then dividing the product by 10?,DPO,Qwen2.5-1.5B-Instruct-DPO,P039
+Write a question where the student completes an equation containing both multiplication and division. Use text only.,What is the result of multiplying 12 by 3 and then dividing that product by 4?,DPO,Qwen2.5-1.5B-Instruct-DPO,P040
+Generate a question asking which multiplication correctly matches a given exact division. Use text only.,Which multiplication problem correctly represents the following division: 45 ÷ 9 = ?,DPO,Qwen2.5-1.5B-Instruct-DPO,P041
+Create a question where multiplication produces the dividend needed for a division with natural numbers. Use text only.,"What is the smallest number that, when multiplied by 12, results in a product that can be evenly divided by 36?",DPO,Qwen2.5-1.5B-Instruct-DPO,P042
+Write a question where the student corrects an incorrect multiplication or division result. Use text only.,What is the correct answer to 12 multiplied by 3?,DPO,Qwen2.5-1.5B-Instruct-DPO,P043
+Generate a question combining two simple multiplications and one exact division to find the final result. Use text only.,"What is the product of 12 multiplied by 3, divided by 4?",DPO,Qwen2.5-1.5B-Instruct-DPO,P044
+Create a question that assesses multiplication and division using a short numerical expression with exact operations. Use text only.,What is the result of dividing 450 by 9 and then multiplying the quotient by 2?,DPO,Qwen2.5-1.5B-Instruct-DPO,P045
+Create a word problem where equal groups are formed and the student uses multiplication to find the total number of objects. Use text only.,There are 5 boxes of crayons. Each box contains 8 red crayons and 7 blue crayons. How many crayons are there in total?,DPO,Qwen2.5-1.5B-Instruct-DPO,P046
+Generate a word problem where a set of objects is shared equally and the student uses division to find how many each group receives. Use text only.,A teacher has 24 apples that she wants to share equally among her 6 students. How many apples will each student receive?,DPO,Qwen2.5-1.5B-Instruct-DPO,P047
+Write a problem where the student first finds a total using multiplication and then shares it equally using division. Use text only.,"**Problem:**
+
+A teacher has 48 pencils to distribute evenly among her students for an art project. If there are 6 students in the class, how many pencils will each student receive? Additionally, if she decides to buy 2 more sets of pencils (each set containing 12 pencils) and wants to distribute these new pencils as well, how many pencils will each student get now?
+
+---
+
+**Solution:**
+
+First, we need to find out how many pencils each student gets when the teacher distributes them evenly.
+
+- The total number of pencils is 48.
+- There are 6 students.
+
+To find out how many pencils each student receives initially:
+\[ \text{Pencils per student} = \frac{\text{Total pencils}}{\text{Number of students}} = \frac{48}{6} = 8 \]
+
+So, each student gets 8 pencils.
+
+Next, the teacher buys 2 more sets of pencils, with each set containing 12 pencils. Therefore, the additional number of pencils is:
+\[ \text{Additional pencils} = 2 \times 12 = 24 \]
+
+Now, adding these to the original amount:
+\[ \text{New total pencils} = 48 + 24 = 72 \]
+
+With 6 students again, the new distribution would be:
+\[ \text{New pencils per student} = \frac{\text{New total pencils}}{\text{Number of students}} = \frac{72}{6} = 12 \]
+
+Therefore, after buying the additional pencils, each student will get 12 pencils.",DPO,Qwen2.5-1.5B-Instruct-DPO,P048
+Create a problem involving rows and columns where the student uses multiplication to find the total and division to verify it. Use text only.,"**Problem:**
+
+A classroom has 4 rows of desks with 5 desks in each row. Each desk can seat 2 students. How many students can be seated in the classroom? Verify your answer using division.
+
+---
+
+**Solution:**
+
+First, let's calculate the total number of desks in the classroom:
+
+- There are 4 rows.
+- Each row has 5 desks.
+
+So, the total number of desks is:
+\[ 4 \text{ rows} \times 5 \text{ desks/row} = 20 \text{ desks} \]
+
+Next, we need to determine how many students can be seated on these desks. Since each desk seats 2 students:
+
+The total number of students that can be seated is:
+\[ 20 \text{ desks} \times 2 \text{ students/desk} = 40 \text{ students} \]
+
+To verify this result, we can use division. We divide the total number of desks by the number of students per desk:
+
+\[ \frac{20 \text{ desks}}{2 \text{ students/desk}} = 10 \text{ groups of students} \]
+
+Since there are 10 groups of students (each group consisting of 2 students), the calculation confirms our initial result.
+
+Therefore, the total number of students that can be seated in the classroom is **40**.",DPO,Qwen2.5-1.5B-Instruct-DPO,P049
+Generate a word problem where the student finds how many equal packages can be made from a total number of items. Use text only.,"A teacher has 120 crayons and wants to distribute them equally into small boxes. If each box contains 8 crayons, how many boxes will the teacher need?",DPO,Qwen2.5-1.5B-Instruct-DPO,P050
+Generate a math question that combines addition and subtraction with natural numbers for elementary students. Use text only.,What is the result of adding 15 to 23 and then subtracting 8 from it?,DPO,Qwen2.5-1.5B-Instruct-DPO,P051
+Create a question where the student adds two quantities and then subtracts a third quantity to find the answer. Use text only.,"What is the result of adding 15 and 20, then subtracting 5?",DPO,Qwen2.5-1.5B-Instruct-DPO,P052
+Write an addition and subtraction question with two-digit numbers that can be solved using basic operations. Use text only.,"Sure! Here's a simple example of an addition problem:
+
+**Addition Question:**
+What is the sum of 45 and 27?
+
+And here's a corresponding subtraction problem:
+
+**Subtraction Question:**
+If you start with 63 candies and give away 18, how many do you have left?",DPO,Qwen2.5-1.5B-Instruct-DPO,P053
+Generate a question that practices subtraction first and then addition using simple natural numbers. Use text only.,"What is the result when you subtract 15 from 23, and then add 8 to the difference?",DPO,Qwen2.5-1.5B-Instruct-DPO,P054
+Create a math question with three quantities where the student must decide when to add and when to subtract. Use text only.,"Question: A farmer has 120 apples. He sells half of them at the market and then gives away one-third of what's left to his neighbor. How many apples does he have left? 
+
+To solve this problem, students need to determine whether they should first divide by two (to account for selling half) or multiply by one-third (to account for giving away one-third). The correct order is crucial here.",DPO,Qwen2.5-1.5B-Instruct-DPO,P055
+Write a calculation question combining addition and subtraction with numbers below 100 for elementary education. Use text only.,What is the result of subtracting 27 from 83?,DPO,Qwen2.5-1.5B-Instruct-DPO,P056
+Generate a question where the student completes a combined addition and subtraction operation by finding a missing number. Use text only.,What is the result of subtracting 27 from 150 and then adding 34 to that difference?,DPO,Qwen2.5-1.5B-Instruct-DPO,P057
+Create a question asking the student to compare two results obtained from an addition and a subtraction with natural numbers. Use text only.,Compare the sum of 7 and 5 with the result of subtracting 5 from 7. What is the difference between these two values?,DPO,Qwen2.5-1.5B-Instruct-DPO,P058
+Write a question where the student solves two additions and one subtraction to find the final result. Use text only.,What is the sum of 15 + 23 - 8?,DPO,Qwen2.5-1.5B-Instruct-DPO,P059
+Generate an addition and subtraction question using three-digit numbers with one correct answer. Use text only.,"Question: What is the sum of 456 and 327? 
+
+Answer: The sum is 783.",DPO,Qwen2.5-1.5B-Instruct-DPO,P060
+Create a question where the student identifies which addition or subtraction operation produces a given result. Use text only.,What is the correct mathematical operation (addition or subtraction) that results in 10 when applied to the numbers 5 and 5?,DPO,Qwen2.5-1.5B-Instruct-DPO,P061
+Write a math question with an incomplete addition and an incomplete subtraction where the missing values must be found. Use text only.,What is the sum of 123456789 and 987654321? What is the difference between 987654321 and 123456789?,DPO,Qwen2.5-1.5B-Instruct-DPO,P062
+Generate a question where the student checks a subtraction using addition and decides whether the result is correct. Use text only.,"To verify if the subtraction \( 45 - 17 = 28 \) is correct, can you first add 17 to 28? If the sum equals 45, then the original subtraction was done correctly.",DPO,Qwen2.5-1.5B-Instruct-DPO,P063
+Create a question with four natural numbers that requires additions and subtractions in the correct order. Use text only.,"What is the result of subtracting 1234 from the sum of 56789, 101010, 202020, and 303030?",DPO,Qwen2.5-1.5B-Instruct-DPO,P064
+Write a mental-math question combining one addition and one subtraction with numbers below 50. Use text only.,"What is the result of adding 27 to 34, then subtracting 18 from that sum?",DPO,Qwen2.5-1.5B-Instruct-DPO,P065
+Generate a question with two expressions containing additions and subtractions and ask which result is greater. Use text only.,Which is greater: 12 + 5 - 3 or 8 + 4 - 2?,DPO,Qwen2.5-1.5B-Instruct-DPO,P066
+Create an addition and subtraction question where the student finds the starting value from a known final result. Use text only.,What is 15 + ? = 20?,DPO,Qwen2.5-1.5B-Instruct-DPO,P067
+Write a question where the student must correct an incorrect result from an operation combining addition and subtraction. Use text only.,What is the correct answer when you add 15 to 23 and then subtract 8?,DPO,Qwen2.5-1.5B-Instruct-DPO,P068
+Generate a question with consecutive natural numbers that requires one addition and one subtraction to solve. Use text only.,"What is the sum of all integers from 1 to 20, inclusive, if you subtract the sum of all integers from 1 to 5?",DPO,Qwen2.5-1.5B-Instruct-DPO,P069
+Create a question that assesses addition and subtraction using a numerical expression with three simple operations. Use text only.,"What is the result of subtracting 25 from 100, then adding 30 to the previous result?",DPO,Qwen2.5-1.5B-Instruct-DPO,P070
+Generate a subtraction question with two-digit natural numbers where the student must find the correct difference. Use text only.,What is 52 minus 34?,DPO,Qwen2.5-1.5B-Instruct-DPO,P071
+Create a question where the student subtracts a three-digit number from a larger number. Use text only.,What is 567 minus 345?,DPO,Qwen2.5-1.5B-Instruct-DPO,P072
+Write a subtraction question with an unknown value and ask the student to find the missing number. Use text only.,What is 15 minus what number equals 8?,DPO,Qwen2.5-1.5B-Instruct-DPO,P073
+Generate a subtraction question with regrouping using natural numbers appropriate for elementary students. Use text only.,"Question: If you have 24 apples and you give away 17, how many do you have left after borrowing from the next number?",DPO,Qwen2.5-1.5B-Instruct-DPO,P074
+Create a mental-math question based on subtraction with numbers below 100. Use text only.,What is the result of subtracting 27 from 83?,DPO,Qwen2.5-1.5B-Instruct-DPO,P075
+Generate a simple algebra question where the student must find the value of an unknown letter. Use text only.,What is the value of x in the equation 3x + 5 = 14?,DPO,Qwen2.5-1.5B-Instruct-DPO,P076
+Create a question with an equation containing a variable and addition where the missing value must be found. Use text only.,What is the value of x in the equation 3 + x = 7?,DPO,Qwen2.5-1.5B-Instruct-DPO,P077
+Write an algebra question where a variable appears in a subtraction and must be determined. Use text only.,"Solve for \( x \) in the equation: 
+\[ 5x - 3 = 12 \]",DPO,Qwen2.5-1.5B-Instruct-DPO,P078
+Generate a question with multiplication and an unknown variable that can be solved using natural numbers. Use text only.,What is the product of 4 and a number \( x \) if the result equals 20?,DPO,Qwen2.5-1.5B-Instruct-DPO,P079
+Create a simple division question where the dividend is a variable and the quotient is known. Use text only.,What is the value of \( x \) if the quotient when 120 is divided by \( x \) is 5?,DPO,Qwen2.5-1.5B-Instruct-DPO,P080
+Write a question asking the student to complete a number sequence and describe the rule using a simple operation. Use text only.,"What is the next number in this sequence: 2, 4, 8, 16, __? Explain your answer with a simple mathematical operation.",DPO,Qwen2.5-1.5B-Instruct-DPO,P081
+Generate a question where the student decides whether two simple algebraic expressions have the same value. Use text only.,Determine if \(2x + 3\) and \(4 - x\) have the same value for any real number \(x\).,DPO,Qwen2.5-1.5B-Instruct-DPO,P082
+Create a question with a variable on both sides of a very simple equation for elementary students. Use text only.,What is the missing number in this equation: 3 + □ = 7?,DPO,Qwen2.5-1.5B-Instruct-DPO,P083
+Write a question where the student substitutes a given value into an algebraic expression and calculates the result. Use text only.,What is the value of the expression 3x + 5 when x = 4?,DPO,Qwen2.5-1.5B-Instruct-DPO,P084
+Generate a question asking which value of a variable makes a simple mathematical equation true. Use text only.,What is the value of x that satisfies the equation 2x + 3 = 7?,DPO,Qwen2.5-1.5B-Instruct-DPO,P085
+Create a question where the student writes a simple algebraic expression from a relationship between numbers. Use text only.,"Write an algebraic expression for ""three times a number plus four.""",DPO,Qwen2.5-1.5B-Instruct-DPO,P086
+Write a question with an expression containing a variable and ask the student to evaluate it for two different values. Use text only.,"What is the value of the expression \(2x + 3\) when \(x = 4\), and what is its value again when \(x = -1\)?",DPO,Qwen2.5-1.5B-Instruct-DPO,P087
+Generate a question where the student finds the unknown term in a simple increasing number pattern. Use text only.,"What is the next number in this sequence: 2, 4, 6, __?",DPO,Qwen2.5-1.5B-Instruct-DPO,P088
+Create an algebra question that uses a letter to represent an unknown number in an addition operation. Use text only.,What is the sum of 5 and twice the unknown number?,DPO,Qwen2.5-1.5B-Instruct-DPO,P089
+Write a question where a variable represents an unknown factor and must be found using multiplication. Use text only.,"What is the total number of apples if there are 5 baskets, each containing 12 apples?",DPO,Qwen2.5-1.5B-Instruct-DPO,P090
+Generate a question asking the student to select which algebraic expression correctly represents a given numerical equality. Use text only.,Which of the following expressions correctly represents the equation 2x + 3 = 7?,DPO,Qwen2.5-1.5B-Instruct-DPO,P091
+Create a question where the student completes a simple number table by following a rule written with a variable. Use text only.,"What is the next number in this sequence: 2, 4, 8, 16, __?",DPO,Qwen2.5-1.5B-Instruct-DPO,P092
+Write an algebra question where the student discovers a simple rule by observing several pairs of numbers. Use text only.,"**Question:**
+
+Consider the following sequence of number pairs:
+
+(1, 2), (3, 4), (5, 6), (7, 8)
+
+What is the next pair in this sequence?
+
+**Observation:** The first number in each pair increases by 2 from the previous pair.
+
+**Rule:** The second number in each pair is always twice the first number plus one.
+
+**Next Pair:** What would be the next pair after (9, 18)?",DPO,Qwen2.5-1.5B-Instruct-DPO,P093
+Generate a question with two possible values for a variable and ask which one satisfies the equation. Use text only.,"What is the value of \( x \) that makes the following equation true: \( 2x + 3 = 7 \)? 
+
+A) 1  
+B) 4",DPO,Qwen2.5-1.5B-Instruct-DPO,P094
+"Create an elementary algebra question combining a variable, addition, and multiplication with small numbers. Use text only.",Solve for x in the equation: 3x + 5 = 14.,DPO,Qwen2.5-1.5B-Instruct-DPO,P095
+Create a word problem where an unknown number of objects is represented by x and the student writes and solves an addition equation. Use text only.,"A farmer has a certain number of apples in his basket. He adds 5 more apples to the basket. Now there are 12 apples in total. How many apples did the farmer originally have? Let's represent the original number of apples with \( x \). The equation that represents this situation is:
+\[ x + 5 = 12 \]
+To solve for \( x \), we subtract 5 from both sides of the equation:
+\[ x = 12 - 5 \]
+\[ x = 7 \]
+So, the farmer originally had 7 apples.",DPO,Qwen2.5-1.5B-Instruct-DPO,P096
+Generate a simple balance problem where two expressions must be equal and the student finds the missing value. Use text only.,"**Problem:**
+
+A seesaw is balanced when the product of its weight (in pounds) on one side equals the sum of weights on the other side. If one side has a weight of 3 pounds and the other side has a total weight of 10 pounds, what is the weight on the first side?
+
+---
+
+**Solution:**
+
+Let \( x \) represent the unknown weight on the first side.
+
+Given:
+- The weight on the second side = 10 pounds.
+- The product of the weights on both sides should be equal for the seesaw to be balanced.
+
+We set up the equation:
+
+\[ x \times 3 = 10 \]
+
+To find \( x \), we solve for it:
+
+\[ x = \frac{10}{3} \]
+
+So, the weight on the first side is \( \frac{10}{3} \) pounds or approximately 3.33 pounds.",DPO,Qwen2.5-1.5B-Instruct-DPO,P097
+"Write a problem where a number is doubled and then increased by a small amount, and the student finds the starting number. Use text only.",A number was first doubled and then increased by 0.5. The result was 14. What was the original number?,DPO,Qwen2.5-1.5B-Instruct-DPO,P098
+Create a pattern problem where the student predicts the next two terms and writes a simple rule using n. Use text only.,"**Pattern Problem:**
+
+A sequence of numbers is given as follows:
+1, 3, 5, 7, 9, ...
+
+The student needs to predict the next two terms in the sequence and write a simple rule that describes how to find any term in the sequence.
+
+**Prediction:**
+- The next term after 9 is 11.
+- The term following 11 is 13.
+
+**Rule:**
+To find any term \( n \) in this sequence, you can use the formula:
+
+\[ a_n = 2n - 1 \]
+
+where \( a_n \) represents the \( n \)-th term in the sequence.",DPO,Qwen2.5-1.5B-Instruct-DPO,P099
+Generate a word problem where the student translates a short statement into an equation with one unknown and solves it. Use text only.,"A local bakery sells cupcakes at $2 each. If a customer buys more than 10 cupcakes, they get a discount of $1 per cupcake. How many cupcakes must a customer buy to spend exactly $30?",DPO,Qwen2.5-1.5B-Instruct-DPO,P100

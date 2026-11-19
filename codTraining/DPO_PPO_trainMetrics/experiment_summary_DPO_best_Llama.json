@@ -1,0 +1,59 @@
+{
+    "model_id": "/workspace/models/Llama-3.2-1B-Instruct",
+    "preferences_file": "/workspace/papaerRLAIF/codTraining/calify/preferencesLlama.csv",
+    "seed": 42,
+    "dataset": {
+        "total_examples": 5747,
+        "train_examples": 4310,
+        "eval_examples": 1437,
+        "test_size": 0.25
+    },
+    "dpo": {
+        "num_train_epochs": 5,
+        "learning_rate": 1e-05,
+        "beta": 0.1,
+        "loss_type": [
+            "sigmoid"
+        ],
+        "max_length": 850,
+        "per_device_train_batch_size": 8,
+        "per_device_eval_batch_size": 8,
+        "gradient_accumulation_steps": 4,
+        "effective_batch_size_single_gpu": 32
+    },
+    "lora": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.0,
+        "bias": "none",
+        "target_modules": "{'q_proj', 'v_proj'}"
+    },
+    "precision": {
+        "bf16": true,
+        "fp16": false
+    },
+    "best_model": {
+        "best_epoch": 5.0,
+        "best_eval_loss": 0.4904765486717224,
+        "best_checkpoint": "/workspace/adaptedModels/DPO/Llama-3.2-1B-Instruct-DPO/checkpoint-675",
+        "saved_path": "/workspace/adaptedModels/DPO/Llama-3.2-1B-Instruct-DPO/best_model"
+    },
+    "final_evaluation": {
+        "eval_loss": 0.4904765486717224,
+        "eval_runtime": 43.0109,
+        "eval_samples_per_second": 33.41,
+        "eval_steps_per_second": 4.185,
+        "eval_entropy": 1.4771412389145957,
+        "eval_num_tokens": 7994455.0,
+        "eval_logits/chosen": 2.429849819809802,
+        "eval_logits/rejected": 2.492160781758789,
+        "eval_mean_token_accuracy": 0.8235349112086826,
+        "eval_rewards/chosen": -2.210582752691375,
+        "eval_rewards/rejected": -3.2196926222907174,
+        "eval_rewards/accuracies": 0.7461111111773385,
+        "eval_rewards/margins": 1.0091098723519178,
+        "eval_logps/chosen": -98.65671244727241,
+        "eval_logps/rejected": -121.11428676181369,
+        "epoch": 5.0
+    }
+}

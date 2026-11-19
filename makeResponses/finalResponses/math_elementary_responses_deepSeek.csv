@@ -1,1138 +1,172 @@
 ﻿prompt_id,prompt,response,reasoning_content,status,error,response_id,model,temperature,thinking_enabled,max_tokens,prompt_tokens,completion_tokens,total_tokens,elapsed_seconds,api_time_seconds,retry_wait_seconds,attempts,processed_at
-P001,Genera una pregunta de matemática que combine una suma y una resta con números naturales para estudiantes de educación básica.,"**Pregunta de matemática:**
-
-En una tienda de mascotas hay 45 peces en una pecera. Llegan 28 peces más para agregarlos a la pecera. Luego, el dueño vende 17 peces a un cliente.
-
-¿Cuántos peces quedan en la pecera?
-
-**Solución:**
-
-- Paso 1 (suma): 45 + 28 = 73 peces
-- Paso 2 (resta): 73 − 17 = 56 peces
-
-**Respuesta: Quedan 56 peces en la pecera.**",,success,,f67c7a05-1f6e-4f46-9e92-ad28cda9b15f,deepseek-flash,0.3,False,200,42,128,170,2.2249,2.2249,0.0,1,2026-10-09T20:48:32.321484-05:00
-P002,Crea una pregunta donde el estudiante tenga que sumar dos cantidades y luego restar una tercera para obtener la respuesta.,"**Pregunta:**
-
-Ana tiene 45 caramelos. Su abuela le regala 38 caramelos más. Luego, Ana decide darle 27 caramelos a su hermano. ¿Cuántos caramelos le quedan a Ana?
-
-**Respuesta:**
-
-- Paso 1 (sumar): 45 + 38 = 83 caramelos
-- Paso 2 (restar): 83 − 27 = 56 caramelos
-
-**Ana le quedan 56 caramelos.**",,success,,b99673f5-1923-41c2-90c7-2fd1cc981ece,deepseek-flash,0.3,False,200,44,104,148,1.2493,1.2493,0.0,1,2026-10-09T20:48:33.577904-05:00
-P003,Escribe una pregunta de adición y sustracción con números de dos cifras que pueda resolverse mediante operaciones básicas.,"Claro, aquí tienes una pregunta que combina adición y sustracción con números de dos cifras:
-
-**Pregunta:**
-En una tienda había 45 caramelos. Por la mañana llegaron 38 caramelos más. Por la tarde se vendieron 27 caramelos. ¿Cuántos caramelos quedan en la tienda?
-
-**Solución:**
-- Primero sumamos los caramelos que había con los que llegaron:  
-  45 + 38 = 83
-- Luego restamos los que se vendieron:  
-  83 − 27 = 56
-
-**Respuesta:** Quedan 56 caramelos.",,success,,6a288047-8c56-4ec9-acf9-4b3c8245426f,deepseek-flash,0.3,False,200,45,140,185,1.441,1.441,0.0,1,2026-10-09T20:48:35.025148-05:00
-P004,Genera una pregunta que permita practicar primero una resta y después una suma usando números naturales sencillos.,"Aquí tienes una pregunta para practicar primero una resta y después una suma con números naturales sencillos:
-
-**""Tenía 15 caramelos. Me comí 6 caramelos y luego mi abuela me regaló 8 caramelos más. ¿Cuántos caramelos tengo ahora?""**
-
-**Solución paso a paso:**
-
-1. **Primero, la resta:**  
-   15 − 6 = 9 caramelos me quedan después de comerme 6.
-
-2. **Después, la suma:**  
-   9 + 8 = 17 caramelos tengo ahora.
-
-**Respuesta final:** Tengo **17 caramelos**.",,success,,0c0c9d4b-9753-49ea-8400-73d54f86aa2f,deepseek-flash,0.3,False,200,40,137,177,1.5164,1.5164,0.0,1,2026-10-09T20:48:36.548604-05:00
-P005,Crea una pregunta matemática que incluya tres cantidades y requiera decidir cuándo sumar y cuándo restar para resolverla.,"**Pregunta matemática:**
-
-Ana tiene 45 caramelos. Su amiga Lucía le regala 28 caramelos más. Luego, Ana decide darle 17 caramelos a su hermano pequeño. ¿Cuántos caramelos le quedan a Ana al final?
-
-**Solución paso a paso:**
-
-1. **Primero sumamos** porque Lucía le *regala* caramelos a Ana (la cantidad aumenta):
-   \[
-   45 + 28 = 73
-   \]
-
-2. **Luego restamos** porque Ana *le da* caramelos a su hermano (la cantidad disminuye):
-   \[
-   73 - 17 = 56
-   \]
-
-**Respuesta:** A Ana le quedan **56 caramelos**.
-
----
-
-**¿Por qué se decide sumar o restar?**
-
-- **Sumar:** cuando alguien *recibe*, *gana*, *agrega* o *aumenta",,success,,39f0632a-2535-41ba-bd20-ebb8451d4440,deepseek-flash,0.3,False,200,50,200,250,1.8928,1.8928,0.0,1,2026-10-09T20:48:38.445684-05:00
-P006,Escribe una pregunta de cálculo que combine adición y sustracción con números menores que cien para educación básica.,"Aquí tienes una pregunta de cálculo que combina adición y sustracción con números menores que 100, adecuada para educación básica:
-
-**Pregunta:**
-
-En una tienda de dulces, había 45 caramelos. Por la mañana se vendieron 18 caramelos y por la tarde llegaron 27 caramelos nuevos. ¿Cuántos caramelos hay ahora en la tienda?
-
-**Operación:**
-
-45 − 18 + 27 = ?
-
-**Respuesta:**
-
-45 − 18 = 27  
-27 + 27 = 54  
-
-Ahora hay **54 caramelos** en la tienda.",,success,,49598fe7-360a-4f45-9505-53cc2e47d167,deepseek-flash,0.3,False,200,43,132,175,1.2455,1.2455,0.0,1,2026-10-09T20:48:39.695260-05:00
-P007,Genera una pregunta donde se deba completar una operación combinada de suma y resta encontrando un número que falta.,"Claro, aquí tienes una pregunta para completar una operación combinada de suma y resta:
-
-**Completa el número que falta:**
-
-\[
-25 + \_\_\_ - 14 = 30
-\]
-
-**Opciones:**
-
-A) 15  
-B) 19  
-C) 21  
-D) 23  
-
-**Respuesta correcta:** B) 19
-
-**Explicación:**
-
-\[
-25 + 19 - 14 = 30
-\]
-
-\[
-44 - 14 = 30
-\]
-
-Por lo tanto, el número que falta es **19**.",,success,,a0bb74e5-7051-432c-99f6-e9f82dd7593f,deepseek-flash,0.3,False,200,44,124,168,1.4359,1.4359,0.0,1,2026-10-09T20:48:41.136345-05:00
-P008,Crea una pregunta que solicite comparar dos resultados obtenidos mediante una suma y una resta con números naturales.,"**Pregunta:**
-
-En una tienda, Ana compró 8 cuadernos y luego recibió 5 cuadernos más como regalo. Por otro lado, Luis tenía 20 lápices y regaló 7 lápices a sus compañeros.
-
-Compara los resultados obtenidos en ambas situaciones: ¿cómo se relacionan el total de cuadernos de Ana y la cantidad de lápices que le quedan a Luis? ¿Cuál de los dos resultados es mayor y en cuánto?",,success,,d0c5b4e2-8540-45fe-a0d2-06cdb1653e2e,deepseek-flash,0.3,False,200,41,110,151,1.403,1.403,0.0,1,2026-10-09T20:48:42.544607-05:00
-P009,Escribe una pregunta en la que el estudiante deba resolver dos sumas y una resta para encontrar el resultado final.,"**Pregunta:**
-
-Ana tiene 15 caramelos. Su abuela le regala 8 caramelos más y luego su hermano le da 5 caramelos. Después, Ana decide comer 6 caramelos. ¿Cuántos caramelos le quedan a Ana al final?
-
-**Solución esperada:**
-
-- Primera suma: 15 + 8 = 23
-- Segunda suma: 23 + 5 = 28
-- Resta final: 28 − 6 = 22
-
-**Respuesta:** A Ana le quedan **22 caramelos**.",,success,,400ed2d8-f9eb-4e4b-a84e-c8c7512e4c42,deepseek-flash,0.3,False,200,43,122,165,1.2754,1.2754,0.0,1,2026-10-09T20:48:43.824376-05:00
-P010,Genera una pregunta de adición y sustracción que utilice números de tres cifras y tenga una única respuesta correcta.,"**Pregunta:**
-
-En una biblioteca hay 845 libros. Se prestan 278 libros a los estudiantes y luego se devuelven 156 libros. ¿Cuántos libros hay ahora en la biblioteca?
-
-**Respuesta correcta:**
-
-845 − 278 + 156 = 723
-
-Hay **723 libros** en la biblioteca.",,success,,c8c32f9c-d074-490c-b215-961a5df04258,deepseek-flash,0.3,False,200,45,72,117,1.1946,1.1946,0.0,1,2026-10-09T20:48:45.024410-05:00
-P011,Crea una pregunta donde el estudiante deba identificar qué operación de suma o resta permite obtener un resultado indicado.,"Aquí tienes una pregunta para que el estudiante identifique la operación:
-
-**Pregunta:**
-
-Observa las siguientes operaciones:
-
-- A) 45 + 28
-- B) 73 − 19
-- C) 52 + 17
-- D) 80 − 26
-
-¿Cuál de estas operaciones da como resultado **54**?
-
-**Respuesta correcta:** B) 73 − 19
-
-**Explicación:**  
-73 − 19 = 54. Las demás opciones dan resultados diferentes:  
-A) 45 + 28 = 73  
-C) 52 + 17 = 69  
-D) 80 − 26 = 54... ¡espera! Esa también da 54.
-
-Corrijo la pregunta para que solo haya una respuesta correcta:
-
-**Pregunta corregida:**
-
-Observa las siguientes operaciones:
-
-- A) 45 + 28
-- B",,success,,92f1d6d9-888f-4624-bdd6-9e2e3de934b1,deepseek-flash,0.3,False,200,43,200,243,1.6834,1.6834,0.0,1,2026-10-09T20:48:46.712835-05:00
-P012,Escribe una pregunta matemática que incluya una suma incompleta y una resta incompleta para encontrar los valores faltantes.,"Aquí tienes una pregunta matemática con una suma incompleta y una resta incompleta:
-
-**Completa los valores que faltan:**
-
-\[
-25 + \_\_\_ = 42
-\]
-
-\[
-\_\_\_ - 18 = 27
-\]
-
-**Pregunta:** ¿Cuáles son los dos números que faltan?
-
-**Respuesta:**
-- En la suma: \(42 - 25 = 17\), así que falta **17**.
-- En la resta: \(27 + 18 = 45\), así que falta **45**.",,success,,aa6e0d9c-f531-4d5c-8aae-f19d4c2cc0b5,deepseek-flash,0.3,False,200,45,120,165,1.1947,1.1946,0.0,1,2026-10-09T20:48:47.911524-05:00
-P013,Genera una pregunta que permita comprobar una resta mediante una suma y solicite determinar si el resultado es correcto.,"Pregunta:  
-Si se tiene la resta \( 85 - 37 = 48 \), comprueba el resultado mediante una suma y determina si es correcto.
-
-Respuesta esperada:  
-Para comprobar, se suma el resultado con el sustraendo:  
-\( 48 + 37 = 85 \)  
-Como la suma coincide con el minuendo, la resta es correcta.",,success,,e571fd8d-3d76-44df-964f-e261130e0e7d,deepseek-flash,0.3,False,200,44,86,130,1.4465,1.4465,0.0,1,2026-10-09T20:48:49.364528-05:00
-P014,Crea una pregunta con cuatro números naturales donde sea necesario realizar sumas y restas en el orden adecuado.,"Aquí tienes una pregunta con cuatro números naturales que requiere sumas y restas en el orden correcto:
-
-**Pregunta:**
-
-En una tienda, Ana tenía 25 caramelos. Su abuela le regaló 18 caramelos más. Luego, Ana decidió darle 12 caramelos a su hermano y, finalmente, compró 7 caramelos adicionales. ¿Cuántos caramelos tiene Ana al final?
-
-**Solución paso a paso:**
-
-1. Ana empieza con 25 caramelos.
-2. Le sumamos los 18 que le regaló su abuela:  
-   25 + 18 = 43
-3. Le restamos los 12 que le dio a su hermano:  
-   43 − 12 = 31
-4. Le sumamos los 7 que compró:  
-   31 + 7 = 38
-
-**Respuesta final:** Ana tiene **38 caramelos**.",,success,,cb63f6b2-8ea4-4585-b20d-de150744f3d9,deepseek-flash,0.3,False,200,41,199,240,1.8006,1.8006,0.0,1,2026-10-09T20:48:51.169183-05:00
-P015,Escribe una pregunta para practicar cálculo mental combinando una suma y una resta con números menores que cincuenta.,¿Cuánto es 38 + 17 - 25?,,success,,ec169a76-9917-4568-a811-262af4d27a1b,deepseek-flash,0.3,False,200,42,14,56,0.9291,0.9291,0.0,1,2026-10-09T20:48:52.103575-05:00
-P016,Genera una pregunta donde se presenten dos expresiones con sumas y restas y se deba indicar cuál resultado es mayor.,"**Pregunta:**
-
-Observa las siguientes dos expresiones:
-
-- **Expresión A:** 15 + 8 − 6
-- **Expresión B:** 20 − 5 + 3
-
-¿Cuál de las dos expresiones tiene como resultado un número mayor?
-
-**Respuesta:**
-
-- Expresión A: 15 + 8 − 6 = **17**
-- Expresión B: 20 − 5 + 3 = **18**
-
-La expresión **B** tiene el resultado mayor (18 > 17).",,success,,7ab72721-872a-41b4-9990-ed9310bde09c,deepseek-flash,0.3,False,200,47,111,158,1.5148,1.5148,0.0,1,2026-10-09T20:48:53.622593-05:00
-P017,Crea una pregunta de adición y sustracción que requiera encontrar el valor inicial a partir de un resultado final conocido.,"Claro, aquí tienes una pregunta que requiere encontrar el valor inicial:
-
-**Pregunta:**
-
-Ana tenía cierta cantidad de dinero en su alcancía.  
-Primero, su mamá le regaló $25.  
-Luego, Ana gastó $40 en un libro.  
-Al final, le quedaron $60 en la alcancía.
-
-¿Cuánto dinero tenía Ana inicialmente en su alcancía?
-
-**Solución:**
-
-Sea \( x \) el dinero inicial.
-
-1. Le regalan $25: \( x + 25 \)
-2. Gasta $40: \( x + 25 - 40 = x - 15 \)
-3. Le quedan $60: \( x - 15 = 60 \)
-
-Resolviendo:
-
-\[
-x = 60 + 15 = 75
-\]
-
-**Respuesta:** Ana tenía inicialmente **$75**.",,success,,58d47e3d-269f-4f8a-9618-2b06809ed798,deepseek-flash,0.3,False,200,44,188,232,1.645,1.645,0.0,1,2026-10-09T20:48:55.272565-05:00
-P018,Escribe una pregunta donde el estudiante tenga que corregir el resultado de una operación que combina suma y resta.,"Aquí tienes una pregunta para que el estudiante corrija el resultado de una operación combinada de suma y resta:
-
-**Pregunta:**
-
-Un estudiante resolvió la siguiente operación:
-
-\[
-25 + 13 - 8 = 30
-\]
-
-¿Es correcto el resultado? Si no lo es, corrige la operación y explica en qué se equivocó el estudiante.",,success,,5c817e17-a683-4e3d-8c74-7f78d41e453a,deepseek-flash,0.3,False,200,44,85,129,1.4164,1.4164,0.0,1,2026-10-09T20:48:56.694899-05:00
-P019,Genera una pregunta con números naturales consecutivos que requiera realizar una adición y una sustracción para resolverla.,"Claro, aquí tienes una pregunta que involucra números naturales consecutivos y requiere una adición y una sustracción:
-
-**Pregunta:**
-
-Ana tiene tres números naturales consecutivos. El menor de ellos es 15. Si suma el mayor de los tres números con el menor, y luego le resta el número del medio, ¿cuál es el resultado?
-
-**Resolución:**
-
-- Los tres números consecutivos son: 15, 16 y 17.
-- El mayor es 17 y el menor es 15.
-- Suma: 17 + 15 = 32.
-- Resta del número del medio: 32 − 16 = 16.
-
-**Respuesta:** 16.",,success,,5092806f-29e5-48eb-8538-129276433f4c,deepseek-flash,0.3,False,200,44,150,194,1.4032,1.4032,0.0,1,2026-10-09T20:48:58.102337-05:00
-P020,Crea una pregunta que evalúe el dominio de sumas y restas mediante una expresión numérica con tres operaciones sencillas.,"**Pregunta:**
-
-Resuelve la siguiente expresión numérica:
-
-**8 + 5 − 3 + 2 = ?**
-
-a) 10
-b) 12
-c) 14
-d) 16
-
-**Respuesta correcta:** b) 12
-
-**Explicación:**
-- 8 + 5 = 13
-- 13 − 3 = 10
-- 10 + 2 = 12",,success,,0aa05be2-1fea-405b-a387-22bde0f27d04,deepseek-flash,0.3,False,200,46,94,140,1.1597,1.1597,0.0,1,2026-10-09T20:48:59.268093-05:00
-P021,Genera una pregunta de sustracción con números naturales de dos cifras para que un estudiante encuentre la diferencia correcta.,"Aquí tienes una pregunta de sustracción con números naturales de dos cifras:
-
-**Pregunta:**  
-Si tienes 84 dulces y regalas 37, ¿cuántos dulces te quedan?
-
-**Respuesta:**  
-84 − 37 = 47
-
-Te quedan **47 dulces**.",,success,,beecae2c-471a-436a-a4dd-995440447c5c,deepseek-flash,0.3,False,200,45,68,113,1.2666,1.2666,0.0,1,2026-10-09T20:49:00.542400-05:00
-P022,Crea una pregunta donde el estudiante tenga que restar un número de tres cifras de otro número mayor.,"**Pregunta:**
-
-Un depósito contiene 1.250 litros de agua. Durante el día se consumen 487 litros. ¿Cuántos litros de agua quedan en el depósito?
-
-**Operación:** 1.250 − 487
-
-**Respuesta:** Quedan **763 litros** de agua.",,success,,c0a8e06b-4608-4c3e-9727-9d9aea8ab9df,deepseek-flash,0.3,False,200,41,71,112,1.2659,1.2659,0.0,1,2026-10-09T20:49:01.813054-05:00
-P023,Escribe una pregunta de sustracción que incluya un valor desconocido y solicite encontrar el número que falta.,"Aquí tienes una pregunta de sustracción con un valor desconocido:
-
-**Pregunta:**  
-Ana tenía 15 caramelos. Después de regalarle algunos caramelos a su amigo, le quedaron 8 caramelos.  
-**¿Cuántos caramelos le regaló Ana a su amigo?**
-
-**Planteamiento:**  
-15 − □ = 8
-
-**Respuesta:**  
-Ana le regaló **7 caramelos** a su amigo, porque 15 − 7 = 8.",,success,,74a22469-7481-4895-8cf1-c5d8df1f6034,deepseek-flash,0.3,False,200,43,113,156,1.4296,1.4296,0.0,1,2026-10-09T20:49:03.247090-05:00
-P024,Genera una pregunta para practicar una resta con reagrupación usando números naturales apropiados para educación básica.,"Aquí tienes una pregunta para practicar una resta con reagrupación:
-
-**Pregunta:**  
-En una biblioteca hay 452 libros. Si se prestan 178 libros a los estudiantes, ¿cuántos libros quedan en la biblioteca?
-
-**Respuesta:**  
-452 − 178 = 274  
-Quedan **274 libros** en la biblioteca.",,success,,2296f12d-cdb9-4dd0-af62-ca1e9e7c9cb3,deepseek-flash,0.3,False,200,42,79,121,1.0877,1.0877,0.0,1,2026-10-09T20:49:04.339498-05:00
-P025,Crea una pregunta de cálculo mental basada únicamente en una sustracción con números menores que cien.,¿Cuánto es 84 - 37?,,success,,8a8a58ec-7ce0-4228-a990-73049b574394,deepseek-flash,0.3,False,200,42,11,53,1.0247,1.0247,0.0,1,2026-10-09T20:49:05.369206-05:00
-P026,Escribe una pregunta donde se presenten dos restas y el estudiante tenga que determinar cuál resultado es mayor.,"Aquí tienes una pregunta adecuada para ese objetivo:
-
-**¿Cuál de las siguientes restas tiene el resultado mayor?**
-
-**A)** 85 − 37  
-**B)** 92 − 48  
-
-**Explicación breve:**  
-- 85 − 37 = 48  
-- 92 − 48 = 44  
-
-Por lo tanto, el resultado mayor es el de la resta **A) 85 − 37**.",,success,,4d4008cb-0a58-4e76-a216-2ef1d4550110,deepseek-flash,0.3,False,200,42,92,134,1.328,1.328,0.0,1,2026-10-09T20:49:06.702168-05:00
-P027,Genera una pregunta que solicite comprobar mediante cálculo si una sustracción presentada tiene un resultado correcto.,Comprueba mediante cálculo si el resultado de la siguiente sustracción es correcto: 845 − 279 = 566.,,success,,0dd5e507-9ae9-49a8-afc9-30617489cc26,deepseek-flash,0.3,False,200,43,28,71,0.8441,0.8441,0.0,1,2026-10-09T20:49:07.551172-05:00
-P028,Crea una pregunta de sustracción con números de cuatro cifras que tenga una única respuesta numérica correcta.,"Aquí tienes una pregunta de sustracción con números de cuatro cifras y una única respuesta numérica correcta:
-
-**¿Cuánto es 7.542 − 3.869?**
-
-**Respuesta correcta: 3.673**",,success,,5781bb00-71e1-45c0-8b2b-40ab33488f0c,deepseek-flash,0.3,False,200,42,52,94,1.0288,1.0288,0.0,1,2026-10-09T20:49:08.585774-05:00
-P029,Escribe una pregunta donde el estudiante deba completar los dígitos faltantes de una operación de sustracción.,"Aquí tienes una pregunta para completar los dígitos faltantes en una sustracción:
-
-**Completa los dígitos que faltan en la siguiente sustracción:**
-
-```
-  7 _ 5
-- _ 2 _
--------
-  4 3 8
-```
-
-**Instrucciones:** Escribe los dígitos que deben ir en los espacios vacíos para que la resta sea correcta.
-
-**Solución esperada:** Los dígitos faltantes son **8** (en el minuendo, decenas) y **3** (en el sustraendo, centenas), ya que 785 − 327 = 438.",,success,,0e83ebec-35f6-49da-aea2-0def387843e4,deepseek-flash,0.3,False,200,45,139,184,1.3243,1.3243,0.0,1,2026-10-09T20:49:09.916777-05:00
-P030,Genera una pregunta que pida ordenar tres diferencias de menor a mayor después de resolver las sustracciones correspondientes.,"**Pregunta:**
-
-Resuelve las siguientes sustracciones y luego ordena los resultados de **menor a mayor**, escribiendo en los recuadros el número que corresponda:
-
-- 45 − 18 = ____
-- 72 − 39 = ____
-- 60 − 27 = ____
-
-Ordena de menor a mayor: ____ < ____ < ____
-
-**Solución:**
-
-- 45 − 18 = **27**
-- 72 − 39 = **33**
-- 60 − 27 = **33**
-
-Como 27 < 33 = 33, el orden de menor a mayor es:
-
-**27 < 33 < 33**",,success,,656c4691-9409-42f4-bf4a-38b0f3b4c01b,deepseek-flash,0.3,False,200,44,141,185,1.3618,1.3618,0.0,1,2026-10-09T20:49:11.284333-05:00
-P031,Crea una pregunta de sustracción donde el resultado sea conocido y se deba encontrar uno de los números iniciales.,"Claro, aquí tienes una pregunta de sustracción donde se conoce el resultado y se debe encontrar uno de los números iniciales:
-
-**Pregunta:**
-Ana tenía cierta cantidad de caramelos. Le regaló 7 caramelos a su hermano y ahora le quedan 12 caramelos. ¿Cuántos caramelos tenía Ana al principio?
-
-**Planteamiento:**
-\[
-x - 7 = 12
-\]
-
-**Respuesta:**
-Ana tenía **19 caramelos** al principio, porque \(19 - 7 = 12\).",,success,,ecb9941a-2c43-47e2-aaf9-acc04077b882,deepseek-flash,0.3,False,200,43,119,162,1.5946,1.5946,0.0,1,2026-10-09T20:49:12.884306-05:00
-P032,Escribe una pregunta que permita practicar la resta de decenas completas utilizando únicamente números naturales.,¿Cuánto es 80 − 50?,,success,,8e5b83a1-ad0a-4b9d-ac18-bf703c2f9c27,deepseek-flash,0.3,False,200,41,11,52,0.9527,0.9527,0.0,1,2026-10-09T20:49:13.841404-05:00
-P033,Genera una pregunta donde el estudiante tenga que elegir entre varias restas cuál produce una diferencia indicada.,"Aquí tienes una pregunta de opción múltiple:
-
-**¿Cuál de las siguientes restas tiene como resultado 47?**
-
-A) 92 − 45  
-B) 85 − 38  
-C) 74 − 29  
-D) 63 − 18
-
-**Respuesta correcta: B) 85 − 38 = 47**
-
-Verificación:
-- A) 92 − 45 = 47 ❌ (en realidad da 47... revisemos)
-
-Corrijo para evitar ambigüedad:
-
-**¿Cuál de las siguientes restas tiene como resultado 47?**
-
-A) 92 − 46  
-B) 85 − 38  
-C) 74 − 29  
-D) 63 − 18
-
-Verificación:
-- A) 92 − 46 = 46
-- B) 85 − 38 = 47 ✅
-- C) 74 − 29 = 45
--",,success,,4f2d9b2f-181a-44ae-8950-8d43972e3978,deepseek-flash,0.3,False,200,42,200,242,1.6052,1.6052,0.0,1,2026-10-09T20:49:15.451170-05:00
-P034,Crea una pregunta de sustracción que incluya un número cercano a una centena para practicar el cálculo preciso.,"Aquí tienes una pregunta de sustracción con un número cercano a una centena:
-
-**Pregunta:**  
-María tenía 398 caramelos y regaló 147 a sus amigos. ¿Cuántos caramelos le quedan?
-
-**Operación:**  
-398 − 147 = ?
-
-**Respuesta:**  
-398 − 147 = **251**
-
-Le quedan **251 caramelos**.
-
-Si quieres practicar el cálculo preciso, puedes resolverlo así:
-- 398 está cerca de 400.
-- 400 − 147 = 253.
-- Como 398 es 2 menos que 400, el resultado también es 2 menos: 253 − 2 = 251.",,success,,47d293e6-12f2-4614-a077-89f5b5128fd4,deepseek-flash,0.3,False,200,44,147,191,1.4562,1.4562,0.0,1,2026-10-09T20:49:16.912466-05:00
-P035,Escribe una pregunta donde se deban resolver dos sustracciones consecutivas para obtener un único resultado final.,"Aquí tienes una pregunta que requiere resolver dos sustracciones consecutivas para obtener un único resultado final:
-
-**""En una tienda había 150 caramelos. Primero se vendieron 45 caramelos y luego se regalaron 30 caramelos. ¿Cuántos caramelos quedan al final?""**
-
-**Resolución:**
-- Primera sustracción: 150 − 45 = 105
-- Segunda sustracción: 105 − 30 = 75
-
-**Resultado final: 75 caramelos.**",,success,,c3f921e8-a3b6-41d8-a762-e3985f72d489,deepseek-flash,0.3,False,200,41,114,155,1.4449,1.4449,0.0,1,2026-10-09T20:49:18.363163-05:00
-P036,Genera una pregunta de sustracción con números naturales que permita identificar y corregir un error de cálculo.,"**Pregunta:**
-
-En una biblioteca hay 5.230 libros. Se prestan 1.875 libros a los estudiantes. ¿Cuántos libros quedan en la biblioteca?
-
-**Error de cálculo común:**
-
-Al restar, algunos estudiantes olvidan pedir prestado (reagrupar) correctamente y obtienen:
-
-```
-  5.230
-- 1.875
--------
-  3.465   ❌ (incorrecto)
-```
-
-**Corrección:**
-
-Realizamos la resta paso a paso, prestando cuando sea necesario:
-
-```
-  5.230
-- 1.875
--------
-```
-
-- Unidades: 0 − 5 → no se puede; pedimos 1 decena. 10 − 5 = 5.
-- Decenas: quedan 2 decenas (era 3, prestamos 1). 2 − 7 → no se puede; pedimos 1 centena",,success,,549cedc2-be8a-49af-a439-9e8f8137e207,deepseek-flash,0.3,False,200,42,200,242,1.6874,1.6874,0.0,1,2026-10-09T20:49:20.055127-05:00
-P037,Crea una pregunta donde el estudiante compare la diferencia entre dos pares distintos de números naturales.,"**Pregunta:**
-
-Un estudiante observa los siguientes pares de números naturales:
-
-- **Par A:** 15 y 8
-- **Par B:** 42 y 27
-
-a) Calcula la diferencia entre los números de cada par (resta el menor del mayor).
-
-b) Compara los resultados obtenidos. ¿En qué se parecen y en qué se diferencian las diferencias de ambos pares?
-
-c) Explica con tus propias palabras qué significa que dos pares de números tengan la misma diferencia o diferencias distintas.",,success,,d6e16a49-54e4-46e7-8230-20639471e9f9,deepseek-flash,0.3,False,200,38,116,154,1.6169,1.6169,0.0,1,2026-10-09T20:49:21.677425-05:00
-P038,Escribe una pregunta de sustracción que requiera calcular cuánto falta para pasar de un número menor a uno mayor.,"Aquí tienes una pregunta de sustracción que requiere calcular cuánto falta para pasar de un número menor a uno mayor:
-
-**""Si tienes 7 caramelos y quieres tener 15, ¿cuántos caramelos te faltan?""**
-
-La operación sería: **15 − 7 = 8**
-
-Te faltan **8 caramelos**.",,success,,01e42593-d27a-4d8a-bc42-64f1539c9557,deepseek-flash,0.3,False,200,44,76,120,1.1258,1.1258,0.0,1,2026-10-09T20:49:22.809177-05:00
-P039,Genera una pregunta para practicar una resta con ceros intermedios en el número mayor y obtener la diferencia.,"Claro, aquí tienes una pregunta para practicar la resta con ceros intermedios en el número mayor:
-
-**Pregunta:**  
-Resuelve la siguiente resta:  
-**8005 − 2678 = ?**
-
-**Respuesta:**  
-8005 − 2678 = **5327**
-
-¿Quieres que te proponga otra similar o que te explique el procedimiento paso a paso?",,success,,3408f07f-3c1b-467b-b583-ea090a2c1120,deepseek-flash,0.3,False,200,42,84,126,1.1979,1.1979,0.0,1,2026-10-09T20:49:24.011933-05:00
-P040,Crea una pregunta que evalúe la sustracción mediante un número desconocido colocado como sustraendo en una operación.,"Aquí tienes una pregunta que evalúa la sustracción con un número desconocido en el sustraendo:
-
-**Pregunta:**
-
-Resuelve la siguiente operación:
-
-**85 − □ = 52**
-
-¿Qué número debe ir en el recuadro para que la igualdad sea correcta?
-
----
-
-**Respuesta:** □ = 33
-
-**Explicación:** Para encontrar el sustraendo desconocido, se resta el resultado del minuendo: 85 − 52 = 33.",,success,,c571e1db-32e8-4abb-8904-5b2fe2ae49aa,deepseek-flash,0.3,False,200,47,109,156,1.3668,1.3668,0.0,1,2026-10-09T20:49:25.384262-05:00
-P041,Genera una pregunta que combine una multiplicación y una división con números naturales y produzca un resultado entero.,"Aquí tienes una pregunta que combina multiplicación y división con números naturales y da como resultado un número entero:
-
-**Pregunta:**  
-En una granja hay 12 gallinas. Cada gallina pone 5 huevos al día. Si todos los huevos se reparten en partes iguales entre 4 familias, ¿cuántos huevos recibe cada familia?
-
-**Operación combinada:**  
-\( 12 \times 5 \div 4 = 60 \div 4 = 15 \)
-
-**Resultado:**  
-Cada familia recibe **15 huevos**.",,success,,75ae1c69-0521-4c64-a92b-a34f19e1865c,deepseek-flash,0.3,False,200,42,126,168,1.5417,1.5417,0.0,1,2026-10-09T20:49:26.931337-05:00
-P042,Crea una pregunta donde el estudiante deba multiplicar dos números y luego dividir el resultado por otro número.,"**Pregunta:**
-
-Un comerciante compra 24 cajas de naranjas. Cada caja contiene 15 naranjas. Luego, decide repartir todas las naranjas en partes iguales entre 8 tiendas.
-
-¿Cuántas naranjas recibirá cada tienda?
-
-**Solución esperada:**
-
-1. Multiplicar: \( 24 \times 15 = 360 \) naranjas en total.
-2. Dividir: \( 360 \div 8 = 45 \) naranjas por tienda.
-
-**Respuesta:** Cada tienda recibirá **45 naranjas**.",,success,,2ff4d3c8-225f-4c02-b9b3-741627db53af,deepseek-flash,0.3,False,200,42,132,174,1.1076,1.1076,0.0,1,2026-10-09T20:49:28.044249-05:00
-P043,Escribe una pregunta que permita practicar una división exacta y comprobar el resultado mediante una multiplicación.,¿Cuánto es 144 ÷ 12? Comprueba el resultado multiplicando el cociente por el divisor: 12 × 12 = 144.,,success,,3d762f47-097c-428e-9f7e-1c2465c26140,deepseek-flash,0.3,False,200,43,35,78,0.9409,0.9409,0.0,1,2026-10-09T20:49:28.990835-05:00
-P044,Genera una pregunta de multiplicación con dos factores y una división posterior adecuada para estudiantes de educación básica.,"**Pregunta:**
-
-En una caja hay 6 paquetes de galletas. Cada paquete contiene 8 galletas.
-
-a) ¿Cuántas galletas hay en total en la caja?
-
-**Multiplicación:** 6 × 8 = 48 galletas
-
-b) Si las 48 galletas se reparten en partes iguales entre 4 niños, ¿cuántas galletas recibe cada niño?
-
-**División:** 48 ÷ 4 = 12 galletas
-
-**Respuesta:** Cada niño recibe 12 galletas.",,success,,0f33ee0b-55ee-4b97-80b0-e67c45819425,deepseek-flash,0.3,False,200,42,128,170,1.3195,1.3195,0.0,1,2026-10-09T20:49:30.315305-05:00
-P045,Crea una pregunta donde falte un factor y sea necesario utilizar multiplicación o división para encontrar su valor.,"Claro, aquí tienes una pregunta:
-
-**En una tienda, cada caja de lápices contiene 12 lápices. Si en total hay 96 lápices, ¿cuántas cajas hay?**
-
-Para resolverla, se debe usar una **división**:  
-96 ÷ 12 = 8 cajas.",,success,,d48c7248-6760-402d-aebb-b7772dcc5f66,deepseek-flash,0.3,False,200,41,70,111,1.0849,1.0849,0.0,1,2026-10-09T20:49:31.405103-05:00
-P046,Escribe una pregunta que presente dos multiplicaciones y solicite determinar cuál de sus productos es mayor.,¿Cuál de los siguientes productos es mayor: \( 7 \times 8 \) o \( 9 \times 6 \)?,,success,,c3aeb7f9-9f71-4497-ad86-01e283dd78a3,deepseek-flash,0.3,False,200,39,28,67,1.3059,1.3059,0.0,1,2026-10-09T20:49:32.715851-05:00
-P047,Genera una pregunta donde se deba encontrar el divisor desconocido a partir del dividendo y el cociente conocidos.,"Aquí tienes una pregunta para encontrar el divisor desconocido:
-
-**Pregunta:**
-
-En una división exacta, el dividendo es 144 y el cociente es 12. ¿Cuál es el divisor?
-
-**Respuesta:**
-
-Para encontrar el divisor, se divide el dividendo entre el cociente:
-
-144 ÷ 12 = 12
-
-**El divisor es 12.**",,success,,ad291c47-a59f-4a8a-ae54-443a2fe6bfc6,deepseek-flash,0.3,False,200,44,81,125,1.0198,1.0198,0.0,1,2026-10-09T20:49:33.740746-05:00
-P048,Crea una pregunta que permita practicar tablas de multiplicar y una división exacta utilizando números naturales pequeños.,"**Pregunta:**
-
-En una caja hay 6 bolsas y cada bolsa contiene 4 lápices.
-
-a) ¿Cuántos lápices hay en total?  
-b) Si los 24 lápices se reparten en partes iguales entre 3 niños, ¿cuántos lápices recibe cada niño?
-
-**Solución:**
-
-a) \(6 \times 4 = 24\). Hay **24 lápices** en total.
-
-b) \(24 \div 3 = 8\). Cada niño recibe **8 lápices**.",,success,,8badcf47-b7a5-43f6-a616-195c1ac51f79,deepseek-flash,0.3,False,200,43,121,164,1.3199,1.3199,0.0,1,2026-10-09T20:49:35.065941-05:00
-P049,Escribe una pregunta donde el estudiante compare el resultado de una multiplicación con el resultado de una división.,Compara el resultado de multiplicar 24 × 3 con el resultado de dividir 144 ÷ 2. ¿Cuál de los dos resultados es mayor y en cuánto?,,success,,0314e232-3e9d-4b45-b824-25e2ca7f1e2f,deepseek-flash,0.3,False,200,41,39,80,1.0126,1.0126,0.0,1,2026-10-09T20:49:36.083395-05:00
-P050,Genera una pregunta con tres números naturales que requiera decidir si corresponde multiplicar o dividir para resolverla.,"**Pregunta:**
-
-En una granja hay 6 gallinas. Cada gallina pone 4 huevos por semana. Si se quieren repartir todos los huevos de la semana en partes iguales entre 3 familias, ¿cuántos huevos recibe cada familia?
-
-**Para resolverla hay que decidir:**
-
-- Primero se **multiplica**: 6 × 4 = 24 huevos en total.
-- Luego se **divide**: 24 ÷ 3 = 8 huevos por familia.
-
-**Respuesta:** Cada familia recibe **8 huevos**.",,success,,593939b8-4eb6-4924-ac1d-7830c37a4151,deepseek-flash,0.3,False,200,42,123,165,1.1397,1.1397,0.0,1,2026-10-09T20:49:37.228127-05:00
-P051,Crea una pregunta donde se presente una multiplicación incompleta y el estudiante tenga que encontrar el factor faltante.,"Aquí tienes una pregunta para encontrar el factor faltante en una multiplicación incompleta:
-
-**Pregunta:**
-
-Completa la siguiente multiplicación:
-
-\[
-7 \times \_\_\_ = 56
-\]
-
-¿Cuál es el factor que falta?
-
-**Respuesta:** El factor faltante es **8**, porque \(7 \times 8 = 56\).",,success,,6ad337e7-f4a7-4a27-aa9b-e0b90b918f2e,deepseek-flash,0.3,False,200,43,79,122,1.3224,1.3224,0.0,1,2026-10-09T20:49:38.556251-05:00
-P052,Escribe una pregunta de división exacta donde el cociente tenga dos cifras y pueda verificarse con una multiplicación.,"Pregunta:
-
-¿Cuál es el resultado de \( 144 \div 12 \)?
-
-Verificación con una multiplicación:
-
-\( 12 \times 12 = 144 \)
-
-Por lo tanto, \( 144 \div 12 = 12 \), y el cociente tiene dos cifras.",,success,,8a9328c1-0ebd-4d8c-9b99-100f4bfa908f,deepseek-flash,0.3,False,200,44,64,108,0.9725,0.9725,0.0,1,2026-10-09T20:49:39.534171-05:00
-P053,Genera una pregunta que incluya dos divisiones exactas y solicite ordenar sus cocientes de menor a mayor.,"¿Cuál es el resultado de las divisiones exactas 48 ÷ 6 y 72 ÷ 9, y cómo se ordenan sus cocientes de menor a mayor?",,success,,dce3d0b9-04c0-4081-baad-c03972d3196e,deepseek-flash,0.3,False,200,43,37,80,0.9256,0.9256,0.0,1,2026-10-09T20:49:40.464677-05:00
-P054,Crea una pregunta para practicar multiplicación por diez y división entre diez utilizando únicamente números naturales.,"**Pregunta:**
-
-Un almacén tiene 10 cajas y en cada caja hay 25 libros. Luego, todos esos libros se reparten en partes iguales entre 10 estanterías.
-
-a) ¿Cuántos libros hay en total en las 10 cajas?  
-b) ¿Cuántos libros quedan en cada estantería?",,success,,bf3fd663-0cef-4f23-9965-df67a48267dc,deepseek-flash,0.3,False,200,43,76,119,1.1562,1.1562,0.0,1,2026-10-09T20:49:41.625790-05:00
-P055,Escribe una pregunta donde se deba completar una igualdad que contenga una multiplicación y una división.,"Aquí tienes una pregunta para completar una igualdad con multiplicación y división:
-
-**Completa la igualdad:**
-
-\[
-6 \times 4 = 48 \div \_\_\_
-\]
-
-**Respuesta:** El número que falta es **2**, porque \(6 \times 4 = 24\) y \(48 \div 2 = 24\).",,success,,0bf7458a-6cbc-44ba-87d5-f8d3564f7a2e,deepseek-flash,0.3,False,200,42,79,121,0.9721,0.9721,0.0,1,2026-10-09T20:49:42.602959-05:00
-P056,Genera una pregunta que solicite identificar cuál multiplicación corresponde correctamente a una división exacta presentada.,"¿Cuál de las siguientes multiplicaciones corresponde correctamente a la división exacta 72 ÷ 8 = 9?
-
-A) 8 × 9 = 72  
-B) 9 × 9 = 72  
-C) 8 × 8 = 72  
-D) 72 × 8 = 9  
-
-Respuesta correcta: A) 8 × 9 = 72.",,success,,224f83fd-fc7b-4f55-97bc-1ee62f9fa0d0,deepseek-flash,0.3,False,200,42,86,128,1.051,1.051,0.0,1,2026-10-09T20:49:43.659581-05:00
-P057,Crea una pregunta con números naturales donde una multiplicación permita obtener el dividendo necesario para una división.,"Claro, aquí tienes una pregunta que cumple con lo que pides:
-
-**Pregunta:**
-
-En una tienda hay 24 cajas. Cada caja contiene 15 lápices. Si todos los lápices se reparten equitativamente entre 8 estudiantes, ¿cuántos lápices recibe cada estudiante?
-
-**Resolución:**
-
-1. Primero se calcula el dividendo mediante una multiplicación:  
-   \(24 \times 15 = 360\) lápices en total.
-
-2. Luego se realiza la división:  
-   \(360 \div 8 = 45\).
-
-**Respuesta:** Cada estudiante recibe **45 lápices**.",,success,,ca113e65-947a-4ab5-82a0-456aa9ab9f10,deepseek-flash,0.3,False,200,41,146,187,1.3716,1.3716,0.0,1,2026-10-09T20:49:45.036951-05:00
-P058,Escribe una pregunta donde el estudiante tenga que corregir un resultado equivocado de multiplicación o división.,"Claro, aquí tienes una pregunta para que el estudiante corrija un resultado equivocado:
-
-**Pregunta:**
-
-Un estudiante resolvió la siguiente operación:
-
-\( 48 \div 6 = 7 \)
-
-¿Es correcto el resultado? Si no lo es, corrige la respuesta y explica el error.
-
-**Respuesta esperada:**  
-No es correcto. \( 48 \div 6 = 8 \). El estudiante probablemente confundió el resultado con \( 6 \times 7 = 42 \), pero \( 6 \times 8 = 48 \).",,success,,bec02953-3e00-4e4d-b67b-6622ba63be83,deepseek-flash,0.3,False,200,42,129,171,1.6004,1.6004,0.0,1,2026-10-09T20:49:46.643088-05:00
-P059,Genera una pregunta que combine dos multiplicaciones sencillas y una división exacta para encontrar el resultado final.,"Aquí tienes una pregunta que combina dos multiplicaciones sencillas y una división exacta:
-
-**¿Cuál es el resultado de multiplicar 6 por 4, luego multiplicar 3 por 5, y finalmente dividir el producto de la primera multiplicación entre el producto de la segunda?**
-
-**Resolución:**
-- Primera multiplicación: \(6 \times 4 = 24\)
-- Segunda multiplicación: \(3 \times 5 = 15\)
-- División exacta: \(24 \div 15\) no es exacta.
-
-Para que la división sea exacta, ajusto los números:
-
-**¿Cuál es el resultado de multiplicar 6 por 4, luego multiplicar 3 por 2, y finalmente dividir el producto de la primera multiplicación entre el producto de la segunda?**
-
-**Resolución:**
-- \(6 \times 4 = 24\)
-- \(3 \times",,success,,e66a38b3-cf1f-463c-a484-23beece5b60d,deepseek-flash,0.3,False,200,41,200,241,1.437,1.437,0.0,1,2026-10-09T20:49:48.085664-05:00
-P060,Crea una pregunta para evaluar multiplicación y división mediante una expresión numérica breve con operaciones exactas.,"**Pregunta:**
-
-Calcula el valor de la siguiente expresión:
-
-\[
-48 \div 6 \times 5
-\]
-
-**Respuesta:** \(40\)",,success,,dbddeb73-a905-4f9e-aa31-e9d581bbcaeb,deepseek-flash,0.3,False,200,42,34,76,1.2241,1.2241,0.0,1,2026-10-09T20:49:49.314900-05:00
-P061,Genera una pregunta de álgebra sencilla donde el estudiante tenga que encontrar el valor de una letra desconocida.,"Aquí tienes una pregunta de álgebra sencilla:
-
-**Pregunta:**  
-Resuelve para \( x \):
-
-\[
-3x + 5 = 20
-\]
-
-**Respuesta esperada:**  
-\( x = 5 \)",,success,,d4191d8d-40ae-4821-a933-becc7b9012e0,deepseek-flash,0.3,False,200,44,51,95,1.0544,1.0544,0.0,1,2026-10-09T20:49:50.374257-05:00
-P062,Crea una pregunta con una igualdad que incluya una variable y una suma para encontrar el valor faltante.,"Aquí tienes una pregunta con una igualdad que incluye una variable y una suma:
-
-**Pregunta:**  
-Resuelve la siguiente igualdad para encontrar el valor de la variable:
-
-\[
-x + 7 = 15
-\]
-
-¿Cuál es el valor de \(x\)?",,success,,e5978b02-fe27-40b7-a331-ac8b3c1bb362,deepseek-flash,0.3,False,200,41,62,103,1.1913,1.1913,0.0,1,2026-10-09T20:49:51.571110-05:00
-P063,Escribe una pregunta algebraica donde una variable aparezca en una resta y tenga que ser determinada.,"Aquí tienes una pregunta algebraica donde una variable aparece en una resta y debe ser determinada:
-
-**Resuelve para \(x\):**
-
-\[
-15 - x = 9
-\]
-
-**Pregunta:** ¿Cuál es el valor de \(x\)?
-
-**Solución:**
-
-\[
-15 - x = 9
-\]
-
-Restamos 15 en ambos lados:
-
-\[
--x = 9 - 15
-\]
-
-\[
--x = -6
-\]
-
-Multiplicamos por \(-1\):
-
-\[
-x = 6
-\]
-
-**Respuesta:** \(x = 6\).",,success,,0efa8885-603b-4904-b6fb-2ceef2cce3c3,deepseek-flash,0.3,False,200,40,124,164,1.3466,1.3466,0.0,1,2026-10-09T20:49:52.923399-05:00
-P064,Genera una pregunta con una multiplicación y una variable desconocida que pueda resolverse usando números naturales.,"Claro, aquí tienes una pregunta:
-
-**En una tienda hay 7 cajas de lápices. Cada caja contiene la misma cantidad de lápices. Si en total hay 84 lápices, ¿cuántos lápices hay en cada caja?**
-
-La ecuación sería:
-
-\[
-7 \times x = 84
-\]
-
-donde \(x\) es el número de lápices por caja. La solución es:
-
-\[
-x = 84 \div 7 = 12
-\]
-
-Por lo tanto, hay **12 lápices en cada caja**.",,success,,dd3bd8f8-7af5-48e4-bcd6-1f7ed30232fe,deepseek-flash,0.3,False,200,40,124,164,1.0721,1.0721,0.0,1,2026-10-09T20:49:54.001637-05:00
-P065,Crea una pregunta con una división sencilla donde el dividendo sea una variable y el cociente sea conocido.,"Aquí tienes una pregunta con una división sencilla donde el dividendo es una variable y el cociente es conocido:
-
-**Pregunta:**
-
-Si \( x \div 4 = 7 \), ¿cuál es el valor de \( x \)?
-
-**Respuesta:**
-
-\( x = 7 \times 4 = 28 \)
-
-En esta división, el dividendo es la variable \( x \), el divisor es 4 y el cociente conocido es 7.",,success,,6069bd00-87f6-4e99-9a92-9defd9827bf8,deepseek-flash,0.3,False,200,42,101,143,1.1804,1.1804,0.0,1,2026-10-09T20:49:55.187745-05:00
-P066,Escribe una pregunta que pida completar una secuencia numérica y expresar la regla mediante una operación sencilla.,"Aquí tienes una posible pregunta:
-
-**Completa la secuencia numérica y expresa la regla mediante una operación sencilla:**
-
-**2, 4, 6, 8, 10, __**
-
-**Regla:** Se suma 2 al número anterior.",,success,,4933ed81-0d6c-46ce-afae-dc57bc2e3979,deepseek-flash,0.3,False,200,45,59,104,1.0995,1.0995,0.0,1,2026-10-09T20:49:56.293202-05:00
-P067,Genera una pregunta donde el estudiante determine si dos expresiones algebraicas sencillas tienen el mismo valor.,"**Pregunta:**
-
-Determina si las siguientes dos expresiones algebraicas tienen el mismo valor cuando \(x = 3\):
-
-\[
-2x + 5 \quad \text{y} \quad 3x - 1
-\]
-
-**Solución:**
-
-- Primera expresión: \(2(3) + 5 = 6 + 5 = 11\)
-- Segunda expresión: \(3(3) - 1 = 9 - 1 = 8\)
-
-Como \(11 \neq 8\), las expresiones **no** tienen el mismo valor cuando \(x = 3\).",,success,,f6a239b1-2370-4f1b-9871-6ad80a474ad2,deepseek-flash,0.3,False,200,40,126,166,1.2233,1.2233,0.0,1,2026-10-09T20:49:57.521870-05:00
-P068,Crea una pregunta que incluya una variable en ambos lados de una igualdad muy sencilla para educación básica.,"Claro, aquí tienes una pregunta sencilla con una variable en ambos lados de la igualdad:
-
-**Pregunta:**
-Resuelve la siguiente ecuación y encuentra el valor de \( x \):
-
-\[
-2x + 3 = x + 7
-\]
-
-**Respuesta:**
-Para resolverla, restamos \( x \) en ambos lados:
-
-\[
-2x - x + 3 = 7
-\]
-
-\[
-x + 3 = 7
-\]
-
-Luego restamos 3 en ambos lados:
-
-\[
-x = 4
-\]
-
-Por lo tanto, \( x = 4 \).",,success,,6435141a-feef-4432-9fa1-e98e2f6c4866,deepseek-flash,0.3,False,200,43,131,174,1.1139,1.1139,0.0,1,2026-10-09T20:49:58.641493-05:00
-P069,Escribe una pregunta donde el estudiante sustituya un valor dado en una expresión algebraica y calcule el resultado.,"Claro, aquí tienes una pregunta:
-
-**Pregunta:**  
-Dada la expresión algebraica \(3x^2 - 2x + 5\), calcula su valor cuando \(x = 4\).
-
-**Solución:**  
-Sustituyendo \(x = 4\):
-
-\[
-3(4)^2 - 2(4) + 5 = 3(16) - 8 + 5 = 48 - 8 + 5 = 45
-\]
-
-Por lo tanto, el resultado es **45**.",,success,,15e4959a-a3d3-4ebb-b128-9cdc890870a3,deepseek-flash,0.3,False,200,43,114,157,1.2039,1.2039,0.0,1,2026-10-09T20:49:59.850850-05:00
-P070,Genera una pregunta para identificar cuál valor de una variable hace verdadera una igualdad matemática sencilla.,¿Qué valor de \(x\) hace verdadera la igualdad \(2x + 3 = 11\)?,,success,,d9438ad0-5b8e-4da1-b984-6c498b3691cb,deepseek-flash,0.3,False,200,41,24,65,1.1004,1.1004,0.0,1,2026-10-09T20:50:00.956589-05:00
-P071,Crea una pregunta donde se deba escribir una expresión algebraica sencilla a partir de una relación entre números.,"Aquí tienes una pregunta para escribir una expresión algebraica sencilla:
-
-**Pregunta:**
-
-Un número desconocido se representa con la letra \(x\). Escribe una expresión algebraica para cada situación:
-
-a) El doble de un número, aumentado en 5.  
-b) La mitad de un número, disminuida en 3.  
-c) El triple de un número, más el mismo número.  
-d) Un número multiplicado por sí mismo, menos 4.
-
-**Respuestas:**
-
-a) \(2x + 5\)  
-b) \(\frac{x}{2} - 3\)  
-c) \(3x + x = 4x\)  
-d) \(x^2 - 4\)",,success,,33aba3e4-f0f7-44fa-92eb-5dc41691832a,deepseek-flash,0.3,False,200,41,154,195,1.6995,1.6995,0.0,1,2026-10-09T20:50:02.662293-05:00
-P072,Escribe una pregunta que presente una expresión con una variable y solicite calcularla para dos valores diferentes.,Calcula el valor de la expresión \(3x + 5\) para \(x = 2\) y para \(x = -4\).,,success,,cfee3dc3-8207-45ac-a29a-7555531aa129,deepseek-flash,0.3,False,200,39,29,68,0.9166,0.9166,0.0,1,2026-10-09T20:50:03.585095-05:00
-P073,Genera una pregunta donde el estudiante encuentre el término desconocido de un patrón numérico creciente sencillo.,"Aquí tienes una pregunta para que el estudiante encuentre el término desconocido en un patrón numérico creciente sencillo:
-
-**Pregunta:**
-
-Observa la siguiente secuencia numérica:
-
-**3, 6, 9, 12, ___, 18, 21**
-
-¿Qué número debe ir en el espacio vacío para que el patrón continúe correctamente?
-
-a) 13  
-b) 14  
-c) 15  
-d) 16
-
-**Respuesta correcta:** c) 15
-
-**Explicación:** La secuencia aumenta de 3 en 3. Después de 12, el siguiente término es 12 + 3 = 15.",,success,,1d6bbf25-e466-4ec4-bff0-19e9491c6402,deepseek-flash,0.3,False,200,45,151,196,1.2857,1.2857,0.0,1,2026-10-09T20:50:04.876961-05:00
-P074,Crea una pregunta algebraica que utilice una letra para representar un número desconocido en una operación de suma.,"Aquí tienes una pregunta algebraica que usa una letra para representar un número desconocido en una suma:
-
-**Pregunta:**  
-Si \( x + 7 = 15 \), ¿cuál es el valor de \( x \)?
-
-**Respuesta:**  
-\( x = 8 \), porque \( 8 + 7 = 15 \).",,success,,b14dd9f8-da61-458b-b19d-9ce5fbfb243a,deepseek-flash,0.3,False,200,45,77,122,1.1942,1.1942,0.0,1,2026-10-09T20:50:06.076646-05:00
-P075,Escribe una pregunta donde una variable represente un factor desconocido y deba encontrarse usando una multiplicación.,"**Pregunta:**
-
-Ana tiene 7 cajas de chocolates. Cada caja contiene el mismo número de chocolates, pero no sabe cuántos hay en cada una. En total, Ana tiene 56 chocolates.
-
-¿Cuántos chocolates hay en cada caja?
-
-**Planteamiento:**  
-Sea \( x \) el número de chocolates en cada caja.
-
-\[
-7 \cdot x = 56
-\]
-
-**Solución:**
-
-\[
-x = \frac{56}{7} = 8
-\]
-
-Por lo tanto, hay **8 chocolates en cada caja**.",,success,,465973d1-657c-4a50-9417-353923d7645d,deepseek-flash,0.3,False,200,42,124,166,1.4964,1.4964,0.0,1,2026-10-09T20:50:07.578368-05:00
-P076,Genera una pregunta que pida seleccionar cuál expresión algebraica representa correctamente una igualdad numérica dada.,¿Cuál de las siguientes expresiones algebraicas representa correctamente la igualdad numérica \( 3 + 4 = 7 \)?,,success,,5174eed9-b994-4e2c-a7c9-e1e7306e0ab4,deepseek-flash,0.3,False,200,43,29,72,0.9724,0.9724,0.0,1,2026-10-09T20:50:08.555988-05:00
-P077,Crea una pregunta donde el estudiante complete una tabla numérica sencilla siguiendo una regla expresada con una variable.,"**Pregunta:**
-
-Completa la tabla siguiendo la regla: **y = 3x + 2**
-
-| x | y |
-|---|---|
-| 1 | ? |
-| 2 | ? |
-| 3 | ? |
-| 4 | ? |
-
-**Instrucciones:** Sustituye cada valor de **x** en la regla **y = 3x + 2** para encontrar el valor de **y** y completa la tabla.
-
----
-
-**Respuesta esperada:**
-
-| x | y |
-|---|---|
-| 1 | 5 |
-| 2 | 8 |
-| 3 | 11 |
-| 4 | 14 |
-
-**Explicación:**
-- Si x = 1 → y = 3(1) + 2 = 5
-- Si x = 2 → y = 3(2) + 2 = 8
-- Si x = 3 → y = 3",,success,,a0b1446a-2612-4016-894c-bd38644e45e2,deepseek-flash,0.3,False,200,45,200,245,1.3519,1.3519,0.0,1,2026-10-09T20:50:09.913271-05:00
-P078,Escribe una pregunta algebraica donde sea necesario descubrir una regla sencilla observando varios pares de números.,"**Pregunta algebraica:**
-
-Observa los siguientes pares de números que siguen una misma regla:
-
-- (2, 7)
-- (3, 12)
-- (4, 17)
-- (5, 22)
-
-**a)** ¿Cuál es la regla que relaciona el primer número con el segundo?
-
-**b)** Si el primer número es \(x\), escribe una expresión algebraica que permita obtener el segundo número.
-
-**c)** Usa tu expresión para calcular el segundo número cuando el primero es 10.
-
----
-
-**Solución breve:**
-
-La regla es: multiplicar el primer número por 5 y sumar 3.
-
-- \(2 \times 5 + 3 = 13\)… espera, no coincide con 7.
-
-Revisemos:  
-\(2 \to 7\): \(2 \times 2 + 3 = 7\)  
-\(3 \to 12\): \(",,success,,d4a46e2d-bffd-46d2-b7c0-af20c083e1e6,deepseek-flash,0.3,False,200,42,200,242,1.7234,1.7234,0.0,1,2026-10-09T20:50:11.642984-05:00
-P079,Genera una pregunta que incluya dos valores posibles para una variable y solicite indicar cuál satisface la igualdad.,"¿Cuál de los siguientes valores de \(x\), \(x = 2\) o \(x = -3\), satisface la igualdad \(2x + 5 = 11\)?",,success,,b5d2ef9a-33d0-4016-8cea-d15a71e4cda2,deepseek-flash,0.3,False,200,45,41,86,0.9632,0.9632,0.0,1,2026-10-09T20:50:12.611425-05:00
-P080,"Crea una pregunta de álgebra elemental que combine una variable, una suma y una multiplicación con números pequeños.","**Pregunta de álgebra elemental:**
-
-Si \( x = 4 \), ¿cuál es el valor de \( 3x + 5 \)?
-
-**Solución:**
-
-1. Sustituye \( x = 4 \): \( 3(4) + 5 \)
-2. Multiplica: \( 12 + 5 \)
-3. Suma: \( 17 \)
-
-**Respuesta:** \( 17 \)",,success,,8cd307ef-93ff-4c23-a0d3-812f5327d8ea,deepseek-flash,0.3,False,200,41,91,132,1.2991,1.2991,0.0,1,2026-10-09T20:50:13.916504-05:00
-P081,Genera una pregunta de geometría que permita identificar una figura plana según su número de lados y vértices.,¿Qué figura plana tiene exactamente 5 lados y 5 vértices?,,success,,a9eb8f0a-2fa8-4fec-9724-def39a3f476a,deepseek-flash,0.3,False,200,44,19,63,1.1347,1.1347,0.0,1,2026-10-09T20:50:15.057233-05:00
-P082,Crea una pregunta donde el estudiante tenga que calcular el perímetro de un rectángulo con medidas enteras dadas.,"**Pregunta:**
-
-Un rectángulo tiene una base de 8 cm y una altura de 5 cm. Calcula su perímetro.
-
-**Solución:**
-
-El perímetro de un rectángulo se calcula con la fórmula:
-
-\[
-P = 2 \cdot (base + altura)
-\]
-
-Sustituyendo los valores:
-
-\[
-P = 2 \cdot (8 + 5) = 2 \cdot 13 = 26 \text{ cm}
-\]
-
-**Respuesta:** El perímetro del rectángulo es **26 cm**.",,success,,d2e580ae-c732-40f1-abf2-7a24ce73fafd,deepseek-flash,0.3,False,200,44,117,161,1.4001,1.4001,0.0,1,2026-10-09T20:50:16.463590-05:00
-P083,Escribe una pregunta para calcular el perímetro de un cuadrado conociendo la medida de uno de sus lados.,¿Cuál es el perímetro de un cuadrado si uno de sus lados mide 7 cm?,,success,,07a249a3-d6e5-4bec-aa5a-c72c7f6c2489,deepseek-flash,0.3,False,200,43,23,66,0.9234,0.9234,0.0,1,2026-10-09T20:50:17.393255-05:00
-P084,Genera una pregunta donde se comparen dos figuras geométricas según la cantidad de lados que posee cada una.,¿Cuál es la diferencia entre un triángulo y un pentágono en cuanto a la cantidad de lados que posee cada figura?,,success,,edf23fc6-539a-4be8-9bf2-3782d58b2561,deepseek-flash,0.3,False,200,44,30,74,1.2286,1.2286,0.0,1,2026-10-09T20:50:18.628078-05:00
-P085,Crea una pregunta que solicite identificar cuántos vértices tiene una figura geométrica plana indicada por su nombre.,¿Cuántos vértices tiene un pentágono?,,success,,23d1a4f3-fc25-4fce-b3bc-6d6063191b36,deepseek-flash,0.3,False,200,45,13,58,1.002,1.002,0.0,1,2026-10-09T20:50:19.636183-05:00
-P086,Escribe una pregunta donde el estudiante tenga que calcular el área de un rectángulo con medidas naturales sencillas.,Un estudiante quiere calcular el área de un rectángulo cuyo largo mide 8 metros y cuyo ancho mide 5 metros. ¿Cuál es el área del rectángulo?,,success,,ec7e78fd-5efc-4ee7-a7a1-6f59e00bd881,deepseek-flash,0.3,False,200,42,40,82,1.0188,1.0188,0.0,1,2026-10-09T20:50:20.660404-05:00
-P087,Genera una pregunta para calcular el área de un cuadrado a partir de la longitud conocida de su lado.,Un albañil necesita cubrir con baldosas una superficie cuadrada cuyo lado mide 6 metros. ¿Cuál es el área total de la superficie que debe cubrir?,,success,,53d0a2bc-94d3-4d85-8502-5441571d1502,deepseek-flash,0.3,False,200,41,38,79,1.3583,1.3583,0.0,1,2026-10-09T20:50:22.026674-05:00
-P088,"Crea una pregunta que permita diferenciar un triángulo, un cuadrado y un rectángulo mediante sus propiedades geométricas.","Aquí tienes una pregunta que permite diferenciar las tres figuras por sus propiedades geométricas:
-
-**""¿Cuántos lados tiene la figura y cómo son sus ángulos y sus lados entre sí: todos iguales, solo los opuestos iguales, o todos diferentes?""**
-
-Con esta pregunta se pueden distinguir así:
-
-- **Triángulo:** tiene **3 lados** y **3 ángulos**. No puede tener lados “opuestos” iguales como un cuadrilátero, porque tiene un número impar de lados.
-- **Cuadrado:** tiene **4 lados iguales** y **4 ángulos rectos** (90°). Además, sus lados opuestos son paralelos.
-- **Rectángulo:** tiene **4 lados**, con **lados opuestos iguales** y **4 ángulos rectos** (90°), pero no necesariamente todos los lados iguales.
-
-Tamb",,success,,8ad15ebd-3818-47dc-a9a9-687f05514da0,deepseek-flash,0.3,False,200,47,200,247,1.7045,1.7045,0.0,1,2026-10-09T20:50:23.736946-05:00
-P089,Escribe una pregunta donde el estudiante determine la medida de un lado faltante conociendo el perímetro de un rectángulo.,"Aquí tienes una pregunta adecuada para que el estudiante determine la medida de un lado faltante a partir del perímetro de un rectángulo:
-
-**Pregunta:**
-
-Un rectángulo tiene un perímetro de 36 cm. Si uno de sus lados mide 8 cm, ¿cuál es la medida del otro lado?
-
-**Solución esperada:**
-
-El perímetro de un rectángulo se calcula con la fórmula:
-
-\[
-P = 2 \cdot (largo + ancho)
-\]
-
-Sustituyendo los datos:
-
-\[
-36 = 2 \cdot (8 + x)
-\]
-
-Dividiendo entre 2:
-
-\[
-18 = 8 + x
-\]
-
-Despejando \(x\):
-
-\[
-x = 18 - 8 = 10
-\]
-
-**Respuesta:** El otro lado mide **10 cm**.",,success,,d7a5e1bb-8575-40f0-b6c7-784b3b4c39a8,deepseek-flash,0.3,False,200,46,182,228,1.4006,1.4006,0.0,1,2026-10-09T20:50:25.142872-05:00
-P090,Genera una pregunta de geometría que solicite clasificar un triángulo según la longitud de sus lados.,"**Pregunta de geometría:**
-
-Observa el siguiente triángulo cuyos lados miden 5 cm, 5 cm y 8 cm. ¿Cómo se clasifica este triángulo según la longitud de sus lados?
-
-A) Triángulo equilátero  
-B) Triángulo isósceles  
-C) Triángulo escaleno  
-D) Triángulo rectángulo
-
-**Respuesta correcta:** B) Triángulo isósceles, porque tiene dos lados de igual longitud (5 cm) y uno diferente (8 cm).",,success,,d674136a-6362-4f5d-b2de-796cc418e05b,deepseek-flash,0.3,False,200,42,121,163,1.412,1.412,0.0,1,2026-10-09T20:50:26.560843-05:00
-P091,Crea una pregunta donde el estudiante identifique cuál figura tiene cuatro lados iguales y cuatro ángulos rectos.,"**Pregunta:**
-
-Observa las siguientes figuras geométricas:
-
-- **A)** Un rectángulo de 6 cm de largo y 3 cm de ancho.
-- **B)** Un cuadrado de 4 cm de lado.
-- **C)** Un rombo con lados de 5 cm y ángulos de 60° y 120°.
-- **D)** Un triángulo equilátero de 4 cm de lado.
-
-¿Cuál de estas figuras tiene **cuatro lados iguales** y **cuatro ángulos rectos**?
-
-**Respuesta correcta:** **B) El cuadrado de 4 cm de lado.**
-
-**Explicación:** El cuadrado cumple con ambas condiciones: todos sus lados miden lo mismo (4 cm) y todos sus ángulos miden 90° (ángulos rectos). El rectángulo tiene cuatro ángulos rectos, pero sus l",,success,,55a0fe50-a173-414e-867c-154548ae1889,deepseek-flash,0.3,False,200,45,200,245,1.6654,1.6654,0.0,1,2026-10-09T20:50:28.232397-05:00
-P092,Escribe una pregunta para determinar cuántos lados y vértices tiene un pentágono y expresar ambos valores.,"¿Cuántos lados y vértices tiene un pentágono?  
-Un pentágono tiene 5 lados y 5 vértices.",,success,,4b7743be-eb8c-4a96-8c3b-2ccc595d29a2,deepseek-flash,0.3,False,200,44,33,77,0.9046,0.9046,0.0,1,2026-10-09T20:50:29.142644-05:00
-P093,Genera una pregunta donde se deba comparar el perímetro de dos cuadrados con diferentes longitudes de lado.,"**Pregunta:**
-
-Un cuadrado A tiene lados de 5 cm y un cuadrado B tiene lados de 8 cm. ¿Cuál es la diferencia entre el perímetro del cuadrado B y el perímetro del cuadrado A?
-
-**Respuesta:**
-
-- Perímetro del cuadrado A: \(4 \times 5 = 20\) cm
-- Perímetro del cuadrado B: \(4 \times 8 = 32\) cm
-- Diferencia: \(32 - 20 = 12\) cm
-
-El perímetro del cuadrado B es 12 cm mayor que el perímetro del cuadrado A.",,success,,68756689-ed8b-4c83-9e57-35864068ba77,deepseek-flash,0.3,False,200,42,135,177,1.3436,1.3436,0.0,1,2026-10-09T20:50:30.492220-05:00
-P094,Crea una pregunta que solicite reconocer líneas paralelas y perpendiculares mediante una descripción escrita sencilla.,"¿Cuáles de las siguientes afirmaciones describen correctamente a un par de líneas paralelas y a un par de líneas perpendiculares?
-
-A) Las líneas paralelas se cruzan formando cuatro ángulos rectos, mientras que las líneas perpendiculares nunca se cruzan.
-B) Las líneas paralelas mantienen siempre la misma distancia entre sí y nunca se cruzan, mientras que las líneas perpendiculares se cruzan formando cuatro ángulos rectos.
-C) Tanto las líneas paralelas como las perpendiculares siempre se cruzan formando ángulos rectos.
-D) Las líneas paralelas se cruzan formando ángulos agudos, mientras que las perpendiculares se cruzan formando ángulos obtusos.
-
-**Respuesta correcta: B)**",,success,,c2c7cb56-bf5d-458b-998e-956eb048361f,deepseek-flash,0.3,False,200,44,180,224,1.8514,1.8514,0.0,1,2026-10-09T20:50:32.349806-05:00
-P095,"Escribe una pregunta donde el estudiante tenga que identificar un ángulo recto, agudo u obtuso según su medida.","Claro, aquí tienes una pregunta para que el estudiante identifique el tipo de ángulo según su medida:
-
-**Pregunta:**  
-Observa los siguientes ángulos y clasifícalos como **recto**, **agudo** u **obtuso** según su medida:
-
-1. Ángulo A = 45°  
-2. Ángulo B = 90°  
-3. Ángulo C = 120°  
-4. Ángulo D = 30°  
-5. Ángulo E = 150°
-
-**Instrucción:** Escribe al lado de cada ángulo si es agudo, recto u obtuso.",,success,,d989ba93-c3f8-48d3-86e3-2cb30b244ac5,deepseek-flash,0.3,False,200,44,135,179,1.6278,1.6278,0.0,1,2026-10-09T20:50:33.983080-05:00
-P096,Genera una pregunta que permita calcular la medida de un lado de un cuadrado conociendo su perímetro.,¿Cuál es la medida del lado de un cuadrado cuyo perímetro es 36 cm?,,success,,3d1fe634-b293-4817-9504-54fb2aba568f,deepseek-flash,0.3,False,200,42,20,62,0.9059,0.9059,0.0,1,2026-10-09T20:50:34.894552-05:00
-P097,Crea una pregunta donde se comparen las áreas de dos rectángulos a partir de sus medidas de largo y ancho.,"**Pregunta:**
-
-Un rectángulo A mide 8 cm de largo y 5 cm de ancho. Otro rectángulo B mide 10 cm de largo y 3 cm de ancho.
-
-¿Cuál de los dos rectángulos tiene mayor área y cuánto más grande es?
-
-**Respuesta:**
-
-- Área del rectángulo A: \(8 \times 5 = 40\ \text{cm}^2\)
-- Área del rectángulo B: \(10 \times 3 = 30\ \text{cm}^2\)
-
-El rectángulo A tiene mayor área, y es \(40 - 30 = 10\ \text{cm}^2\) más grande que el rectángulo B.",,success,,9baead38-985f-491b-8ea7-d2cdf362d776,deepseek-flash,0.3,False,200,44,159,203,1.1646,1.1646,0.0,1,2026-10-09T20:50:36.065336-05:00
-P098,"Escribe una pregunta de geometría que solicite identificar una figura tridimensional según sus caras, aristas y vértices.","¿Qué figura tridimensional tiene 6 caras, 12 aristas y 8 vértices?",,success,,8bc07f19-9749-4864-b008-adc0c2525aaa,deepseek-flash,0.3,False,200,45,22,67,1.1093,1.1093,0.0,1,2026-10-09T20:50:37.180330-05:00
-P099,Genera una pregunta donde el estudiante tenga que determinar cuántos ejes de simetría tiene una figura geométrica sencilla.,"**Pregunta:**
-
-Observa la siguiente figura geométrica: un **cuadrado**.
-
-¿Cuántos ejes de simetría tiene un cuadrado?
-
-a) 1  
-b) 2  
-c) 3  
-d) 4  
-
-**Respuesta correcta:** d) 4
-
-**Explicación breve:** Un cuadrado tiene 4 ejes de simetría: dos que pasan por los puntos medios de los lados opuestos (horizontal y vertical) y dos que pasan por los vértices opuestos (las diagonales).",,success,,df7810bd-28e1-40cd-b7ab-59bd6386fd30,deepseek-flash,0.3,False,200,46,119,165,1.4177,1.4177,0.0,1,2026-10-09T20:50:38.603461-05:00
-P100,"Crea una pregunta que evalúe el reconocimiento de círculo, triángulo, cuadrado y rectángulo mediante propiedades escritas.","**Pregunta:**
-
-Lee con atención las siguientes descripciones y escribe al lado de cada una el nombre de la figura geométrica que corresponde (círculo, triángulo, cuadrado o rectángulo):
-
-1. Soy una figura plana y cerrada. Tengo tres lados rectos y tres vértices. ¿Qué figura soy?  
-   **Respuesta:** ______________________
-
-2. Soy una figura plana y cerrada. Tengo cuatro lados iguales y cuatro ángulos rectos (de 90°). ¿Qué figura soy?  
-   **Respuesta:** ______________________
-
-3. Soy una figura plana y cerrada. Tengo una línea curva continua y todos los puntos de esa línea están a la misma distancia del centro. No tengo lados rectos ni vértices. ¿Qué figura soy?  
-   **Respuesta:** ______________________
-
-4. Soy una figura plana y cerrada. Tengo",,success,,320d1194-6ca4-49b4-8ae1-91f4c644edf6,deepseek-flash,0.3,False,200,48,200,248,1.8758,1.8758,0.0,1,2026-10-09T20:50:40.485602-05:00
+P001,Generate a geometry question where the student identifies a plane shape from its number of sides and vertices. Use text only.,A certain plane shape has exactly 4 straight sides and 4 vertices. What is the name of this shape?,,success,,958e17b1-8aea-49f6-996f-a5e90806590d,deepseek-flash,0.3,False,600,41,23,64,2.0391,2.0391,0.0,1,2026-11-18T21:41:36.411199-05:00
+P002,Create a question where the student calculates the perimeter of a rectangle from given whole-number measurements. Use text only.,A rectangle has a length of 8 meters and a width of 5 meters. What is the perimeter of the rectangle?,,success,,489473d2-c638-4584-a7b9-e0628962a517,deepseek-flash,0.3,False,600,40,25,65,1.3306,1.3306,0.0,1,2026-11-18T21:41:37.759699-05:00
+P003,Write a question asking the student to calculate the perimeter of a square from the length of one side. Use text only.,A square has a side length of 7 cm. What is the perimeter of the square?,,success,,d2d96450-44d6-4953-a9f2-bb7eb1e8adca,deepseek-flash,0.3,False,600,42,19,61,1.267,1.267,0.0,1,2026-11-18T21:41:39.037611-05:00
+P004,Generate a question comparing two geometric shapes by the number of sides each shape has. Use text only.,How many more sides does a hexagon have than a triangle?,,success,,871ee307-8a5e-4c1b-a883-caf725d153a2,deepseek-flash,0.3,False,600,38,13,51,1.4105,1.4105,0.0,1,2026-11-18T21:41:40.454421-05:00
+P005,Create a question asking how many vertices a named plane shape has. Use text only.,How many vertices does a hexagon have?,,success,,6f537861-fa7e-4cc9-8dc8-822477e6b355,deepseek-flash,0.3,False,600,35,9,44,1.1454,1.1454,0.0,1,2026-11-18T21:41:41.604348-05:00
+P006,Write a question where the student calculates the area of a rectangle using simple whole-number measurements. Use text only.,A rectangle has a length of 8 centimeters and a width of 5 centimeters. What is the area of the rectangle?,,success,,a82ea9f1-cda9-4fa5-85cf-6b47bf042bc8,deepseek-flash,0.3,False,600,40,25,65,0.9833,0.9833,0.0,1,2026-11-18T21:41:42.591640-05:00
+P007,Generate a question asking the student to calculate the area of a square from its side length. Use text only.,A square has a side length of 7 cm. What is the area of the square?,,success,,0c91c0f6-e754-4c67-990c-b6d8faff72c9,deepseek-flash,0.3,False,600,40,19,59,1.0778,1.0778,0.0,1,2026-11-18T21:41:43.674624-05:00
+P008,"Create a question that distinguishes a triangle, square, and rectangle using their geometric properties. Use text only.","Which of these shapes has exactly three sides and three angles: a triangle, a square, or a rectangle?",,success,,a7e7ad18-8c35-46c9-8ea5-e7f4eb5ae66a,deepseek-flash,0.3,False,600,39,22,61,1.2539,1.2539,0.0,1,2026-11-18T21:41:44.936763-05:00
+P009,Write a question where the student finds a missing side length from the known perimeter of a rectangle. Use text only.,A rectangle has a perimeter of 36 cm. One of its sides is 7 cm long. What is the length of the missing side?,,success,,00561134-ced1-4b8b-a315-fbf850c99203,deepseek-flash,0.3,False,600,41,29,70,1.3438,1.3438,0.0,1,2026-11-18T21:41:46.284574-05:00
+P010,Generate a geometry question asking the student to classify a triangle by the lengths of its sides. Use text only.,"A triangle has side lengths of 5 cm, 5 cm, and 8 cm. Classify the triangle by the lengths of its sides.",,success,,27424828-40a7-4e3f-970f-c6cb1374afe7,deepseek-flash,0.3,False,600,40,30,70,1.0159,1.0158,0.0,1,2026-11-18T21:41:47.305742-05:00
+P011,Create a question where the student identifies the shape with four equal sides and four right angles. Use text only.,Which shape has four equal sides and four right angles?,,success,,9591b2c9-5c08-4bdc-9659-fff6859fda51,deepseek-flash,0.3,False,600,40,11,51,1.3928,1.3928,0.0,1,2026-11-18T21:41:48.704130-05:00
+P012,Write a question asking how many sides and vertices a pentagon has. Use text only.,How many sides and vertices does a pentagon have?,,success,,b69696aa-ec0d-4259-bc75-103ee511ed94,deepseek-flash,0.3,False,600,36,11,47,1.2973,1.2973,0.0,1,2026-11-18T21:41:50.022801-05:00
+P013,Generate a question where the student compares the perimeters of two squares with different side lengths. Use text only.,Square A has a side length of 6 cm. Square B has a side length of 9 cm. Compare the perimeters of the two squares. How much larger is the perimeter of Square B than the perimeter of Square A?,,success,,99d5f765-e4c1-475a-be1a-255e0e1ae735,deepseek-flash,0.3,False,600,40,47,87,1.0414,1.0414,0.0,1,2026-11-18T21:41:51.070643-05:00
+P014,Create a question asking the student to recognize parallel and perpendicular lines from a simple written description. Use text only.,"A line passes through the points (1, 2) and (4, 8). A second line passes through the points (0, 5) and (3, 11). A third line passes through the points (2, 1) and (2, 7). Which of these lines are parallel to each other, and which are perpendicular to each other? Explain your reasoning.",,success,,971a2147-96fb-464c-9d42-1d8cf0140838,deepseek-flash,0.3,False,600,40,81,121,1.5165,1.5165,0.0,1,2026-11-18T21:41:52.594357-05:00
+P015,"Write a question where the student identifies an angle as right, acute, or obtuse from its measure. Use text only.","A student is given an angle that measures 120 degrees. Is the angle right, acute, or obtuse?",,success,,77adf752-340c-4912-990c-f59bbc44f1b9,deepseek-flash,0.3,False,600,43,23,66,1.51,1.51,0.0,1,2026-11-18T21:41:54.109700-05:00
+P016,Generate a question where the student finds the side length of a square from its known perimeter. Use text only.,A square has a perimeter of 36 centimeters. What is the side length of the square?,,success,,b34df821-3684-44ff-9a53-983e8b4c803a,deepseek-flash,0.3,False,600,40,19,59,1.1955,1.1955,0.0,1,2026-11-18T21:41:55.310363-05:00
+P017,Create a question comparing the areas of two rectangles from their lengths and widths. Use text only.,"Rectangle A has a length of 12 cm and a width of 5 cm. Rectangle B has a length of 9 cm and a width of 7 cm. Which rectangle has the greater area, and by how many square centimeters?",,success,,5ee4d9fd-81c5-4a48-8e99-f12cee4647a8,deepseek-flash,0.3,False,600,37,48,85,1.1818,1.1818,0.0,1,2026-11-18T21:41:56.496965-05:00
+P018,"Write a geometry question asking the student to identify a three-dimensional shape from its faces, edges, and vertices. Use text only.","A three-dimensional shape has 6 faces, 12 edges, and 8 vertices. What is the name of this shape?",,success,,acd94505-641a-4ab5-a9ea-976c0fcb7b40,deepseek-flash,0.3,False,600,44,26,70,1.3258,1.3258,0.0,1,2026-11-18T21:41:57.827097-05:00
+P019,Generate a question where the student determines the number of lines of symmetry in a simple geometric shape. Use text only.,How many lines of symmetry does a square have?,,success,,7889d219-ccf9-416f-b2cf-b30bd8f8ebe4,deepseek-flash,0.3,False,600,41,10,51,1.3048,1.3048,0.0,1,2026-11-18T21:41:59.136221-05:00
+P020,"Create a question that assesses recognition of circles, triangles, squares, and rectangles from written properties. Use text only.","Which shape is described by each set of properties?
+
+1. A closed shape with three straight sides and three corners.
+2. A closed shape with four straight sides of equal length and four right angles.
+3. A closed shape with four straight sides, with opposite sides equal and four right angles, but not all sides equal.
+4. A closed shape made of all points the same distance from a center point.",,success,,c924a148-e968-42ea-8d40-a0031385f3d5,deepseek-flash,0.3,False,600,41,82,123,1.282,1.2819,0.0,1,2026-11-18T21:42:00.428511-05:00
+P021,Create a word problem where a rectangular garden has given length and width and the student finds its perimeter. Use text only.,A rectangular garden measures 12 meters long and 7 meters wide. What is the perimeter of the garden?,,success,,2b968ca6-08db-4b24-b767-698c24a981d8,deepseek-flash,0.3,False,600,42,22,64,1.1893,1.1893,0.0,1,2026-11-18T21:42:01.622285-05:00
+P022,Generate a word problem where square tiles cover a small rectangular floor and the student finds the total area. Use text only.,A small rectangular hallway is 6 tiles long and 4 tiles wide. Each square tile has a side length of 1 foot. What is the total area of the hallway floor in square feet?,,success,,d2f26b27-5e21-4c15-8ded-b5625b91a312,deepseek-flash,0.3,False,600,42,40,82,1.0952,1.0952,0.0,1,2026-11-18T21:42:02.722082-05:00
+P023,Write a geometry problem where the student compares two routes made of straight line segments and determines which is longer. Use text only.,"A courier starts at point A and must reach point B. Two routes are possible, each made of straight line segments.
+
+Route 1: From A, go 7 km north to point C, then 10 km east to point D, then 5 km south to point B.
+
+Route 2: From A, go 4 km east to point E, then 12 km north to point F, then 6 km east to point B.
+
+Determine which route is longer, and by how many kilometers.",,success,,94605de2-25b3-4443-9f08-d1fcaca63a38,deepseek-flash,0.3,False,600,43,105,148,1.4754,1.4754,0.0,1,2026-11-18T21:42:04.201901-05:00
+P024,Create a problem where the student finds an unknown rectangle dimension from its area and one known side. Use text only.,A rectangle has an area of 84 square centimeters. One side of the rectangle is 7 centimeters long. Find the length of the other side.,,success,,b10c96f1-6664-4975-b8d5-97f0d35d72eb,deepseek-flash,0.3,False,600,41,30,71,1.1503,1.1503,0.0,1,2026-11-18T21:42:05.358279-05:00
+P025,"Generate a problem describing a simple solid shape and ask the student to identify it using its faces, edges, and vertices. Use text only.","A solid shape has 6 faces, 12 edges, and 8 vertices. All of its faces are squares, and all of its edges are equal in length. Identify the shape.",,success,,f8920a08-5e27-4f85-8325-97bca790f029,deepseek-flash,0.3,False,600,46,38,84,1.1529,1.1529,0.0,1,2026-11-18T21:42:06.516637-05:00
+P026,Generate a question combining multiplication and division with natural numbers that gives a whole-number result. Use text only.,What is (12 × 5) ÷ 3?,,success,,c6698123-a86f-4d23-a9e8-e3e786b5fa5d,deepseek-flash,0.3,False,600,39,12,51,1.0579,1.0579,0.0,1,2026-11-18T21:42:07.579594-05:00
+P027,Create a question where the student multiplies two numbers and then divides the result by another number. Use text only.,A student multiplies 12 by 8 and then divides the result by 4. What is the final answer?,,success,,44cbfa28-1915-4dc7-b92c-fc8daacf9bbd,deepseek-flash,0.3,False,600,41,24,65,1.3955,1.3955,0.0,1,2026-11-18T21:42:08.979607-05:00
+P028,Write a question that practices exact division and asks the student to check the result using multiplication. Use text only.,What is 84 divided by 7? Check your answer by multiplying the quotient by 7 to see if you get 84.,,success,,62eef618-4501-4737-8d20-574cd295cf72,deepseek-flash,0.3,False,600,40,27,67,1.1139,1.1139,0.0,1,2026-11-18T21:42:10.100243-05:00
+P029,Generate a multiplication question with two factors followed by a division suitable for elementary students. Use text only.,What is 6 times 7? Then take your answer and divide it by 3.,,success,,0ff175ae-1cb1-4637-8f92-bd8603ba45d4,deepseek-flash,0.3,False,600,38,19,57,0.9531,0.953,0.0,1,2026-11-18T21:42:11.060364-05:00
+P030,Create a question with a missing factor where multiplication or division is needed to find its value. Use text only.,"A recipe uses 3/4 cup of sugar for every batch of cookies. If you want to make 2/3 of a batch, how many cups of sugar do you need?",,success,,d77c8bd5-685f-405a-9372-393750929e57,deepseek-flash,0.3,False,600,40,38,78,1.4503,1.4503,0.0,1,2026-11-18T21:42:12.517115-05:00
+P031,Write a question with two multiplications and ask the student to determine which product is greater. Use text only.,Which product is greater: 6 × 7 or 8 × 5?,,success,,3479f537-5f34-4570-b1eb-6161bbc5a8a7,deepseek-flash,0.3,False,600,40,17,57,1.5345,1.5345,0.0,1,2026-11-18T21:42:14.057420-05:00
+P032,Generate a question where the student finds an unknown divisor from a known dividend and quotient. Use text only.,"A number is divided by an unknown divisor, and the quotient is 7. If the dividend is 56, what is the divisor?",,success,,5897a290-d928-4545-ad4d-dae0b19f3b43,deepseek-flash,0.3,False,600,39,28,67,1.4127,1.4127,0.0,1,2026-11-18T21:42:15.475448-05:00
+P033,Create a question that practices multiplication facts and exact division using small natural numbers. Use text only.,"What is 7 × 6, and what is 42 ÷ 6?",,success,,cd60996e-e9f6-4c4c-8f40-71971d2acd31,deepseek-flash,0.3,False,600,37,17,54,1.1985,1.1985,0.0,1,2026-11-18T21:42:16.679479-05:00
+P034,Write a question where the student compares the result of a multiplication with the result of a division. Use text only.,Maya multiplies 24 by 3 and then divides 24 by 3. How much greater is the result of the multiplication than the result of the division?,,success,,5f7f04f4-0697-464b-9256-f0bb5ce00ba7,deepseek-flash,0.3,False,600,41,34,75,1.0059,1.0059,0.0,1,2026-11-18T21:42:17.693379-05:00
+P035,Generate a question with three natural numbers where the student decides whether to multiply or divide. Use text only.,"A recipe uses 3 cups of flour to make 12 cookies. If you want to make 36 cookies, should you multiply or divide, and by what number, to find how many cups of flour you need?",,success,,e45f0704-1686-4c56-810b-46439b705fdf,deepseek-flash,0.3,False,600,39,44,83,1.4626,1.4626,0.0,1,2026-11-18T21:42:19.161409-05:00
+P036,Create a question with an incomplete multiplication where the student must find the missing factor. Use text only.,"What number completes the multiplication sentence?
+
+7 × ___ = 56",,success,,fbbba346-1275-4948-9990-e2b67df1925c,deepseek-flash,0.3,False,600,38,13,51,1.0093,1.0093,0.0,1,2026-11-18T21:42:20.179612-05:00
+P037,Write an exact-division question with a two-digit quotient that can be checked using multiplication. Use text only.,"What is 84 divided by 3? The quotient is 28, and it can be checked by multiplying 28 by 3 to get 84.",,success,,377a701a-4908-4a12-8e09-5e81976aa5ba,deepseek-flash,0.3,False,600,40,32,72,1.4637,1.4637,0.0,1,2026-11-18T21:42:21.650536-05:00
+P038,Generate a question with two exact divisions and ask the student to order the quotients from least to greatest. Use text only.,Solve these two divisions: 84 ÷ 7 and 96 ÷ 8. Then order the two quotients from least to greatest.,,success,,1baa58cb-7e9f-462a-bc44-53a9d6d3fc15,deepseek-flash,0.3,False,600,43,28,71,1.2727,1.2727,0.0,1,2026-11-18T21:42:22.929265-05:00
+P039,Create a question that practices multiplication by ten and division by ten using natural numbers. Use text only.,"What is 10 times 7, and what is 70 divided by 10?",,success,,cb540709-2269-4aeb-8c79-a4bb1b3cf2df,deepseek-flash,0.3,False,600,38,18,56,1.1518,1.1518,0.0,1,2026-11-18T21:42:24.090166-05:00
+P040,Write a question where the student completes an equation containing both multiplication and division. Use text only.,Complete the equation: 6 × 8 ÷ 4 = ___,,success,,0c2892d8-9eea-4445-8514-a33443e8452b,deepseek-flash,0.3,False,600,37,14,51,1.1391,1.1391,0.0,1,2026-11-18T21:42:25.235146-05:00
+P041,Generate a question asking which multiplication correctly matches a given exact division. Use text only.,Which multiplication correctly matches the division 72 ÷ 9 = 8?,,success,,1581dfb9-0670-4308-a5df-4510a004efbf,deepseek-flash,0.3,False,600,35,15,50,1.3106,1.3106,0.0,1,2026-11-18T21:42:26.551742-05:00
+P042,Create a question where multiplication produces the dividend needed for a division with natural numbers. Use text only.,"What is 6 × 7, and then what is 42 ÷ 6?",,success,,f1d5c93d-9c37-49a6-b3a7-b6a5cdb1aac2,deepseek-flash,0.3,False,600,38,18,56,1.0159,1.0159,0.0,1,2026-11-18T21:42:27.572884-05:00
+P043,Write a question where the student corrects an incorrect multiplication or division result. Use text only.,"A student calculates 48 ÷ 6 and says the answer is 7. What is the correct answer, and how would you explain the mistake?",,success,,75660e38-db11-431a-b30d-96233db59905,deepseek-flash,0.3,False,600,37,30,67,1.3306,1.3306,0.0,1,2026-11-18T21:42:28.909766-05:00
+P044,Generate a question combining two simple multiplications and one exact division to find the final result. Use text only.,"What is (7 times 6) plus (8 times 5), divided exactly by 2?",,success,,b4c05287-3b13-4f65-9542-74069b80e037,deepseek-flash,0.3,False,600,40,21,61,1.7386,1.7386,0.0,1,2026-11-18T21:42:30.653216-05:00
+P045,Create a question that assesses multiplication and division using a short numerical expression with exact operations. Use text only.,What is the value of 48 ÷ 6 × 3?,,success,,bbc6622b-b9fe-4c55-8ff1-3a07082f3441,deepseek-flash,0.3,False,600,39,14,53,1.317,1.317,0.0,1,2026-11-18T21:42:31.976194-05:00
+P046,Create a word problem where equal groups are formed and the student uses multiplication to find the total number of objects. Use text only.,A baker bakes 6 trays of cookies. Each tray holds 8 cookies. How many cookies does the baker bake in all?,,success,,c41f51a3-1c64-47c6-8e4f-4c797a5a6570,deepseek-flash,0.3,False,600,44,27,71,1.4042,1.4042,0.0,1,2026-11-18T21:42:33.386047-05:00
+P047,Generate a word problem where a set of objects is shared equally and the student uses division to find how many each group receives. Use text only.,A teacher has 24 pencils. She shares them equally among 6 students. How many pencils does each student receive?,,success,,4f819f7a-a5d9-45d1-a96c-59ede0a5995a,deepseek-flash,0.3,False,600,47,24,71,1.4434,1.4434,0.0,1,2026-11-18T21:42:34.834214-05:00
+P048,Write a problem where the student first finds a total using multiplication and then shares it equally using division. Use text only.,A baker makes 6 trays of muffins. Each tray holds 8 muffins. The baker then packs all the muffins equally into 4 boxes. How many muffins are in each box?,,success,,661e2a27-d2e5-4be8-afd5-322dee9f0778,deepseek-flash,0.3,False,600,42,37,79,1.7441,1.7441,0.0,1,2026-11-18T21:42:36.582763-05:00
+P049,Create a problem involving rows and columns where the student uses multiplication to find the total and division to verify it. Use text only.,"A school auditorium has chairs arranged in rows and columns. There are 8 rows of chairs, and each row has 7 chairs.
+
+Part A: Use multiplication to find the total number of chairs in the auditorium.
+
+Part B: Use division to verify your answer by showing how the total number of chairs can be split equally into 8 rows.",,success,,3af6356b-c589-4ee6-bde6-ad973d9ded39,deepseek-flash,0.3,False,600,44,71,115,2.0373,2.0373,0.0,1,2026-11-18T21:42:38.624869-05:00
+P050,Generate a word problem where the student finds how many equal packages can be made from a total number of items. Use text only.,"A bakery has 84 cookies. They want to package the cookies into boxes, with each box containing 12 cookies. How many equal packages can the bakery make?",,success,,55cdbdd2-c184-4941-800a-edbcc71375df,deepseek-flash,0.3,False,600,44,33,77,1.3412,1.3412,0.0,1,2026-11-18T21:42:39.973417-05:00
+P051,Generate a math question that combines addition and subtraction with natural numbers for elementary students. Use text only.,"Here is a math question for elementary students:
+
+Emma has 24 stickers. Her friend gives her 15 more stickers. Then Emma gives 9 stickers to her brother. How many stickers does Emma have now?
+
+(Answer: 24 + 15 − 9 = 30 stickers)",,success,,d13c7801-edcc-41dc-8e14-01a4de0d1985,deepseek-flash,0.3,False,600,38,58,96,1.5836,1.5836,0.0,1,2026-11-18T21:42:41.562549-05:00
+P052,Create a question where the student adds two quantities and then subtracts a third quantity to find the answer. Use text only.,Maya has 14 stickers. Her friend gives her 9 more stickers. Then Maya gives 6 stickers to her brother. How many stickers does Maya have now?,,success,,665b3911-8221-46ad-8e0a-c0d4b9ad5a98,deepseek-flash,0.3,False,600,43,34,77,1.4199,1.4199,0.0,1,2026-11-18T21:42:42.988142-05:00
+P053,Write an addition and subtraction question with two-digit numbers that can be solved using basic operations. Use text only.,"What is 47 plus 25, minus 18?",,success,,a4bce938-29ca-4a35-92fa-71e142dc8ab1,deepseek-flash,0.3,False,600,40,12,52,1.3847,1.3847,0.0,1,2026-11-18T21:42:44.379289-05:00
+P054,Generate a question that practices subtraction first and then addition using simple natural numbers. Use text only.,"Start with 9, subtract 4, then add 3. What is the result?",,success,,9edfd97d-20ba-4a69-94a5-fbc403371251,deepseek-flash,0.3,False,600,37,19,56,1.4279,1.4279,0.0,1,2026-11-18T21:42:45.813326-05:00
+P055,Create a math question with three quantities where the student must decide when to add and when to subtract. Use text only.,"A school library starts the day with 240 books on its shelves. During the morning, 85 books are checked out by students. In the afternoon, 60 books are returned. Later that day, the librarian receives a donation of 45 new books and adds them to the shelves. How many books are on the shelves at the end of the day?",,success,,a1da4c6c-9b78-413d-878d-e48fd6dd5f7c,deepseek-flash,0.3,False,600,42,72,114,1.9723,1.9723,0.0,1,2026-11-18T21:42:47.790745-05:00
+P056,Write a calculation question combining addition and subtraction with numbers below 100 for elementary education. Use text only.,"Here is a calculation question for elementary students:
+
+A class library has 47 storybooks. The teacher brings in 28 more storybooks, and then 19 storybooks are borrowed by students. How many storybooks are left in the class library?
+
+(Answer: 47 + 28 − 19 = 56)",,success,,a18ae687-7b3b-4e91-b388-8b9e6a6be18d,deepseek-flash,0.3,False,600,39,65,104,1.8364,1.8364,0.0,1,2026-11-18T21:42:49.632847-05:00
+P057,Generate a question where the student completes a combined addition and subtraction operation by finding a missing number. Use text only.,Solve: 14 + ___ − 6 = 15. What number goes in the blank?,,success,,d6842d36-d5c3-498d-bb15-58d838c428fb,deepseek-flash,0.3,False,600,41,20,61,1.2425,1.2425,0.0,1,2026-11-18T21:42:50.880402-05:00
+P058,Create a question asking the student to compare two results obtained from an addition and a subtraction with natural numbers. Use text only.,"Compare the results of the addition 47 + 28 and the subtraction 90 − 35. Which result is greater, and by how much?",,success,,ce0619a3-c7ae-4600-9ef9-9b7ce9e54a1f,deepseek-flash,0.3,False,600,43,30,73,1.2738,1.2738,0.0,1,2026-11-18T21:42:52.159166-05:00
+P059,Write a question where the student solves two additions and one subtraction to find the final result. Use text only.,A farmer has 128 apples in one basket and 76 apples in another basket. He sells 54 apples. How many apples does he have left?,,success,,426b5e56-5935-4128-a0c5-6bcd56b0e1f0,deepseek-flash,0.3,False,600,40,31,71,1.4769,1.4769,0.0,1,2026-11-18T21:42:53.641257-05:00
+P060,Generate an addition and subtraction question using three-digit numbers with one correct answer. Use text only.,What is 742 - 386 + 159? The correct answer is 515.,,success,,5f346180-8159-41cd-a598-9d3cec8fb6cd,deepseek-flash,0.3,False,600,37,18,55,1.6968,1.6967,0.0,1,2026-11-18T21:42:55.343524-05:00
+P061,Create a question where the student identifies which addition or subtraction operation produces a given result. Use text only.,"Which operation produces the result 12?
+
+A) 7 + 6
+B) 15 − 4
+C) 8 + 4
+D) 20 − 9",,success,,325f8204-92a7-425d-9e6c-9b29bad9e2cb,deepseek-flash,0.3,False,600,39,39,78,1.7294,1.7294,0.0,1,2026-11-18T21:42:57.078446-05:00
+P062,Write a math question with an incomplete addition and an incomplete subtraction where the missing values must be found. Use text only.,"A farmer has two baskets of apples. The first basket contains 47 apples. The second basket contains an unknown number of apples, call it A. Together, the two baskets contain 82 apples.
+
+Later, the farmer sells 19 apples from the first basket, leaving an unknown number of apples in that basket, call it B.
+
+Find the values of A and B.",,success,,91569d66-59a3-475b-9e53-f6ac00d4d181,deepseek-flash,0.3,False,600,42,75,117,2.015,2.015,0.0,1,2026-11-18T21:42:59.098255-05:00
+P063,Generate a question where the student checks a subtraction using addition and decides whether the result is correct. Use text only.,"Mia solved 82 − 47 = 35. To check her answer, she added 35 + 47 and got 82. Is Mia's subtraction correct? Explain how you know.",,success,,50028744-a191-4665-81f6-5550565f8930,deepseek-flash,0.3,False,600,41,40,81,1.8449,1.8449,0.0,1,2026-11-18T21:43:00.949164-05:00
+P064,Create a question with four natural numbers that requires additions and subtractions in the correct order. Use text only.,What is 12 plus 7 minus 5 plus 3?,,success,,944ff687-e81f-4b58-af02-b9c9c646b383,deepseek-flash,0.3,False,600,40,14,54,0.8143,0.8143,0.0,1,2026-11-18T21:43:01.770098-05:00
+P065,Write a mental-math question combining one addition and one subtraction with numbers below 50. Use text only.,What is 37 plus 18 minus 29?,,success,,6a5b966b-c997-4386-8de0-4a1f03911433,deepseek-flash,0.3,False,600,40,11,51,1.2425,1.2425,0.0,1,2026-11-18T21:43:03.017816-05:00
+P066,Generate a question with two expressions containing additions and subtractions and ask which result is greater. Use text only.,"Which result is greater: 48 plus 27 minus 19, or 52 minus 18 plus 14?",,success,,24a5c92b-051a-4bc0-a3e5-1ed6dabec98a,deepseek-flash,0.3,False,600,40,24,64,1.4483,1.4483,0.0,1,2026-11-18T21:43:04.472837-05:00
+P067,Create an addition and subtraction question where the student finds the starting value from a known final result. Use text only.,"A water tank starts with some water. Then 38 liters are added, and after that 15 liters are removed. The tank now contains 72 liters. How many liters of water were in the tank at the start?",,success,,458daa7f-e013-4e34-a5d8-9249d2361c4e,deepseek-flash,0.3,False,600,41,45,86,1.5634,1.5634,0.0,1,2026-11-18T21:43:06.041672-05:00
+P068,Write a question where the student must correct an incorrect result from an operation combining addition and subtraction. Use text only.,"A student calculates 25 + 17 - 9 and gets 33. What is the correct result, and what mistake did the student likely make?",,success,,8d3a248e-480d-4600-89ea-4ae9ee3bf254,deepseek-flash,0.3,False,600,41,31,72,1.3063,1.3063,0.0,1,2026-11-18T21:43:07.352970-05:00
+P069,Generate a question with consecutive natural numbers that requires one addition and one subtraction to solve. Use text only.,"What is the result when you add 7 and 8, then subtract 6?",,success,,26330be1-2601-4178-afd5-2a425a786f4c,deepseek-flash,0.3,False,600,39,18,57,1.1795,1.1795,0.0,1,2026-11-18T21:43:08.538882-05:00
+P070,Create a question that assesses addition and subtraction using a numerical expression with three simple operations. Use text only.,What is the value of 8 + 5 − 3 + 2?,,success,,fc53c8bc-6c84-4057-b41f-0a41ea0dbf7f,deepseek-flash,0.3,False,600,39,17,56,1.2003,1.2003,0.0,1,2026-11-18T21:43:09.744826-05:00
+P071,Generate a subtraction question with two-digit natural numbers where the student must find the correct difference. Use text only.,What is 74 minus 38?,,success,,10f8e083-1240-4e7d-9fdc-ff88a57ab7b4,deepseek-flash,0.3,False,600,40,8,48,1.209,1.209,0.0,1,2026-11-18T21:43:10.963961-05:00
+P072,Create a question where the student subtracts a three-digit number from a larger number. Use text only.,"What is 1,000 minus 468?",,success,,1bf3b38d-b81f-488a-a59e-e8bee31c2a7b,deepseek-flash,0.3,False,600,39,10,49,1.2775,1.2775,0.0,1,2026-11-18T21:43:12.248213-05:00
+P073,Write a subtraction question with an unknown value and ask the student to find the missing number. Use text only.,"A subtraction question with an unknown value:
+
+42 − ___ = 17
+
+Find the missing number.",,success,,80b10f2a-05aa-4759-9f11-866e631c242d,deepseek-flash,0.3,False,600,40,20,60,1.2893,1.2893,0.0,1,2026-11-18T21:43:13.543778-05:00
+P074,Generate a subtraction question with regrouping using natural numbers appropriate for elementary students. Use text only.,What is 52 minus 27?,,success,,17bd13d9-88e1-4d84-8686-6ff8492d13c4,deepseek-flash,0.3,False,600,36,8,44,1.1058,1.1057,0.0,1,2026-11-18T21:43:14.656538-05:00
+P075,Create a mental-math question based on subtraction with numbers below 100. Use text only.,What is 84 minus 37?,,success,,4053fd5d-9433-4d8a-84da-13861617967c,deepseek-flash,0.3,False,600,37,8,45,1.3995,1.3995,0.0,1,2026-11-18T21:43:16.061076-05:00
+P076,Generate a simple algebra question where the student must find the value of an unknown letter. Use text only.,Solve for x: 3x + 5 = 20.,,success,,7c2bb45d-4e8e-4a94-b208-47f128fe6357,deepseek-flash,0.3,False,600,39,14,53,1.2635,1.2635,0.0,1,2026-11-18T21:43:17.330959-05:00
+P077,Create a question with an equation containing a variable and addition where the missing value must be found. Use text only.,"Mia has 7 stickers. Her friend gives her some more stickers. Now Mia has 12 stickers in total. Write an equation with a variable to show this situation, and find how many stickers her friend gave her.",,success,,627c39f5-203b-40ce-b8b0-4403ca210361,deepseek-flash,0.3,False,600,41,45,86,1.8369,1.8369,0.0,1,2026-11-18T21:43:19.173296-05:00
+P078,Write an algebra question where a variable appears in a subtraction and must be determined. Use text only.,Solve for x: 15 - x = 8.,,success,,fecc94c0-419e-4acd-8fb6-cf206e7971bb,deepseek-flash,0.3,False,600,38,12,50,1.3177,1.3177,0.0,1,2026-11-18T21:43:20.496414-05:00
+P079,Generate a question with multiplication and an unknown variable that can be solved using natural numbers. Use text only.,"A farmer has 7 baskets, and each basket contains the same number of apples. If there are 56 apples in total, how many apples are in each basket?",,success,,d6ffcd3a-48cc-47d5-8ca0-bdca23e78597,deepseek-flash,0.3,False,600,39,34,73,1.5747,1.5747,0.0,1,2026-11-18T21:43:22.077911-05:00
+P080,Create a simple division question where the dividend is a variable and the quotient is known. Use text only.,What is x divided by 4 if the quotient is 3?,,success,,77f5b1bd-b81c-4036-9e27-1aea7a9322bd,deepseek-flash,0.3,False,600,39,14,53,1.4001,1.4001,0.0,1,2026-11-18T21:43:23.485506-05:00
+P081,Write a question asking the student to complete a number sequence and describe the rule using a simple operation. Use text only.,"Complete the number sequence and describe the rule using a simple operation: 3, 6, 9, 12, ___",,success,,28a35321-ac5a-425e-8dc0-8dabe41dac4b,deepseek-flash,0.3,False,600,42,26,68,1.3555,1.3555,0.0,1,2026-11-18T21:43:24.847541-05:00
+P082,Generate a question where the student decides whether two simple algebraic expressions have the same value. Use text only.,Do the expressions 3(x + 2) and 3x + 6 have the same value for every value of x? Explain your answer.,,success,,042d9b86-b78d-42b1-94d3-0542bb296041,deepseek-flash,0.3,False,600,39,31,70,1.2195,1.2194,0.0,1,2026-11-18T21:43:26.073148-05:00
+P083,Create a question with a variable on both sides of a very simple equation for elementary students. Use text only.,"Here is a simple equation with a variable on both sides:
+
+3x + 2 = 2x + 7
+
+What value of x makes this equation true?",,success,,7f98a59f-02bd-424a-8fa8-5a38b8366353,deepseek-flash,0.3,False,600,40,34,74,1.1979,1.1979,0.0,1,2026-11-18T21:43:27.278117-05:00
+P084,Write a question where the student substitutes a given value into an algebraic expression and calculates the result. Use text only.,"If x = 4, what is the value of 3x + 5?",,success,,2315511f-5b71-47aa-8986-af315af82685,deepseek-flash,0.3,False,600,41,18,59,1.4646,1.4646,0.0,1,2026-11-18T21:43:28.751968-05:00
+P085,Generate a question asking which value of a variable makes a simple mathematical equation true. Use text only.,"For the equation 3x + 5 = 20, which value of x makes the equation true?",,success,,3461feba-f146-46e8-91d3-2e8c8687cbe1,deepseek-flash,0.3,False,600,38,22,60,0.9416,0.9416,0.0,1,2026-11-18T21:43:29.698523-05:00
+P086,Create a question where the student writes a simple algebraic expression from a relationship between numbers. Use text only.,"A number is 5 more than twice another number. If the smaller number is represented by x, write an algebraic expression for the larger number.",,success,,bb09d668-cf9f-41e1-921a-7fbb543ae295,deepseek-flash,0.3,False,600,39,29,68,1.5855,1.5855,0.0,1,2026-11-18T21:43:31.289588-05:00
+P087,Write a question with an expression containing a variable and ask the student to evaluate it for two different values. Use text only.,Evaluate the expression 3x + 5 for x = 4 and for x = 7.,,success,,96c70c59-1de3-4d06-bd03-cfc54b7dd162,deepseek-flash,0.3,False,600,43,21,64,1.382,1.382,0.0,1,2026-11-18T21:43:32.677740-05:00
+P088,Generate a question where the student finds the unknown term in a simple increasing number pattern. Use text only.,"Here is a number pattern: 4, 7, 10, __, 16, 19. What number should replace the blank to continue the pattern?",,success,,e569378e-7536-4351-8d84-78ca836fd6b2,deepseek-flash,0.3,False,600,39,34,73,1.4681,1.4681,0.0,1,2026-11-18T21:43:34.152858-05:00
+P089,Create an algebra question that uses a letter to represent an unknown number in an addition operation. Use text only.,"A number is represented by the letter n. When 7 is added to n, the result is 15. Write an equation for this situation and find the value of n.",,success,,3b5c1c99-3bb5-41eb-b198-3f629291a6aa,deepseek-flash,0.3,False,600,40,36,76,1.4004,1.4004,0.0,1,2026-11-18T21:43:35.558896-05:00
+P090,Write a question where a variable represents an unknown factor and must be found using multiplication. Use text only.,"A baker uses 6 cups of flour for each batch of bread. If the baker uses 42 cups of flour in total, how many batches of bread did the baker make? Let b represent the number of batches.",,success,,3ce17b81-223a-4678-a4d4-3861cc5d1fa4,deepseek-flash,0.3,False,600,39,44,83,1.7294,1.7294,0.0,1,2026-11-18T21:43:37.294341-05:00
+P091,Generate a question asking the student to select which algebraic expression correctly represents a given numerical equality. Use text only.,"Which algebraic expression correctly represents the numerical equality 3 + 5 = 8? A) 3x + 5 = 8, B) 3 + 5x = 8, C) 3 + 5 = 8x, D) 3 + 5 = 8.",,success,,c2389440-0553-40c1-bd9d-f029f62c0133,deepseek-flash,0.3,False,600,40,64,104,1.5114,1.5114,0.0,1,2026-11-18T21:43:38.838312-05:00
+P092,Create a question where the student completes a simple number table by following a rule written with a variable. Use text only.,"Complete the table by following the rule y = x + 3.
+
+x: 1, 2, 3, 4
+y: _, _, _, _",,success,,9d6f126d-d088-46a7-9923-226b0777557e,deepseek-flash,0.3,False,600,42,34,76,1.7423,1.7423,0.0,1,2026-11-18T21:43:40.588230-05:00
+P093,Write an algebra question where the student discovers a simple rule by observing several pairs of numbers. Use text only.,"Here is an algebra question:
+
+A number machine follows a hidden rule. For each input number, it produces one output number. Some input-output pairs are shown below:
+
+Input 2 → Output 7
+Input 5 → Output 16
+Input 8 → Output 25
+Input 11 → Output 34
+
+Part A: Look for a pattern in the pairs. Describe in words the rule the machine uses to turn an input into an output.
+
+Part B: Write an algebraic expression for the output when the input is n.
+
+Part C: Use your rule to find the output when the input is 20.",,success,,2df0ceb1-7ba6-4842-a9b4-89d5017a0917,deepseek-flash,0.3,False,600,40,125,165,1.8341,1.8341,0.0,1,2026-11-18T21:43:42.427592-05:00
+P094,Generate a question with two possible values for a variable and ask which one satisfies the equation. Use text only.,Consider the equation 3x + 5 = 20. Which value of x satisfies it: x = 5 or x = 6?,,success,,ed9845f8-0783-4ce5-a17f-03f9e76684d5,deepseek-flash,0.3,False,600,40,30,70,1.3338,1.3338,0.0,1,2026-11-18T21:43:43.767018-05:00
+P095,"Create an elementary algebra question combining a variable, addition, and multiplication with small numbers. Use text only.","If x + 2 is multiplied by 3, the result is 15. What is x?",,success,,93d8709e-2067-43d2-a030-09631f3adf43,deepseek-flash,0.3,False,600,39,21,60,1.2247,1.2247,0.0,1,2026-11-18T21:43:44.998398-05:00
+P096,Create a word problem where an unknown number of objects is represented by x and the student writes and solves an addition equation. Use text only.,Maya has a jar of marbles. Her friend gives her 7 more marbles. Now Maya has 15 marbles in the jar. Let x be the number of marbles Maya had at the start. Write an addition equation and solve it to find x.,,success,,a1f4b4e5-24f3-4baf-bbf7-c02d6e7a84f0,deepseek-flash,0.3,False,600,46,51,97,1.512,1.512,0.0,1,2026-11-18T21:43:46.518476-05:00
+P097,Generate a simple balance problem where two expressions must be equal and the student finds the missing value. Use text only.,"Balance problem:
+
+3x + 4 = 5x − 2
+
+Find the value of x that makes both sides equal.",,success,,aead7122-d9d0-4a4b-9a2b-c1a586da9c02,deepseek-flash,0.3,False,600,41,27,68,1.5427,1.5427,0.0,1,2026-11-18T21:43:48.066657-05:00
+P098,"Write a problem where a number is doubled and then increased by a small amount, and the student finds the starting number. Use text only.","A number is doubled, and then 7 is added. The result is 31. What was the starting number?",,success,,2f11427a-c21f-4d3c-b7eb-07b447df0866,deepseek-flash,0.3,False,600,46,24,70,1.3382,1.3382,0.0,1,2026-11-18T21:43:49.415477-05:00
+P099,Create a pattern problem where the student predicts the next two terms and writes a simple rule using n. Use text only.,"Here is a pattern problem for a student.
+
+**Pattern:**
+
+3, 7, 11, 15, 19, ...
+
+**Questions:**
+
+1. Predict the next two terms in the pattern.
+2. Write a simple rule for the pattern using n, where n is the term number (1st term, 2nd term, etc.).",,success,,ca447f9e-91dc-40fb-93e5-39dd923a4951,deepseek-flash,0.3,False,600,42,71,113,1.2101,1.2101,0.0,1,2026-11-18T21:43:50.632606-05:00
+P100,Generate a word problem where the student translates a short statement into an equation with one unknown and solves it. Use text only.,"Maya bought 4 identical notebooks and a pen that cost $3. If she spent $19 in total, how much did each notebook cost? Write an equation with one unknown and solve it to find the cost of one notebook.",,success,,ef4a58ef-8585-4601-b2e2-bfdc64e49d51,deepseek-flash,0.3,False,600,43,47,90,1.5326,1.5326,0.0,1,2026-11-18T21:43:52.172742-05:00

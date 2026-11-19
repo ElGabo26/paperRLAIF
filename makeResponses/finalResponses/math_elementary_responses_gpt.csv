@@ -1,234 +1,328 @@
 ﻿prompt_id,prompt,response,status,error,response_id,model,temperature,max_output_tokens,input_tokens,output_tokens,total_tokens,elapsed_seconds,api_time_seconds,retry_wait_seconds,attempts,processed_at
-P001,Genera una pregunta de matemática que combine una suma y una resta con números naturales para estudiantes de educación básica.,¿Cuál es el resultado de la operación \(35 - 12 + 7\)?,success,,resp_0083f4a9f9dab05c006ac9987e3d6087d2ba2a692cee94ee70,gpt-5.4-nano-2026-03-17,0.3,200,44,22,66,2.386,2.3859,0.0,1,2026-10-09T20:44:31.255083-05:00
-P002,Crea una pregunta donde el estudiante tenga que sumar dos cantidades y luego restar una tercera para obtener la respuesta.,"**Pregunta:**  
-Si tienes **25** monedas, consigues **18** más y luego pierdes **12**, ¿cuál es el resultado final?",success,,resp_0546b02b58abab8d006ac998801a1887d2a0083a7ff2fd9a03,gpt-5.4-nano-2026-03-17,0.3,200,45,36,81,1.181,1.1809,0.0,1,2026-10-09T20:44:32.447150-05:00
-P003,Escribe una pregunta de adición y sustracción con números de dos cifras que pueda resolverse mediante operaciones básicas.,"**Pregunta:**  
-**¿Cuánto es 48 + 36 − 29?**",success,,resp_0cc6dade11be9afe006ac99881464087d2a6afb98eaef817e0,gpt-5.4-nano-2026-03-17,0.3,200,46,23,69,1.068,1.0684,0.0,1,2026-10-09T20:44:33.520602-05:00
-P004,Genera una pregunta que permita practicar primero una resta y después una suma usando números naturales sencillos.,¿Cuánto es \(7 - 3 + 5\)?,success,,resp_0360bef626667ba2006ac998825a0487d2a2b11a2be85a661f,gpt-5.4-nano-2026-03-17,0.3,200,42,17,59,1.055,1.055,0.0,1,2026-10-09T20:44:34.579714-05:00
-P005,Crea una pregunta matemática que incluya tres cantidades y requiera decidir cuándo sumar y cuándo restar para resolverla.,"**Pregunta (con tres cantidades):**  
-En una hucha tienes **80** monedas. Ayer ganaste **25** monedas, pero hoy gastaste **18** monedas.  
+P001,Generate a geometry question where the student identifies a plane shape from its number of sides and vertices. Use text only.,"**Question:**  
+A solid has a **plane face** that is a **polygon** with **5 sides**. That face has **5 vertices**.
 
-¿Cuántas monedas tienes ahora? (Debes decidir cuándo **sumar** y cuándo **restar** para resolverla).",success,,resp_05d7291057cbc89e006ac9988377f087d2a3bbd7e151417e31,gpt-5.4-nano-2026-03-17,0.3,200,46,68,114,1.119,1.1186,0.0,1,2026-10-09T20:44:35.702464-05:00
-P006,Escribe una pregunta de cálculo que combine adición y sustracción con números menores que cien para educación básica.,¿Cuál es el valor de \(48 + 27 - 36\)?,success,,resp_015179eb2889a929006ac99884897087d28a1ff577286c64e5,gpt-5.4-nano-2026-03-17,0.3,200,45,20,65,0.988,0.988,0.0,1,2026-10-09T20:44:36.694381-05:00
-P007,Genera una pregunta donde se deba completar una operación combinada de suma y resta encontrando un número que falta.,¿Cuál es el número que falta? \( 18 - 7 + \square = 20 \),success,,resp_0748ae553c3bacce006ac99885839487d29954bd4d68601ae7,gpt-5.4-nano-2026-03-17,0.3,200,46,26,72,0.735,0.7354,0.0,1,2026-10-09T20:44:37.433697-05:00
-P008,Crea una pregunta que solicite comparar dos resultados obtenidos mediante una suma y una resta con números naturales.,"¿Cuál resultado es mayor y por cuánto: el obtenido al sumar dos números naturales \(a\) y \(b\) ( \(a+b\) ) o el obtenido al restar uno del otro ( \(a-b\) ), sabiendo que \(a\ge b\) y que \(a=9\) y \(b=4\)?",success,,resp_0b877142b2fe81b7006ac998865c8087d2a415fc04ccba8335,gpt-5.4-nano-2026-03-17,0.3,200,44,77,121,1.339,1.3392,0.0,1,2026-10-09T20:44:38.778594-05:00
-P009,Escribe una pregunta en la que el estudiante deba resolver dos sumas y una resta para encontrar el resultado final.,"Tienes que resolver las siguientes operaciones para encontrar el resultado final: **2 sumas y 1 resta**.
+What is the name of this plane shape (the polygon)?",success,,resp_0219c7eabe1893f7006afe62495f5487d29d758f2d597e0428,gpt-5.4-nano-2026-03-17,0.3,200,45,48,93,2.917,2.9165,0.0,1,2026-11-18T21:43:22.840647-05:00
+P002,Create a question where the student calculates the perimeter of a rectangle from given whole-number measurements. Use text only.,A rectangle has a length of 12 units and a width of 7 units. What is the perimeter of the rectangle? (Show your work.),success,,resp_02120bb572a05a3c006afe624bb6f487d2b04904744d03ae17,gpt-5.4-nano-2026-03-17,0.3,200,44,34,78,1.101,1.1012,0.0,1,2026-11-18T21:43:23.950612-05:00
+P003,Write a question asking the student to calculate the perimeter of a square from the length of one side. Use text only.,What is the perimeter of a square if one side measures 8 cm?,success,,resp_06684f2587f5cbe3006afe624ccf0487d2b23daea620c50b67,gpt-5.4-nano-2026-03-17,0.3,200,46,19,65,1.275,1.2754,0.0,1,2026-11-18T21:43:25.229885-05:00
+P004,Generate a question comparing two geometric shapes by the number of sides each shape has. Use text only.,"How many sides does Shape A have compared to Shape B—specifically, which shape has more sides, and what are the exact side counts for each?",success,,resp_03d7a4a91d9cb0af006afe624e156087d2bfbcb5db792fe583,gpt-5.4-nano-2026-03-17,0.3,200,42,35,77,1.327,1.327,0.0,1,2026-11-18T21:43:26.560625-05:00
+P005,Create a question asking how many vertices a named plane shape has. Use text only.,How many vertices does the named plane shape **[insert shape name here]** have?,success,,resp_01ed4688ffc64ff9006afe624f6cd887d2a5202ba0681380f9,gpt-5.4-nano-2026-03-17,0.3,200,39,22,61,1.317,1.3167,0.0,1,2026-11-18T21:43:27.883556-05:00
+P006,Write a question where the student calculates the area of a rectangle using simple whole-number measurements. Use text only.,A rectangle has a length of 8 units and a width of 5 units. What is the area of the rectangle in square units?,success,,resp_08629737ad1176cb006afe6250cbd887d2bb93179b33e637e1,gpt-5.4-nano-2026-03-17,0.3,200,44,32,76,1.476,1.4755,0.0,1,2026-11-18T21:43:29.363247-05:00
+P007,Generate a question asking the student to calculate the area of a square from its side length. Use text only.,What is the area of a square whose side length is 7 cm?,success,,resp_07369df8c7eab5fc006afe625234cc87d2b6ba5c1f86e87ca2,gpt-5.4-nano-2026-03-17,0.3,200,44,19,63,0.859,0.8585,0.0,1,2026-11-18T21:43:30.226132-05:00
+P008,"Create a question that distinguishes a triangle, square, and rectangle using their geometric properties. Use text only.","Which solid has **exactly two pairs of parallel sides and no equal-length constraints**, which has **exactly one pair of parallel sides with all sides unequal**, and which has **four right angles with opposite sides equal and parallel**?",success,,resp_0e8335150fae5baa006afe62530ffc87d28b41c71fa29ced11,gpt-5.4-nano-2026-03-17,0.3,200,43,51,94,1.455,1.4547,0.0,1,2026-11-18T21:43:31.684802-05:00
+P009,Write a question where the student finds a missing side length from the known perimeter of a rectangle. Use text only.,A rectangle has a perimeter of 54 inches. One of its sides is 14 inches long. What is the length of the missing side?,success,,resp_0fb42b66b441f1d9006afe625492f887d292333699279ce241,gpt-5.4-nano-2026-03-17,0.3,200,45,33,78,1.023,1.023,0.0,1,2026-11-18T21:43:32.718277-05:00
+P010,Generate a geometry question asking the student to classify a triangle by the lengths of its sides. Use text only.,"In triangle \(ABC\), the side lengths are \(AB = 7\), \(BC = 9\), and \(CA = 7\). Classify the triangle by its side lengths (scalene, isosceles, or equilateral).",success,,resp_02824894323a1678006afe62558f1887d2a38c3b5cb753a60e,gpt-5.4-nano-2026-03-17,0.3,200,44,58,102,1.344,1.3442,0.0,1,2026-11-18T21:43:34.066438-05:00
+P011,Create a question where the student identifies the shape with four equal sides and four right angles. Use text only.,Which shape has **four equal sides** and **four right angles**?,success,,resp_0b5a85fb7b6c460b006afe6256e8f887d2b75713d1cb20e571,gpt-5.4-nano-2026-03-17,0.3,200,44,19,63,0.915,0.9151,0.0,1,2026-11-18T21:43:34.986027-05:00
+P012,Write a question asking how many sides and vertices a pentagon has. Use text only.,How many sides and vertices does a pentagon have?,success,,resp_0f03bccbdf3f6072006afe6257dd1087d2b484f5647a6471fb,gpt-5.4-nano-2026-03-17,0.3,200,40,15,55,1.483,1.4832,0.0,1,2026-11-18T21:43:36.473519-05:00
+P013,Generate a question where the student compares the perimeters of two squares with different side lengths. Use text only.,"A square has side length 4 cm and another square has side length 7 cm. Compare their perimeters: which square has the larger perimeter, and by how many centimeters?",success,,resp_0bb8613d60bd0d19006afe6259536887d2b0fcd16c2246c95e,gpt-5.4-nano-2026-03-17,0.3,200,44,40,84,1.189,1.1889,0.0,1,2026-11-18T21:43:37.669063-05:00
+P014,Create a question asking the student to recognize parallel and perpendicular lines from a simple written description. Use text only.,"Which lines in the diagram (described below) are **parallel** and which are **perpendicular**?
 
-**Pregunta:**  
-Calcula: \((8 + 5) + (12 + 3) - 10 = ?\)",success,,resp_07afc84a474688ba006ac998879cd487d2b6a0f971b58af541,gpt-5.4-nano-2026-03-17,0.3,200,46,55,101,0.903,0.9028,0.0,1,2026-10-09T20:44:39.685758-05:00
-P010,Genera una pregunta de adición y sustracción que utilice números de tres cifras y tenga una única respuesta correcta.,"**Pregunta:**  
-¿Cuánto es **483 − 267** + 219?  
+**Description:** Line **AB** is a horizontal line. Line **CD** is another horizontal line. Line **EF** is a vertical line that crosses both **AB** and **CD** at right angles.",success,,resp_001b9bcda453a9cc006afe625a84d887d29deb9b78fed0515d,gpt-5.4-nano-2026-03-17,0.3,200,44,69,113,1.467,1.4671,0.0,1,2026-11-18T21:43:39.140164-05:00
+P015,"Write a question where the student identifies an angle as right, acute, or obtuse from its measure. Use text only.","An angle measures **75°**. Is it **right**, **acute**, or **obtuse**?",success,,resp_03748edda1a7e601006afe625c00d087d2bd99baff15b05b96,gpt-5.4-nano-2026-03-17,0.3,200,47,26,73,1.199,1.1987,0.0,1,2026-11-18T21:43:40.345035-05:00
+P016,Generate a question where the student finds the side length of a square from its known perimeter. Use text only.,A square has a perimeter of 36 cm. What is the length of one side of the square?,success,,resp_0511874c6b33372b006afe625d2fe087d295ece4e4721a343b,gpt-5.4-nano-2026-03-17,0.3,200,44,25,69,0.863,0.8631,0.0,1,2026-11-18T21:43:41.213040-05:00
+P017,Create a question comparing the areas of two rectangles from their lengths and widths. Use text only.,"Two rectangles have lengths and widths of 8 cm by 5 cm and 12 cm by 3 cm. Which rectangle has the larger area, and by how much (in square centimeters)?",success,,resp_00616c04e6733319006afe625e0d9487d2aa0c0395adfa3d4b,gpt-5.4-nano-2026-03-17,0.3,200,41,43,84,0.978,0.9782,0.0,1,2026-11-18T21:43:42.195535-05:00
+P018,"Write a geometry question asking the student to identify a three-dimensional shape from its faces, edges, and vertices. Use text only.","A solid is made only of these faces:
 
-*(Hay una única respuesta correcta.)*",success,,resp_015cd694d3860295006ac99888815c87d2bca0a04e241b45b3,gpt-5.4-nano-2026-03-17,0.3,200,47,30,77,0.803,0.8025,0.0,1,2026-10-09T20:44:40.493144-05:00
-P011,Crea una pregunta donde el estudiante deba identificar qué operación de suma o resta permite obtener un resultado indicado.,"**Pregunta:**
+- 6 faces total: 3 pairs of equal square faces  
+- No triangular faces  
+- Each edge is the same length  
+- Each vertex is where exactly 3 edges meet
 
-Completa el espacio con la operación correcta (**+** o **−**) para que el resultado sea **15**.
+**Question:**  
+What 3D shape is the solid?
 
+**Choose one:**
+A) Cube  
+B) Rectangular prism  
+C) Triangular prism  
+D) Square pyramid",success,,resp_08010b1303b3b116006afe625f10e087d2a4e8eb07334df97d,gpt-5.4-nano-2026-03-17,0.3,200,48,89,137,1.346,1.3455,0.0,1,2026-11-18T21:43:43.545064-05:00
+P019,Generate a question where the student determines the number of lines of symmetry in a simple geometric shape. Use text only.,"**Question:**  
+How many lines of symmetry does a **regular equilateral triangle** have?  
+(Explain briefly or give just the number.)",success,,resp_02a21a5c6d01b5d0006afe626067f887d2ae4c9ca49e919d26,gpt-5.4-nano-2026-03-17,0.3,200,45,33,78,1.014,1.014,0.0,1,2026-11-18T21:43:44.563672-05:00
+P020,"Create a question that assesses recognition of circles, triangles, squares, and rectangles from written properties. Use text only.","Which of the following shapes could be described by the property set **“4 sides, 4 right angles”**?  
+A) Circle  
+B) Triangle  
+C) Square  
+D) Rectangle  
+E) Both C and D",success,,resp_0ba85c5956b0e95a006afe6261671c87d2a170ced6e7c5f9ca,gpt-5.4-nano-2026-03-17,0.3,200,45,51,96,1.17,1.1698,0.0,1,2026-11-18T21:43:45.739034-05:00
+P021,Create a word problem where a rectangular garden has given length and width and the student finds its perimeter. Use text only.,"A rectangular garden has a length of 12 meters and a width of 7 meters. What is the perimeter of the garden?  
+(Perimeter means the total distance around the outside of the rectangle.)",success,,resp_0a39cdeaa6e14c85006afe626299ac87d29968a67c125a130e,gpt-5.4-nano-2026-03-17,0.3,200,46,45,91,1.108,1.1077,0.0,1,2026-11-18T21:43:46.851885-05:00
+P022,Generate a word problem where square tiles cover a small rectangular floor and the student finds the total area. Use text only.,"A small rectangular floor measures 3 meters by 4 meters. The floor is covered with identical square tiles that have side length 1 meter.
+
+1) How many tiles cover the entire floor?  
+2) What is the total area covered by the tiles (in square meters)?",success,,resp_0733445a74d55d05006afe6263b6b087d290e63eb91c68ef90,gpt-5.4-nano-2026-03-17,0.3,200,46,60,106,1.33,1.33,0.0,1,2026-11-18T21:43:48.186971-05:00
+P023,Write a geometry problem where the student compares two routes made of straight line segments and determines which is longer. Use text only.,"**Problem: Compare Two Polygonal Routes**
+
+A hiker must travel from point **A** to point **B** on a coordinate grid. Two possible routes are made of straight line segments:
+
+- **Route 1:** A → C → D → B  
+- **Route 2:** A → E → F → B  
+
+The coordinates are:
+
+- **A (0, 0)**
+- **B (8, 0)**
+- **C (2, 3)**
+- **D (6, 3)**
+- **E (4, 1.5)**
+- **F (4, 1.5)**  (Note: Route 2 goes from A to E, then to F, then to B. Since E and F have the same coordinates, that middle segment has length 0.)
+
+**Tasks:**
+1. Find the total length of **Route 1** by calculating the length of segments **AC**,",success,,resp_0400fa6b3ebb4f28006afe626511c487d2ac4beb829555e515,gpt-5.4-nano-2026-03-17,0.3,200,47,200,247,2.067,2.0666,0.0,1,2026-11-18T21:43:50.257906-05:00
+P024,Create a problem where the student finds an unknown rectangle dimension from its area and one known side. Use text only.,"**Problem:**  
+A rectangle has an area of **144 square units**. One of its sides is **12 units** long.  
+
+Find the **other side length** of the rectangle. (Assume the side lengths are whole numbers.)",success,,resp_081394c4fcbcd48c006afe6267213887d2a9f804bb370c18b2,gpt-5.4-nano-2026-03-17,0.3,200,45,53,98,1.039,1.0388,0.0,1,2026-11-18T21:43:51.300804-05:00
+P025,"Generate a problem describing a simple solid shape and ask the student to identify it using its faces, edges, and vertices. Use text only.","**Problem:**  
+A solid has the following properties:
+
+- **Faces:** 6 total faces.  
+  - 1 face is a square,  
+  - 4 faces are rectangles that are congruent,  
+  - 1 face is another square (congruent to the first).
+- **Edges:** 12 total edges.
+- **Vertices:** 8 total vertices.
+- Each vertex is where **3 edges meet**.
+- The solid looks like a “box” (like a cardboard box).
+
+**Task:**  
+1) Identify the solid shape.  
+2) Name (or describe) how its **faces, edges, and vertices** match the properties above.",success,,resp_041a8071546e22b1006afe6268246087d2ad517795869a1842,gpt-5.4-nano-2026-03-17,0.3,200,50,142,192,1.436,1.4357,0.0,1,2026-11-18T21:43:52.743144-05:00
+P026,Generate a question combining multiplication and division with natural numbers that gives a whole-number result. Use text only.,What is \((7 \times 12) \div 6\)?,success,,resp_05d9afe64822b7af006afe62699b2487d2bcc4c16afd98b40e,gpt-5.4-nano-2026-03-17,0.3,200,43,20,63,0.984,0.9838,0.0,1,2026-11-18T21:43:53.731373-05:00
+P027,Create a question where the student multiplies two numbers and then divides the result by another number. Use text only.,What is the value of **(7 × 8) ÷ 4**?,success,,resp_0b912a8ddc1b8b86006afe626a964887d2bd7987d560ac82ea,gpt-5.4-nano-2026-03-17,0.3,200,45,22,67,0.803,0.8029,0.0,1,2026-11-18T21:43:54.560661-05:00
+P028,Write a question that practices exact division and asks the student to check the result using multiplication. Use text only.,What is 84 ÷ 7? Check your answer by multiplying 7 × (your result).,success,,resp_0204c68455f8e5a2006afe626b653487d291ec7157abee85a8,gpt-5.4-nano-2026-03-17,0.3,200,44,25,69,0.796,0.7962,0.0,1,2026-11-18T21:43:55.361450-05:00
+P029,Generate a multiplication question with two factors followed by a division suitable for elementary students. Use text only.,"4 × 7 = ?  
+Division question: 56 ÷ 8 = ?",success,,resp_0928e2ab565a4859006afe626c336887d2a3f50db9bc805d68,gpt-5.4-nano-2026-03-17,0.3,200,42,22,64,0.946,0.9455,0.0,1,2026-11-18T21:43:56.311196-05:00
+P030,Create a question with a missing factor where multiplication or division is needed to find its value. Use text only.,"If 8 bags of rice cost $96, how much does 1 bag cost? (Find the missing factor using division.)",success,,resp_01b05037734fd479006afe626d27f087d2a7bec48d8a487960,gpt-5.4-nano-2026-03-17,0.3,200,44,30,74,0.927,0.9273,0.0,1,2026-11-18T21:43:57.243373-05:00
+P031,Write a question with two multiplications and ask the student to determine which product is greater. Use text only.,"Which product is greater?
+
+A) (3 × 8) × 10  
+B) (3 × 8) × 12",success,,resp_0490b736ea45592c006afe626e1da887d28539d70d1673f636,gpt-5.4-nano-2026-03-17,0.3,200,44,32,76,0.946,0.9463,0.0,1,2026-11-18T21:43:58.193984-05:00
+P032,Generate a question where the student finds an unknown divisor from a known dividend and quotient. Use text only.,"A store owner divides a shipment of **432** items equally among some workers and gets a quotient of **18** with no remainder.  
+
+**Question:** What is the **unknown divisor** (the number of workers)?",success,,resp_06a9987dedb2459e006afe626f098487d29e6884d355105672,gpt-5.4-nano-2026-03-17,0.3,200,43,48,91,1.083,1.083,0.0,1,2026-11-18T21:43:59.281307-05:00
+P033,Create a question that practices multiplication facts and exact division using small natural numbers. Use text only.,"What is **7 × 6**, and what is the **exact value of 48 ÷ 8**?",success,,resp_06a83f91804c76de006afe627091e087d288470763b9e27fff,gpt-5.4-nano-2026-03-17,0.3,200,41,28,69,1.543,1.5433,0.0,1,2026-11-18T21:44:00.829231-05:00
+P034,Write a question where the student compares the result of a multiplication with the result of a division. Use text only.,"If you multiply 8 by 6 and then divide 48 by 8, how do the two results compare (are they equal, one is larger, or one is smaller)?",success,,resp_0d60ac8079839260006afe6271ab8887d2a8df13484c8626e9,gpt-5.4-nano-2026-03-17,0.3,200,45,41,86,1.117,1.1169,0.0,1,2026-11-18T21:44:01.951351-05:00
+P035,Generate a question with three natural numbers where the student decides whether to multiply or divide. Use text only.,"A student sees the rule: “Start with 60, then apply the operation shown by: × 2 or ÷ 2 to get the result.” If the final result is 15, should the student multiply or divide (and by what number)?",success,,resp_0cd7e150ce66860f006afe6272cdf087d2bbd5315f2a94d9b5,gpt-5.4-nano-2026-03-17,0.3,200,43,56,99,1.165,1.1651,0.0,1,2026-11-18T21:44:03.125615-05:00
+P036,Create a question with an incomplete multiplication where the student must find the missing factor. Use text only.,What number completes the equation: 6 × ___ = 42?,success,,resp_01ae89650661750f006afe6273f87487d2bb1c8e69c47b597d,gpt-5.4-nano-2026-03-17,0.3,200,42,18,60,1.119,1.1192,0.0,1,2026-11-18T21:44:04.249375-05:00
+P037,Write an exact-division question with a two-digit quotient that can be checked using multiplication. Use text only.,"Calculate: 84 ÷ 12 = ?  
+(You can check by multiplying the divisor 12 by the quotient.)",success,,resp_0c66cf16a10afd52006afe6275166087d28e9c5c5bcdd366c3,gpt-5.4-nano-2026-03-17,0.3,200,44,29,73,0.869,0.8694,0.0,1,2026-11-18T21:44:05.123226-05:00
+P038,Generate a question with two exact divisions and ask the student to order the quotients from least to greatest. Use text only.,"What is the quotient of each expression after dividing as indicated? Then order the four quotients from least to greatest.
+
+Divisions (compute each quotient):
+1) \(7 \div 3\)
+2) \(8 \div 5\)
+3) \(9 \div 4\)
+4) \(10 \div 6\)
+
+Order the quotients from least to greatest (write the numbers 1–4 in order): ___, ___, ___, ___",success,,resp_030c7864965dca66006afe6275f2bc87d28271c071ea419f6b,gpt-5.4-nano-2026-03-17,0.3,200,47,100,147,1.339,1.3393,0.0,1,2026-11-18T21:44:06.467091-05:00
+P039,Create a question that practices multiplication by ten and division by ten using natural numbers. Use text only.,What is **30 ÷ 10**? Then what is **3 × 10**? (Use natural numbers only.),success,,resp_0b79954b7a00fe51006afe62774f7c87d2996a4d5439fa61b3,gpt-5.4-nano-2026-03-17,0.3,200,42,30,72,1.055,1.0554,0.0,1,2026-11-18T21:44:07.528900-05:00
+P040,Write a question where the student completes an equation containing both multiplication and division. Use text only.,"Complete the equation:  
+12 × 3 ÷ 4 = ___",success,,resp_0e078991b2ddc125006afe62785d2487d2871cdad7f91934f5,gpt-5.4-nano-2026-03-17,0.3,200,41,19,60,0.819,0.8193,0.0,1,2026-11-18T21:44:08.354433-05:00
+P041,Generate a question asking which multiplication correctly matches a given exact division. Use text only.,"Which multiplication correctly matches the exact division \( \frac{48}{6} \) (i.e., which product equals the dividend)?  
+A) \(6 \times 7 = 42\)  
+B) \(6 \times 8 = 48\)  
+C) \(6 \times 9 = 54\)  
+D) \(6 \times 10 = 60\)",success,,resp_0c4b035834f9d53f006afe6279376087d2822369d015b57f8e,gpt-5.4-nano-2026-03-17,0.3,200,39,87,126,1.569,1.5687,0.0,1,2026-11-18T21:44:09.927699-05:00
+P042,Create a question where multiplication produces the dividend needed for a division with natural numbers. Use text only.,What is the dividend (natural number) if dividing by 6 gives a quotient of 7 and a remainder of 2?,success,,resp_06ee8a761d8c5134006afe627ac99087d29284969c711aa8e1,gpt-5.4-nano-2026-03-17,0.3,200,42,30,72,1.111,1.1111,0.0,1,2026-11-18T21:44:11.045350-05:00
+P043,Write a question where the student corrects an incorrect multiplication or division result. Use text only.,"What is the correct result for this problem, and what is wrong with the given answer?
+
+Problem: 48 ÷ 6  
+Given answer: 8  
+Your task: Show the correct division and explain the mistake.",success,,resp_053207c5b63cb600006afe627be2ec87d2a62f1fd012275e4b,gpt-5.4-nano-2026-03-17,0.3,200,41,49,90,1.306,1.3057,0.0,1,2026-11-18T21:44:12.355753-05:00
+P044,Generate a question combining two simple multiplications and one exact division to find the final result. Use text only.,What is \((3 \times 7) + (4 \times 5) \div 2\)?,success,,resp_0c24cf3d6749831e006afe627d3b0087d2b9a534eee3584008,gpt-5.4-nano-2026-03-17,0.3,200,44,28,72,0.87,0.8699,0.0,1,2026-11-18T21:44:13.230332-05:00
+P045,Create a question that assesses multiplication and division using a short numerical expression with exact operations. Use text only.,What is the value of **(48 ÷ 6) × 7 − 5**?,success,,resp_052659b76b986d8e006afe627e11d487d2871395e74f867236,gpt-5.4-nano-2026-03-17,0.3,200,43,25,68,0.987,0.9875,0.0,1,2026-11-18T21:44:14.223916-05:00
+P046,Create a word problem where equal groups are formed and the student uses multiplication to find the total number of objects. Use text only.,"Mia has 4 boxes. She puts 6 stickers in each box.  
+
+How many stickers does Mia have in all?  
+(Use multiplication to find the total number of stickers.)",success,,resp_0c4868988a4618e4006afe627f11ac87d2ad6a6cfd4b39b24a,gpt-5.4-nano-2026-03-17,0.3,200,48,42,90,1.03,1.0298,0.0,1,2026-11-18T21:44:15.258606-05:00
+P047,Generate a word problem where a set of objects is shared equally and the student uses division to find how many each group receives. Use text only.,"Mia has 48 stickers. She wants to share them equally among 6 friends.  
+
+How many stickers will each friend receive?",success,,resp_0bdefb90932443aa006afe6280167c87d282c415e07423418f,gpt-5.4-nano-2026-03-17,0.3,200,51,31,82,0.972,0.9717,0.0,1,2026-11-18T21:44:16.236381-05:00
+P048,Write a problem where the student first finds a total using multiplication and then shares it equally using division. Use text only.,"**Problem:**
+
+A store sells 8 packs of notebooks. Each pack has 6 notebooks.
+
+1) First, find the **total number of notebooks** using **multiplication**.  
+2) Then, if the notebooks are shared equally among **4 students**, find how many notebooks **each student** gets using **division**.  
+
+Show your multiplication for step 1 and your division for step 2.",success,,resp_03734eae0ae9c7ac006afe6281198c87d298a8455a36a48977,gpt-5.4-nano-2026-03-17,0.3,200,46,88,134,1.391,1.3912,0.0,1,2026-11-18T21:44:17.632369-05:00
+P049,Create a problem involving rows and columns where the student uses multiplication to find the total and division to verify it. Use text only.,"**Problem: Row-and-Column Total (Multiplication + Division Check)**
+
+A classroom has **4 rows** of seats and **6 seats in each row**.
+
+1) **Use multiplication** to find the **total number of seats**.  
+2) Then **use division** to **verify your answer**.
+
+- Show your multiplication work to get the total.  
+- Then divide the total by the number of seats in one row to confirm it matches the number of rows.",success,,resp_0382e33d1aa9446c006afe62827c3887d2a9f9e4062cf7905c,gpt-5.4-nano-2026-03-17,0.3,200,48,102,150,1.877,1.8767,0.0,1,2026-11-18T21:44:19.514706-05:00
+P050,Generate a word problem where the student finds how many equal packages can be made from a total number of items. Use text only.,"A toy store has 120 action figures to put into equal-sized packages. Each package must contain 15 action figures.
+
+**Question:** How many equal packages can the store make?",success,,resp_04f641dab9ac0d2f006afe62845a4487d29187b6b73b2b61dc,gpt-5.4-nano-2026-03-17,0.3,200,48,40,88,1.075,1.0745,0.0,1,2026-11-18T21:44:20.593920-05:00
+P051,Generate a math question that combines addition and subtraction with natural numbers for elementary students. Use text only.,"Solve the problem:
+
+**12 + 7 − 5 = ?**",success,,resp_080ee00986d8635a006afe6285922487d2b21a3f7cc697b86c,gpt-5.4-nano-2026-03-17,0.3,200,42,19,61,1.136,1.1359,0.0,1,2026-11-18T21:44:21.735655-05:00
+P052,Create a question where the student adds two quantities and then subtracts a third quantity to find the answer. Use text only.,"What is the result of adding **24** and **15**, then subtracting **9** from that total?",success,,resp_01d898d9a0cd8722006afe628695f087d281cac5f3fcbcc7a0,gpt-5.4-nano-2026-03-17,0.3,200,47,27,74,0.972,0.9716,0.0,1,2026-11-18T21:44:22.712226-05:00
+P053,Write an addition and subtraction question with two-digit numbers that can be solved using basic operations. Use text only.,"**Addition:** 34 + 27 = ?  
+
+**Subtraction:** 52 − 19 = ?",success,,resp_06aabf113d02b27f006afe6287948c87d29006f64e8003be6d,gpt-5.4-nano-2026-03-17,0.3,200,44,26,70,0.912,0.9122,0.0,1,2026-11-18T21:44:23.629387-05:00
+P054,Generate a question that practices subtraction first and then addition using simple natural numbers. Use text only.,What is \(7 - 3 + 5\)?,success,,resp_06dcc9d74d95e74c006afe628876f087d28baa092c7250cbbd,gpt-5.4-nano-2026-03-17,0.3,200,41,16,57,1.063,1.0627,0.0,1,2026-11-18T21:44:24.699427-05:00
+P055,Create a math question with three quantities where the student must decide when to add and when to subtract. Use text only.,"**Math Question (Add or Subtract?):**
+
+A store has **120** stickers. During the day, they sell **35** stickers and then receive a shipment of **48** more stickers.
+
+1) What is the **final** number of stickers?  
+2) Show your work using **additions and subtractions** (use subtraction for what gets taken away and addition for what gets added).",success,,resp_08fa42e9d82752ca006afe6289898487d2b5b5bd695b00bac4,gpt-5.4-nano-2026-03-17,0.3,200,46,85,131,1.245,1.2451,0.0,1,2026-11-18T21:44:25.949283-05:00
+P056,Write a calculation question combining addition and subtraction with numbers below 100 for elementary education. Use text only.,Calculate: 58 + 23 − 14 = ?,success,,resp_0094ffb69f62283c006afe628ac8d487d2ad6ad3fd418ad944,gpt-5.4-nano-2026-03-17,0.3,200,43,16,59,0.995,0.9953,0.0,1,2026-11-18T21:44:26.949414-05:00
+P057,Generate a question where the student completes a combined addition and subtraction operation by finding a missing number. Use text only.,8 + 15 − __ = 20. What number goes in the blank?,success,,resp_0d47774728dbe516006afe628bcf6487d2b190dd456ea01b8a,gpt-5.4-nano-2026-03-17,0.3,200,45,21,66,1.292,1.2921,0.0,1,2026-11-18T21:44:28.246980-05:00
+P058,Create a question asking the student to compare two results obtained from an addition and a subtraction with natural numbers. Use text only.,"Compare the results of these two operations with natural numbers \(a\) and \(b\) (where \(a>b\)):
+
+1) Find \(a+b\)  
+2) Find \(a-b\)
+
+Question: **How do the results \(a+b\) and \(a-b\) compare? Which one is larger, and why?**",success,,resp_076c5afa0b56c17d006afe628d170887d2a51ac1498b0f7f61,gpt-5.4-nano-2026-03-17,0.3,200,47,77,124,1.333,1.3331,0.0,1,2026-11-18T21:44:29.585294-05:00
+P059,Write a question where the student solves two additions and one subtraction to find the final result. Use text only.,"Compute the final result:
+
+1) 67 + 25 = ______  
+2) 90 + 18 = ______  
+3) Then subtract: (result from step 2) − (result from step 1) = ______",success,,resp_05e27e45ae2c893e006afe628e6ec887d29b521c2cd65e2d4c,gpt-5.4-nano-2026-03-17,0.3,200,44,51,95,1.059,1.0586,0.0,1,2026-11-18T21:44:30.649586-05:00
+P060,Generate an addition and subtraction question using three-digit numbers with one correct answer. Use text only.,"Addition: 482 + 376 = ?  
+(Subtraction is the same format: 482 − 376 = ?)",success,,resp_018d28821210c4fd006afe628f882487d282ae590612060703,gpt-5.4-nano-2026-03-17,0.3,200,41,28,69,0.977,0.9765,0.0,1,2026-11-18T21:44:31.630833-05:00
+P061,Create a question where the student identifies which addition or subtraction operation produces a given result. Use text only.,"Which operation produces the result **17**?
+
+A) 12 + 5  
+B) 12 − 5  
+C) 17 − 5  
+D) 17 + 5",success,,resp_08e96c3e75954a25006afe62907d7487d29359cb5c58ee25c0,gpt-5.4-nano-2026-03-17,0.3,200,43,44,87,1.122,1.122,0.0,1,2026-11-18T21:44:32.760563-05:00
+P062,Write a math question with an incomplete addition and an incomplete subtraction where the missing values must be found. Use text only.,"Find the missing numbers.
+
+1) 37 + ___ = 64  
+2) 90 − ___ = 52",success,,resp_0dc9cc8865710be0006afe6291a5fc87d293deb6a2ba707608,gpt-5.4-nano-2026-03-17,0.3,200,46,28,74,0.962,0.9619,0.0,1,2026-11-18T21:44:33.727669-05:00
+P063,Generate a question where the student checks a subtraction using addition and decides whether the result is correct. Use text only.,"Check this subtraction by using addition:
+
+**12 − 7 = 5**
+
+1) Add: **7 + 5 = ?**  
+2) Compare your sum to **12**.  
+3) Decide: **Is the subtraction result correct or incorrect?**",success,,resp_0cf89491914814af006afe6292959087d284da40a5f6d5e5ec,gpt-5.4-nano-2026-03-17,0.3,200,45,58,103,0.998,0.998,0.0,1,2026-11-18T21:44:34.731299-05:00
+P064,Create a question with four natural numbers that requires additions and subtractions in the correct order. Use text only.,"Solve this:  
+**(18 + 7) − 9 + 6 − 4 = ?**",success,,resp_0a5b4e5663bfdd83006afe6293949087d2ba2d5c442d06e148,gpt-5.4-nano-2026-03-17,0.3,200,44,27,71,0.92,0.9195,0.0,1,2026-11-18T21:44:35.655918-05:00
+P065,Write a mental-math question combining one addition and one subtraction with numbers below 50. Use text only.,**Mental Math:** What is **17 + 26 − 35**?,success,,resp_04ec6bb28ad514c4006afe6294861c87d28b521e7c90776cc8,gpt-5.4-nano-2026-03-17,0.3,200,44,20,64,0.853,0.8531,0.0,1,2026-11-18T21:44:36.514656-05:00
+P066,Generate a question with two expressions containing additions and subtractions and ask which result is greater. Use text only.,"Which result is greater?
+
+A) (12 + 7) - (9 - 3)  
+B) (18 - 4) + (5 - 2)",success,,resp_0468a354e62cd83f006afe62955a9887d28fec9711dbbed73e,gpt-5.4-nano-2026-03-17,0.3,200,44,40,84,1.122,1.1222,0.0,1,2026-11-18T21:44:37.641690-05:00
+P067,Create an addition and subtraction question where the student finds the starting value from a known final result. Use text only.,"**Addition/Subtraction (Find the Starting Value)**
+
+A student finished with **37**.  
+They then **added 15** (or removed, depending on the diagram below).
+
+**Question:** What was the starting value?  
+(Starting value + 15 = 37)",success,,resp_0dee29628356848f006afe6296805c87d2880600e87b701f80,gpt-5.4-nano-2026-03-17,0.3,200,45,61,106,1.105,1.1048,0.0,1,2026-11-18T21:44:38.751352-05:00
+P068,Write a question where the student must correct an incorrect result from an operation combining addition and subtraction. Use text only.,"A student claims that \(12 + 7 - 5 = 20\). Is the student correct? If not, correct the result and show the correct calculation.",success,,resp_073acd2450c0865e006afe6297978c87d28482f251dbad76f8,gpt-5.4-nano-2026-03-17,0.3,200,45,38,83,1.126,1.1263,0.0,1,2026-11-18T21:44:39.886115-05:00
+P069,Generate a question with consecutive natural numbers that requires one addition and one subtraction to solve. Use text only.,What is the value of 12 + 7 − 10?,success,,resp_0140bf0cbbd487f2006afe6298bb8487d2a9de1189d6f7fef2,gpt-5.4-nano-2026-03-17,0.3,200,43,18,61,0.934,0.9344,0.0,1,2026-11-18T21:44:40.827134-05:00
+P070,Create a question that assesses addition and subtraction using a numerical expression with three simple operations. Use text only.,What is the value of **18 + 7 − 5 + 3**?,success,,resp_0c3ebdb493da3dc5006afe6299a9bc87d29b999b7a4f74df92,gpt-5.4-nano-2026-03-17,0.3,200,43,22,65,0.96,0.9595,0.0,1,2026-11-18T21:44:41.791840-05:00
+P071,Generate a subtraction question with two-digit natural numbers where the student must find the correct difference. Use text only.,43 − 18 = ?,success,,resp_0433eff18babfc87006afe629aa43c87d2ae80b0f913dd5350,gpt-5.4-nano-2026-03-17,0.3,200,44,10,54,0.857,0.8574,0.0,1,2026-11-18T21:44:42.654857-05:00
+P072,Create a question where the student subtracts a three-digit number from a larger number. Use text only.,Subtract the three-digit number **357** from the larger number **842**. What is the difference?,success,,resp_07df0b95a43e3376006afe629b7f3087d29dd9578ff1bf5ca1,gpt-5.4-nano-2026-03-17,0.3,200,43,25,68,1.119,1.1192,0.0,1,2026-11-18T21:44:43.779931-05:00
+P073,Write a subtraction question with an unknown value and ask the student to find the missing number. Use text only.,"7,000 − ____ = 2,350
+
+What is the missing number?",success,,resp_06c2864376459f35006afe629ca3ec87d28d7d227292c17de8,gpt-5.4-nano-2026-03-17,0.3,200,44,21,65,1.053,1.0529,0.0,1,2026-11-18T21:44:44.842453-05:00
+P074,Generate a subtraction question with regrouping using natural numbers appropriate for elementary students. Use text only.,"Here is a subtraction question with regrouping (natural numbers) for elementary students:
+
+**Compute: 52 − 28 =**",success,,resp_087fba8fae18810f006afe629db1c087d2b1bbe01882f3a157,gpt-5.4-nano-2026-03-17,0.3,200,41,30,71,0.968,0.9683,0.0,1,2026-11-18T21:44:45.815605-05:00
+P075,Create a mental-math question based on subtraction with numbers below 100. Use text only.,**Mental Math:** What is **73 − 28**?,success,,resp_058586065df4fb61006afe629ea80487d2b54af4d25d7de85a,gpt-5.4-nano-2026-03-17,0.3,200,41,17,58,0.845,0.8449,0.0,1,2026-11-18T21:44:46.667426-05:00
+P076,Generate a simple algebra question where the student must find the value of an unknown letter. Use text only.,"Solve for \(x\):  
 \[
-8 \ \_\_\ 3 \ = 15
-\]
+3x + 7 = 22
+\]",success,,resp_005a7eaa40bdd03f006afe629f8cd887d2a94b8d02223aad7f,gpt-5.4-nano-2026-03-17,0.3,200,43,24,67,0.947,0.9473,0.0,1,2026-11-18T21:44:47.620518-05:00
+P077,Create a question with an equation containing a variable and addition where the missing value must be found. Use text only.,"If \(x + 7 = 15\), what is the value of \(x\)?",success,,resp_001ae94346e5b498006afe62a07f8887d2a1838f15cfb17a49,gpt-5.4-nano-2026-03-17,0.3,200,45,24,69,1.024,1.0239,0.0,1,2026-11-18T21:44:48.649433-05:00
+P078,Write an algebra question where a variable appears in a subtraction and must be determined. Use text only.,"Solve for \(x\):  
+\(7x - 5 = 3x - 11\)",success,,resp_091271e7a735b570006afe62a1868887d29eed38f830623928,gpt-5.4-nano-2026-03-17,0.3,200,42,26,68,1.246,1.2456,0.0,1,2026-11-18T21:44:49.901554-05:00
+P079,Generate a question with multiplication and an unknown variable that can be solved using natural numbers. Use text only.,"If \(x\) is a natural number and \(3 \times x = 45\), what is the value of \(x\)?",success,,resp_01db5560f73a7ebf006afe62a2bd4887d281e17f000b541dd2,gpt-5.4-nano-2026-03-17,0.3,200,43,33,76,1.054,1.0537,0.0,1,2026-11-18T21:44:50.960735-05:00
+P080,Create a simple division question where the dividend is a variable and the quotient is known. Use text only.,"If the quotient is **7** and the dividend is **x**, write the division equation:  
 
-¿Cuál operación va en el espacio: **+** o **−**?",success,,resp_0e29c8a3a8ef2b92006ac99889528887d297be3b202c570f6c,gpt-5.4-nano-2026-03-17,0.3,200,44,64,108,1.202,1.2015,0.0,1,2026-10-09T20:44:41.698809-05:00
-P012,Escribe una pregunta matemática que incluya una suma incompleta y una resta incompleta para encontrar los valores faltantes.,"¿Cuáles son los valores faltantes \(a\) y \(b\) en la expresión incompleta:
+**x ÷ 7 = 7**",success,,resp_08911b48e8cdaaec006afe62a3d30087d2993be4b56390a78f,gpt-5.4-nano-2026-03-17,0.3,200,43,34,77,0.97,0.97,0.0,1,2026-11-18T21:44:51.935876-05:00
+P081,Write a question asking the student to complete a number sequence and describe the rule using a simple operation. Use text only.,"Complete the number sequence and describe the rule using a simple operation:
+
+2, 5, 8, 11, 14, ____
+
+Fill in the blank and explain the pattern (e.g., “add __ each time”).",success,,resp_02e411bbf2000052006afe62a4e3c487d2a29d10efd215e569,gpt-5.4-nano-2026-03-17,0.3,200,46,51,97,1.341,1.3412,0.0,1,2026-11-18T21:44:53.282255-05:00
+P082,Generate a question where the student decides whether two simple algebraic expressions have the same value. Use text only.,"Do the expressions have the same value for all real numbers?  
+**A = 2x + 5** and **B = x + 8**  
+
+**Question:** Is **A = B** for every real value of **x**? Answer **Yes** or **No**. If **No**, find one value of **x** where they are different.",success,,resp_028f417f131dea10006afe62a62c9487d2a62bafce0e80488d,gpt-5.4-nano-2026-03-17,0.3,200,44,80,124,1.495,1.495,0.0,1,2026-11-18T21:44:54.784030-05:00
+P083,Create a question with a variable on both sides of a very simple equation for elementary students. Use text only.,Solve for the missing number: **7 = ___ + 3**.,success,,resp_09b3107fcdc9102e006afe62a7b89c87d29110b1042583b785,gpt-5.4-nano-2026-03-17,0.3,200,44,19,63,1.064,1.0637,0.0,1,2026-11-18T21:44:55.857249-05:00
+P084,Write a question where the student substitutes a given value into an algebraic expression and calculates the result. Use text only.,"If \(x = 5\), what is the value of \(3x + 2\)?",success,,resp_0b02d014b1f725a7006afe62a8afa487d2a33221735439c606,gpt-5.4-nano-2026-03-17,0.3,200,46,25,71,0.874,0.8739,0.0,1,2026-11-18T21:44:56.736141-05:00
+P085,Generate a question asking which value of a variable makes a simple mathematical equation true. Use text only.,Which value of the variable \(x\) makes the equation \(2x + 3 = 11\) true?,success,,resp_00f836d0fa23aa46006afe62aa298487d2b1b33ccbe0b977d3,gpt-5.4-nano-2026-03-17,0.3,200,42,29,71,1.632,1.632,0.0,1,2026-11-18T21:44:58.373243-05:00
+P086,Create a question where the student writes a simple algebraic expression from a relationship between numbers. Use text only.,"A store sells notebooks for **$5 each**. If you buy **n** notebooks, write an algebraic expression for the total cost in dollars.",success,,resp_0d5135e9706746f2006afe62ab3bd487d28a4931c546fa95c8,gpt-5.4-nano-2026-03-17,0.3,200,44,35,79,1.306,1.3057,0.0,1,2026-11-18T21:44:59.684155-05:00
+P087,Write a question with an expression containing a variable and ask the student to evaluate it for two different values. Use text only.,Evaluate the expression \(2x + 5\) for \(x = 3\) and for \(x = -1\).,success,,resp_088ff418089f5cff006afe62ac910887d2957324f5e779164a,gpt-5.4-nano-2026-03-17,0.3,200,47,32,79,1.016,1.0164,0.0,1,2026-11-18T21:45:00.707053-05:00
+P088,Generate a question where the student finds the unknown term in a simple increasing number pattern. Use text only.,"What is the missing number?
+
+2, 5, 8, 11, __, 17, 20
+
+(Assume the pattern is increasing.)",success,,resp_03de7c81385eb74c006afe62ad947887d2bb046f432b9351bd,gpt-5.4-nano-2026-03-17,0.3,200,43,37,80,1.142,1.1418,0.0,1,2026-11-18T21:45:01.854389-05:00
+P089,Create an algebra question that uses a letter to represent an unknown number in an addition operation. Use text only.,"If a number is represented by **x**, write an expression for the sum when **5** is added to it.",success,,resp_031513f9c872e816006afe62aeb84087d28c6f574fee5bc83b,gpt-5.4-nano-2026-03-17,0.3,200,44,28,72,1.02,1.0198,0.0,1,2026-11-18T21:45:02.879588-05:00
+P090,Write a question where a variable represents an unknown factor and must be found using multiplication. Use text only.,"If the total cost of 6 identical notebooks is $x$ multiplied by 5, and the product is $30, what is the value of $x$?",success,,resp_018481c7a7827b86006afe62afbd8487d2a9ff09a39f5f68bd,gpt-5.4-nano-2026-03-17,0.3,200,43,38,81,0.921,0.9209,0.0,1,2026-11-18T21:45:03.807578-05:00
+P091,Generate a question asking the student to select which algebraic expression correctly represents a given numerical equality. Use text only.,Which algebraic expression correctly represents the numerical equality: **7 + 3 = 10**? Select the correct expression.,success,,resp_0e34b0905bfd78d3006afe62b0a94c87d28f5a7ca84ef9305f,gpt-5.4-nano-2026-03-17,0.3,200,45,29,74,1.415,1.4146,0.0,1,2026-11-18T21:45:05.230822-05:00
+P092,Create a question where the student completes a simple number table by following a rule written with a variable. Use text only.,"**Question:**  
+
+Complete the missing numbers in the table.  
+
+**Rule:** Each value in the table is found using **n + 5** (where **n** is the row’s input number).  
+
+| n  | n + 5 |  
+|----|------:|  
+| 2  |       |  
+| 5  |       |  
+| 9  |       |  
+| 12 |       |",success,,resp_0079ec81582bc6cd006afe62b2167887d2b8424564fde2e999,gpt-5.4-nano-2026-03-17,0.3,200,46,94,140,1.439,1.4392,0.0,1,2026-11-18T21:45:06.675292-05:00
+P093,Write an algebra question where the student discovers a simple rule by observing several pairs of numbers. Use text only.,"**Algebra Discovery Question**
+
+A student notices the following pattern when pairing two numbers:  
+Left side → Right side
+
+1 → 4  
+2 → 7  
+3 → 10  
+4 → 13  
+5 → 16  
+
+**Task:**  
+1. Use the pattern to determine the rule that converts the left number to the right number.  
+2. Use your rule to find:  
+   - What does **6 → ?**  
+   - What does **10 → ?**  
+
+**Write your answer clearly**, showing the rule you found.",success,,resp_09a16f1c25588b02006afe62b3820c87d2bdf33dec3b922968,gpt-5.4-nano-2026-03-17,0.3,200,44,118,162,1.484,1.4842,0.0,1,2026-11-18T21:45:08.167507-05:00
+P094,Generate a question with two possible values for a variable and ask which one satisfies the equation. Use text only.,"Which value of \(x\) satisfies the equation \(x + 3 = 10\)?
+
+A) \(x = 5\)  
+B) \(x = 7\)",success,,resp_0d1c398319ae745d006afe62b5099087d2882530d7949f1043,gpt-5.4-nano-2026-03-17,0.3,200,44,43,87,1.085,1.0853,0.0,1,2026-11-18T21:45:09.258263-05:00
+P095,"Create an elementary algebra question combining a variable, addition, and multiplication with small numbers. Use text only.","Solve for \(x\):  
 \[
-3 + a + 5 = 15 \quad \text{y} \quad 20 - b - 7 = 6?
-\]
-",success,,resp_0c20ed9823f7f416006ac9988a88a087d2b5b9a9ac7105e965,gpt-5.4-nano-2026-03-17,0.3,200,46,59,105,1.067,1.0671,0.0,1,2026-10-09T20:44:42.770706-05:00
-P013,Genera una pregunta que permita comprobar una resta mediante una suma y solicite determinar si el resultado es correcto.,"¿Cuál es el resultado de **7 + 8**? Usa ese resultado para comprobar la siguiente resta: **15 − 8**.  
-**Determina si el resultado de la resta es correcto.**",success,,resp_0d924dd324d96611006ac9988ba2cc87d28678ed89f77a0d09,gpt-5.4-nano-2026-03-17,0.3,200,44,47,91,1.377,1.3774,0.0,1,2026-10-09T20:44:44.154790-05:00
-P014,Crea una pregunta con cuatro números naturales donde sea necesario realizar sumas y restas en el orden adecuado.,¿Cuál es el valor de \(12 + 8 - 5 - 7 + 9\)?,success,,resp_0451c6dc9211b03e006ac9988cfb5887d288d0651fd05d3aae,gpt-5.4-nano-2026-03-17,0.3,200,44,26,70,0.832,0.8316,0.0,1,2026-10-09T20:44:44.991178-05:00
-P015,Escribe una pregunta para practicar cálculo mental combinando una suma y una resta con números menores que cincuenta.,¿Cuánto es 37 + 12 − 20?,success,,resp_00cd7a26b3d820ab006ac9988dd08487d2a5cf25671fd99895,gpt-5.4-nano-2026-03-17,0.3,200,44,16,60,0.807,0.8065,0.0,1,2026-10-09T20:44:45.802835-05:00
-P016,Genera una pregunta donde se presenten dos expresiones con sumas y restas y se deba indicar cuál resultado es mayor.,"¿Cuál resultado es mayor?
+x + 5 = 2x + 3
+\]",success,,resp_0192e0b5a197dcf4006afe62b6195487d2aadc80e29894d4dc,gpt-5.4-nano-2026-03-17,0.3,200,43,27,70,0.8,0.8001,0.0,1,2026-11-18T21:45:10.063639-05:00
+P096,Create a word problem where an unknown number of objects is represented by x and the student writes and solves an addition equation. Use text only.,"Mia has some stickers. She gets 5 more stickers from a friend. Then she has 12 stickers altogether.  
 
-A) \( (7+5) - (3+2) \)  
-B) \( (9+1) - (6-2) \)  
+Let the unknown number of stickers Mia started with be **x**. Write and solve an addition equation to find **x**.",success,,resp_0865add31b874cef006afe62b6e99087d28854b961b6e7c0a4,gpt-5.4-nano-2026-03-17,0.3,200,50,55,105,1.288,1.2875,0.0,1,2026-11-18T21:45:11.356396-05:00
+P097,Generate a simple balance problem where two expressions must be equal and the student finds the missing value. Use text only.,"**Balance Problem (Find the missing value)**
 
-Indica si \(A\) es mayor que \(B\), si \(B\) es mayor que \(A\), o si son iguales.",success,,resp_0aa27e9a6c1aae57006ac9988ea38887d283c4db7faf717821,gpt-5.4-nano-2026-03-17,0.3,200,49,75,124,1.242,1.2416,0.0,1,2026-10-09T20:44:47.048632-05:00
-P017,Crea una pregunta de adición y sustracción que requiera encontrar el valor inicial a partir de un resultado final conocido.,"**Pregunta:**  
-Carlos tenía **15** canicas. Después de agregar algunas canicas, ahora tiene **27** canicas en total. **¿Cuántas canicas agregó Carlos?**",success,,resp_029061403850e7f5006ac9988fe0d087d29b4b44170a00db95,gpt-5.4-nano-2026-03-17,0.3,200,48,44,92,0.928,0.9283,0.0,1,2026-10-09T20:44:47.982506-05:00
-P018,Escribe una pregunta donde el estudiante tenga que corregir el resultado de una operación que combina suma y resta.,"¿Cuál es el resultado correcto de la expresión: **12 + 7 − 9**? Si el estudiante obtuvo **10**, corrige el resultado y explica brevemente qué hizo mal.",success,,resp_0720965244835354006ac99890cf8087d2b78df89fb1a4af45,gpt-5.4-nano-2026-03-17,0.3,200,44,43,87,0.899,0.8989,0.0,1,2026-10-09T20:44:48.888230-05:00
-P019,Genera una pregunta con números naturales consecutivos que requiera realizar una adición y una sustracción para resolverla.,¿Cuál es el resultado de \(12 + 7 - 9\)?,success,,resp_0d3c9900126b4ad6006ac99891b8a487d2927c13a8d17effb5,gpt-5.4-nano-2026-03-17,0.3,200,47,20,67,0.801,0.8007,0.0,1,2026-10-09T20:44:49.693028-05:00
-P020,Crea una pregunta que evalúe el dominio de sumas y restas mediante una expresión numérica con tres operaciones sencillas.,¿Cuál es el resultado de la expresión numérica: **8 + 5 − 3**?,success,,resp_0f0ab74770cfa66c006ac9989287d487d2b93a0ecd7756cbc7,gpt-5.4-nano-2026-03-17,0.3,200,48,25,73,0.819,0.8189,0.0,1,2026-10-09T20:44:50.517474-05:00
-P021,Genera una pregunta de sustracción con números naturales de dos cifras para que un estudiante encuentre la diferencia correcta.,¿Cuál es la diferencia entre **73** y **28**?,success,,resp_09b2cd15ec395eb6006ac9989358d887d2a77bf0fba8527ba4,gpt-5.4-nano-2026-03-17,0.3,200,45,18,63,0.821,0.8213,0.0,1,2026-10-09T20:44:51.343390-05:00
-P022,Crea una pregunta donde el estudiante tenga que restar un número de tres cifras de otro número mayor.,¿Qué resultado obtienes al restar **327** de **865**?,success,,resp_0001cb7b1487f08e006ac998942e1487d29efd58b476174e3d,gpt-5.4-nano-2026-03-17,0.3,200,43,19,62,0.981,0.9812,0.0,1,2026-10-09T20:44:52.328844-05:00
-P023,Escribe una pregunta de sustracción que incluya un valor desconocido y solicite encontrar el número que falta.,"Si \(7 + \square = 15\), ¿cuál es el número que falta?",success,,resp_045862c0bbbfa615006ac99895258c87d2b48ddb0040f01756,gpt-5.4-nano-2026-03-17,0.3,200,46,24,70,0.761,0.7608,0.0,1,2026-10-09T20:44:53.095667-05:00
-P024,Genera una pregunta para practicar una resta con reagrupación usando números naturales apropiados para educación básica.,¿Cuánto es **54 − 29**? (Usa reagrupación.),success,,resp_0ad795173c68b8dc006ac99895f06887d2a46c1e8bd5b26864,gpt-5.4-nano-2026-03-17,0.3,200,44,22,66,0.906,0.9063,0.0,1,2026-10-09T20:44:54.006046-05:00
-P025,Crea una pregunta de cálculo mental basada únicamente en una sustracción con números menores que cien.,**Pregunta:** ¿Cuánto es **78 − 36**?,success,,resp_00b36fad555b53b5006ac99896d7c887d2a423224e6d9cebeb,gpt-5.4-nano-2026-03-17,0.3,200,42,18,60,0.815,0.8145,0.0,1,2026-10-09T20:44:54.825542-05:00
-P026,Escribe una pregunta donde se presenten dos restas y el estudiante tenga que determinar cuál resultado es mayor.,¿Qué resultado es mayor: **(15 − 9)** o **(20 − 18)**?,success,,resp_03b92cd5d448ae11006ac99897aba487d2aee8766dab65f9a5,gpt-5.4-nano-2026-03-17,0.3,200,44,25,69,0.879,0.8786,0.0,1,2026-10-09T20:44:55.710111-05:00
-P027,Genera una pregunta que solicite comprobar mediante cálculo si una sustracción presentada tiene un resultado correcto.,"¿Cuál es el resultado de **57 − 28** y, mediante el cálculo paso a paso, confirma si el resultado **29** es correcto o cuál es el resultado verdadero?",success,,resp_0ed81f5d65e1a75b006ac99898881087d29ad26666635f9815,gpt-5.4-nano-2026-03-17,0.3,200,43,41,84,0.935,0.9354,0.0,1,2026-10-09T20:44:56.650291-05:00
-P028,Crea una pregunta de sustracción con números de cuatro cifras que tenga una única respuesta numérica correcta.,"**Pregunta:**  
-¿Cuánto es \( 8743 - 3689 \)?
+On the balance scale:
 
-**Respuesta correcta (única):**  
-\( 8743 - 3689 = 5054 \)",success,,resp_0f5f28e3d947efc3006ac99899794887d2a132357c978cdc6c,gpt-5.4-nano-2026-03-17,0.3,200,44,44,88,0.843,0.8431,0.0,1,2026-10-09T20:44:57.498939-05:00
-P029,Escribe una pregunta donde el estudiante deba completar los dígitos faltantes de una operación de sustracción.,"Completa los dígitos faltantes en la sustracción:
+Left side: \(3x + 5\)  
+Right side: \(2x + 15\)
 
-\[
-\begin{array}{r}
-\ \ \ 3\Box7 \\
--\ \ \ 1\Box5 \\
-\hline
-\ \ \ \Box2\Box
-\end{array}
-\]
+The two sides are equal.  
+**Find \(x\).**",success,,resp_0671268608c10930006afe62b8320c87d2a668a9411d278929,gpt-5.4-nano-2026-03-17,0.3,200,45,56,101,1.187,1.1868,0.0,1,2026-11-18T21:45:12.548833-05:00
+P098,"Write a problem where a number is doubled and then increased by a small amount, and the student finds the starting number. Use text only.","A number is doubled and then increased by 7. The result is 31.  
+What was the starting number?",success,,resp_02e75d4d721dfd59006afe62b9637487d2b8dba8b57cb8972d,gpt-5.4-nano-2026-03-17,0.3,200,50,28,78,0.846,0.8461,0.0,1,2026-11-18T21:45:13.401877-05:00
+P099,Create a pattern problem where the student predicts the next two terms and writes a simple rule using n. Use text only.,"**Pattern Problem**
 
-¿Con qué dígitos se deben reemplazar las **\(\Box\)** para que la operación sea correcta?",success,,resp_053f709f688d4b64006ac9989a553087d2a3179128a0573e91,gpt-5.4-nano-2026-03-17,0.3,200,46,91,137,1.153,1.1532,0.0,1,2026-10-09T20:44:58.657178-05:00
-P030,Genera una pregunta que pida ordenar tres diferencias de menor a mayor después de resolver las sustracciones correspondientes.,"Después de resolver las siguientes sustracciones: 12 − 7, 20 − 15 y 18 − 6, **ordena los resultados de menor a mayor**.",success,,resp_043aa52d07772e2b006ac9989b882487d2a025afb7cb3f6d16,gpt-5.4-nano-2026-03-17,0.3,200,45,42,87,0.855,0.8548,0.0,1,2026-10-09T20:44:59.520398-05:00
-P031,Crea una pregunta de sustracción donde el resultado sea conocido y se deba encontrar uno de los números iniciales.,"**Pregunta:**  
-Si **x − 37 = 58**, ¿cuánto vale **x**?",success,,resp_0cc76de57521ce02006ac9989c593487d2b5e22fd3b514e00c,gpt-5.4-nano-2026-03-17,0.3,200,47,26,73,0.808,0.8082,0.0,1,2026-10-09T20:45:00.334063-05:00
-P032,Escribe una pregunta que permita practicar la resta de decenas completas utilizando únicamente números naturales.,¿Cuánto es **48 − 23**? (Resuelve la resta de decenas completas usando solo números naturales.),success,,resp_0d4590f66298517e006ac9989d299487d2b87609e34c31399c,gpt-5.4-nano-2026-03-17,0.3,200,40,28,68,0.846,0.8465,0.0,1,2026-10-09T20:45:01.185342-05:00
-P033,Genera una pregunta donde el estudiante tenga que elegir entre varias restas cuál produce una diferencia indicada.,"**Pregunta (elige la opción correcta):**  
+Consider this sequence:
 
-La diferencia entre dos números es **32**.  
-¿Cuál de las siguientes restas produce esa diferencia?
+**2, 5, 8, 11, __, __**
 
-A) 60 − 28  
-B) 75 − 43  
-C) 90 − 58  
-D) 50 − 18",success,,resp_000d24bfb0087aff006ac9989e1c0487d294417598fea32029,gpt-5.4-nano-2026-03-17,0.3,200,42,67,109,1.201,1.2007,0.0,1,2026-10-09T20:45:02.391428-05:00
-P034,Crea una pregunta de sustracción que incluya un número cercano a una centena para practicar el cálculo preciso.,"**Pregunta:**  
-Calcula: **98 − 47**.",success,,resp_053acfc831c9db68006ac9989f386487d2af679e822e06e97e,gpt-5.4-nano-2026-03-17,0.3,200,46,18,64,0.816,0.8163,0.0,1,2026-10-09T20:45:03.213519-05:00
-P035,Escribe una pregunta donde se deban resolver dos sustracciones consecutivas para obtener un único resultado final.,"Si tienes 30 dulces y regalas 8, luego compras 5 dulces más, ¿cuál es el resultado final después de realizar estas dos sustracciones consecutivas?",success,,resp_0811cf2809074083006ac998a00ba887d288b19e59bac039ef,gpt-5.4-nano-2026-03-17,0.3,200,44,42,86,0.986,0.9861,0.0,1,2026-10-09T20:45:04.206132-05:00
-P036,Genera una pregunta de sustracción con números naturales que permita identificar y corregir un error de cálculo.,"**Pregunta de sustracción (con números naturales):**  
-Calcula: **64 − 28**.
-
-**Error típico que puede aparecer (para que lo identifiques y corrijas):**  
-Algunos obtienen **36** en lugar de la respuesta correcta.
-
-**Respuesta correcta (para verificar):**  
-**64 − 28 = 36**.  
-
-Ahora identifica si tu cálculo coincide con 36; si te dio otro resultado, revisa dónde está el error.",success,,resp_02184f29f0e14ff1006ac998a10a5087d2be353aac7eae7bf7,gpt-5.4-nano-2026-03-17,0.3,200,44,103,147,1.687,1.6874,0.0,1,2026-10-09T20:45:05.898642-05:00
-P037,Crea una pregunta donde el estudiante compare la diferencia entre dos pares distintos de números naturales.,"**Pregunta:**  
-Compara los pares de números naturales **(3, 7)** y **(10, 4)**.  
-
-1) Calcula la diferencia en cada par (**mayor − menor**).  
-2) ¿Cuál diferencia es mayor y por cuánto?",success,,resp_08114674b9a142a6006ac998a2bba087d28876686ee020a1e5,gpt-5.4-nano-2026-03-17,0.3,200,40,60,100,1.02,1.0201,0.0,1,2026-10-09T20:45:06.924147-05:00
-P038,Escribe una pregunta de sustracción que requiera calcular cuánto falta para pasar de un número menor a uno mayor.,¿Cuánto falta a **7** para llegar a **12**?,success,,resp_02782e118b187a1f006ac998a3c01887d2b2b80bfe2fa15897,gpt-5.4-nano-2026-03-17,0.3,200,46,18,64,0.776,0.7763,0.0,1,2026-10-09T20:45:07.706341-05:00
-P039,Genera una pregunta para practicar una resta con ceros intermedios en el número mayor y obtener la diferencia.,"¿Cuánto es **6,407 − 2,185**?",success,,resp_03b649876bef768f006ac998a48ae487d2be8ff2eb45f59b16,gpt-5.4-nano-2026-03-17,0.3,200,45,18,63,0.813,0.8128,0.0,1,2026-10-09T20:45:08.525214-05:00
-P040,Crea una pregunta que evalúe la sustracción mediante un número desconocido colocado como sustraendo en una operación.,¿Cuánto da la operación **73 − x = 58**? (Encuentra el valor de **x**.),success,,resp_0be911fa7ba16d4d006ac998a55cf487d29f7fe3fb7d3598a2,gpt-5.4-nano-2026-03-17,0.3,200,47,28,75,1.031,1.0305,0.0,1,2026-10-09T20:45:09.561781-05:00
-P041,Genera una pregunta que combine una multiplicación y una división con números naturales y produzca un resultado entero.,¿Cuánto es \( (12 \times 15) \div 6 \)?,success,,resp_08e6d91b08cf067b006ac998a6658c87d2ba1fadf78e825ec8,gpt-5.4-nano-2026-03-17,0.3,200,44,21,65,0.828,0.8277,0.0,1,2026-10-09T20:45:10.395564-05:00
-P042,Crea una pregunta donde el estudiante deba multiplicar dos números y luego dividir el resultado por otro número.,¿Cuál es el resultado de multiplicar 6 por 7 y luego dividir el producto entre 4?,success,,resp_05fc716f3f2bb054006ac998a7686487d29f8375527fc244ee,gpt-5.4-nano-2026-03-17,0.3,200,44,26,70,1.206,1.2064,0.0,1,2026-10-09T20:45:11.608041-05:00
-P043,Escribe una pregunta que permita practicar una división exacta y comprobar el resultado mediante una multiplicación.,¿Qué resultado de la división exacta \(84 \div 12\) es correcto? Compruébalo multiplicando el cociente por \(12\).,success,,resp_004dfdf71b41744e006ac998a8a24887d28dc078dd46915516,gpt-5.4-nano-2026-03-17,0.3,200,42,36,78,1.127,1.1274,0.0,1,2026-10-09T20:45:12.741154-05:00
-P044,Genera una pregunta de multiplicación con dos factores y una división posterior adecuada para estudiantes de educación básica.,¿Cuánto es el resultado de **(6 × 7) ÷ 3**?,success,,resp_0eb0cd8401f8b092006ac998a9914887d29c42b5603c9b2d8b,gpt-5.4-nano-2026-03-17,0.3,200,43,23,66,1.105,1.1054,0.0,1,2026-10-09T20:45:13.852685-05:00
-P045,Crea una pregunta donde falte un factor y sea necesario utilizar multiplicación o división para encontrar su valor.,¿Cuál es el valor de **x** en la ecuación **3x = 24**? (Completa el valor faltante usando **multiplicación o división**).,success,,resp_0964f7594979e0c0006ac998aaaec887d2920a2d1a179cbf50,gpt-5.4-nano-2026-03-17,0.3,200,44,41,85,0.845,0.8453,0.0,1,2026-10-09T20:45:14.702963-05:00
-P046,Escribe una pregunta que presente dos multiplicaciones y solicite determinar cuál de sus productos es mayor.,¿Qué producto es mayor: \(3 \times 8\) o \(5 \times 6\)?,success,,resp_0b62a0a3eaff13e3006ac998ab894c87d2bc120b6067281d4c,gpt-5.4-nano-2026-03-17,0.3,200,42,26,68,0.912,0.9116,0.0,1,2026-10-09T20:45:15.621115-05:00
-P047,Genera una pregunta donde se deba encontrar el divisor desconocido a partir del dividendo y el cociente conocidos.,"Si al dividir el número **84** entre un número desconocido se obtiene como cociente **6**, ¿cuál es el **divisor** desconocido?",success,,resp_01a34dc8924d956b006ac998ac77a087d2afecfab94db1e2b8,gpt-5.4-nano-2026-03-17,0.3,200,46,37,83,0.809,0.8092,0.0,1,2026-10-09T20:45:16.438085-05:00
-P048,Crea una pregunta que permita practicar tablas de multiplicar y una división exacta utilizando números naturales pequeños.,"¿Cuánto es **24 ÷ 6** y ¿cuáles son las **tablas de multiplicar** que relacionan esos números? (Usa solo multiplicaciones con resultados hasta 24: **4×6**, **3×8**, etc.)",success,,resp_0b7a123dde3d91dc006ac998ad4eac87d2b2a81e54ca44e887,gpt-5.4-nano-2026-03-17,0.3,200,43,57,100,1.445,1.4451,0.0,1,2026-10-09T20:45:17.888499-05:00
-P049,Escribe una pregunta donde el estudiante compare el resultado de una multiplicación con el resultado de una división.,¿Cuándo multiplicas dos números obtienes el mismo resultado que cuando divides esos mismos números? Compara y explica la diferencia entre el resultado de la multiplicación y el de la división usando un ejemplo con números concretos.,success,,resp_0a478a9df8dfc70b006ac998aec1fc87d2994cbad312d65234,gpt-5.4-nano-2026-03-17,0.3,200,43,48,91,1.061,1.061,0.0,1,2026-10-09T20:45:18.955891-05:00
-P050,Genera una pregunta con tres números naturales que requiera decidir si corresponde multiplicar o dividir para resolverla.,¿Cuál es el valor de \(6 \times 3 \div 4\)?,success,,resp_01c09296a1e4549c006ac998afcad487d28298589366c6246f,gpt-5.4-nano-2026-03-17,0.3,200,44,22,66,0.767,0.7671,0.0,1,2026-10-09T20:45:19.728561-05:00
-P051,Crea una pregunta donde se presente una multiplicación incompleta y el estudiante tenga que encontrar el factor faltante.,"¿Cuál es el número faltante?  
-
-**7 × __ = 56**",success,,resp_0bc6cc0a1185a5d0006ac998b08d7487d28efe35c3092024ca,gpt-5.4-nano-2026-03-17,0.3,200,45,21,66,0.793,0.7932,0.0,1,2026-10-09T20:45:20.527042-05:00
-P052,Escribe una pregunta de división exacta donde el cociente tenga dos cifras y pueda verificarse con una multiplicación.,¿Cuánto es **92 ÷ 46**? (El cociente es **2** porque **46 × 2 = 92**).,success,,resp_03766badddcb1c69006ac998b175d087d28cff877fcd5f984c,gpt-5.4-nano-2026-03-17,0.3,200,46,34,80,0.812,0.8121,0.0,1,2026-10-09T20:45:21.344362-05:00
-P053,Genera una pregunta que incluya dos divisiones exactas y solicite ordenar sus cocientes de menor a mayor.,¿Cuál es el orden de los cocientes de menor a mayor en estas dos divisiones exactas: \(48 \div 6\) y \(72 \div 9\)?,success,,resp_0cb3288dff3e90f5006ac998b22b9087d2b362f558727c39a6,gpt-5.4-nano-2026-03-17,0.3,200,46,42,88,0.919,0.9193,0.0,1,2026-10-09T20:45:22.270256-05:00
-P054,Crea una pregunta para practicar multiplicación por diez y división entre diez utilizando únicamente números naturales.,¿Cuánto es **5 × 10** y **20 ÷ 10**? (Usa solo números naturales.),success,,resp_0c7706b9ea822585006ac998b318e887d28a9733742710b267,gpt-5.4-nano-2026-03-17,0.3,200,41,29,70,0.79,0.79,0.0,1,2026-10-09T20:45:23.066513-05:00
-P055,Escribe una pregunta donde se deba completar una igualdad que contenga una multiplicación y una división.,¿Cuál número falta para que se cumpla la igualdad: \(8 \times \square = 64 \div 2\)?,success,,resp_0cffdab17b9a9acd006ac998b3e8b487d2a5319efd06c277d8,gpt-5.4-nano-2026-03-17,0.3,200,43,31,74,1.221,1.2212,0.0,1,2026-10-09T20:45:24.295210-05:00
-P056,Genera una pregunta que solicite identificar cuál multiplicación corresponde correctamente a una división exacta presentada.,"¿Qué multiplicación corresponde correctamente a la división exacta **24 ÷ 6 = 4**?  
-A) 6 × 4 = 24  
-B) 4 × 6 = 20  
-C) 24 × 6 = 4  
-D) 24 ÷ 4 = 6",success,,resp_0ae6b9e8e92f5721006ac998b51e5887d293f73202dc4ff528,gpt-5.4-nano-2026-03-17,0.3,200,42,70,112,1.019,1.0188,0.0,1,2026-10-09T20:45:25.319640-05:00
-P057,Crea una pregunta con números naturales donde una multiplicación permita obtener el dividendo necesario para una división.,"Una posible pregunta es:
-
-**Si \(72 \div 6 = ?\), ¿qué multiplicación de \(6\) por un número natural da el dividendo \(72\)?**",success,,resp_0e8086110887f5fb006ac998b62c6087d2a0e1bea1bc87c306,gpt-5.4-nano-2026-03-17,0.3,200,43,43,86,0.855,0.8552,0.0,1,2026-10-09T20:45:26.180314-05:00
-P058,Escribe una pregunta donde el estudiante tenga que corregir un resultado equivocado de multiplicación o división.,"Si \(48 \div 6 = 10\). ¿Es correcto el resultado? Si no lo es, corrígelo y explica cómo calcularlo correctamente.",success,,resp_0a9fa51c5f4c95dc006ac998b7269487d28ca038653e9aee2e,gpt-5.4-nano-2026-03-17,0.3,200,43,37,80,0.988,0.9879,0.0,1,2026-10-09T20:45:27.175447-05:00
-P059,Genera una pregunta que combine dos multiplicaciones sencillas y una división exacta para encontrar el resultado final.,¿Cuánto es \( (3 \times 4) + (5 \times 2) \div 2 \)?,success,,resp_0735cfe952f9cbd8006ac998b8006487d29e2307c3a931305f,gpt-5.4-nano-2026-03-17,0.3,200,44,29,73,0.775,0.7751,0.0,1,2026-10-09T20:45:27.957644-05:00
-P060,Crea una pregunta para evaluar multiplicación y división mediante una expresión numérica breve con operaciones exactas.,¿Cuánto vale la expresión: **(36 ÷ 6) × 7**?,success,,resp_017e96ee2d0ff21c006ac998b8cdec87d28459e46bac790ef8,gpt-5.4-nano-2026-03-17,0.3,200,43,23,66,0.879,0.8789,0.0,1,2026-10-09T20:45:28.842563-05:00
-P061,Genera una pregunta de álgebra sencilla donde el estudiante tenga que encontrar el valor de una letra desconocida.,"Resuelve la ecuación: **5x − 3 = 17**.  
-¿Cuánto vale **x**?",success,,resp_0d7bbb2b7c54f09c006ac998b9aa2887d29443fc57121503a2,gpt-5.4-nano-2026-03-17,0.3,200,44,29,73,0.753,0.7527,0.0,1,2026-10-09T20:45:29.601955-05:00
-P062,Crea una pregunta con una igualdad que incluya una variable y una suma para encontrar el valor faltante.,¿Cuánto vale \(x\) si \(x + 7 = 15\)?,success,,resp_042f4e046cf1d734006ac998ba6f9887d2853dafd918b30c88,gpt-5.4-nano-2026-03-17,0.3,200,44,22,66,0.801,0.8012,0.0,1,2026-10-09T20:45:30.408302-05:00
-P063,Escribe una pregunta algebraica donde una variable aparezca en una resta y tenga que ser determinada.,"Si \(x\) cumple la ecuación \(x - 7 = 12\), ¿cuál es el valor de \(x\)?",success,,resp_0014e174f7b19add006ac998bb3df487d29607f720e26409f9,gpt-5.4-nano-2026-03-17,0.3,200,42,34,76,0.976,0.9762,0.0,1,2026-10-09T20:45:31.390722-05:00
-P064,Genera una pregunta con una multiplicación y una variable desconocida que pueda resolverse usando números naturales.,"¿Cuántos hay en la caja si \(x \times 6 = 54\), donde \(x\) es un número natural?",success,,resp_02a64e7f3fc6bc8b006ac998bc3cf887d2aadbdaff70fe85e8,gpt-5.4-nano-2026-03-17,0.3,200,43,33,76,1.31,1.3099,0.0,1,2026-10-09T20:45:32.707454-05:00
-P065,Crea una pregunta con una división sencilla donde el dividendo sea una variable y el cociente sea conocido.,¿Qué valor tiene \(x\) si \(x \div 4 = 7\)?,success,,resp_01a578abdd8d764d006ac998bd897887d29095a9b7e002de0c,gpt-5.4-nano-2026-03-17,0.3,200,44,23,67,0.94,0.9399,0.0,1,2026-10-09T20:45:33.655035-05:00
-P066,Escribe una pregunta que pida completar una secuencia numérica y expresar la regla mediante una operación sencilla.,"Completa la secuencia: **2, 5, 8, 11, __, __** y expresa la regla que la genera mediante una operación sencilla.",success,,resp_0faed5330308421f006ac998be7a6887d2b52a2e98d83ac38e,gpt-5.4-nano-2026-03-17,0.3,200,44,38,82,0.831,0.8311,0.0,1,2026-10-09T20:45:34.491708-05:00
-P067,Genera una pregunta donde el estudiante determine si dos expresiones algebraicas sencillas tienen el mismo valor.,"**Pregunta:**  
-Determina si las expresiones algebraicas **\(2x + 3\)** y **\(x + 5\)** tienen el mismo valor para todos los valores de \(x\).  
-- ¿Son iguales?  
-- Justifica tu respuesta resolviendo la ecuación correspondiente.",success,,resp_02f590b4a33f22dc006ac998bf51d887d2b815c829cf431989,gpt-5.4-nano-2026-03-17,0.3,200,43,66,109,1.304,1.3039,0.0,1,2026-10-09T20:45:35.802390-05:00
-P068,Crea una pregunta que incluya una variable en ambos lados de una igualdad muy sencilla para educación básica.,¿Cuánto da **x + 2** si **x = 3**?,success,,resp_038186eba43a2ba1006ac998c0d1ac87d2bf276233d56e4910,gpt-5.4-nano-2026-03-17,0.3,200,43,21,64,1.134,1.1335,0.0,1,2026-10-09T20:45:36.941706-05:00
-P069,Escribe una pregunta donde el estudiante sustituya un valor dado en una expresión algebraica y calcule el resultado.,"Si \(f(x)=3x-5\) y \(x=4\), ¿qué valor se obtiene al sustituir \(4\) en la expresión y calcular \(f(4)\)?",success,,resp_0a867c5c21c1711c006ac998c1c5cc87d2947ea94d0a960d91,gpt-5.4-nano-2026-03-17,0.3,200,45,45,90,0.947,0.9473,0.0,1,2026-10-09T20:45:37.895319-05:00
-P070,Genera una pregunta para identificar cuál valor de una variable hace verdadera una igualdad matemática sencilla.,¿Cuál es el valor de \(x\) para el que la igualdad \(2x + 3 = 11\) es verdadera?,success,,resp_0383aec01ae5d8f1006ac998c2bbb887d280da62c2f95489aa,gpt-5.4-nano-2026-03-17,0.3,200,40,33,73,0.77,0.7705,0.0,1,2026-10-09T20:45:38.672689-05:00
-P071,Crea una pregunta donde se deba escribir una expresión algebraica sencilla a partir de una relación entre números.,¿Cuál es la expresión algebraica que representa el número total de caramelos si: cada persona recibe 3 caramelos y hay \(n\) personas? (Escribe tu respuesta en función de \(n\)).,success,,resp_08c5eb13368ca53a006ac998c3a06887d2865271680166638c,gpt-5.4-nano-2026-03-17,0.3,200,44,48,92,1.03,1.0299,0.0,1,2026-10-09T20:45:39.713764-05:00
-P072,Escribe una pregunta que presente una expresión con una variable y solicite calcularla para dos valores diferentes.,"Si la expresión es \(f(x)=2x+3\), ¿cuáles son los valores de \(f(x)\) cuando \(x=1\) y cuando \(x=4\)?",success,,resp_055d52d724d23c45006ac998c48b1087d2ab487f46073383d2,gpt-5.4-nano-2026-03-17,0.3,200,43,45,88,0.908,0.9081,0.0,1,2026-10-09T20:45:40.629371-05:00
-P073,Genera una pregunta donde el estudiante encuentre el término desconocido de un patrón numérico creciente sencillo.,"¿Cuál es el **término desconocido** en el siguiente patrón numérico?
-
-**2, 5, 8, 11, __, 17**
-
-a) 13  
-b) 14  
-c) 15  
-d) 16",success,,resp_0fcf2ecda35786fe006ac998c57d9c87d2a6591f79798f9d73,gpt-5.4-nano-2026-03-17,0.3,200,42,58,100,1.098,1.0976,0.0,1,2026-10-09T20:45:41.732080-05:00
-P074,Crea una pregunta algebraica que utilice una letra para representar un número desconocido en una operación de suma.,¿Cuál es el valor de **x** si **x + 7 = 12**?,success,,resp_02a029bf70010e6c006ac998c68dfc87d2a501290a9a5a5316,gpt-5.4-nano-2026-03-17,0.3,200,45,24,69,0.835,0.8352,0.0,1,2026-10-09T20:45:42.573131-05:00
-P075,Escribe una pregunta donde una variable represente un factor desconocido y deba encontrarse usando una multiplicación.,"Si **x** representa el número desconocido de libros, ¿cuántos libros hay en total si **x · 4 = 32**?",success,,resp_0616361516770971006ac998c7911c87d29e922640fb1058ad,gpt-5.4-nano-2026-03-17,0.3,200,45,35,80,1.011,1.0111,0.0,1,2026-10-09T20:45:43.589918-05:00
-P076,Genera una pregunta que pida seleccionar cuál expresión algebraica representa correctamente una igualdad numérica dada.,"Selecciona cuál expresión algebraica representa correctamente la siguiente igualdad numérica:
-
-**8 = 2x + 4**  
-
-¿Cuál opción corresponde a la expresión algebraica equivalente?
-
-A) \(x = 2\)  
-B) \(8 = 4x + 4\)  
-C) \(8 = 2x + 4\)  
-D) \(8 = x + 4\)",success,,resp_0404aab563021205006ac998c869e487d2b07cf928e3b50ae5,gpt-5.4-nano-2026-03-17,0.3,200,42,89,131,1.221,1.2208,0.0,1,2026-10-09T20:45:44.815914-05:00
-P077,Crea una pregunta donde el estudiante complete una tabla numérica sencilla siguiendo una regla expresada con una variable.,"**Pregunta (completa la tabla):**  
-Una regla matemática describe cómo calcular el valor de una función a partir de una variable \(x\):
-
-\[
-y = 2x + 3
-\]
-
-Completa la tabla usando la regla.
-
-| \(x\) | 0 | 1 | 2 | 3 | 4 |
-|-------|---|---|---|---|---|
-| \(y\) |   |   |   |   |   |
-
-**Instrucción:** Calcula cada valor de \(y\) y escríbelo en la tabla.",success,,resp_0da281e5af666204006ac998c9a71887d28610b6599fa76813,gpt-5.4-nano-2026-03-17,0.3,200,44,127,171,1.332,1.3322,0.0,1,2026-10-09T20:45:46.154273-05:00
-P078,Escribe una pregunta algebraica donde sea necesario descubrir una regla sencilla observando varios pares de números.,"¿Puedes descubrir la regla que convierte cada par \((a,b)\) en el resultado \(R\) y completar el valor que falta?
-
-- \((1,2) \rightarrow 5\)  
-- \((2,3) \rightarrow 9\)  
-- \((3,4) \rightarrow 13\)  
-- \((4,5) \rightarrow \ ?\)
-
-(Escribe el valor que falta y la regla que lo produce.)",success,,resp_07a2012c0346b8b1006ac998cafb9887d2b6c96e4576b2c3f2,gpt-5.4-nano-2026-03-17,0.3,200,42,102,144,1.386,1.3861,0.0,1,2026-10-09T20:45:47.545741-05:00
-P079,Genera una pregunta que incluya dos valores posibles para una variable y solicite indicar cuál satisface la igualdad.,"Si \(x\) solo puede tomar los valores \(2\) o \(3\), ¿cuál de ellos satisface la igualdad \(x + 1 = 4\)?",success,,resp_062c69a95c90f2cb006ac998cc60a087d2a02ee2ed59056e32,gpt-5.4-nano-2026-03-17,0.3,200,45,42,87,0.905,0.9053,0.0,1,2026-10-09T20:45:48.457702-05:00
-P080,"Crea una pregunta de álgebra elemental que combine una variable, una suma y una multiplicación con números pequeños.",¿Cuánto vale \(3x + 5\) si \(x = 2\)?,success,,resp_056a6bbd1584c412006ac998cd4cd887d2b369d43ffb6a8083,gpt-5.4-nano-2026-03-17,0.3,200,45,23,68,0.847,0.8473,0.0,1,2026-10-09T20:45:49.310610-05:00
-P081,Genera una pregunta de geometría que permita identificar una figura plana según su número de lados y vértices.,"Si una figura plana tiene **5 lados** y **5 vértices**, ¿cómo se llama dicha figura?",success,,resp_051b3cc11d725ad2006ac998ce4b2887d29b6bd157ae873b60,gpt-5.4-nano-2026-03-17,0.3,200,45,27,72,1.178,1.1783,0.0,1,2026-10-09T20:45:50.494655-05:00
-P082,Crea una pregunta donde el estudiante tenga que calcular el perímetro de un rectángulo con medidas enteras dadas.,¿Cuál es el perímetro del rectángulo cuya **base** mide **12 cm** y cuya **altura** mide **7 cm**? (Expresa tu respuesta en cm.),success,,resp_0cdd7962b4b5fd1e006ac998cf5d7087d2a446ad2c460e5dd6,gpt-5.4-nano-2026-03-17,0.3,200,46,42,88,1.054,1.0536,0.0,1,2026-10-09T20:45:51.554488-05:00
-P083,Escribe una pregunta para calcular el perímetro de un cuadrado conociendo la medida de uno de sus lados.,¿Cuál es el perímetro de un cuadrado si uno de sus lados mide \(s\) unidades?,success,,resp_013feed21f10dd91006ac998d0615087d2a6125e14622f93fb,gpt-5.4-nano-2026-03-17,0.3,200,46,26,72,1.064,1.0638,0.0,1,2026-10-09T20:45:52.624435-05:00
-P084,Genera una pregunta donde se comparen dos figuras geométricas según la cantidad de lados que posee cada una.,¿Cuál tiene más lados y cuál tiene menos: un triángulo (3 lados) o un pentágono (5 lados)?,success,,resp_0f4e5086d4fa9ec4006ac998d19d1887d291040ae50de541d3,gpt-5.4-nano-2026-03-17,0.3,200,45,31,76,0.973,0.9732,0.0,1,2026-10-09T20:45:53.603701-05:00
-P085,Crea una pregunta que solicite identificar cuántos vértices tiene una figura geométrica plana indicada por su nombre.,"¿Cuántos vértices tiene la figura geométrica plana llamada **(indica el nombre de la figura, por ejemplo: triángulo, cuadrilátero, pentágono, etc.)**?",success,,resp_037c31888781ce10006ac998d2729087d2bbfbb1ec85e3ac68,gpt-5.4-nano-2026-03-17,0.3,200,47,47,94,0.969,0.9694,0.0,1,2026-10-09T20:45:54.579575-05:00
-P086,Escribe una pregunta donde el estudiante tenga que calcular el área de un rectángulo con medidas naturales sencillas.,¿Cuál es el área de un rectángulo cuyos lados miden **6 cm** y **4 cm**?,success,,resp_0c73490585b61a3f006ac998d365b887d2ae9b139803c4ad14,gpt-5.4-nano-2026-03-17,0.3,200,45,28,73,1.057,1.0571,0.0,1,2026-10-09T20:45:55.642177-05:00
-P087,Genera una pregunta para calcular el área de un cuadrado a partir de la longitud conocida de su lado.,¿Cuál es el área de un cuadrado si su lado mide 8 cm?,success,,resp_0b0b4c727780f4d3006ac998d4790087d2bc7efb6321c0f621,gpt-5.4-nano-2026-03-17,0.3,200,44,21,65,0.896,0.896,0.0,1,2026-10-09T20:45:56.544327-05:00
-P088,"Crea una pregunta que permita diferenciar un triángulo, un cuadrado y un rectángulo mediante sus propiedades geométricas.","**Pregunta:**  
-Observa un conjunto de figuras geométricas. **¿Qué propiedad geométrica te permite distinguir un triángulo, un cuadrado y un rectángulo?**  
-Indica para cada una: **(a)** cuántos lados tiene, **(b)** cuántos ángulos rectos posee, y **(c)** cómo es la relación entre sus lados (por ejemplo, si todos son iguales o si solo los opuestos son iguales).",success,,resp_08b658899af822ab006ac998d5600487d2a859bffd888e9997,gpt-5.4-nano-2026-03-17,0.3,200,50,102,152,1.522,1.5215,0.0,1,2026-10-09T20:45:58.073311-05:00
-P089,Escribe una pregunta donde el estudiante determine la medida de un lado faltante conociendo el perímetro de un rectángulo.,¿Cuál es la medida del lado faltante de un rectángulo si su perímetro es de **30 cm** y uno de sus lados mide **8 cm**?,success,,resp_03f375591e44fccb006ac998d6ed2087d2a35bdc029fb934d7,gpt-5.4-nano-2026-03-17,0.3,200,49,39,88,1.05,1.0504,0.0,1,2026-10-09T20:45:59.132523-05:00
-P090,Genera una pregunta de geometría que solicite clasificar un triángulo según la longitud de sus lados.,"Si un triángulo tiene lados de longitudes **4 cm**, **6 cm** y **9 cm**, ¿de qué **tipo** es según la longitud de sus lados (escaleno, isósceles o equilátero)? Justifica tu respuesta.",success,,resp_061095cbb6474325006ac998d7f39487d2bd3a2d34568332a1,gpt-5.4-nano-2026-03-17,0.3,200,45,59,104,1.018,1.0177,0.0,1,2026-10-09T20:46:00.156007-05:00
-P091,Crea una pregunta donde el estudiante identifique cuál figura tiene cuatro lados iguales y cuatro ángulos rectos.,¿Qué figura tiene **cuatro lados iguales** y **cuatro ángulos rectos**?,success,,resp_0f26d4f114c24999006ac998d8fb9c87d2b7a177be87a35838,gpt-5.4-nano-2026-03-17,0.3,200,45,24,69,0.814,0.8139,0.0,1,2026-10-09T20:46:00.975701-05:00
-P092,Escribe una pregunta para determinar cuántos lados y vértices tiene un pentágono y expresar ambos valores.,¿Qué cantidad de lados y de vértices tiene un pentágono (indica ambos valores)?,success,,resp_032d83cab3005f65006ac998d9cbe087d29811f566c9dbfbcf,gpt-5.4-nano-2026-03-17,0.3,200,46,24,70,0.722,0.7218,0.0,1,2026-10-09T20:46:01.702694-05:00
-P093,Genera una pregunta donde se deba comparar el perímetro de dos cuadrados con diferentes longitudes de lado.,"Si el lado del Cuadrado A mide 5 cm y el lado del Cuadrado B mide 7 cm, ¿cuál de los dos cuadrados tiene mayor perímetro y en cuánto cm difiere?",success,,resp_0a44d1917c180b0c006ac998da86d087d2909ec8048caee3ff,gpt-5.4-nano-2026-03-17,0.3,200,44,47,91,1.045,1.0449,0.0,1,2026-10-09T20:46:02.753725-05:00
-P094,Crea una pregunta que solicite reconocer líneas paralelas y perpendiculares mediante una descripción escrita sencilla.,"¿Qué líneas son paralelas y cuáles son perpendiculares en la siguiente descripción: “En el dibujo, una línea recta A va en la misma dirección que la línea B, y la línea C forma un ángulo recto con la línea A”? Responde indicando: **A ∥ B** y **A ⟂ C**.",success,,resp_093b44c9ec7f681c006ac998de230887d29f2c30418be4a366,gpt-5.4-nano-2026-03-17,0.3,200,43,74,117,3.555,3.5548,0.0,1,2026-10-09T20:46:06.315529-05:00
-P095,"Escribe una pregunta donde el estudiante tenga que identificar un ángulo recto, agudo u obtuso según su medida.","Si un ángulo mide **75°**, ¿es **recto, agudo u obtuso**?",success,,resp_0a570adfeb216b3b006ac998df4fa487d2963d6ccf3966541f,gpt-5.4-nano-2026-03-17,0.3,200,47,26,73,0.993,0.9928,0.0,1,2026-10-09T20:46:07.314134-05:00
-P096,Genera una pregunta que permita calcular la medida de un lado de un cuadrado conociendo su perímetro.,"Si el perímetro de un cuadrado es \(P\), ¿cuánto mide un lado del cuadrado?",success,,resp_0b611d8eeb364979006ac998e0242087d2a1d4b936f6da9b44,gpt-5.4-nano-2026-03-17,0.3,200,45,27,72,0.808,0.8083,0.0,1,2026-10-09T20:46:08.134078-05:00
-P097,Crea una pregunta donde se comparen las áreas de dos rectángulos a partir de sus medidas de largo y ancho.,"Si tienes dos rectángulos:  
-- Rectángulo A: largo **8 cm** y ancho **5 cm**  
-- Rectángulo B: largo **6 cm** y ancho **7 cm**  
-
-**¿Cuál rectángulo tiene mayor área y cuánto difiere su área con respecto al otro?**",success,,resp_090481ae0df58dd7006ac998e0f8a487d2ba801d915c404c19,gpt-5.4-nano-2026-03-17,0.3,200,47,69,116,1.018,1.0176,0.0,1,2026-10-09T20:46:09.157649-05:00
-P098,"Escribe una pregunta de geometría que solicite identificar una figura tridimensional según sus caras, aristas y vértices.","¿Qué figura tridimensional es la que tiene **6 caras**, **12 aristas** y **8 vértices** (por sus caras, aristas y vértices), y cómo lo identificas?",success,,resp_064eaa0cd9cbb842006ac998e1fe1087d2bfa2275918853f28,gpt-5.4-nano-2026-03-17,0.3,200,48,46,94,0.904,0.9043,0.0,1,2026-10-09T20:46:10.069455-05:00
-P099,Genera una pregunta donde el estudiante tenga que determinar cuántos ejes de simetría tiene una figura geométrica sencilla.,¿Cuántos ejes de simetría tiene el rectángulo dibujado a continuación? (Asume que es un **rectángulo no cuadrado** y que los lados opuestos son de distinta longitud).,success,,resp_0062dbe03fc5ac09006ac998e2e7f487d28794643325ca6482,gpt-5.4-nano-2026-03-17,0.3,200,48,49,97,1.058,1.0582,0.0,1,2026-10-09T20:46:11.133718-05:00
-P100,"Crea una pregunta que evalúe el reconocimiento de círculo, triángulo, cuadrado y rectángulo mediante propiedades escritas.","¿Cuáles de las siguientes figuras corresponden a un **círculo**, a un **triángulo**, a un **cuadrado** y a un **rectángulo** según estas propiedades escritas?  
-
-A) “Tiene **0 lados** y **ningún ángulo recto**.”  
-B) “Tiene **3 lados** y **3 ángulos**.”  
-C) “Tiene **4 lados iguales** y **4 ángulos rectos**.”  
-D) “Tiene **4 lados** con **dos pares de lados opuestos iguales**, y **4 ángulos rectos**.”  
-
-**Responde escribiendo**:  
-- Círculo: ___  
-- Triángulo: ___  
-- Cuadrado: ___  
-- Rectángulo: ___",success,,resp_06dcc25b8331512d006ac998e401ec87d2a85ad496ec1aee8a,gpt-5.4-nano-2026-03-17,0.3,200,49,169,218,1.642,1.6424,0.0,1,2026-10-09T20:46:12.782121-05:00
+1. Predict the **next two terms**.
+2. Write a simple rule for the **nth term**, using **n** (where the first term is **n = 1**).",success,,resp_0952e38b02c8c461006afe62ba3dbc87d2a9c40bc248211ff2,gpt-5.4-nano-2026-03-17,0.3,200,46,67,113,1.119,1.119,0.0,1,2026-11-18T21:45:14.528511-05:00
+P100,Generate a word problem where the student translates a short statement into an equation with one unknown and solves it. Use text only.,"**Word Problem:**  
+A store has 12 pencils. The store sells some pencils and now has 5 pencils left. Let \(x\) be the number of pencils sold. Write an equation and solve for \(x\).",success,,resp_0a23e117fbc58ee0006afe62bb614487d29e3883b1d6dcac93,gpt-5.4-nano-2026-03-17,0.3,200,47,51,98,1.044,1.0443,0.0,1,2026-11-18T21:45:15.578850-05:00

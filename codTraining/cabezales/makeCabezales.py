@@ -57,8 +57,7 @@ config_multiclass_model=[
     'device',
 ]
 
-class_names=['addition-subtraction', 'division-multiplication' ,'algebra',
- 'otro' ,'geometry']
+
 
 result_multi=[]
 result_binary=[]
@@ -136,7 +135,7 @@ for i,j in params1.items():
         
         
         resultadoTest['type']='test'
-        resultadoTest['type']='val'
+        resultadoVal['type']='val'
         result_multi.append(resultadoTest)
         result_multi.append(resultadoVal)
     else:
@@ -150,7 +149,7 @@ for i,j in params1.items():
         resultadoVal=eval_binary(model,evalL,DEVICE,criterio)
         print('MODELO EVALUADO')
         resultadoTest['type']='test'
-        resultadoTest['type']='val'
+        resultadoVal['type']='val'
         resultadoTest['cabezal']=i
         resultadoTest['cabezal']=i
         result_binary.append(resultadoTest)

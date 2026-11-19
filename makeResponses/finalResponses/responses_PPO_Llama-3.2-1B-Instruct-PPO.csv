@@ -1,511 +1,175 @@
 prompt,response,algin,model,prompt_id
-Genera una pregunta de matemática que combine una suma y una resta con números naturales para estudiantes de educación básica.,"¡Claro! Aquí te dejo una pregunta de matemática que combina suma y resta con números naturales para estudiantes de educación básica:
-
-**Pregunta:**
-
-Un grupo de amigos quiere organizar un concierto con dos bandas de música. La banda de música A tiene 5 músicos y la banda de música B tiene 3 músicos. Si la banda A toma un total de 15 minutos para tocar su música, y la banda B toma 20 minutos para tocar su música, ¿cuántos minutos tocarán en total?
-
-**Respuesta:**
-
-Para resolver esta pregunta, debes utilizar la resta de números. Primero, calcula la diferencia entre la cantidad de músicos de cada banda:
-
-Banda A: 5 músicos - 3 músicos = 2 músicos
-Banda B: 3 músicos - 5 músicos = -2 músicos
-
-Luego, suma la",PPO,Llama-3.2-1B-Instruct-PPO,P001
-Crea una pregunta donde el estudiante tenga que sumar dos cantidades y luego restar una tercera para obtener la respuesta.,¿Cuál es la suma de 5 y 2?,PPO,Llama-3.2-1B-Instruct-PPO,P002
-Escribe una pregunta de adición y sustracción con números de dos cifras que pueda resolverse mediante operaciones básicas.,¿Cuál es el producto de 4 y 9?,PPO,Llama-3.2-1B-Instruct-PPO,P003
-Genera una pregunta que permita practicar primero una resta y después una suma usando números naturales sencillos.,¿Cuál es la diferencia entre 5 y 2?,PPO,Llama-3.2-1B-Instruct-PPO,P004
-Crea una pregunta matemática que incluya tres cantidades y requiera decidir cuándo sumar y cuándo restar para resolverla.,¿Cuál es el producto de 4 x 9 y 7?,PPO,Llama-3.2-1B-Instruct-PPO,P005
-Escribe una pregunta de cálculo que combine adición y sustracción con números menores que cien para educación básica.,¿Cuántos libros hay en una biblioteca de 50 estantes?,PPO,Llama-3.2-1B-Instruct-PPO,P006
-Genera una pregunta donde se deba completar una operación combinada de suma y resta encontrando un número que falta.,¿Cuál es el producto de 5 y 7?,PPO,Llama-3.2-1B-Instruct-PPO,P007
-Crea una pregunta que solicite comparar dos resultados obtenidos mediante una suma y una resta con números naturales.,¿Cuál es mayor: la suma de 5 y 3 o la resta de 7 y 2?,PPO,Llama-3.2-1B-Instruct-PPO,P008
-Escribe una pregunta en la que el estudiante deba resolver dos sumas y una resta para encontrar el resultado final.,¿Cuál es el producto de 4 x 9?,PPO,Llama-3.2-1B-Instruct-PPO,P009
-Genera una pregunta de adición y sustracción que utilice números de tres cifras y tenga una única respuesta correcta.,¿Cuántos años tiene mi hermano?,PPO,Llama-3.2-1B-Instruct-PPO,P010
-Crea una pregunta donde el estudiante deba identificar qué operación de suma o resta permite obtener un resultado indicado.,¿Cuál es la operación de suma o resta que permite obtener un resultado de 25?,PPO,Llama-3.2-1B-Instruct-PPO,P011
-Escribe una pregunta matemática que incluya una suma incompleta y una resta incompleta para encontrar los valores faltantes.,"¿Cuál es el producto de la suma de los números 2, 4, 6 y 8?",PPO,Llama-3.2-1B-Instruct-PPO,P012
-Genera una pregunta que permita comprobar una resta mediante una suma y solicite determinar si el resultado es correcto.,"Preguntas para comprobar una resta mediante suma:
-
-1.  ¿Cuál es el número 1?
-2.  ¿Cuál es el número 2?
-3.  ¿Cuál es el resultado de la resta entre el número 1 y el número 2?
-4.  ¿Cuál es el resultado de la suma de los números 1 y 2?
-5.  ¿Cuál es el resultado de la resta entre el resultado de la suma de los números 1 y 2 y el número 2?
-
-Si la respuesta correcta es 1, entonces la resta es correcta.",PPO,Llama-3.2-1B-Instruct-PPO,P013
-Crea una pregunta con cuatro números naturales donde sea necesario realizar sumas y restas en el orden adecuado.,¿Cuál es el producto de 2 y 5?,PPO,Llama-3.2-1B-Instruct-PPO,P014
-Escribe una pregunta para practicar cálculo mental combinando una suma y una resta con números menores que cincuenta.,¿Cuál es la diferencia entre 25 y 10?,PPO,Llama-3.2-1B-Instruct-PPO,P015
-Genera una pregunta donde se presenten dos expresiones con sumas y restas y se deba indicar cuál resultado es mayor.,¿Cuál es mayor: 5 + 2 o 7 - 3?,PPO,Llama-3.2-1B-Instruct-PPO,P016
-Crea una pregunta de adición y sustracción que requiera encontrar el valor inicial a partir de un resultado final conocido.,"Aquí te dejo algunas preguntas de adición y sustracción que requieren encontrar el valor inicial a partir de un resultado final conocido:
-
-**Preguntas de adición:**
-
-1. Un libro tiene 250 páginas y se ha perdido 15 páginas. ¿Cuántas páginas tiene ahora?
-2. Un coche tiene 200 kilómetros y se ha recogido 30 kilómetros. ¿Cuántos kilómetros recogió el coche?
-3. Un libro tiene 500 páginas y se ha vuelto a escribir 20 páginas. ¿Cuántas páginas tiene ahora?
-
-**Preguntas de sustracción:**
-
-1. Un libro tiene 250 páginas y se ha vuelto a escribir 30 páginas. ¿Cuántas páginas tiene ahora?
-2. Un coche tiene 200 kilómetros y se ha perdido 30 kilómetros. ¿",PPO,Llama-3.2-1B-Instruct-PPO,P017
-Escribe una pregunta donde el estudiante tenga que corregir el resultado de una operación que combina suma y resta.,¿Cuál es el resultado de la operación: 5 + 2 - 3?,PPO,Llama-3.2-1B-Instruct-PPO,P018
-Genera una pregunta con números naturales consecutivos que requiera realizar una adición y una sustracción para resolverla.,¿Cuál es el producto de 5 + 2 - 1?,PPO,Llama-3.2-1B-Instruct-PPO,P019
-Crea una pregunta que evalúe el dominio de sumas y restas mediante una expresión numérica con tres operaciones sencillas.,"¡Claro! Aquí te dejo una pregunta que evalúa el dominio de sumas y restas mediante una expresión numérica con tres operaciones sencillas:
-
-**Pregunta:**
-
-¿Cuál es el resultado de la siguiente expresión: 2 + 5 - 3 + 1?
-
-**Opción A:** 4
-
-**Opción B:** 3
-
-**Opción C:** 4
-
-**Opción D:** 5
-
-**Opción E:** 2
-
-**Opción F:** 6
-
-**Opción G:** 3
-
-**Opción H:** 4
-
-**Opción I:** 5
-
-**Opción J:** 2
-
-**Opción K:** 6
-
-**Opción L:** 3
-
-**Opción M:** 4
-
-**Opción N:** 5
-
-**Opción O:** 2
-
-**Opción P:** 6
-
-**Opción Q:**",PPO,Llama-3.2-1B-Instruct-PPO,P020
-Genera una pregunta de sustracción con números naturales de dos cifras para que un estudiante encuentre la diferencia correcta.,¿Cuál es la diferencia entre 25 y 17?,PPO,Llama-3.2-1B-Instruct-PPO,P021
-Crea una pregunta donde el estudiante tenga que restar un número de tres cifras de otro número mayor.,¿Cuál es el producto de 456 y 23?,PPO,Llama-3.2-1B-Instruct-PPO,P022
-Escribe una pregunta de sustracción que incluya un valor desconocido y solicite encontrar el número que falta.,¿Cuál es el producto de 5 menos 3?,PPO,Llama-3.2-1B-Instruct-PPO,P023
-Genera una pregunta para practicar una resta con reagrupación usando números naturales apropiados para educación básica.,"¡Claro! Aquí te dejo una pregunta para practicar una resta con reagrupación usando números naturales:
-
-**Pregunta:**
-
-Un libro tiene 15 libros en la biblioteca. Un grupo de 5 libros se va a regalar a los estudiantes de la escuela. ¿Cuántos libros quedan en la biblioteca?
-
-**Respuesta:**
-
-15 - 5 = 10
-
-**Preguntas para practicar la resta con reagrupación:**
-
-1. Un grupo de 8 libros se va a regalar a los estudiantes de la escuela. ¿Cuántos libros quedan en la biblioteca?
-2. Un libro se va a regalar a un amigo. ¿Cuántos libros quedan en la biblioteca?
-3. Un grupo de 3 libros se va a regalar a los estudiantes de la escuela. ¿Cuántos libros quedan en la biblioteca?
-
-**Consejos:",PPO,Llama-3.2-1B-Instruct-PPO,P024
-Crea una pregunta de cálculo mental basada únicamente en una sustracción con números menores que cien.,¿Cuál es el producto de 25 y 75?,PPO,Llama-3.2-1B-Instruct-PPO,P025
-Escribe una pregunta donde se presenten dos restas y el estudiante tenga que determinar cuál resultado es mayor.,¿Cuál es mayor: 25 - 17 o 32 - 19?,PPO,Llama-3.2-1B-Instruct-PPO,P026
-Genera una pregunta que solicite comprobar mediante cálculo si una sustracción presentada tiene un resultado correcto.,"¡Claro! Aquí te dejo una posible pregunta:
-
-¿Cuál es el resultado de la resta de 5 y 2?",PPO,Llama-3.2-1B-Instruct-PPO,P027
-Crea una pregunta de sustracción con números de cuatro cifras que tenga una única respuesta numérica correcta.,¿Cuál es el producto de 2.345 y 6.789?,PPO,Llama-3.2-1B-Instruct-PPO,P028
-Escribe una pregunta donde el estudiante deba completar los dígitos faltantes de una operación de sustracción.,¿Cuál es el producto de 4 menos 2?,PPO,Llama-3.2-1B-Instruct-PPO,P029
-Genera una pregunta que pida ordenar tres diferencias de menor a mayor después de resolver las sustracciones correspondientes.,"¿Cuál es la diferencia entre los siguientes números:
-
-1.  2
-2.  4
-3.  6
-
-La respuesta correcta sería:
-
-1.  2
-2.  4
-3.  6",PPO,Llama-3.2-1B-Instruct-PPO,P030
-Crea una pregunta de sustracción donde el resultado sea conocido y se deba encontrar uno de los números iniciales.,¿Cuál es el producto de 5 y 7?,PPO,Llama-3.2-1B-Instruct-PPO,P031
-Escribe una pregunta que permita practicar la resta de decenas completas utilizando únicamente números naturales.,¿Cuántos decenas son iguales a 14?,PPO,Llama-3.2-1B-Instruct-PPO,P032
-Genera una pregunta donde el estudiante tenga que elegir entre varias restas cuál produce una diferencia indicada.,"¡Claro! Aquí te dejo una pregunta:
-
-¿Cuál es la diferencia entre la mitad de la suma de dos números y la mitad de la diferencia entre dos números?
-
-A) 1
-B) 2
-C) 3
-D) 4
-E) 5
-
-La respuesta correcta es C) 3.",PPO,Llama-3.2-1B-Instruct-PPO,P033
-Crea una pregunta de sustracción que incluya un número cercano a una centena para practicar el cálculo preciso.,¿Cuántos kilómetros está a 50 kilómetros de la ciudad de Madrid?,PPO,Llama-3.2-1B-Instruct-PPO,P034
-Escribe una pregunta donde se deban resolver dos sustracciones consecutivas para obtener un único resultado final.,¿Cuál es la cantidad de libros que se necesitan para un estudiante para completar un libro completo?,PPO,Llama-3.2-1B-Instruct-PPO,P035
-Genera una pregunta de sustracción con números naturales que permita identificar y corregir un error de cálculo.,"¡Claro! Aquí te dejo una pregunta de sustracción con números naturales que te permite identificar y corregir un error de cálculo:
-
-**Pregunta:** 2 × 5 - 3 = ?
-
-**Error:** La respuesta es 7, pero la respuesta correcta es 7.
-
-**Sustracción correcta:** 2 × 5 = 10
-10 - 3 = 7
-
-**Corrección:** La respuesta correcta es 7, no 10. La diferencia entre 2 y 3 es 1, y luego se resta 3, lo que da como resultado 7.",PPO,Llama-3.2-1B-Instruct-PPO,P036
-Crea una pregunta donde el estudiante compare la diferencia entre dos pares distintos de números naturales.,¿Cuál es la diferencia entre 5 y 2?,PPO,Llama-3.2-1B-Instruct-PPO,P037
-Escribe una pregunta de sustracción que requiera calcular cuánto falta para pasar de un número menor a uno mayor.,¿Cuánto falta para pasar de 100 a 50?,PPO,Llama-3.2-1B-Instruct-PPO,P038
-Genera una pregunta para practicar una resta con ceros intermedios en el número mayor y obtener la diferencia.,"Aquí tienes una pregunta para practicar la resta con ceros intermedios:
-
-¿Cuál es la resta entre 456 y 279?",PPO,Llama-3.2-1B-Instruct-PPO,P039
-Crea una pregunta que evalúe la sustracción mediante un número desconocido colocado como sustraendo en una operación.,¿Cuál es el producto de 5 y 7 menos 2?,PPO,Llama-3.2-1B-Instruct-PPO,P040
-Genera una pregunta que combine una multiplicación y una división con números naturales y produzca un resultado entero.,¿Cuál es el producto de 12 y 8?,PPO,Llama-3.2-1B-Instruct-PPO,P041
-Crea una pregunta donde el estudiante deba multiplicar dos números y luego dividir el resultado por otro número.,¿Cuál es el producto de 4 y 6?,PPO,Llama-3.2-1B-Instruct-PPO,P042
-Escribe una pregunta que permita practicar una división exacta y comprobar el resultado mediante una multiplicación.,¿Cuál es el producto de 432 y 27?,PPO,Llama-3.2-1B-Instruct-PPO,P043
-Genera una pregunta de multiplicación con dos factores y una división posterior adecuada para estudiantes de educación básica.,"¡Claro! Aquí te dejo una pregunta de multiplicación con dos factores y una división adecuada para estudiantes de educación básica:
-
-**Pregunta de multiplicación:**
-
-Un libro tiene 15 páginas y un libro de matemáticas tiene 24 páginas. ¿Cuántas páginas hay en total?
-
-**Respuesta:**
-
-15 x 24 = 360
-
-**División:**
-
-Para resolver esta pregunta, debes dividir el número de páginas del libro de matemáticas (24) entre el número de páginas del libro (15).",PPO,Llama-3.2-1B-Instruct-PPO,P044
-Crea una pregunta donde falte un factor y sea necesario utilizar multiplicación o división para encontrar su valor.,"¿Cuál es el valor de la siguiente ecuación:
-
-2x + 5 = 11
-
-Para resolver esta ecuación, necesitamos:
-
-1. Restar 5 de ambos lados de la ecuación para obtener:
-2x = 11 - 5
-2x = 6
-
-2. Dividir ambos lados de la ecuación por 2 para resolver x:
-x = 6/2
-x = 3
-
-La respuesta final es 3.",PPO,Llama-3.2-1B-Instruct-PPO,P045
-Escribe una pregunta que presente dos multiplicaciones y solicite determinar cuál de sus productos es mayor.,¿Cuál es el producto de 4 x 9?,PPO,Llama-3.2-1B-Instruct-PPO,P046
-Genera una pregunta donde se deba encontrar el divisor desconocido a partir del dividendo y el cociente conocidos.,"¡Claro! Aquí te dejo una pregunta:
-
-Un libro tiene 120 páginas y se divide en 4 volúmenes. Cada volumen tiene 30 páginas. ¿Cuál es el número de páginas en el libro?
-
-Pregúntale al número de páginas del libro: 
-
-* ¿Cuántas páginas tiene el primer volumen?
-* ¿Cuántas páginas tiene el segundo volumen?
-* ¿Cuántas páginas tiene el tercer volumen?
-* ¿Cuántas páginas tiene el cuarto volumen?
-
-La respuesta es: 120, 30, 30 y 30.",PPO,Llama-3.2-1B-Instruct-PPO,P047
-Crea una pregunta que permita practicar tablas de multiplicar y una división exacta utilizando números naturales pequeños.,"Aquí te dejo una pregunta que te permite practicar tablas de multiplicar y división exacta utilizando números naturales pequeños:
-
-**Pregunta:**
-
-Un libro tiene 15 páginas y cada página tiene 8 capas. Si se quieren dividir el libro en 3 capas, ¿cuántas páginas se pueden leer en cada capa?
-
-**Respuesta:**
-
-*   Para multiplicar 15 x 8, puedes utilizar la tabla de multiplicación de 15 x 8:
-  15 x 8 = 120
-*   Para dividir 120 entre 3, puedes utilizar la tabla de división de 120:
-  120 ÷ 3 = 40
-
-**Respuesta correcta:** 40",PPO,Llama-3.2-1B-Instruct-PPO,P048
-Escribe una pregunta donde el estudiante compare el resultado de una multiplicación con el resultado de una división.,¿Cuál es la relación entre 12 y 3?,PPO,Llama-3.2-1B-Instruct-PPO,P049
-Genera una pregunta con tres números naturales que requiera decidir si corresponde multiplicar o dividir para resolverla.,¿Cuál es el producto de 4 y 6?,PPO,Llama-3.2-1B-Instruct-PPO,P050
-Crea una pregunta donde se presente una multiplicación incompleta y el estudiante tenga que encontrar el factor faltante.,¿Cuál es el producto de 4 x 9?,PPO,Llama-3.2-1B-Instruct-PPO,P051
-Escribe una pregunta de división exacta donde el cociente tenga dos cifras y pueda verificarse con una multiplicación.,¿Cuántas unidades de 50 se pueden dividir entre 8 para obtener un cociente de 6?,PPO,Llama-3.2-1B-Instruct-PPO,P052
-Genera una pregunta que incluya dos divisiones exactas y solicite ordenar sus cocientes de menor a mayor.,¿Cuál es la diferencia entre 12 y 8?,PPO,Llama-3.2-1B-Instruct-PPO,P053
-Crea una pregunta para practicar multiplicación por diez y división entre diez utilizando únicamente números naturales.,¿Cuál es el producto de 4 multiplicado por 9?,PPO,Llama-3.2-1B-Instruct-PPO,P054
-Escribe una pregunta donde se deba completar una igualdad que contenga una multiplicación y una división.,¿Cuál es la relación entre el producto de 2 y 3 y el producto de 4 y 5?,PPO,Llama-3.2-1B-Instruct-PPO,P055
-Genera una pregunta que solicite identificar cuál multiplicación corresponde correctamente a una división exacta presentada.,"¡Claro! Aquí te dejo una pregunta:
-
-¿Cuál es la multiplicación correcta para 3 x 6?
-
-A) 18
-B) 24
-C) 30
-D) 36
-
-La respuesta correcta es B) 24.",PPO,Llama-3.2-1B-Instruct-PPO,P056
-Crea una pregunta con números naturales donde una multiplicación permita obtener el dividendo necesario para una división.,¿Cuál es el producto de 4 y 6?,PPO,Llama-3.2-1B-Instruct-PPO,P057
-Escribe una pregunta donde el estudiante tenga que corregir un resultado equivocado de multiplicación o división.,"**Pregunta:**
-
-Un libro tiene 250 páginas y cada página tiene 50 capítulos. Si el estudiante quiere leer 200 páginas, ¿cuántos capítulos leería en total?
-
-**Respuesta correcta:**
-
-Si el estudiante quiere leer 200 páginas, y cada página tiene 50 capítulos, entonces el estudiante leería 200 x 50 = 10.000 capítulos.
-
-**Respuesta incorrecta:**
-
-Si el estudiante quiere leer 200 páginas, y cada página tiene 50 capítulos, entonces el estudiante leería 200 / 50 = 4 páginas.",PPO,Llama-3.2-1B-Instruct-PPO,P058
-Genera una pregunta que combine dos multiplicaciones sencillas y una división exacta para encontrar el resultado final.,¿Cuál es el producto de 4 x 9 y el resultado de dividir 18 entre 3?,PPO,Llama-3.2-1B-Instruct-PPO,P059
-Crea una pregunta para evaluar multiplicación y división mediante una expresión numérica breve con operaciones exactas.,"Aquí te dejo una pregunta para evaluar multiplicación y división mediante una expresión numérica breve:
-
-**Pregunta:**
-
-Un libro tiene 250 páginas y cada página tiene 50 capítulos. Si se quieren dividir el libro en 4 grupos de 25 capítulos cada uno, ¿cuántos capítulos se pueden dividir en total?
-
-**Opción A:** 10 capítulos
-
-**Opción B:** 20 capítulos
-
-**Opción C:** 25 capítulos
-
-**Opción D:** 50 capítulos
-
-**Respuesta correcta:** 10 capítulos",PPO,Llama-3.2-1B-Instruct-PPO,P060
-Genera una pregunta de álgebra sencilla donde el estudiante tenga que encontrar el valor de una letra desconocida.,"¡Claro! Aquí te dejo una pregunta de álgebra sencilla:
-
-¿Cuál es el valor de x en la ecuación:
-
-2x + 5 = 11
-
-¿Cuál es la respuesta?",PPO,Llama-3.2-1B-Instruct-PPO,P061
-Crea una pregunta con una igualdad que incluya una variable y una suma para encontrar el valor faltante.,"¿Cuál es el valor de x? 
-
-x + 2 = 7",PPO,Llama-3.2-1B-Instruct-PPO,P062
-Escribe una pregunta algebraica donde una variable aparezca en una resta y tenga que ser determinada.,"¡Claro! Aquí te dejo una pregunta algebraica:
-
-Solve por x: 2x - 5 = 11
-
-¿Cuál es el valor de x?",PPO,Llama-3.2-1B-Instruct-PPO,P063
-Genera una pregunta con una multiplicación y una variable desconocida que pueda resolverse usando números naturales.,"Aquí tienes una pregunta con una multiplicación y una variable desconocida que puede resolverse usando números naturales:
-
-""Un libro tiene 5 capas de libros. Cada capa tiene 8 páginas. ¿Cuántas páginas tiene el libro en total?""
-
-Puedes intentar resolverlo y ver si puedes encontrar la respuesta correcta.",PPO,Llama-3.2-1B-Instruct-PPO,P064
-Crea una pregunta con una división sencilla donde el dividendo sea una variable y el cociente sea conocido.,¿Cuál es el producto de 2 y 5?,PPO,Llama-3.2-1B-Instruct-PPO,P065
-Escribe una pregunta que pida completar una secuencia numérica y expresar la regla mediante una operación sencilla.,"¿Cuál es el cuarto número en la secuencia: 2, 4, 6, 8, 10, ?",PPO,Llama-3.2-1B-Instruct-PPO,P066
-Genera una pregunta donde el estudiante determine si dos expresiones algebraicas sencillas tienen el mismo valor.,"¡Claro! Aquí te dejo una pregunta:
-
-¿Cuál es el valor de la expresión algebraica: 2x + 5 = 11 - 3x?
-
-Pregúntale al estudiante si la expresión satisface la misma ecuación para todos los valores posibles de x.",PPO,Llama-3.2-1B-Instruct-PPO,P067
-Crea una pregunta que incluya una variable en ambos lados de una igualdad muy sencilla para educación básica.,¿Cuál es la diferencia entre un átomo y un molécula?,PPO,Llama-3.2-1B-Instruct-PPO,P068
-Escribe una pregunta donde el estudiante sustituya un valor dado en una expresión algebraica y calcule el resultado.,"Ejemplo:
-
-Un libro tiene 250 páginas y cada página tiene 50 caracteres. Si el estudiante quiere escribir un texto de 150 caracteres, ¿cuántos caracteres escribirá?
-
-Respuesta: 10",PPO,Llama-3.2-1B-Instruct-PPO,P069
-Genera una pregunta para identificar cuál valor de una variable hace verdadera una igualdad matemática sencilla.,"Una pregunta para identificar cuál valor de una variable hace verdadera una igualdad matemática sencilla es:
-
-**¿Cuál es el valor de x que hace que la ecuación 2x + 5 = 11 sea verdadera?**
-
-Esta pregunta requiere que el estudiante resuelva la ecuación para encontrar el valor de x que hace que la ecuación sea verdadera, lo que es un concepto fundamental en matemáticas.",PPO,Llama-3.2-1B-Instruct-PPO,P070
-Crea una pregunta donde se deba escribir una expresión algebraica sencilla a partir de una relación entre números.,¿Cuál es la relación entre 2x + 5 y 3x - 2?,PPO,Llama-3.2-1B-Instruct-PPO,P071
-Escribe una pregunta que presente una expresión con una variable y solicite calcularla para dos valores diferentes.,¿Cuál es el valor de x si la expresión 2x + 5 = 11 es igual a 7?,PPO,Llama-3.2-1B-Instruct-PPO,P072
-Genera una pregunta donde el estudiante encuentre el término desconocido de un patrón numérico creciente sencillo.,"¿Cuál es el término que describe el patrón numérico que aumenta de manera creciente en cada término?
-
-Ejemplo: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608, 16777216, 33554432, 67108864, 134217728, 268435456, 536870912, 1073741824, 2147483648, 4294967296, 8589934592, 17179869184, 34359738368, 68719476736, 137438953472",PPO,Llama-3.2-1B-Instruct-PPO,P073
-Crea una pregunta algebraica que utilice una letra para representar un número desconocido en una operación de suma.,¿Cuál es la suma de 2x + 5?,PPO,Llama-3.2-1B-Instruct-PPO,P074
-Escribe una pregunta donde una variable represente un factor desconocido y deba encontrarse usando una multiplicación.,¿Cuál es el valor de x?,PPO,Llama-3.2-1B-Instruct-PPO,P075
-Genera una pregunta que pida seleccionar cuál expresión algebraica representa correctamente una igualdad numérica dada.,"Aquí tienes una pregunta que pide que se elija la expresión algebraica que representa una igualdad numérica dada:
-
-""El producto de 2x y 3 es igual a 6x.""
-
-¿Cuál es la expresión algebraica que representa esta igualdad?",PPO,Llama-3.2-1B-Instruct-PPO,P076
-Crea una pregunta donde el estudiante complete una tabla numérica sencilla siguiendo una regla expresada con una variable.,"¡Claro! Aquí te dejo una pregunta:
-
-**Pregunta:**
-
-Un grupo de estudiantes de matemáticas está estudiando la relación entre la cantidad de días de verano y la cantidad de días de invierno. La tabla a continuación muestra la cantidad de días de verano y invierno en una ciudad durante un año completo:
-
-| Mes | Días de Verano | Días de Invierno |
-| --- | --- | --- |
-| Enero | 31 | 31 |
-| Febrero | 28 | 31 |
-| Marzo | 31 | 30 |
-| Abril | 30 | 31 |
-| Mayo | 31 | 30 |
-| Junio | 30 | 31 |
-| Julio | 31 | 30 |
-| Agosto | 31 | 31 |
-| Septiembre | 30 | 31 |
-| Octubre | 31 | 30 |
-| Noviembre |",PPO,Llama-3.2-1B-Instruct-PPO,P077
-Escribe una pregunta algebraica donde sea necesario descubrir una regla sencilla observando varios pares de números.,"¡Claro! Aquí te dejo una pregunta algebraica:
-
-**Pregunta:** Si la suma de los dos números es 12 y la diferencia entre ellos es 3, ¿cuál es el valor de la suma de los dos números?
-
-**Equación:** x + y = 12 ... (1)
-x - y = 3 ... (2)
-
-**¿Qué queremos encontrar?** La suma de los dos números, que es x + y.
-
-**¿Cómo podemos resolver la ecuación?**
-
-Podemos sumar la ecuación (1) y (2) para eliminar la variable y:
-
-x + y + x - y = 12 + 3
-2x = 15
-
-Luego, podemos dividir ambos lados por 2 para resolver x:
-
-x = 15/2
-x = 7,5
-
-**¿Cuál es la respuesta?** La suma de los dos números es 7,5.",PPO,Llama-3.2-1B-Instruct-PPO,P078
-Genera una pregunta que incluya dos valores posibles para una variable y solicite indicar cuál satisface la igualdad.,¿Cuál es el valor de la variable x?,PPO,Llama-3.2-1B-Instruct-PPO,P079
-"Crea una pregunta de álgebra elemental que combine una variable, una suma y una multiplicación con números pequeños.","Aquí te dejo una pregunta de álgebra elemental que combina una variable, una suma y una multiplicación con números pequeños:
-
-¿Cuál es el producto de 2x + 5 y 3x - 2?",PPO,Llama-3.2-1B-Instruct-PPO,P080
-Genera una pregunta de geometría que permita identificar una figura plana según su número de lados y vértices.,"Una pregunta de geometría que podría permitir identificar una figura plana según su número de lados y vértices sería la siguiente:
-
-¿Cuántos lados y cuántos vértices tiene un triángulo rectángulo con 5 lados?
-
-Esta pregunta requiere que el estudiante utilice el concepto de triángulos rectángulos y su relación con los lados y vértices.",PPO,Llama-3.2-1B-Instruct-PPO,P081
-Crea una pregunta donde el estudiante tenga que calcular el perímetro de un rectángulo con medidas enteras dadas.,"**Pregunta:**
-
-Un rectángulo tiene una longitud de 8 cm y una altura de 5 cm. ¿Cuál es el perímetro del rectángulo?
-
-**Opción A:** 2(8 + 5) = 26 cm
-
-**Opción B:** 2(8 + 5) = 26 cm
-
-**Opción C:** 2(8 + 5) = 26 cm
-
-**Opción D:** 2(8 + 5) = 26 cm
-
-**Opción E:** 2(8 + 5) = 26 cm
-
-**Respuesta correcta:** 2(8 + 5) = 26 cm",PPO,Llama-3.2-1B-Instruct-PPO,P082
-Escribe una pregunta para calcular el perímetro de un cuadrado conociendo la medida de uno de sus lados.,"Para calcular el perímetro de un cuadrado, necesitamos saber la longitud de un lado. 
-
-Puedes usar la fórmula:
-
-Perímetro = 4 * lado
-
-¿Cuál es la longitud del lado del cuadrado?",PPO,Llama-3.2-1B-Instruct-PPO,P083
-Genera una pregunta donde se comparen dos figuras geométricas según la cantidad de lados que posee cada una.,¿Cuál es la diferencia entre un triángulo rectángulo y un triángulo isósceles?,PPO,Llama-3.2-1B-Instruct-PPO,P084
-Crea una pregunta que solicite identificar cuántos vértices tiene una figura geométrica plana indicada por su nombre.,¿Cuántos vértices tiene una figura geométrica plana?,PPO,Llama-3.2-1B-Instruct-PPO,P085
-Escribe una pregunta donde el estudiante tenga que calcular el área de un rectángulo con medidas naturales sencillas.,"¿Cuál es el área de un rectángulo con las siguientes medidas:
-
-- Longitud: 5 cm
-- Altura: 3 cm
-
-¿Cuál es el área de este rectángulo?",PPO,Llama-3.2-1B-Instruct-PPO,P086
-Genera una pregunta para calcular el área de un cuadrado a partir de la longitud conocida de su lado.,"Para calcular el área de un cuadrado, necesitamos usar la fórmula:
-
-Área = lado²
-
-Puedes sustituir el valor del lado en esta fórmula para encontrar el área del cuadrado.",PPO,Llama-3.2-1B-Instruct-PPO,P087
-"Crea una pregunta que permita diferenciar un triángulo, un cuadrado y un rectángulo mediante sus propiedades geométricas.","Aquí te presento algunas preguntas que podrían ayudar a diferenciar un triángulo, un cuadrado y un rectángulo mediante sus propiedades geométricas:
-
-**Pregunta 1:** ¿Cuál es la longitud de la hipotenusa de un triángulo rectángulo con catetos de longitud 5 cm y 6 cm?
-
-**Respuesta:** La hipotenusa del triángulo es de longitud 7 cm.
-
-**Pregunta 2:** ¿Cuál es la longitud de los lados de un cuadrado con lados de longitud 4 cm?
-
-**Respuesta:** Los lados del cuadrado son de longitud 4 cm.
-
-**Pregunta 3:** ¿Cuál es la longitud de la diagonal de un rectángulo con lados de longitud 8 cm y 10 cm?
-
-**Respuesta:** La diagonal del rectángulo es de longitud 12 cm.
-
-**Pregunta",PPO,Llama-3.2-1B-Instruct-PPO,P088
-Escribe una pregunta donde el estudiante determine la medida de un lado faltante conociendo el perímetro de un rectángulo.,¿Cuál es la longitud de la hipotenusa de un triángulo rectángulo con un lado faltante de 5 cm?,PPO,Llama-3.2-1B-Instruct-PPO,P089
-Genera una pregunta de geometría que solicite clasificar un triángulo según la longitud de sus lados.,"¡Claro! Aquí te dejo una pregunta de geometría para clasificar un triángulo:
-
-**Pregunta:**
-
-Un triángulo con lados de longitud 3, 4 y 5 cm, ¿cuál es su tipo de triángulo?
-
-**Opciones:**
-
-A) Triángulo rectángulo
-B) Triángulo isósceles
-C) Triángulo equilátero
-D) Triángulo trapezoidal
-
-**Respuesta correcta:** B) Triángulo isósceles
-
-**Explicación:** Un triángulo esósceles es un triángulo con dos lados de igual longitud. En este caso, las dos longitudes de los lados son 3 y 4 cm, lo que significa que el triángulo es isósceles.",PPO,Llama-3.2-1B-Instruct-PPO,P090
-Crea una pregunta donde el estudiante identifique cuál figura tiene cuatro lados iguales y cuatro ángulos rectos.,¿Cuál es el triángulo con cuatro lados iguales y cuatro ángulos rectos?,PPO,Llama-3.2-1B-Instruct-PPO,P091
-Escribe una pregunta para determinar cuántos lados y vértices tiene un pentágono y expresar ambos valores.,"Para determinar el número de lados y vértices de un pentágono, podemos utilizar la fórmula de Euler para el número de vértices de un polígono, que es:
-
-V = (n - 2)
-
-donde n es el número de lados.
-
-Para un pentágono, n = 5.
-
-V = (5 - 2)
-V = 3
-
-Por lo tanto, un pentágono tiene 3 vértices.
-
-Para determinar el número de lados, podemos utilizar la fórmula de Euler para el número de lados de un polígono, que es:
-
-L = (n - 2) × 3
-
-donde n es el número de lados.
-
-Para un pentágono, n = 5.
-
-L = (5 - 2) × 3
-L = 3 × 3
-L = 9
-
-Por lo tanto, un pentágono tiene",PPO,Llama-3.2-1B-Instruct-PPO,P092
-Genera una pregunta donde se deba comparar el perímetro de dos cuadrados con diferentes longitudes de lado.,"¿Cuál es mayor, el perímetro de un cuadrado con un lado de 5 cm o el perímetro de un cuadrado con un lado de 10 cm?",PPO,Llama-3.2-1B-Instruct-PPO,P093
-Crea una pregunta que solicite reconocer líneas paralelas y perpendiculares mediante una descripción escrita sencilla.,¿Podría ayudarte a encontrar líneas paralelas y perpendiculares?,PPO,Llama-3.2-1B-Instruct-PPO,P094
-"Escribe una pregunta donde el estudiante tenga que identificar un ángulo recto, agudo u obtuso según su medida.","¿Cuál es el ángulo recto, agudo o obtuso en el triángulo rectángulo con los lados 3, 4 y 5?",PPO,Llama-3.2-1B-Instruct-PPO,P095
-Genera una pregunta que permita calcular la medida de un lado de un cuadrado conociendo su perímetro.,"¡Claro! Aquí te dejo una pregunta que te permitirá calcular la longitud de un lado de un cuadrado conociendo su perímetro:
-
-**Pregunta:** Un cuadrado tiene un perímetro de 48 cm. ¿Cuál es la longitud de un lado del cuadrado?
-
-**Opción A:** 10 cm
-**Opción B:** 12 cm
-**Opción C:** 15 cm
-**Opción D:** 18 cm
-
-**Respuesta correcta:** 12 cm
-
-**Explicación:** El perímetro de un cuadrado es la suma de los cuatro lados, que en este caso es 48 cm. Para encontrar la longitud de un lado, dividimos el perímetro por 4:
-
-48 cm ÷ 4 = 12 cm
-
-La respuesta correcta es 12 cm.",PPO,Llama-3.2-1B-Instruct-PPO,P096
-Crea una pregunta donde se comparen las áreas de dos rectángulos a partir de sus medidas de largo y ancho.,"¿Cuál es mayor: el área de un rectángulo con largo 8 cm y ancho 5 cm, o el área de un rectángulo con largo 10 cm y ancho 6 cm?",PPO,Llama-3.2-1B-Instruct-PPO,P097
-"Escribe una pregunta de geometría que solicite identificar una figura tridimensional según sus caras, aristas y vértices.","¿Cuál es la figura tridimensional que tiene 6 caras, 12 aristas y 8 vértices?",PPO,Llama-3.2-1B-Instruct-PPO,P098
-Genera una pregunta donde el estudiante tenga que determinar cuántos ejes de simetría tiene una figura geométrica sencilla.,"¡Claro! Aquí te dejo una pregunta para que el estudiante determine el número de ejes de simetría de una figura geométrica sencilla:
-
-**Pregunta:**
-
-Determine el número de ejes de simetría de la siguiente figura geométrica:
-
-Un triángulo rectángulo con vértices A, B, C y D, y dos puntos F y G, que se encuentran en el centro del triángulo.
-
-**Figura:**
-
-A
-B
-C
-D
-F
-G
-
-**Preguntas:**
-
-1. ¿Cuántos ejes de simetría tiene la figura?
-2. ¿Cuál es el tipo de simetría que tiene la figura?
-3. ¿Cuál es el número de aristas que tiene la figura?
-4. ¿Cuál es el tipo de arista que conecta los vértices A y F?
-5. ¿Cuál es",PPO,Llama-3.2-1B-Instruct-PPO,P099
-"Crea una pregunta que evalúe el reconocimiento de círculo, triángulo, cuadrado y rectángulo mediante propiedades escritas.","Aquí te presento una pregunta que evalúa el reconocimiento de círculo, triángulo y cuadrado mediante propiedades escritas:
-
-**Pregunta:**
-
-¿Cuál es la forma en que se identifica un cuadrado en una figura geométrica?
-
-**Opción A:** La respuesta es que un cuadrado es un cuadrado, ya que todos los lados son iguales y todos los ángulos son rectos.
-
-**Opción B:** La respuesta es que un cuadrado es un cuadrado si todos los lados son iguales y todos los ángulos son rectos, pero también es posible que un cuadrado sea un cuadrado si todos los lados son iguales y todos los ángulos son rectos, pero también es posible que un cuadrado sea un cuadrado si todos los lados son iguales y todos los ángulos son rectos, pero también es",PPO,Llama-3.2-1B-Instruct-PPO,P100
+Generate a geometry question where the student identifies a plane shape from its number of sides and vertices. Use text only.,A quadrilateral has 4 sides and 4 vertices. What is the shape?,PPO,Llama-3.2-1B-Instruct-PPO,P001
+Create a question where the student calculates the perimeter of a rectangle from given whole-number measurements. Use text only.,What is the perimeter of a rectangle with a length of 8 cm and a width of 5 cm?,PPO,Llama-3.2-1B-Instruct-PPO,P002
+Write a question asking the student to calculate the perimeter of a square from the length of one side. Use text only.,What is the perimeter of a square if the length of one side is 8 cm?,PPO,Llama-3.2-1B-Instruct-PPO,P003
+Generate a question comparing two geometric shapes by the number of sides each shape has. Use text only.,What is the difference in the number of sides between a square and a hexagon?,PPO,Llama-3.2-1B-Instruct-PPO,P004
+Create a question asking how many vertices a named plane shape has. Use text only.,How many vertices does a named plane shape have?,PPO,Llama-3.2-1B-Instruct-PPO,P005
+Write a question where the student calculates the area of a rectangle using simple whole-number measurements. Use text only.,What is the area of a rectangle with a length of 8 cm and a width of 5 cm?,PPO,Llama-3.2-1B-Instruct-PPO,P006
+Generate a question asking the student to calculate the area of a square from its side length. Use text only.,What is the area of a square given its side length?,PPO,Llama-3.2-1B-Instruct-PPO,P007
+"Create a question that distinguishes a triangle, square, and rectangle using their geometric properties. Use text only.",What is the difference between a triangle with three equal sides (equilateral triangle) and a square with four right angles?,PPO,Llama-3.2-1B-Instruct-PPO,P008
+Write a question where the student finds a missing side length from the known perimeter of a rectangle. Use text only.,What is the length of the missing side of a rectangle with a known perimeter of 48 cm?,PPO,Llama-3.2-1B-Instruct-PPO,P009
+Generate a geometry question asking the student to classify a triangle by the lengths of its sides. Use text only.,"What is the classification of the triangle with sides 3-4-5, 5-12-13, and 7-24-25?",PPO,Llama-3.2-1B-Instruct-PPO,P010
+Create a question where the student identifies the shape with four equal sides and four right angles. Use text only.,What is a square?,PPO,Llama-3.2-1B-Instruct-PPO,P011
+Write a question asking how many sides and vertices a pentagon has. Use text only.,How many sides and vertices does a pentagon have?,PPO,Llama-3.2-1B-Instruct-PPO,P012
+Generate a question where the student compares the perimeters of two squares with different side lengths. Use text only.,What is the perimeter of the larger square compared to the smaller square?,PPO,Llama-3.2-1B-Instruct-PPO,P013
+Create a question asking the student to recognize parallel and perpendicular lines from a simple written description. Use text only.,What are the following lines parallel and perpendicular to each other?,PPO,Llama-3.2-1B-Instruct-PPO,P014
+"Write a question where the student identifies an angle as right, acute, or obtuse from its measure. Use text only.",What is the measure of angle ∠B in the given diagram?,PPO,Llama-3.2-1B-Instruct-PPO,P015
+Generate a question where the student finds the side length of a square from its known perimeter. Use text only.,What is the side length of a square given its perimeter of 48 units?,PPO,Llama-3.2-1B-Instruct-PPO,P016
+Create a question comparing the areas of two rectangles from their lengths and widths. Use text only.,"Which rectangle has a larger area: 
+- Rectangle 1: length = 8 cm, width = 5 cm
+- Rectangle 2: length = 10 cm, width = 6 cm",PPO,Llama-3.2-1B-Instruct-PPO,P017
+"Write a geometry question asking the student to identify a three-dimensional shape from its faces, edges, and vertices. Use text only.","What is the name of the three-dimensional shape with 6 faces, 8 edges, and 6 vertices?",PPO,Llama-3.2-1B-Instruct-PPO,P018
+Generate a question where the student determines the number of lines of symmetry in a simple geometric shape. Use text only.,What is the number of lines of symmetry in a square?,PPO,Llama-3.2-1B-Instruct-PPO,P019
+"Create a question that assesses recognition of circles, triangles, squares, and rectangles from written properties. Use text only.","What is the property of a square that is represented by the following sentence: ""The shape with four right angles and four sides of equal length is a square.""",PPO,Llama-3.2-1B-Instruct-PPO,P020
+Create a word problem where a rectangular garden has given length and width and the student finds its perimeter. Use text only.,A rectangular garden has a length of 12 meters and a width of 8 meters. What is the perimeter of the garden?,PPO,Llama-3.2-1B-Instruct-PPO,P021
+Generate a word problem where square tiles cover a small rectangular floor and the student finds the total area. Use text only.,"A school is renovating its gymnasium and needs to cover the floor with square tiles. The gymnasium measures 15 meters long and 8 meters wide. If the tiles are 0.5 meters square, how many tiles will be needed to cover the entire floor?",PPO,Llama-3.2-1B-Instruct-PPO,P022
+Write a geometry problem where the student compares two routes made of straight line segments and determines which is longer. Use text only.,"A rectangular garden measures 15 meters by 8 meters. Two routes are made of straight line segments: 
+
+Route 1: 3 meters long, 4 meters long, and 5 meters long
+Route 2: 2 meters long, 6 meters long, and 4 meters long
+
+Which route is longer?",PPO,Llama-3.2-1B-Instruct-PPO,P023
+Create a problem where the student finds an unknown rectangle dimension from its area and one known side. Use text only.,A rectangular prism has an area of 144 square units and a side length of 6 units. What is the length of the other side?,PPO,Llama-3.2-1B-Instruct-PPO,P024
+"Generate a problem describing a simple solid shape and ask the student to identify it using its faces, edges, and vertices. Use text only.","A rectangular prism has the following properties:
+
+- Length: 8 cm
+- Width: 6 cm
+- Height: 4 cm
+- Number of faces: 6
+- Number of edges: 12
+- Number of vertices: 8
+
+Identify the shape using its faces, edges, and vertices.",PPO,Llama-3.2-1B-Instruct-PPO,P025
+Generate a question combining multiplication and division with natural numbers that gives a whole-number result. Use text only.,What is 6 divided by 2 multiplied by 9?,PPO,Llama-3.2-1B-Instruct-PPO,P026
+Create a question where the student multiplies two numbers and then divides the result by another number. Use text only.,What is 24 multiplied by 6 divided by 4?,PPO,Llama-3.2-1B-Instruct-PPO,P027
+Write a question that practices exact division and asks the student to check the result using multiplication. Use text only.,What is 48 ÷ 6 = ?,PPO,Llama-3.2-1B-Instruct-PPO,P028
+Generate a multiplication question with two factors followed by a division suitable for elementary students. Use text only.,"2 x 6 = ? 
+ Divide 12 by 2",PPO,Llama-3.2-1B-Instruct-PPO,P029
+Create a question with a missing factor where multiplication or division is needed to find its value. Use text only.,What is 48 ÷ 6 + 9?,PPO,Llama-3.2-1B-Instruct-PPO,P030
+Write a question with two multiplications and ask the student to determine which product is greater. Use text only.,What is the product of 4 × 9 compared to the product of 6 × 8?,PPO,Llama-3.2-1B-Instruct-PPO,P031
+Generate a question where the student finds an unknown divisor from a known dividend and quotient. Use text only.,What is the unknown divisor if 48 ÷ 12 = 4 and 12 ÷ 3 = 4?,PPO,Llama-3.2-1B-Instruct-PPO,P032
+Create a question that practices multiplication facts and exact division using small natural numbers. Use text only.,"Here's a question that practices multiplication facts and exact division using small natural numbers:
+
+What is 4 x 6 ÷ 2?",PPO,Llama-3.2-1B-Instruct-PPO,P033
+Write a question where the student compares the result of a multiplication with the result of a division. Use text only.,What is the result of 6 x 9 divided by 3 compared to 12 x 8?,PPO,Llama-3.2-1B-Instruct-PPO,P034
+Generate a question with three natural numbers where the student decides whether to multiply or divide. Use text only.,"A farmer has 3 baskets of apples, 4 baskets of pears, and 5 baskets of plums. If the farmer wants to put an equal number of each type of fruit in each basket, how many baskets of each type of fruit should the farmer put in each basket?",PPO,Llama-3.2-1B-Instruct-PPO,P035
+Create a question with an incomplete multiplication where the student must find the missing factor. Use text only.,What is the missing factor in the equation: 6 x 9 = ?,PPO,Llama-3.2-1B-Instruct-PPO,P036
+Write an exact-division question with a two-digit quotient that can be checked using multiplication. Use text only.,What is 48 ÷ 6 = ?,PPO,Llama-3.2-1B-Instruct-PPO,P037
+Generate a question with two exact divisions and ask the student to order the quotients from least to greatest. Use text only.,What are the exact divisions: 12 ÷ 2 and 24 ÷ 3?,PPO,Llama-3.2-1B-Instruct-PPO,P038
+Create a question that practices multiplication by ten and division by ten using natural numbers. Use text only.,What is 5 x 10 divided by 2?,PPO,Llama-3.2-1B-Instruct-PPO,P039
+Write a question where the student completes an equation containing both multiplication and division. Use text only.,What is 3 x 6 ÷ 2,PPO,Llama-3.2-1B-Instruct-PPO,P040
+Generate a question asking which multiplication correctly matches a given exact division. Use text only.,"Which of the following multiplication equations is equivalent to the given division equation?
+
+2 × 6 ÷ 3 = ?
+
+A) 4 × 2
+B) 6 × 4
+C) 12 × 2
+D) 8 × 6",PPO,Llama-3.2-1B-Instruct-PPO,P041
+Create a question where multiplication produces the dividend needed for a division with natural numbers. Use text only.,What is the product of 4 and 9?,PPO,Llama-3.2-1B-Instruct-PPO,P042
+Write a question where the student corrects an incorrect multiplication or division result. Use text only.,"Student: ""I think the answer to 3 x 9 is 27, not 25.""
+
+Teacher: ""That's correct, but let's check the calculation. 3 x 9 is actually 27, not 25. The correct answer is 27.""",PPO,Llama-3.2-1B-Instruct-PPO,P043
+Generate a question combining two simple multiplications and one exact division to find the final result. Use text only.,What is 3 × 2 ÷ 6?,PPO,Llama-3.2-1B-Instruct-PPO,P044
+Create a question that assesses multiplication and division using a short numerical expression with exact operations. Use text only.,What is the product of 4 × 9 ÷ 3?,PPO,Llama-3.2-1B-Instruct-PPO,P045
+Create a word problem where equal groups are formed and the student uses multiplication to find the total number of objects. Use text only.,"A school has 18 students in each of 3 groups. If the teacher wants to divide the students into groups of 4, how many groups can be formed?",PPO,Llama-3.2-1B-Instruct-PPO,P046
+Generate a word problem where a set of objects is shared equally and the student uses division to find how many each group receives. Use text only.,Maria has 18 cookies to share with her class. She wants to divide them equally among 6 students. How many cookies will each student get?,PPO,Llama-3.2-1B-Instruct-PPO,P047
+Write a problem where the student first finds a total using multiplication and then shares it equally using division. Use text only.,Tom has 48 pencils in his pencil case. He wants to share them equally among his 8 friends. How many pencils will each friend get?,PPO,Llama-3.2-1B-Instruct-PPO,P048
+Create a problem involving rows and columns where the student uses multiplication to find the total and division to verify it. Use text only.,"A bookstore has 5 rows of 8 shelves each. The total number of books in the store is 480. How many books are in the store? 
+
+To find the total number of books, multiply the number of rows by the number of shelves per row: 
+5 rows * 8 shelves/row = 40 shelves
+To verify, divide the total number of books by the number of shelves per row: 
+480 books / 8 shelves/row = 60 books per row
+Since 60 books per row is equal to 40 shelves, the total number of books in the store is indeed 480.",PPO,Llama-3.2-1B-Instruct-PPO,P049
+Generate a word problem where the student finds how many equal packages can be made from a total number of items. Use text only.,"A bookstore has 480 boxes of pens and 750 boxes of pencils. If they want to package 12 boxes of pens and 15 boxes of pencils, how many packages can they make in total?",PPO,Llama-3.2-1B-Instruct-PPO,P050
+Generate a math question that combines addition and subtraction with natural numbers for elementary students. Use text only.,"Here's a math question for elementary students:
+
+Tom has 15 pencils in his pencil case. He gives 7 to his friend. How many pencils does Tom have left?",PPO,Llama-3.2-1B-Instruct-PPO,P051
+Create a question where the student adds two quantities and then subtracts a third quantity to find the answer. Use text only.,What is 5 + 2 - 3?,PPO,Llama-3.2-1B-Instruct-PPO,P052
+Write an addition and subtraction question with two-digit numbers that can be solved using basic operations. Use text only.,"14 + 27 - 19
+__________
+ 
+Solution: 50",PPO,Llama-3.2-1B-Instruct-PPO,P053
+Generate a question that practices subtraction first and then addition using simple natural numbers. Use text only.,"1.  25 - 7 = ?
+2.  43 - 19 = ?",PPO,Llama-3.2-1B-Instruct-PPO,P054
+Create a math question with three quantities where the student must decide when to add and when to subtract. Use text only.,"A bakery sells 240 loaves of bread per day. They receive a discount of 10% on the daily sales. If the bakery wants to make a profit of $1000, how many days must they sell the bread to reach their goal?",PPO,Llama-3.2-1B-Instruct-PPO,P055
+Write a calculation question combining addition and subtraction with numbers below 100 for elementary education. Use text only.,"Here's a calculation question for elementary education:
+
+Tom has 25 pencils in his pencil case. He gives 15 to his friend. How many pencils does Tom have left?",PPO,Llama-3.2-1B-Instruct-PPO,P056
+Generate a question where the student completes a combined addition and subtraction operation by finding a missing number. Use text only.,"Here's a question for you:
+
+Tom has 250 pencils in his pencil case. He gives 75 to his friend and then adds 150 more. How many pencils does Tom have now?",PPO,Llama-3.2-1B-Instruct-PPO,P057
+Create a question asking the student to compare two results obtained from an addition and a subtraction with natural numbers. Use text only.,"What are the results of the following addition and subtraction operations:
+
+  5 + 3 = ? 
+  7 - 2 = ?",PPO,Llama-3.2-1B-Instruct-PPO,P058
+Write a question where the student solves two additions and one subtraction to find the final result. Use text only.,What is 457 + 279 - 125?,PPO,Llama-3.2-1B-Instruct-PPO,P059
+Generate an addition and subtraction question using three-digit numbers with one correct answer. Use text only.,What is 854 + 219 - 467?,PPO,Llama-3.2-1B-Instruct-PPO,P060
+Create a question where the student identifies which addition or subtraction operation produces a given result. Use text only.,What operation produces the result 24 when 8 is added to 16?,PPO,Llama-3.2-1B-Instruct-PPO,P061
+Write a math question with an incomplete addition and an incomplete subtraction where the missing values must be found. Use text only.,A bookshelf has 15 books on it.  8 more books are added to it. How many books are on the bookshelf now?,PPO,Llama-3.2-1B-Instruct-PPO,P062
+Generate a question where the student checks a subtraction using addition and decides whether the result is correct. Use text only.,"Here's a question:
+
+Tom has 250 pencils in his pencil case. He gives 75 to his friend. How many pencils does Tom have left?",PPO,Llama-3.2-1B-Instruct-PPO,P063
+Create a question with four natural numbers that requires additions and subtractions in the correct order. Use text only.,"1.  5 + 2 - 8 - 3
+2.  9 - 1 + 4 - 6
+3.  7 + 2 - 9 - 1
+4.  3 + 1 - 8 + 2",PPO,Llama-3.2-1B-Instruct-PPO,P064
+Write a mental-math question combining one addition and one subtraction with numbers below 50. Use text only.,What is 25 + 17 - 8?,PPO,Llama-3.2-1B-Instruct-PPO,P065
+Generate a question with two expressions containing additions and subtractions and ask which result is greater. Use text only.,Which of the following is greater:  25 + 17 - 8 or  17 - 12 + 5?,PPO,Llama-3.2-1B-Instruct-PPO,P066
+Create an addition and subtraction question where the student finds the starting value from a known final result. Use text only.,"Here's an addition and subtraction question:
+
+Tom has 250 pencils in his pencil case. He gives 75 to his friend. How many pencils does Tom have left?",PPO,Llama-3.2-1B-Instruct-PPO,P067
+Write a question where the student must correct an incorrect result from an operation combining addition and subtraction. Use text only.,What is the correct result of  12 + 5 - 8?,PPO,Llama-3.2-1B-Instruct-PPO,P068
+Generate a question with consecutive natural numbers that requires one addition and one subtraction to solve. Use text only.,14 + 7 - 3,PPO,Llama-3.2-1B-Instruct-PPO,P069
+Create a question that assesses addition and subtraction using a numerical expression with three simple operations. Use text only.,"Here's a question that assesses addition and subtraction using a numerical expression with three simple operations:
+
+""Tom has 15 pencils in his pencil case. He gives 7 to his friend. How many pencils does Tom have left?""",PPO,Llama-3.2-1B-Instruct-PPO,P070
+Generate a subtraction question with two-digit natural numbers where the student must find the correct difference. Use text only.,A 4-digit number is subtracted from a 3-digit number.,PPO,Llama-3.2-1B-Instruct-PPO,P071
+Create a question where the student subtracts a three-digit number from a larger number. Use text only.,What is  456 subtracted from 987?,PPO,Llama-3.2-1B-Instruct-PPO,P072
+Write a subtraction question with an unknown value and ask the student to find the missing number. Use text only.,What is  432 - 120?,PPO,Llama-3.2-1B-Instruct-PPO,P073
+Generate a subtraction question with regrouping using natural numbers appropriate for elementary students. Use text only.,2  x  5 = ?,PPO,Llama-3.2-1B-Instruct-PPO,P074
+Create a mental-math question based on subtraction with numbers below 100. Use text only.,What is 43 - 27?,PPO,Llama-3.2-1B-Instruct-PPO,P075
+Generate a simple algebra question where the student must find the value of an unknown letter. Use text only.,"Solve for x: 2x + 5 = 11
+
+What is the value of x?",PPO,Llama-3.2-1B-Instruct-PPO,P076
+Create a question with an equation containing a variable and addition where the missing value must be found. Use text only.,What is the value of x in the equation: 2x + 5 = 11?,PPO,Llama-3.2-1B-Instruct-PPO,P077
+Write an algebra question where a variable appears in a subtraction and must be determined. Use text only.,Solve for x: 2x - 5 = 11,PPO,Llama-3.2-1B-Instruct-PPO,P078
+Generate a question with multiplication and an unknown variable that can be solved using natural numbers. Use text only.,What is 3 times 6?,PPO,Llama-3.2-1B-Instruct-PPO,P079
+Create a simple division question where the dividend is a variable and the quotient is known. Use text only.,What is 48 ÷ 6?,PPO,Llama-3.2-1B-Instruct-PPO,P080
+Write a question asking the student to complete a number sequence and describe the rule using a simple operation. Use text only.,"What is the next number in the sequence: 2, 5, 8, 11, 14, 17, ?",PPO,Llama-3.2-1B-Instruct-PPO,P081
+Generate a question where the student decides whether two simple algebraic expressions have the same value. Use text only.,"Here's a question:
+
+2x + 5 = 11x - 3
+
+Do you think the expressions 2x + 5 and 11x - 3 have the same value?",PPO,Llama-3.2-1B-Instruct-PPO,P082
+Create a question with a variable on both sides of a very simple equation for elementary students. Use text only.,What is the value of x in the equation: 2x + 5 = 11?,PPO,Llama-3.2-1B-Instruct-PPO,P083
+Write a question where the student substitutes a given value into an algebraic expression and calculates the result. Use text only.,What is the value of x in the equation 2x + 5 = 11?,PPO,Llama-3.2-1B-Instruct-PPO,P084
+Generate a question asking which value of a variable makes a simple mathematical equation true. Use text only.,What value of x makes the equation 2x + 5 = 11 true?,PPO,Llama-3.2-1B-Instruct-PPO,P085
+Create a question where the student writes a simple algebraic expression from a relationship between numbers. Use text only.,What is the value of x in the equation 2x + 5 = 11?,PPO,Llama-3.2-1B-Instruct-PPO,P086
+Write a question with an expression containing a variable and ask the student to evaluate it for two different values. Use text only.,What is the value of x when y = 5 and x = 3?,PPO,Llama-3.2-1B-Instruct-PPO,P087
+Generate a question where the student finds the unknown term in a simple increasing number pattern. Use text only.,"What is the next number in the sequence: 1, 4, 9, 16, 25, ?",PPO,Llama-3.2-1B-Instruct-PPO,P088
+Create an algebra question that uses a letter to represent an unknown number in an addition operation. Use text only.,"A bookshelf has 5 shelves, and each shelf can hold 8 books. If the bookshelf is currently empty, how many books can be placed on it in total?",PPO,Llama-3.2-1B-Instruct-PPO,P089
+Write a question where a variable represents an unknown factor and must be found using multiplication. Use text only.,What is the product of 2 and 5?,PPO,Llama-3.2-1B-Instruct-PPO,P090
+Generate a question asking the student to select which algebraic expression correctly represents a given numerical equality. Use text only.,Which of the following algebraic expressions correctly represents the equation 2x + 5 = 11?,PPO,Llama-3.2-1B-Instruct-PPO,P091
+Create a question where the student completes a simple number table by following a rule written with a variable. Use text only.,"Here's a question for you:
+
+A bookshelf has 5 shelves, and each shelf can hold 8 books. If the bookshelf is currently empty, how many books can be placed on it in total?",PPO,Llama-3.2-1B-Instruct-PPO,P092
+Write an algebra question where the student discovers a simple rule by observing several pairs of numbers. Use text only.,"A bakery sells 3 dozen loaves of bread per day. If they sell 2 more loaves than the previous day, and 4 more loaves than the day before that, how many loaves of bread does the bakery sell each day?",PPO,Llama-3.2-1B-Instruct-PPO,P093
+Generate a question with two possible values for a variable and ask which one satisfies the equation. Use text only.,What is the value of x if 2x + 5 = 11?,PPO,Llama-3.2-1B-Instruct-PPO,P094
+"Create an elementary algebra question combining a variable, addition, and multiplication with small numbers. Use text only.",2x + 5 × 3 = 23,PPO,Llama-3.2-1B-Instruct-PPO,P095
+Create a word problem where an unknown number of objects is represented by x and the student writes and solves an addition equation. Use text only.,Tom has 5 boxes of pencils in his art class. His friend gives him 8 more boxes of pencils. How many boxes of pencils does Tom have now?,PPO,Llama-3.2-1B-Instruct-PPO,P096
+Generate a simple balance problem where two expressions must be equal and the student finds the missing value. Use text only.,Tom has been saving money for a new bike and has $120 in his savings account. He wants to buy a bike that costs $180. Tom's parents have agreed to give him an allowance of $15 per week for doing chores. How much more money does Tom need to save to buy the bike?,PPO,Llama-3.2-1B-Instruct-PPO,P097
+"Write a problem where a number is doubled and then increased by a small amount, and the student finds the starting number. Use text only.",Tom has 1200 dollars in his savings account. He decides to double the amount and then add 500. How much money does Tom have now?,PPO,Llama-3.2-1B-Instruct-PPO,P098
+Create a pattern problem where the student predicts the next two terms and writes a simple rule using n. Use text only.,"**Pattern Problem:**
+
+The pattern is: 2, 5, 8, 11, 14, ?
+
+**Student's Prediction:**
+
+The next two terms are: 17, 19
+
+**Rule:**
+
+The pattern is formed by adding 3, then 3, then 3, and so on, increasing the increment by 3 each time.",PPO,Llama-3.2-1B-Instruct-PPO,P099
+Generate a word problem where the student translates a short statement into an equation with one unknown and solves it. Use text only.,Tom has been saving money for a new bike and has $120 in his savings account. He plans to buy a bike that costs $180. Tom's parents have agreed to give him an allowance of $15 per week for doing chores. How many weeks will it take Tom to save enough money to buy the bike?,PPO,Llama-3.2-1B-Instruct-PPO,P100
