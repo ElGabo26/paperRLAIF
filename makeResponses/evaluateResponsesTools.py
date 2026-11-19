@@ -27,19 +27,41 @@ def load_encoder(
     encoder_path: str,
     device: torch.device,
 ):
+    from transformers import AutoModel, AutoTokenizer
+
+    ruta = Path(encoder_path)
+
+    if not ruta.is_dir():
+        raise FileNotFoundError(
+            f"No existe el directorio: {ruta}"
+        )
+
+    print("Cargando tokenizador DeBERTa...")
+
     tokenizer = AutoTokenizer.from_pretrained(
-        encoder_path
+        str(ruta),
+        local_files_only=True,
+        use_fast=False,
     )
+
+    print("Tokenizador:", type(tokenizer))
+    print("Fast tokenizer:", tokenizer.is_fast)
+
+    print("Cargando modelo DeBERTa...")
 
     encoder = AutoModel.from_pretrained(
-        encoder_path
+        str(ruta),
+        local_files_only=True,
     )
 
-    encoder.to(device)
+    encoder = encoder.to(device=device, dtype=torch.float32)
+
     encoder.eval()
 
-    return tokenizer, encoder
+    for parametro in encoder.parameters():
+        parametro.requires_grad_(False)
 
+    return tokenizer, encoder
 
 # ============================================================
 # 3. Cargar el cabezal completo
@@ -167,7 +189,6 @@ def mean_pooling(
 # ============================================================
 # 6. Crear embeddings mediante mean pooling
 # ============================================================
-
 @torch.inference_mode()
 def create_embeddings(
     prompts: Sequence[str],
@@ -175,13 +196,29 @@ def create_embeddings(
     encoder: nn.Module,
     device: torch.device,
     batch_size: int = 8,
-    max_length: int = 128,
+    max_length: int = 256,
 ) -> torch.Tensor:
 
     if len(prompts) == 0:
         raise ValueError(
-            "La colección de prompts está vacía."
+            "La colección de respuestas está vacía."
         )
+
+    if batch_size <= 0:
+        raise ValueError(
+            "batch_size debe ser mayor que cero."
+        )
+
+    if any(
+        not isinstance(prompt, str)
+        for prompt in prompts
+    ):
+        raise ValueError(
+            "Todos los prompts deben ser cadenas de texto. "
+            "Comprueba valores nulos en el CSV."
+        )
+
+    encoder.eval()
 
     all_embeddings = []
 
@@ -206,28 +243,21 @@ def create_embeddings(
 
         outputs = encoder(**encoded)
 
-        # Forma:
-        # [batch_size, sequence_length, hidden_size]
-        last_hidden_state = outputs.last_hidden_state
-
-        # Mean pooling considerando únicamente tokens reales.
         embeddings = mean_pooling(
-            last_hidden_state=last_hidden_state,
+            last_hidden_state=outputs.last_hidden_state,
             attention_mask=encoded["attention_mask"],
         )
 
-        # Mueve los embeddings a CPU para reducir el uso
-        # acumulado de memoria de la GPU.
         all_embeddings.append(
-            embeddings.cpu()
+            embeddings.to(
+                dtype=torch.float32
+            ).cpu()
         )
 
     return torch.cat(
         all_embeddings,
         dim=0,
     )
-
-
 # ============================================================
 # 7. Clasificar prompts
 # ============================================================
