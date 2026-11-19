@@ -7,7 +7,7 @@ PROMPTS_CSV = "/workspace/paperRLAIF/makeResponses/promptBases/finalPromptBases/
 prompts_df = pd.read_csv(PROMPTS_CSV)
 DPO_MODELS_PATH="/workspace/adaptedModels/DPO"
 PPO_MODELS_PATH="/workspace/adaptedModels/PPO/finalPPOModels"
-RESPONSES_PATH="/workspace/papaerRLAIF/makeResponses/responses"
+RESPONSES_PATH="/workspace/paperRLAIF/makeResponses/responses"
 
 prompts=prompts_df["prompt"].tolist()
 
