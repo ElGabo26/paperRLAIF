@@ -14,6 +14,7 @@ prompts=prompts_df["prompt"].tolist()
 #respuestas  DPO 
 
 dpoRoutes=os.listdir(DPO_MODELS_PATH)
+print(dpoRoutes)
 for dpoRoute in dpoRoutes:
     responses=[]
     model_path = os.path.join(DPO_MODELS_PATH, dpoRoute)
