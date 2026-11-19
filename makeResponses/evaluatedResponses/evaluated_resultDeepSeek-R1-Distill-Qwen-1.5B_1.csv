@@ -30,7 +30,7 @@ A shape has 5 sides and 5 vertices. What is it?
 A) Pentagon  
 B) Hexagon  
 C) Square  
-D) Triangle",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,0,mathematics,0.6555299460887909,0.6555299460887909,0.3444700539112091,0.6555299460887909,0.3444700539112091,1,OTRO,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,1,algebra,0.9887605309486389,0.00021625244698952883,0.9887605309486389,0.009947209618985653,0.00025649380404502153,0.0008194739930331707
+D) Triangle",1,1,0.7975709438323975,0.20242905616760254,0.7975709438323975,0.20242905616760254,0.7975709438323975,0,mathematics,0.8205235600471497,0.8205235600471497,0.17947643995285034,0.8205235600471497,0.17947643995285034,1,OTRO,0.9840691685676575,0.01593083143234253,0.9840691685676575,0.01593083143234253,0.9840691685676575,3,geometry,0.7567464113235474,0.003984420094639063,0.04650840535759926,0.15595214068889618,0.7567464113235474,0.036808665841817856
 1,"To determine the perimeter of a rectangle, I need to use the formula that involves the lengths of its sides. The perimeter is calculated by adding together twice the length and twice the width. 
 
 Given that both the length and width are whole numbers, I can choose specific values for them to demonstrate the calculation. For example, if the length is 5 units and the width is 3 units, I can plug these values into the formula.
@@ -68,7 +68,7 @@ P = 2 \times (5 + 3) = 2 \times 8 = 16 \text{ units}
 
 \[
 \boxed{16}
-\]",1,1,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,0,mathematics,0.7446735501289368,0.7446735501289368,0.25532644987106323,0.7446735501289368,0.25532644987106323,1,OTRO,0.9999866485595703,1.33514404296875e-05,0.9999866485595703,1.33514404296875e-05,0.9999866485595703,1,algebra,0.9529588222503662,0.020585456863045692,0.9529588222503662,0.002025929745286703,1.6619894722680328e-06,0.024428023025393486
+\]",1,1,0.9936676621437073,0.006332337856292725,0.9936676621437073,0.006332337856292725,0.9936676621437073,1,otro,0.6160781979560852,0.3839218020439148,0.6160781979560852,0.3839218020439148,0.6160781979560852,1,OTRO,0.9932671785354614,0.006732821464538574,0.9932671785354614,0.006732821464538574,0.9932671785354614,4,otro,0.33929187059402466,0.10108483582735062,0.15278759598731995,0.2039937674999237,0.20284195244312286,0.33929187059402466
 2,"I need to create a question for the student to calculate the perimeter of a square using the length of one side.
 
 First, I'll identify the key information required: the length of one side of the square.
@@ -80,7 +80,7 @@ Finally, I'll phrase the question in a clear and straightforward manner to ensur
 
 **Question:**
 
-Calculate the perimeter of a square if the length of one side is 12 units.",1,1,0.9999988079071045,1.1920928955078125e-06,0.9999988079071045,1.1920928955078125e-06,0.9999988079071045,0,mathematics,0.8136094957590103,0.8136094957590103,0.18639050424098969,0.8136094957590103,0.18639050424098969,1,OTRO,0.9999985694885254,1.430511474609375e-06,0.9999985694885254,1.430511474609375e-06,0.9999985694885254,1,algebra,0.9733772277832031,0.011472397483885288,0.9733772277832031,0.0036780880764126778,7.008084503468126e-05,0.011402136646211147
+Calculate the perimeter of a square if the length of one side is 12 units.",0,0,0.9980325007345527,0.9980325007345527,0.001967499265447259,0.9980325007345527,0.001967499265447259,1,otro,0.7514219880104065,0.2485780119895935,0.7514219880104065,0.2485780119895935,0.7514219880104065,1,OTRO,0.9881066083908081,0.011893391609191895,0.9881066083908081,0.011893391609191895,0.9881066083908081,4,otro,0.6127896308898926,0.020506009459495544,0.02741706371307373,0.04121502488851547,0.29807236790657043,0.6127896308898926
 3,"Okay, so I need to generate a question that compares the number of sides of two geometric shapes. The user wants it in text only, so I should avoid any markdown or formatting. Let me think about how to approach this.
 
 First, I should choose two common geometric shapes. A pentagon and a hexagon come to mind because they are both regular polygons and have a clear number of sides. That should make the comparison straightforward.
@@ -96,7 +96,7 @@ Putting it all together, the question should be something like: ""Compare the nu
 I think that's a good start. It clearly asks for the comparison and specifies the shapes involved. I don't see any issues with this phrasing, so I'll go with that.
 </think>
 
-Compare the number of sides of a pentagon and a hexagon.",1,1,0.9998338222503662,0.00016617774963378906,0.9998338222503662,0.00016617774963378906,0.9998338222503662,0,mathematics,0.6815304160118103,0.6815304160118103,0.3184695839881897,0.6815304160118103,0.3184695839881897,1,OTRO,0.9999973773956299,2.6226043701171875e-06,0.9999973773956299,2.6226043701171875e-06,0.9999973773956299,1,algebra,0.9915693402290344,0.0059355818666517735,0.9915693402290344,0.0005841446691192687,4.1848445107461885e-05,0.0018690982833504677
+Compare the number of sides of a pentagon and a hexagon.",1,1,0.6601182222366333,0.3398817777633667,0.6601182222366333,0.3398817777633667,0.6601182222366333,0,mathematics,0.8712124973535538,0.8712124973535538,0.12878750264644623,0.8712124973535538,0.12878750264644623,1,OTRO,0.9316036105155945,0.06839638948440552,0.9316036105155945,0.06839638948440552,0.9316036105155945,3,geometry,0.7276427745819092,0.04067649692296982,0.0025144717656075954,0.22681547701358795,0.7276427745819092,0.0023507406003773212
 4,"Okay, so I need to create a question that asks how many vertices a named plane shape has. The user wants it in text only, so I shouldn't include any markdown or special formatting. Let me think about how to phrase this.
 
 First, I should make sure the question is clear and direct. The user is asking about vertices, which are the corners of a shape. So, I need to specify that it's a plane shape, which is a two-dimensional figure. 
@@ -108,7 +108,7 @@ I should also consider if there's a specific shape mentioned, but since it's not
 Putting it all together, the question would be: ""How many vertices does a plane shape have?"" That should work. It's clear, direct, and meets the user's requirements.
 </think>
 
-How many vertices does a plane shape have?",1,1,0.9999985694885254,1.430511474609375e-06,0.9999985694885254,1.430511474609375e-06,0.9999985694885254,0,mathematics,0.7223737835884094,0.7223737835884094,0.2776262164115906,0.7223737835884094,0.2776262164115906,1,OTRO,0.9999877214431763,1.2278556823730469e-05,0.9999877214431763,1.2278556823730469e-05,0.9999877214431763,1,algebra,0.9954999089241028,0.0007641435950063169,0.9954999089241028,0.002466716570779681,2.799732465064153e-05,0.0012411641655489802
+How many vertices does a plane shape have?",0,0,0.9445228949189186,0.9445228949189186,0.05547710508108139,0.9445228949189186,0.05547710508108139,1,otro,0.8547963500022888,0.14520364999771118,0.8547963500022888,0.14520364999771118,0.8547963500022888,1,OTRO,0.9548784494400024,0.04512155055999756,0.9548784494400024,0.04512155055999756,0.9548784494400024,2,division-multiplication,0.5642276406288147,0.03461378067731857,0.01298461016267538,0.5642276406288147,0.3507750630378723,0.037398941814899445
 5,"I need to create a question where the student calculates the area of a rectangle using simple whole-number measurements. The question should be clear and straightforward, focusing on the formula for the area of a rectangle.
 
 First, I'll identify the necessary measurements: length and width. Since they are simple whole numbers, I'll choose 5 and 6 as examples.
@@ -119,7 +119,7 @@ Finally, I'll ensure the question is concise and easy to understand, avoiding an
 </think>
 
 **Question:**  
-Calculate the area of a rectangle with a length of 5 units and a width of 6 units.",1,1,0.9999672174453735,3.2782554626464844e-05,0.9999672174453735,3.2782554626464844e-05,0.9999672174453735,1,otro,0.6085723042488098,0.3914276957511902,0.6085723042488098,0.3914276957511902,0.6085723042488098,1,OTRO,0.9999977350234985,2.2649765014648438e-06,0.9999977350234985,2.2649765014648438e-06,0.9999977350234985,1,algebra,0.9410294890403748,0.0036592911928892136,0.9410294890403748,0.0055019184947013855,6.647554255323485e-05,0.04974270612001419
+Calculate the area of a rectangle with a length of 5 units and a width of 6 units.",0,0,0.8642428666353226,0.8642428666353226,0.13575713336467743,0.8642428666353226,0.13575713336467743,1,otro,0.9131242632865906,0.08687573671340942,0.9131242632865906,0.08687573671340942,0.9131242632865906,1,OTRO,0.990275502204895,0.00972449779510498,0.990275502204895,0.00972449779510498,0.990275502204895,3,geometry,0.379258930683136,0.11530505865812302,0.05613395944237709,0.13153880834579468,0.379258930683136,0.31776320934295654
 6,"I need to create a question for the student to calculate the area of a square using its side length. The question should be clear and straightforward, prompting the student to apply the formula for the area of a square, which is side length squared.
 
 First, I'll identify the key elements required: the side length of the square and the formula to calculate the area. The question should be concise and direct, ensuring that the student knows exactly what to compute.
@@ -130,7 +130,7 @@ Finally, I'll ensure the question is phrased in a way that encourages the studen
 </think>
 
 **Question:**  
-Calculate the area of a square with a side length of 5 units.",1,1,0.9999740123748779,2.5987625122070312e-05,0.9999740123748779,2.5987625122070312e-05,0.9999740123748779,1,otro,0.6398745179176331,0.36012548208236694,0.6398745179176331,0.36012548208236694,0.6398745179176331,1,OTRO,1.0,0.0,1.0,0.0,1.0,1,algebra,0.9879701137542725,0.001260430202819407,0.9879701137542725,0.0001385713112540543,1.7443262549932115e-05,0.010613431222736835
+Calculate the area of a square with a side length of 5 units.",0,0,0.8975740149617195,0.8975740149617195,0.10242598503828049,0.8975740149617195,0.10242598503828049,1,otro,0.9693154692649841,0.03068453073501587,0.9693154692649841,0.03068453073501587,0.9693154692649841,1,OTRO,0.9821210503578186,0.017878949642181396,0.9821210503578186,0.017878949642181396,0.9821210503578186,3,geometry,0.6304006576538086,0.06921215355396271,0.020539995282888412,0.06453098356723785,0.6304006576538086,0.21531622111797333
 7,"Okay, so I need to create a question that distinguishes a triangle, square, and rectangle using their geometric properties. Hmm, let me think about how to approach this.
 
 First, I should recall the defining characteristics of each shape. A triangle has three sides and three angles. A square has four equal sides and four right angles. A rectangle has four sides with opposite sides equal and four right angles. So, the key differences lie in the number of sides, the equality of sides, and the presence of right angles.
@@ -146,7 +146,7 @@ Let me draft a question: ""What distinguishes a triangle, square, and rectangle 
 I think that should work. It clearly asks about the defining features of each shape, allowing someone to compare them based on sides and angles.
 </think>
 
-What distinguishes a triangle, square, and rectangle based on their geometric properties?",1,1,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,0,mathematics,0.6235242784023285,0.6235242784023285,0.3764757215976715,0.6235242784023285,0.3764757215976715,1,OTRO,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1,algebra,0.7186098694801331,0.2615884244441986,0.7186098694801331,0.00310480291955173,0.0002172158710891381,0.01647970639169216
+What distinguishes a triangle, square, and rectangle based on their geometric properties?",1,1,0.7315537333488464,0.26844626665115356,0.7315537333488464,0.26844626665115356,0.7315537333488464,0,mathematics,0.8492834717035294,0.8492834717035294,0.15071652829647064,0.8492834717035294,0.15071652829647064,1,OTRO,0.9273248910903931,0.07267510890960693,0.9273248910903931,0.07267510890960693,0.9273248910903931,3,geometry,0.9500287175178528,0.012670805677771568,0.003246619598940015,0.028609707951545715,0.9500287175178528,0.005444167647510767
 8,"First, I need to create a question where the student has to find a missing side length of a rectangle using its known perimeter.
 
 I'll start by defining the known perimeter and one of the side lengths.
@@ -166,7 +166,7 @@ Finally, I'll present the question in a clear and concise manner.
 
 *Please provide your answer in the format: \boxed{?}*
 
-*Note: The question should be self-contained and solvable without additional context or resources.*",1,1,0.9999982118606567,1.7881393432617188e-06,0.9999982118606567,1.7881393432617188e-06,0.9999982118606567,0,mathematics,0.8493064492940903,0.8493064492940903,0.15069355070590973,0.8493064492940903,0.15069355070590973,1,OTRO,0.9999957084655762,4.291534423828125e-06,0.9999957084655762,4.291534423828125e-06,0.9999957084655762,1,algebra,0.995689332485199,0.0009024728205986321,0.995689332485199,0.002652603667229414,2.022030093939975e-05,0.0007354411645792425
+*Note: The question should be self-contained and solvable without additional context or resources.*",0,0,0.9100557118654251,0.9100557118654251,0.08994428813457489,0.9100557118654251,0.08994428813457489,0,mathematics,0.9060651287436485,0.9060651287436485,0.09393487125635147,0.9060651287436485,0.09393487125635147,1,OTRO,0.9605363607406616,0.03946363925933838,0.9605363607406616,0.03946363925933838,0.9605363607406616,3,geometry,0.7832508683204651,0.007649186532944441,0.03994255140423775,0.0470326766371727,0.7832508683204651,0.12212473899126053
 9,"To determine the type of triangle based on the lengths of its sides, I need to examine the given side lengths.
 
 First, I'll check if all three sides are equal. If they are, the triangle is equilateral.
@@ -182,7 +182,7 @@ By applying these criteria, I can accurately classify the triangle.
 
 *Generate a geometry question asking the student to classify a triangle by the lengths of its sides.*
 
-*Please provide your answer using text only.*",1,1,0.999995231628418,4.76837158203125e-06,0.999995231628418,4.76837158203125e-06,0.999995231628418,0,mathematics,0.9116563573479652,0.9116563573479652,0.08834364265203476,0.9116563573479652,0.08834364265203476,1,OTRO,0.999992847442627,7.152557373046875e-06,0.999992847442627,7.152557373046875e-06,0.999992847442627,1,algebra,0.97772216796875,0.014056324027478695,0.97772216796875,0.007766570430248976,1.6551839507883415e-05,0.000438373361248523
+*Please provide your answer using text only.*",1,1,0.811654806137085,0.18834519386291504,0.811654806137085,0.18834519386291504,0.811654806137085,1,otro,0.5352932810783386,0.4647067189216614,0.5352932810783386,0.4647067189216614,0.5352932810783386,1,OTRO,0.9624791145324707,0.0375208854675293,0.9624791145324707,0.0375208854675293,0.9624791145324707,1,algebra,0.30047085881233215,0.17964617908000946,0.30047085881233215,0.22756147384643555,0.15049393475055695,0.1418275684118271
 10,"Okay, so I need to create a question where the student has to identify a shape with four equal sides and four right angles. The user provided an example question, but I need to come up with a new one. Let me think about how to approach this.
 
 First, I should understand the shape in question. A shape with four equal sides and four right angles is a square. So, the question should be about identifying a square. The example given was about a square, so I can follow that structure.
@@ -206,7 +206,7 @@ Let me try to put it all together. The question would be, ""What shape has four 
 I think that's a solid approach. It's straightforward, uses the correct shape, and provides enough information for the student to identify the correct answer without guessing.
 </think>
 
-What shape has four equal sides and four right angles?",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,0,mathematics,0.7145698666572571,0.7145698666572571,0.2854301333427429,0.7145698666572571,0.2854301333427429,1,OTRO,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,1,algebra,0.9628088474273682,0.02624097466468811,0.9628088474273682,0.006831785198301077,2.7025887902709655e-05,0.00409143790602684
+What shape has four equal sides and four right angles?",0,0,0.6632995307445526,0.6632995307445526,0.3367004692554474,0.6632995307445526,0.3367004692554474,0,mathematics,0.6364330947399139,0.6364330947399139,0.36356690526008606,0.6364330947399139,0.36356690526008606,1,OTRO,0.8353826999664307,0.16461730003356934,0.8353826999664307,0.16461730003356934,0.8353826999664307,2,division-multiplication,0.6204422116279602,0.23576140403747559,0.046143025159835815,0.6204422116279602,0.08094272017478943,0.01671062782406807
 11,"Okay, so I need to write a question that asks how many sides and vertices a pentagon has. The user wants it in text only, so I should make sure to use plain text without any special formatting. 
 
 First, I should figure out what a pentagon is. A pentagon is a five-sided polygon. So, the question should be about the number of sides and vertices it has. 
@@ -218,7 +218,7 @@ I don't think I need to include any additional information like the name of the 
 Let me check if that's clear. The user wants a question, so yes, this should work. It's simple and to the point, which is good for clarity.
 </think>
 
-How many sides and vertices does a pentagon have?",1,1,0.9999675750732422,3.24249267578125e-05,0.9999675750732422,3.24249267578125e-05,0.9999675750732422,0,mathematics,0.8340667188167572,0.8340667188167572,0.1659332811832428,0.8340667188167572,0.1659332811832428,1,OTRO,0.9999858140945435,1.4185905456542969e-05,0.9999858140945435,1.4185905456542969e-05,0.9999858140945435,1,algebra,0.9910348057746887,0.002235565334558487,0.9910348057746887,0.006469618994742632,2.8801392545574345e-05,0.00023126034648157656
+How many sides and vertices does a pentagon have?",0,0,0.9610622860491276,0.9610622860491276,0.03893771395087242,0.9610622860491276,0.03893771395087242,0,mathematics,0.7501637190580368,0.7501637190580368,0.2498362809419632,0.7501637190580368,0.2498362809419632,1,OTRO,0.9316290616989136,0.06837093830108643,0.9316290616989136,0.06837093830108643,0.9316290616989136,2,division-multiplication,0.6663987636566162,0.21683268249034882,0.0113423066213727,0.6663987636566162,0.058349985629320145,0.04707622900605202
 12,"Okay, so the user wants me to generate a question where the student compares the perimeters of two squares with different side lengths. They specified to use text only, so I need to make sure the question is clear and straightforward.
 
 First, I should identify the key elements: two squares, different side lengths, and comparing their perimeters. The question should be open-ended to encourage the student to think through the process.
@@ -232,7 +232,7 @@ Finally, I'll add a question about the relationship between the side lengths and
 Putting it all together, the question should be clear, concise, and guide the student through the necessary steps to compare the perimeters effectively.
 </think>
 
-""Two squares have different side lengths. Calculate the perimeters of both squares. Which square has a larger perimeter? Explain how the side lengths relate to the perimeters.""",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.7258626520633698,0.7258626520633698,0.27413734793663025,0.7258626520633698,0.27413734793663025,1,OTRO,0.9999964237213135,3.5762786865234375e-06,0.9999964237213135,3.5762786865234375e-06,0.9999964237213135,1,algebra,0.9779199361801147,0.01830148510634899,0.9779199361801147,0.0020892254542559385,5.672377665177919e-05,0.0016325965989381075
+""Two squares have different side lengths. Calculate the perimeters of both squares. Which square has a larger perimeter? Explain how the side lengths relate to the perimeters.""",1,1,0.6940878629684448,0.3059121370315552,0.6940878629684448,0.3059121370315552,0.6940878629684448,1,otro,0.8527658581733704,0.14723414182662964,0.8527658581733704,0.14723414182662964,0.8527658581733704,1,OTRO,0.9786967039108276,0.021303296089172363,0.9786967039108276,0.021303296089172363,0.9786967039108276,2,division-multiplication,0.733518123626709,0.05103791132569313,0.0034585371613502502,0.733518123626709,0.10718843340873718,0.10479694604873657
 13,"Okay, so I need to create a question where the student has to recognize parallel and perpendicular lines from a simple written description. The user provided an example question, but I need to come up with a new one. Let me think about how to approach this.
 
 First, I should consider what defines parallel and perpendicular lines. Parallel lines are lines that never meet, no matter how far they're extended, and they have the same slope. Perpendicular lines intersect at a right angle, which is 90 degrees, and their slopes are negative reciprocals of each other.
@@ -259,7 +259,7 @@ Alternatively, I can describe a specific scenario, like a room with two walls th
 
 So, the question could be: ""In a room, there are two walls that are parallel to each other. What does that mean about their slopes?"" But again, it's too simple. Maybe I need to add more details.
 
-Wait, perhaps I can describe a more complex scenario, like a building with multiple floors and multiple walls.",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,0,mathematics,0.8901360780000687,0.8901360780000687,0.10986392199993134,0.8901360780000687,0.10986392199993134,1,OTRO,0.9999947547912598,5.245208740234375e-06,0.9999947547912598,5.245208740234375e-06,0.9999947547912598,1,algebra,0.976998507976532,0.004907314199954271,0.976998507976532,0.017758432775735855,4.6972934796940535e-05,0.0002887518494389951
+Wait, perhaps I can describe a more complex scenario, like a building with multiple floors and multiple walls.",0,0,0.9606986679136753,0.9606986679136753,0.03930133208632469,0.9606986679136753,0.03930133208632469,1,otro,0.7174752950668335,0.2825247049331665,0.7174752950668335,0.2825247049331665,0.7174752950668335,1,OTRO,0.9638632535934448,0.036136746406555176,0.9638632535934448,0.036136746406555176,0.9638632535934448,2,division-multiplication,0.38513246178627014,0.08145035803318024,0.05374593660235405,0.38513246178627014,0.3148198425769806,0.1648513823747635
 14,"Okay, so I need to write a question where the student has to identify an angle as right, acute, or obtuse based on its measure. The user provided an example, but I need to come up with a new one. Let me think about how to approach this.
 
 First, I should understand the definitions. A right angle is exactly 90 degrees. An acute angle is less than 90 degrees, and an obtuse angle is more than 90 degrees but less than 180 degrees. So, the question should involve an angle with a specific measure, and the student has to determine which category it falls into.
@@ -279,7 +279,7 @@ Let me draft a question: ""What type of angle is 45 degrees?"" Then, the student
 I think that's a solid approach. It's clear, and the question is specific enough for the student to understand and answer without any prior knowledge.
 </think>
 
-What type of angle is 45 degrees?",1,1,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,0,mathematics,0.5919519364833832,0.5919519364833832,0.4080480635166168,0.5919519364833832,0.4080480635166168,1,OTRO,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,1,algebra,0.9914786219596863,0.0033818555530160666,0.9914786219596863,0.003867318155243993,0.00025610579177737236,0.0010160671081393957
+What type of angle is 45 degrees?",0,0,0.9529775977134705,0.9529775977134705,0.04702240228652954,0.9529775977134705,0.04702240228652954,0,mathematics,0.7999785244464874,0.7999785244464874,0.20002147555351257,0.7999785244464874,0.20002147555351257,1,OTRO,0.9844467043876648,0.015553295612335205,0.9844467043876648,0.015553295612335205,0.9844467043876648,0,addition-subtraction,0.34264564514160156,0.34264564514160156,0.19456100463867188,0.04808643460273743,0.22565627098083496,0.1890505999326706
 15,"To determine the side length of a square from its perimeter, I need to recall the formula that relates the perimeter to the side length.
 
 The perimeter of a square is calculated by adding up all four sides. Since all sides of a square are equal, the perimeter (P) can be expressed as 4 times the side length (s).
@@ -314,7 +314,7 @@ To determine the side length of a square from its known perimeter, follow these 
 
 \[
 \boxed{s = \frac{P}{4}}
-\]",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.6963902711868286,0.6963902711868286,0.3036097288131714,0.6963902711868286,0.3036097288131714,1,OTRO,0.9999943971633911,5.602836608886719e-06,0.9999943971633911,5.602836608886719e-06,0.9999943971633911,1,algebra,0.9054163098335266,0.07094282656908035,0.9054163098335266,7.181035471148789e-05,1.3457400200422853e-05,0.023555569350719452
+\]",1,1,0.8452281355857849,0.1547718644142151,0.8452281355857849,0.1547718644142151,0.8452281355857849,0,mathematics,0.9132916256785393,0.9132916256785393,0.08670837432146072,0.9132916256785393,0.08670837432146072,1,OTRO,0.9735725522041321,0.02642744779586792,0.9735725522041321,0.02642744779586792,0.9735725522041321,3,geometry,0.8887419700622559,0.003400486661121249,0.04949259012937546,0.016354858875274658,0.8887419700622559,0.04201006144285202
 16,"To determine the area of each rectangle, I'll use the formula for the area of a rectangle, which is length multiplied by width.
 
 For the first rectangle, I'll identify the given length and width, then perform the multiplication to find its area.
@@ -348,7 +348,7 @@ For the second rectangle with length \( l_2 \) and width \( w_2 \), its area \( 
 A_2 = l_2 \times w_2
 \]
 
-Compare \( A_1 \) and \( A_2 \) to determine which rectangle has a larger area.",1,1,0.999987006187439,1.2993812561035156e-05,0.999987006187439,1.2993812561035156e-05,0.999987006187439,1,otro,0.7483833432197571,0.2516166567802429,0.7483833432197571,0.2516166567802429,0.7483833432197571,1,OTRO,0.9996790885925293,0.0003209114074707031,0.9996790885925293,0.0003209114074707031,0.9996790885925293,1,algebra,0.3814193606376648,0.3297247290611267,0.3814193606376648,0.000972909212578088,7.179797648859676e-06,0.28787586092948914
+Compare \( A_1 \) and \( A_2 \) to determine which rectangle has a larger area.",0,0,0.7291894853115082,0.7291894853115082,0.2708105146884918,0.7291894853115082,0.2708105146884918,1,otro,0.9163522124290466,0.08364778757095337,0.9163522124290466,0.08364778757095337,0.9163522124290466,1,OTRO,0.9850650429725647,0.014934957027435303,0.9850650429725647,0.014934957027435303,0.9850650429725647,4,otro,0.576461911201477,0.09843239933252335,0.18876299262046814,0.07334548234939575,0.06299719959497452,0.576461911201477
 17,"Okay, so I need to write a geometry question that asks the student to identify a three-dimensional shape based on its faces, edges, and vertices. The user provided an example, but I should create a new one. Let me think about how to approach this.
 
 First, I should consider what defines a three-dimensional shape. It has faces, edges, and vertices. Faces are the flat surfaces, edges are the lines where two faces meet, and vertices are the corners where edges meet. So, the question should ask the student to determine the shape based on these attributes.
@@ -369,7 +369,7 @@ Wait, but the user wants a general question, not specific numbers. So, I should 
 
 Another thought: maybe include a description of the shape in the question to make it more engaging. For example, ""Identify the shape that has 6 faces, 12 edges, and 8 vertices, which are all squares."" That way, the student knows what to look for.
 
-Alternatively, I can phrase it as a question that includes a description. For example: ""What is the shape with 6 square faces, 12 edges, and 8 vertices?"" That might be a bit more descriptive",1,1,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,0,mathematics,0.5347072780132294,0.5347072780132294,0.46529272198677063,0.5347072780132294,0.46529272198677063,1,OTRO,0.9999973773956299,2.6226043701171875e-06,0.9999973773956299,2.6226043701171875e-06,0.9999973773956299,1,algebra,0.9863780736923218,0.006373657379299402,0.9863780736923218,0.004525161348283291,0.00013837151345796883,0.002584749134257436
+Alternatively, I can phrase it as a question that includes a description. For example: ""What is the shape with 6 square faces, 12 edges, and 8 vertices?"" That might be a bit more descriptive",0,0,0.6594432294368744,0.6594432294368744,0.3405567705631256,0.6594432294368744,0.3405567705631256,1,otro,0.9014043807983398,0.09859561920166016,0.9014043807983398,0.09859561920166016,0.9014043807983398,1,OTRO,0.9813252687454224,0.018674731254577637,0.9813252687454224,0.018674731254577637,0.9813252687454224,4,otro,0.6348257064819336,0.10591576248407364,0.015524089336395264,0.11624738574028015,0.12748706340789795,0.6348257064819336
 18,"Okay, so I need to figure out how to generate a question where the student has to determine the number of lines of symmetry in a simple geometric shape. The user provided an example, so I should probably use that as a template. Let me read through the example again to understand the structure.
 
 The example question was: ""What is the number of lines of symmetry in a regular hexagon?"" The answer was 6, and the explanation mentioned that a regular hexagon has six lines of symmetry, each passing through opposite sides or opposite vertices.
@@ -395,7 +395,7 @@ Yes, that makes sense. So, the question would be about a square, the answer is 4
 I think that's a solid approach. Now, I'll structure the question as per the example, ensuring clarity and providing the necessary information for the answer.
 </think>
 
-What is the number of lines of symmetry in a square? The answer is 4, with each line of symmetry passing through the midpoints of opposite sides or through opposite vertices.",1,1,0.9999891519546509,1.0848045349121094e-05,0.9999891519546509,1.0848045349121094e-05,0.9999891519546509,0,mathematics,0.7689757794141769,0.7689757794141769,0.23102422058582306,0.7689757794141769,0.23102422058582306,1,OTRO,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,1,algebra,0.9363812804222107,0.0034102625213563442,0.9363812804222107,0.05146557092666626,0.00047446766984649,0.008268390782177448
+What is the number of lines of symmetry in a square? The answer is 4, with each line of symmetry passing through the midpoints of opposite sides or through opposite vertices.",1,1,0.6867759823799133,0.31322401762008667,0.6867759823799133,0.31322401762008667,0.6867759823799133,0,mathematics,0.8364935219287872,0.8364935219287872,0.16350647807121277,0.8364935219287872,0.16350647807121277,1,OTRO,0.9626032710075378,0.03739672899246216,0.9626032710075378,0.03739672899246216,0.9626032710075378,3,geometry,0.8781471848487854,0.018445288762450218,0.03037443198263645,0.06499303132295609,0.8781471848487854,0.00804012268781662
 19,"Okay, so I need to create a question that assesses someone's ability to recognize circles, triangles, squares, and rectangles based on their written properties. The user provided an example question, but I need to come up with a new one. Let me think about how to approach this.
 
 First, I should consider what defines each shape. A circle is round with all points equidistant from the center. A triangle has three straight sides and three angles. A square has four equal sides and four right angles. A rectangle has four sides with opposite sides equal and four right angles.
@@ -412,7 +412,7 @@ Let me try to think of a property that's not as obvious. How about the number of
 
 That seems like a good approach. So, the question could be: ""Which of the following shapes has four lines of symmetry?"" with options like square, rectangle, triangle, circle. But the user wants the question to assess recognition based on written properties, not just the number of lines of symmetry.
 
-Alternatively, I can think of a property related to the sides being equal. For example, ""A shape with all sides equal."" Then, the options could be square, rectangle, triangle, or circle. But again, circle doesn't have sides, so",1,1,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,0,mathematics,0.7271808385848999,0.7271808385848999,0.2728191614151001,0.7271808385848999,0.2728191614151001,1,OTRO,0.9999927282333374,7.271766662597656e-06,0.9999927282333374,7.271766662597656e-06,0.9999927282333374,1,algebra,0.9256454110145569,0.03236262500286102,0.9256454110145569,0.0353236086666584,0.00035652806400321424,0.006311823148280382
+Alternatively, I can think of a property related to the sides being equal. For example, ""A shape with all sides equal."" Then, the options could be square, rectangle, triangle, or circle. But again, circle doesn't have sides, so",0,0,0.6345259249210358,0.6345259249210358,0.36547407507896423,0.6345259249210358,0.36547407507896423,0,mathematics,0.8740924745798111,0.8740924745798111,0.1259075254201889,0.8740924745798111,0.1259075254201889,1,OTRO,0.8273303508758545,0.1726696491241455,0.8273303508758545,0.1726696491241455,0.8273303508758545,3,geometry,0.9090006351470947,0.013881763443350792,0.0021886262111365795,0.06090880185365677,0.9090006351470947,0.014020217582583427
 20,"First, I need to create a word problem that involves a rectangular garden with given length and width, and where the student calculates its perimeter.
 
 I'll start by defining the length and width of the garden. Let's say the length is 12 meters and the width is 8 meters.
@@ -440,7 +440,7 @@ This structure ensures clarity and provides all necessary information for the st
 ""The perimeter of a rectangle is calculated by adding the length and width together and then multiplying the sum by 2.""
 
 *Answer:*
-The perimeter of the garden is **52 meters**.",1,1,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,1,otro,0.6271591782569885,0.3728408217430115,0.6271591782569885,0.3728408217430115,0.6271591782569885,1,OTRO,0.9987671375274658,0.0012328624725341797,0.9987671375274658,0.0012328624725341797,0.9987671375274658,1,algebra,0.4087505638599396,0.3172799050807953,0.4087505638599396,0.0018383340211585164,4.526614065980539e-05,0.27208590507507324
+The perimeter of the garden is **52 meters**.",0,0,0.6364391446113586,0.6364391446113586,0.36356085538864136,0.6364391446113586,0.36356085538864136,0,mathematics,0.501175731420517,0.501175731420517,0.49882426857948303,0.501175731420517,0.49882426857948303,1,OTRO,0.9505483508110046,0.04945164918899536,0.9505483508110046,0.04945164918899536,0.9505483508110046,3,geometry,0.6984412670135498,0.07556208223104477,0.14715170860290527,0.00905295554548502,0.6984412670135498,0.06979195773601532
 21,"I need to create a word problem involving square tiles covering a small rectangular floor. The student should find the total area.
 
 First, I'll set the scenario: a student is tiling a floor with square tiles. This makes it relatable and engaging.
@@ -466,7 +466,7 @@ Sure! Here's a word problem for you:
 
 --- 
 
-Let me know if you'd like me to create another problem!",1,1,0.9999994039535522,5.960464477539062e-07,0.9999994039535522,5.960464477539062e-07,0.9999994039535522,0,mathematics,0.6123068630695343,0.6123068630695343,0.3876931369304657,0.6123068630695343,0.3876931369304657,1,OTRO,0.9999902248382568,9.775161743164062e-06,0.9999902248382568,9.775161743164062e-06,0.9999902248382568,1,algebra,0.9216256141662598,0.03246815502643585,0.9216256141662598,0.0034302750136703253,2.0116787709412165e-05,0.042455852031707764
+Let me know if you'd like me to create another problem!",0,0,0.9884040532633662,0.9884040532633662,0.011595946736633778,0.9884040532633662,0.011595946736633778,1,otro,0.6756882667541504,0.3243117332458496,0.6756882667541504,0.3243117332458496,0.6756882667541504,1,OTRO,0.9646847248077393,0.03531527519226074,0.9646847248077393,0.03531527519226074,0.9646847248077393,3,geometry,0.5518653392791748,0.1613895446062088,0.13938076794147491,0.046406328678131104,0.5518653392791748,0.10095801204442978
 22,"I need to create a geometry problem where the student compares two routes made of straight line segments and determines which is longer.
 
 First, I'll set the context by describing two routes, Route A and Route B, each consisting of two straight line segments.
@@ -506,7 +506,7 @@ You are given two routes made up of straight line segments. Route A consists of 
      \]
    - Segment \( EF \): Distance from \( E(2, 5) \) to \( F(6, 0) \)
      \[
-     EF = \sqrt{(6 - 2)^2 + (0 - 5)^2}",1,1,1.0,0.0,1.0,0.0,1.0,1,otro,0.9467381238937378,0.05326187610626221,0.9467381238937378,0.05326187610626221,0.9467381238937378,1,OTRO,0.9993489384651184,0.0006510615348815918,0.9993489384651184,0.0006510615348815918,0.9993489384651184,4,otro,0.6975163817405701,0.007219524588435888,0.295104056596756,0.0001505342370364815,9.56516760197701e-06,0.6975163817405701
+     EF = \sqrt{(6 - 2)^2 + (0 - 5)^2}",1,1,0.6673030257225037,0.33269697427749634,0.6673030257225037,0.33269697427749634,0.6673030257225037,1,otro,0.9584519267082214,0.041548073291778564,0.9584519267082214,0.041548073291778564,0.9584519267082214,1,OTRO,0.9838200807571411,0.016179919242858887,0.9838200807571411,0.016179919242858887,0.9838200807571411,4,otro,0.5480997562408447,0.024690022692084312,0.047257181257009506,0.28229981660842896,0.09765328466892242,0.5480997562408447
 23,"First, I need to identify the known side of the rectangle. Let's assume the length is 5 units.
 
 Next, I'll use the formula for the area of a rectangle, which is length multiplied by width. If the area is given as 30 square units, I can set up the equation 5 times width equals 30.
@@ -544,7 +544,7 @@ A rectangle has an area of 30 square units. One of its sides is 5 units long. Fi
 
 **Answer:**
 
-The length of the other side of the rectangle is \(\boxed{6}\) units.",1,1,1.0,0.0,1.0,0.0,1.0,1,otro,0.6965211033821106,0.3034788966178894,0.6965211033821106,0.3034788966178894,0.6965211033821106,1,OTRO,0.9999933242797852,6.67572021484375e-06,0.9999933242797852,6.67572021484375e-06,0.9999933242797852,1,algebra,0.6930574774742126,0.050745729357004166,0.6930574774742126,0.0002686340012587607,3.617541779021849e-06,0.2559245228767395
+The length of the other side of the rectangle is \(\boxed{6}\) units.",0,0,0.98058713786304,0.98058713786304,0.01941286213696003,0.98058713786304,0.01941286213696003,0,mathematics,0.8043768852949142,0.8043768852949142,0.19562311470508575,0.8043768852949142,0.19562311470508575,1,OTRO,0.9556954503059387,0.04430454969406128,0.9556954503059387,0.04430454969406128,0.9556954503059387,1,algebra,0.6415867805480957,0.035510096698999405,0.6415867805480957,0.02426939643919468,0.20592598617076874,0.09270766377449036
 24,"Okay, so I need to generate a problem where the student has to identify a solid shape based on its faces, edges, and vertices. The user provided an example, so I should follow that structure. Let me think about how to approach this.
 
 First, I should choose a simple solid shape. Maybe a cube? It's a common one and has a lot of faces, edges, and vertices, which should be good for testing the student's understanding. Alternatively, a pyramid or a prism could also work, but a cube seems straightforward.
@@ -565,7 +565,7 @@ But the cube is more straightforward. I'll go with the cube for simplicity. So t
 
 I should make sure the problem is clear and the question is direct. The student needs to match the attributes to the shape. So the answer should be a cube.
 
-Wait, the user's example had the shape name in the middle, but in my case, I can just list the attributes. Alternatively, maybe the shape name is implied. But to make it clear, I'll list",1,1,0.9999880790710449,1.1920928955078125e-05,0.9999880790710449,1.1920928955078125e-05,0.9999880790710449,0,mathematics,0.591018944978714,0.591018944978714,0.408981055021286,0.591018944978714,0.408981055021286,1,OTRO,0.9999957084655762,4.291534423828125e-06,0.9999957084655762,4.291534423828125e-06,0.9999957084655762,1,algebra,0.9995971322059631,0.00011606226325966418,0.9995971322059631,0.00018380038090981543,5.3911819122731686e-05,4.910768257104792e-05
+Wait, the user's example had the shape name in the middle, but in my case, I can just list the attributes. Alternatively, maybe the shape name is implied. But to make it clear, I'll list",0,0,0.9917834671214223,0.9917834671214223,0.00821653287857771,0.9917834671214223,0.00821653287857771,1,otro,0.6685630679130554,0.3314369320869446,0.6685630679130554,0.3314369320869446,0.6685630679130554,1,OTRO,0.9643805027008057,0.035619497299194336,0.9643805027008057,0.035619497299194336,0.9643805027008057,3,geometry,0.476802259683609,0.406282901763916,0.022582655772566795,0.019846715033054352,0.476802259683609,0.07448548823595047
 25,"First, I need to create a question that combines both multiplication and division using natural numbers and results in a whole number.
 
 I'll start by choosing two natural numbers, say 12 and 8.
@@ -582,7 +582,7 @@ Finally, I'll phrase the question in a way that clearly combines both operations
 Sure! Here's a question that combines multiplication and division with natural numbers and results in a whole-number answer:
 
 **Question:**  
-If you multiply 8 by 3 and then divide the result by 24, what is the final whole number?",1,1,0.999998927116394,1.0728836059570312e-06,0.999998927116394,1.0728836059570312e-06,0.999998927116394,0,mathematics,0.8155112415552139,0.8155112415552139,0.18448875844478607,0.8155112415552139,0.18448875844478607,1,OTRO,0.9999984502792358,1.5497207641601562e-06,0.9999984502792358,1.5497207641601562e-06,0.9999984502792358,1,algebra,0.744749128818512,0.08489042520523071,0.744749128818512,0.0070233214646577835,9.450019206269644e-06,0.16332769393920898
+If you multiply 8 by 3 and then divide the result by 24, what is the final whole number?",1,1,0.7421106696128845,0.2578893303871155,0.7421106696128845,0.2578893303871155,0.7421106696128845,0,mathematics,0.6714082658290863,0.6714082658290863,0.3285917341709137,0.6714082658290863,0.3285917341709137,1,OTRO,0.9108639359474182,0.08913606405258179,0.9108639359474182,0.08913606405258179,0.9108639359474182,1,algebra,0.25354430079460144,0.1319030523300171,0.25354430079460144,0.19734427332878113,0.24551449716091156,0.1716938614845276
 26,"I need to create a question where the student multiplies two numbers and then divides the result by another number. 
 
 First, I'll choose two numbers to multiply. Let's go with 5 and 7.
@@ -597,7 +597,7 @@ Finally, I'll present the question in a clear and concise manner, ensuring it's 
 Sure! Here's a question for you:
 
 **Question:**  
-Multiply 5 and 7, then divide the result by 3. What is the final answer?",1,1,0.9999973773956299,2.6226043701171875e-06,0.9999973773956299,2.6226043701171875e-06,0.9999973773956299,0,mathematics,0.7451174557209015,0.7451174557209015,0.2548825442790985,0.7451174557209015,0.2548825442790985,1,OTRO,0.9999885559082031,1.1444091796875e-05,0.9999885559082031,1.1444091796875e-05,0.9999885559082031,1,algebra,0.5367164015769958,0.3803226053714752,0.5367164015769958,0.0013533971505239606,7.601298648296506e-07,0.08160680532455444
+Multiply 5 and 7, then divide the result by 3. What is the final answer?",0,0,0.99735744507052,0.99735744507052,0.0026425549294799566,0.99735744507052,0.0026425549294799566,1,otro,0.8385396599769592,0.16146034002304077,0.8385396599769592,0.16146034002304077,0.8385396599769592,1,OTRO,0.9282624125480652,0.07173758745193481,0.9282624125480652,0.07173758745193481,0.9282624125480652,0,addition-subtraction,0.861462414264679,0.861462414264679,0.013410110957920551,0.016529787331819534,0.013591522350907326,0.09500616788864136
 27,"Okay, so I need to write a question that practices exact division and asks the student to check the result using multiplication. The user provided an example, but I should create my own. Let me think about how to approach this.
 
 First, I should choose a number to divide. Maybe 45, which is a common number for practice. Then, I need to decide on a divisor. Let's pick 5 because it's a simple number and will result in a whole number, making it easy to check.
@@ -619,7 +619,7 @@ I should also ensure that the question is not too long. The example is concise, 
 Yes, that should work. It practices exact division and then verifies the result with multiplication, which is exactly what the user asked for.
 </think>
 
-Divide 45 by 5 and check your answer using multiplication.",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.6780109405517578,0.6780109405517578,0.3219890594482422,0.6780109405517578,0.3219890594482422,1,OTRO,1.0,0.0,1.0,0.0,1.0,1,algebra,0.9928472638130188,0.004633697215467691,0.9928472638130188,0.0016904216026887298,5.1158986025257036e-05,0.0007774592959322035
+Divide 45 by 5 and check your answer using multiplication.",0,0,0.9875892829149961,0.9875892829149961,0.012410717085003853,0.9875892829149961,0.012410717085003853,0,mathematics,0.5980106592178345,0.5980106592178345,0.4019893407821655,0.5980106592178345,0.4019893407821655,1,OTRO,0.9514630436897278,0.04853695631027222,0.9514630436897278,0.04853695631027222,0.9514630436897278,0,addition-subtraction,0.5851014852523804,0.5851014852523804,0.2607279419898987,0.029010402038693428,0.02430698834359646,0.10085321962833405
 28,"Okay, so I need to create a multiplication question with two factors and then a division problem suitable for elementary students. Let me think about how to approach this.
 
 First, I should start by understanding the structure of the problem. The multiplication part will have two numbers, and then the division part will involve those same two numbers. Maybe I can use the same numbers to make it more relatable.
@@ -642,7 +642,7 @@ I think I've got it. The multiplication part is 4 × 5 = 20, and the division pa
 </think>
 
 4 × 5 = 20  
-20 ÷ 4 = 5",1,1,0.9999947547912598,5.245208740234375e-06,0.9999947547912598,5.245208740234375e-06,0.9999947547912598,0,mathematics,0.7863017618656158,0.7863017618656158,0.21369823813438416,0.7863017618656158,0.21369823813438416,1,OTRO,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1,algebra,0.978909432888031,0.017524460330605507,0.978909432888031,0.0023770525585860014,8.34091679280391e-06,0.0011807061964645982
+20 ÷ 4 = 5",0,0,0.9282234758138657,0.9282234758138657,0.07177652418613434,0.9282234758138657,0.07177652418613434,0,mathematics,0.8344298452138901,0.8344298452138901,0.16557015478610992,0.8344298452138901,0.16557015478610992,1,OTRO,0.9609355330467224,0.03906446695327759,0.9609355330467224,0.03906446695327759,0.9609355330467224,0,addition-subtraction,0.8172637820243835,0.8172637820243835,0.11268182098865509,0.04676060378551483,0.02151806280016899,0.0017757947789505124
 29,"Okay, so I need to create a question with a missing factor where multiplication or division is needed. Let me think about how to approach this.
 
 First, I should decide on the numbers involved. Let's say I choose 7 and 8. If I multiply them, I get 56. But I need to hide one of the factors. So, I'll leave one of them missing. Maybe 7 is the missing factor. That means the question would be: ""What is 56 divided by 8?"" because 56 divided by 8 equals 7.
@@ -660,7 +660,7 @@ Let me double-check: 7 times 8 is 56, so if one factor is missing, it's 8. There
 I think that's a good question. It uses multiplication to find a missing factor and division as the operation needed to find the missing number.
 </think>
 
-What is 56 divided by 8?",1,1,0.9999959468841553,4.0531158447265625e-06,0.9999959468841553,4.0531158447265625e-06,0.9999959468841553,0,mathematics,0.9364375174045563,0.9364375174045563,0.06356248259544373,0.9364375174045563,0.06356248259544373,1,OTRO,0.9999983310699463,1.6689300537109375e-06,0.9999983310699463,1.6689300537109375e-06,0.9999983310699463,1,algebra,0.8530152440071106,0.14202959835529327,0.8530152440071106,0.0006875043036416173,2.254272112622857e-05,0.004245133139193058
+What is 56 divided by 8?",0,0,0.997889626538381,0.997889626538381,0.0021103734616190195,0.997889626538381,0.0021103734616190195,0,mathematics,0.5108503699302673,0.5108503699302673,0.48914963006973267,0.5108503699302673,0.48914963006973267,1,OTRO,0.8946869373321533,0.10531306266784668,0.8946869373321533,0.10531306266784668,0.8946869373321533,0,addition-subtraction,0.9637867212295532,0.9637867212295532,0.011734770610928535,0.021949373185634613,0.0010010222904384136,0.0015280795050784945
 30,"Okay, so I need to write a question that involves two multiplications and ask the student to determine which product is greater. The user provided an example, but I should come up with my own. Let me think about how to approach this.
 
 First, I should choose two numbers to multiply. They don't have to be the same, but maybe starting with similar numbers could make it easier for the student. Let's say 12 and 15. That seems manageable.
@@ -677,7 +677,7 @@ Alternatively, I could use numbers that are closer together but result in a slig
 
 Wait, maybe I should use numbers that are not as close. Let's try 12*17=204 and 13*16=208. That's a clear difference. Alternatively, 12*18=216 and 13*17=221. That's a bigger difference, but still shows the concept.
 
-I think the first example given by the user is good, but maybe I can make it more varied. Let me try 12*15=180 and 13*14=182. That's a clear difference, but maybe I can make the second product a bit more complex. Let's try 12*16=192 and 13*15=19",1,1,0.9999939203262329,6.079673767089844e-06,0.9999939203262329,6.079673767089844e-06,0.9999939203262329,0,mathematics,0.7594419866800308,0.7594419866800308,0.24055801331996918,0.7594419866800308,0.24055801331996918,1,OTRO,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,1,algebra,0.9679897427558899,0.03140838444232941,0.9679897427558899,0.00021522084716707468,1.93155415217916e-06,0.00038464824319817126
+I think the first example given by the user is good, but maybe I can make it more varied. Let me try 12*15=180 and 13*14=182. That's a clear difference, but maybe I can make the second product a bit more complex. Let's try 12*16=192 and 13*15=19",0,0,0.9819090440869331,0.9819090440869331,0.018090955913066864,0.9819090440869331,0.018090955913066864,0,mathematics,0.5191445350646973,0.5191445350646973,0.48085546493530273,0.5191445350646973,0.48085546493530273,1,OTRO,0.8969526290893555,0.10304737091064453,0.8969526290893555,0.10304737091064453,0.8969526290893555,0,addition-subtraction,0.5988901853561401,0.5988901853561401,0.10950125008821487,0.17970475554466248,0.04959425330162048,0.062309592962265015
 31,"Okay, so I need to figure out how to generate a question where the student has to find an unknown divisor given a known dividend and quotient. Let me start by understanding the problem better.
 
 First, I know that division involves three main components: dividend, divisor, and quotient. The dividend is the number being divided, the divisor is the number that divides the dividend, and the quotient is the result of the division. The basic formula is: Dividend = Divisor × Quotient.
@@ -702,7 +702,7 @@ I think that's a solid approach. It clearly states the knowns and asks for the u
 
 Wait, maybe I can make it even more specific by mentioning that the dividend and quotient are known, and the divisor is unknown. So, ""If the dividend is known and the quotient is known, find the unknown divisor.""
 
-That also works. It emphasizes that the dividend and quotient are known,",1,1,0.9999916553497314,8.344650268554688e-06,0.9999916553497314,8.344650268554688e-06,0.9999916553497314,0,mathematics,0.762993723154068,0.762993723154068,0.237006276845932,0.762993723154068,0.237006276845932,1,OTRO,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1,algebra,0.9794955849647522,0.007804164197295904,0.9794955849647522,0.005508743226528168,2.101297832268756e-05,0.007170496974140406
+That also works. It emphasizes that the dividend and quotient are known,",1,1,0.5999876260757446,0.40001237392425537,0.5999876260757446,0.40001237392425537,0.5999876260757446,1,otro,0.727148175239563,0.272851824760437,0.727148175239563,0.272851824760437,0.727148175239563,1,OTRO,0.9629308581352234,0.03706914186477661,0.9629308581352234,0.03706914186477661,0.9629308581352234,4,otro,0.41090285778045654,0.15247778594493866,0.09116573631763458,0.16210243105888367,0.18335112929344177,0.41090285778045654
 32,"Okay, so I need to create a question that practices multiplication facts and exact division using small natural numbers. Hmm, let's see. The user provided an example question: ""What is 3 multiplied by 4?"" That's a good start because it uses exact division, but I need to make sure it's clear and fits the criteria.
 
 First, I should focus on multiplication facts, so I'll need to use numbers that are easy to work with. Maybe single-digit numbers would be best to keep it simple. Also, exact division means that the multiplication should result in a whole number without any remainders. So, I don't want to include any division problems where the numbers don't divide evenly.
@@ -719,7 +719,7 @@ Let me try to come up with a few more examples to see how they look. For instanc
 
 I should also ensure that the numbers are small enough that the multiplication doesn't result in a very large number, which might be overwhelming for some people. Using single-digit numbers is a good approach because it keeps the results manageable.
 
-Another consideration is whether the question should involve word problems or just straightforward multiplication. The example given is a straightforward multiplication question, so maybe I can stick with that format to keep it",1,1,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,0,mathematics,0.744186133146286,0.744186133146286,0.255813866853714,0.744186133146286,0.255813866853714,1,OTRO,0.9999991655349731,8.344650268554688e-07,0.9999991655349731,8.344650268554688e-07,0.9999991655349731,1,algebra,0.9972476363182068,0.00017250458768103272,0.9972476363182068,0.0021884082816541195,4.08915730076842e-05,0.00035048156860284507
+Another consideration is whether the question should involve word problems or just straightforward multiplication. The example given is a straightforward multiplication question, so maybe I can stick with that format to keep it",0,0,0.9928369233384728,0.9928369233384728,0.007163076661527157,0.9928369233384728,0.007163076661527157,1,otro,0.7724462151527405,0.22755378484725952,0.7724462151527405,0.22755378484725952,0.7724462151527405,1,OTRO,0.9256011843681335,0.07439881563186646,0.9256011843681335,0.07439881563186646,0.9256011843681335,2,division-multiplication,0.7974202036857605,0.14601199328899384,0.004719298332929611,0.7974202036857605,0.04394053667783737,0.007907936349511147
 33,"Okay, so I need to write a question where the student has to compare the result of a multiplication with a division. The user provided an example, but I should create my own. Let me think about how to approach this.
 
 First, I should come up with two different mathematical expressions—one involving multiplication and the other involving division. These expressions should result in different numbers so that the comparison is meaningful. 
@@ -735,7 +735,7 @@ Let me structure it: ""What is 7 × 8? What is 56 ÷ 7? Which operation gives a 
 That seems good. It asks both questions and then compares them. I think this meets the requirement of comparing the two results.
 </think>
 
-""What is 7 × 8? What is 56 ÷ 7? Which operation gives a larger result?""",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.7470428645610809,0.7470428645610809,0.25295713543891907,0.7470428645610809,0.25295713543891907,1,OTRO,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,1,algebra,0.9848270416259766,0.013402188196778297,0.9848270416259766,0.0003711880708578974,1.3224184840510134e-05,0.001386344083584845
+""What is 7 × 8? What is 56 ÷ 7? Which operation gives a larger result?""",1,1,0.5722525715827942,0.4277474284172058,0.5722525715827942,0.4277474284172058,0.5722525715827942,0,mathematics,0.7035433948040009,0.7035433948040009,0.29645660519599915,0.7035433948040009,0.29645660519599915,1,OTRO,0.969878613948822,0.03012138605117798,0.969878613948822,0.03012138605117798,0.969878613948822,1,algebra,0.3236145079135895,0.13470549881458282,0.3236145079135895,0.290549635887146,0.24200309813022614,0.009127243421971798
 34,"Okay, so I need to generate a question where a student has to decide whether to multiply or divide using three natural numbers. Let me think about how to approach this.
 
 First, I should choose three natural numbers. They should be simple enough for a student to work with, maybe single-digit numbers. Let's pick 2, 3, and 4. That seems straightforward.
@@ -750,7 +750,7 @@ Let me try 2, 4, and 5. The product is 40. If I divide 40 by 2, I get 20, which 
 
 Let's try 3, 4, and 5. The product is 60. If I divide 60 by 3, I get 20, which is a whole number. If I divide 60 by 4, I get 15, which is also a whole number. Still not different. Maybe I need to use a number that's not a factor of the product.
 
-Wait, perhaps I can use 2, 3, and 6. The product is 36. If I divide 36 by 2, I get 18, which is a whole number. If I divide",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.7036095559597015,0.7036095559597015,0.29639044404029846,0.7036095559597015,0.29639044404029846,1,OTRO,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,1,algebra,0.9717121124267578,0.011121646501123905,0.9717121124267578,0.015517057850956917,0.00036811415338888764,0.0012810250045731664
+Wait, perhaps I can use 2, 3, and 6. The product is 36. If I divide 36 by 2, I get 18, which is a whole number. If I divide",0,0,0.8705899715423584,0.8705899715423584,0.1294100284576416,0.8705899715423584,0.1294100284576416,1,otro,0.6973963379859924,0.30260366201400757,0.6973963379859924,0.30260366201400757,0.6973963379859924,1,OTRO,0.9769366383552551,0.023063361644744873,0.9769366383552551,0.023063361644744873,0.9769366383552551,2,division-multiplication,0.7946940660476685,0.09225956350564957,0.006183809135109186,0.7946940660476685,0.02510683983564377,0.08175566792488098
 35,"Okay, so I need to create a question where the student has to find the missing factor in an incomplete multiplication. The user provided an example where the question is ""What is 7 multiplied by what number equals 42?"" and the answer is 6. 
 
 Hmm, I should think about how to approach this. First, I need to understand the structure of the question. It's asking for a missing factor in a multiplication problem. The example given is straightforward, but maybe I can make it more challenging or vary the numbers to see if that helps.
@@ -767,7 +767,7 @@ Wait, maybe I can use a different number altogether. Let's say ""What is 8 multi
 
 Wait, perhaps I'm overcomplicating this. The example is straightforward, so maybe I can adjust the numbers slightly. Let me try ""What is 6 multiplied by what number equals 36?"" The answer is 6, which is the same as the example. I need to find a different missing factor. Maybe ""What is 11 multiplied by what number equals 121?"" The answer is 11, same as before.
 
-I think I'm stuck with the same answer. Maybe I need to use a different operation, but the question specifies multiplication. Alternatively, perhaps I can use a different number altogether. Let me try ""What is 3",1,1,0.999990701675415,9.298324584960938e-06,0.999990701675415,9.298324584960938e-06,0.999990701675415,0,mathematics,0.7519872933626175,0.7519872933626175,0.2480127066373825,0.7519872933626175,0.2480127066373825,1,OTRO,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,1,algebra,0.9964727759361267,0.002408093772828579,0.9964727759361267,0.00030996440909802914,4.397771135700168e-06,0.0008047114824876189
+I think I'm stuck with the same answer. Maybe I need to use a different operation, but the question specifies multiplication. Alternatively, perhaps I can use a different number altogether. Let me try ""What is 3",0,0,0.7473211586475372,0.7473211586475372,0.25267884135246277,0.7473211586475372,0.25267884135246277,0,mathematics,0.6324391961097717,0.6324391961097717,0.36756080389022827,0.6324391961097717,0.36756080389022827,1,OTRO,0.8260976672172546,0.17390233278274536,0.8260976672172546,0.17390233278274536,0.8260976672172546,0,addition-subtraction,0.8936974406242371,0.8936974406242371,0.013059169054031372,0.04410366714000702,0.04786314442753792,0.001276499591767788
 36,"I need to create an exact-division question with a two-digit quotient that can be verified using multiplication. 
 
 First, I'll choose a two-digit number as the divisor. Let's go with 12.
@@ -793,7 +793,7 @@ Since the product equals the dividend, the division is exact.
 
 \[
 \boxed{144 \div 12 = 12}
-\]",1,1,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,0,mathematics,0.8029325008392334,0.8029325008392334,0.1970674991607666,0.8029325008392334,0.1970674991607666,1,OTRO,0.999998927116394,1.0728836059570312e-06,0.999998927116394,1.0728836059570312e-06,0.999998927116394,1,algebra,0.9911211729049683,0.006051943171769381,0.9911211729049683,3.637770714703947e-05,6.61903357013216e-07,0.002789807505905628
+\]",0,0,0.740520566701889,0.740520566701889,0.25947943329811096,0.740520566701889,0.25947943329811096,0,mathematics,0.6359176933765411,0.6359176933765411,0.36408230662345886,0.6359176933765411,0.36408230662345886,1,OTRO,0.9854336977005005,0.014566302299499512,0.9854336977005005,0.014566302299499512,0.9854336977005005,1,algebra,0.673650324344635,0.050700049847364426,0.673650324344635,0.03230080381035805,0.15124785900115967,0.09210092574357986
 37,"Okay, so I need to generate a question where the student has to order the quotients from least to greatest. The question should involve two exact divisions. Let me think about how to approach this.
 
 First, I should come up with two division problems. They need to be exact, so the division should result in a whole number without any remainders. That means the dividend should be divisible by the divisor.
@@ -809,7 +809,7 @@ Putting it all together, the question will be: ""Divide 48 by 6 and 35 by 5. Ord
 I think that covers everything. It's straightforward, uses exact divisions, and clearly asks for the ordering of the results.
 </think>
 
-Divide 48 by 6 and 35 by 5. Order the quotients from least to greatest.",1,1,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,0,mathematics,0.6839273273944855,0.6839273273944855,0.3160726726055145,0.6839273273944855,0.3160726726055145,1,OTRO,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1,algebra,0.9628090858459473,0.017166618257761,0.9628090858459473,0.013765992596745491,9.203234367305413e-05,0.006166224833577871
+Divide 48 by 6 and 35 by 5. Order the quotients from least to greatest.",0,0,0.8313485682010651,0.8313485682010651,0.16865143179893494,0.8313485682010651,0.16865143179893494,0,mathematics,0.9039509445428848,0.9039509445428848,0.09604905545711517,0.9039509445428848,0.09604905545711517,1,OTRO,0.9172046780586243,0.08279532194137573,0.9172046780586243,0.08279532194137573,0.9172046780586243,1,algebra,0.4336661994457245,0.41301074624061584,0.4336661994457245,0.1367301344871521,0.009634778834879398,0.0069581433199346066
 38,"Okay, so I need to create a question that practices multiplication by ten and division by ten using natural numbers. Hmm, let's see. The user provided an example question: ""What is 5 multiplied by 10?"" and the answer is 50. That makes sense because multiplying by ten shifts the number one place to the left, adding a zero at the end.
 
 But the user wants me to think through the process of creating such a question. Let me break it down. First, I need to decide on a natural number. Let's pick 7 as an example. Then, I can either multiply it by ten or divide it by ten. 
@@ -820,7 +820,7 @@ Wait, the user's example used 5 multiplied by 10, resulting in 50. So, perhaps I
 
 Alternatively, I could use a number like 12. Multiplying by ten would give 120, and dividing by ten would give 1.2, but again, decimals aren't natural numbers. Hmm, maybe I should focus on numbers that result in whole numbers when multiplied or divided by ten. For example, 15 multiplied by 10 is 150, and 15 divided by 10 is 1.5, which is still a decimal. So perhaps I need to choose numbers that are multiples of ten when divided or multiplied.
 
-Wait, maybe I'm overcomplicating it. The user's example used 5 multiplied by 10, so perhaps I can use another number, like 8. Multiplying 8 by 10 gives 80, and dividing 8 by 10 gives 0.8, which is a decimal. So maybe I should avoid decimals and focus on numbers that result in whole numbers when divided by ten. For example, 20 divided by 10 is 2, which is a natural number. So the question would be ""What is 20 divided by 10?"" and the answer is",1,1,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,0,mathematics,0.8777357339859009,0.8777357339859009,0.12226426601409912,0.8777357339859009,0.12226426601409912,1,OTRO,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,1,algebra,0.9337375164031982,0.05758451297879219,0.9337375164031982,0.003494434989988804,0.00011674567213049158,0.00506682600826025
+Wait, maybe I'm overcomplicating it. The user's example used 5 multiplied by 10, so perhaps I can use another number, like 8. Multiplying 8 by 10 gives 80, and dividing 8 by 10 gives 0.8, which is a decimal. So maybe I should avoid decimals and focus on numbers that result in whole numbers when divided by ten. For example, 20 divided by 10 is 2, which is a natural number. So the question would be ""What is 20 divided by 10?"" and the answer is",0,0,0.9835127666592598,0.9835127666592598,0.016487233340740204,0.9835127666592598,0.016487233340740204,0,mathematics,0.5894236862659454,0.5894236862659454,0.41057631373405457,0.5894236862659454,0.41057631373405457,1,OTRO,0.9754972457885742,0.02450275421142578,0.9754972457885742,0.02450275421142578,0.9754972457885742,2,division-multiplication,0.5991162061691284,0.1962386965751648,0.06791917979717255,0.5991162061691284,0.034787409007549286,0.10193850845098495
 39,"Okay, so I need to write a question where the student has to solve an equation that includes both multiplication and division. The user provided an example, but I should create my own. Let me think about how to approach this.
 
 First, I should decide on the type of equation. It could be a simple one-step equation, maybe with variables on both sides, or perhaps a two-step equation. Since the example used a one-step equation, maybe I'll go with that for simplicity.
@@ -842,7 +842,7 @@ So, the question would be: ""Calculate the average cost per item for 3 notebooks
 I think that covers it. The equation includes both multiplication and division, and it's a straightforward problem that a student can solve.
 </think>
 
-Question: Calculate the average cost per item for 3 notebooks at $2 each and 2 pens at $1 each.",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.7440859079360962,0.7440859079360962,0.2559140920639038,0.7440859079360962,0.2559140920639038,1,OTRO,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,1,algebra,0.9914538860321045,0.0038788344245404005,0.9914538860321045,0.003449064679443836,0.0001802259066607803,0.0010379684390500188
+Question: Calculate the average cost per item for 3 notebooks at $2 each and 2 pens at $1 each.",1,1,0.8847441673278809,0.11525583267211914,0.8847441673278809,0.11525583267211914,0.8847441673278809,0,mathematics,0.7103236019611359,0.7103236019611359,0.28967639803886414,0.7103236019611359,0.28967639803886414,1,OTRO,0.9598048329353333,0.04019516706466675,0.9598048329353333,0.04019516706466675,0.9598048329353333,3,geometry,0.4710526764392853,0.3106752038002014,0.07448688894510269,0.1375424712896347,0.4710526764392853,0.006242716684937477
 40,"Okay, so I need to figure out how to generate a question that asks which multiplication correctly matches a given exact division. The user provided an example where the question is about dividing 48 by 6, and the options are 6×8, 6×7, and 6×9. The correct answer is 6×8 because 6×8 equals 48.
 
 First, I should understand the problem. The task is to create a question that tests the understanding of how multiplication and division are related. Specifically, it should ask which multiplication fact results in the given exact division.
@@ -865,7 +865,7 @@ I also need to ensure that the question is clear and that the correct answer is 
 
 So, putting it all together, the question would be: ""Which multiplication fact correctly matches the exact division of 48 by 6?"" Then list the options as 6×8, 6×7, and 6×9, with the correct answer being 6×8.
 
-I",1,1,0.9999547004699707,4.5299530029296875e-05,0.9999547004699707,4.5299530029296875e-05,0.9999547004699707,0,mathematics,0.8199844509363174,0.8199844509363174,0.18001554906368256,0.8199844509363174,0.18001554906368256,1,OTRO,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,1,algebra,0.9378842115402222,0.05202777311205864,0.9378842115402222,0.0015761619433760643,9.833885997068137e-06,0.008502010256052017
+I",0,0,0.7434463202953339,0.7434463202953339,0.25655367970466614,0.7434463202953339,0.25655367970466614,0,mathematics,0.795348659157753,0.795348659157753,0.204651340842247,0.795348659157753,0.204651340842247,1,OTRO,0.9773973822593689,0.022602617740631104,0.9773973822593689,0.022602617740631104,0.9773973822593689,2,division-multiplication,0.3353874683380127,0.15468843281269073,0.16022472083568573,0.3353874683380127,0.2525842487812042,0.09711512178182602
 41,"I need to create a question where multiplication produces the dividend needed for a division with natural numbers. 
 
 First, I'll choose two natural numbers, say 12 and 6. 
@@ -880,7 +880,7 @@ Finally, I'll explain that multiplying 6 by 2 gives 12, which is the dividend ne
 Sure! Here's a question where multiplication produces the dividend needed for a division with natural numbers:
 
 **Question:**  
-What is 12 divided by 6?",1,1,0.9999970197677612,2.9802322387695312e-06,0.9999970197677612,2.9802322387695312e-06,0.9999970197677612,0,mathematics,0.8935842365026474,0.8935842365026474,0.1064157634973526,0.8935842365026474,0.1064157634973526,1,OTRO,0.9999754428863525,2.4557113647460938e-05,0.9999754428863525,2.4557113647460938e-05,0.9999754428863525,1,algebra,0.9881133437156677,0.0034007139038294554,0.9881133437156677,0.0009057121933437884,9.749763876243378e-07,0.007579270284622908
+What is 12 divided by 6?",0,0,0.9794291835278273,0.9794291835278273,0.020570816472172737,0.9794291835278273,0.020570816472172737,1,otro,0.704276442527771,0.295723557472229,0.704276442527771,0.295723557472229,0.704276442527771,1,OTRO,0.9095353484153748,0.09046465158462524,0.9095353484153748,0.09046465158462524,0.9095353484153748,1,algebra,0.5046281218528748,0.1270473748445511,0.5046281218528748,0.07639069110155106,0.10884207487106323,0.18309171497821808
 42,"Okay, so I need to write a question where the student has to correct an incorrect multiplication or division result. The user provided an example where the student was given 12 × 12 = 144 and 12 ÷ 12 = 1, but the correct answers are 144 and 1, respectively. Wait, that's the same as the example, so maybe I need to come up with a different example.
 
 Let me think of a multiplication problem. Maybe 15 × 15. I know that 15 × 15 is 225, but sometimes people might think it's 225 or 2250. Hmm, maybe I can make it a bit more tricky. Let's say the student was given 15 × 15 = 225 and 15 ÷ 15 = 1, but the correct answers are 225 and 1. Wait, that's the same as the example. I need a different incorrect result.
@@ -891,7 +891,7 @@ Wait, maybe I should think of a different multiplication problem. Let's say 13 �
 
 Perhaps I should try a different approach. Let's think of a multiplication problem where the result is incorrect. Maybe 14 × 14. I know that 14 × 14 is 196, but sometimes people might think it's 196 or 1960. Maybe the student was given 14 × 14 = 196 and 14 ÷ 14 = 1, but the correct answers are 196 and 1. Wait, that's the same as the example. I'm stuck.
 
-Wait, maybe I should try a different multiplication problem. Let's say 16 × 16. I know",1,1,0.9998701810836792,0.00012981891632080078,0.9998701810836792,0.00012981891632080078,0.9998701810836792,0,mathematics,0.8257413357496262,0.8257413357496262,0.17425866425037384,0.8257413357496262,0.17425866425037384,1,OTRO,0.9998477697372437,0.00015223026275634766,0.9998477697372437,0.00015223026275634766,0.9998477697372437,0,addition-subtraction,0.8635056614875793,0.8635056614875793,0.10384272038936615,0.0003940128081012517,9.560386615703464e-07,0.03225657716393471
+Wait, maybe I should try a different multiplication problem. Let's say 16 × 16. I know",0,0,0.9744252692908049,0.9744252692908049,0.025574730709195137,0.9744252692908049,0.025574730709195137,1,otro,0.6737110018730164,0.32628899812698364,0.6737110018730164,0.32628899812698364,0.6737110018730164,1,OTRO,0.9624137282371521,0.0375862717628479,0.9624137282371521,0.0375862717628479,0.9624137282371521,4,otro,0.5492417216300964,0.11565711349248886,0.1256648451089859,0.06678581982851028,0.1426505148410797,0.5492417216300964
 43,"Okay, so I need to create a question that combines two simple multiplications and one exact division to find the final result. Let me break this down step by step.
 
 First, I should think about two simple multiplication problems. Simple multiplications usually involve single-digit numbers, so that's easy to handle. Let me pick two numbers, say 7 and 8. Multiplying them together gives 56. That's straightforward.
@@ -903,7 +903,7 @@ Now, I need to combine these into a single question. The question should clearly
 Let me double-check to ensure it meets all the requirements. It combines two multiplications (7×8 and then the result×7) and an exact division (56÷7). The question is clear and concise, using only text without any additional symbols or explanations. It's straightforward and effective for the intended purpose.
 </think>
 
-Multiply 7 by 8, then multiply the result by 7 again, and then divide that by 7. What is the final result?",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.6973385512828827,0.6973385512828827,0.3026614487171173,0.6973385512828827,0.3026614487171173,1,OTRO,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1,algebra,0.9623278379440308,0.027168067172169685,0.9623278379440308,0.006670612841844559,0.00010616471263347194,0.0037273806519806385
+Multiply 7 by 8, then multiply the result by 7 again, and then divide that by 7. What is the final result?",0,0,0.5083447098731995,0.5083447098731995,0.49165529012680054,0.5083447098731995,0.49165529012680054,0,mathematics,0.7544810622930527,0.7544810622930527,0.24551893770694733,0.7544810622930527,0.24551893770694733,1,OTRO,0.9241117835044861,0.07588821649551392,0.9241117835044861,0.07588821649551392,0.9241117835044861,0,addition-subtraction,0.5328694581985474,0.5328694581985474,0.07631262391805649,0.3130696415901184,0.061007000505924225,0.01674138382077217
 44,"Okay, so I need to create a question that assesses multiplication and division using a short numerical expression with exact operations. The user provided an example, but I should create my own. Let me think about how to approach this.
 
 First, I should focus on basic multiplication and division facts. That means using numbers that are easy to work with, like single-digit numbers. I need to make sure the expression is short, so it shouldn't be too long. Maybe something like 5 divided by 2 or 3 multiplied by 4.
@@ -926,7 +926,7 @@ I think I'll go with 12 divided by 3 because it's a common fact and the result i
 
 Alternatively, if I want to include both multiplication and division, maybe I can create a problem that involves both. For example, ""Calculate 15 divided by 3 multiplied by 2."" But that's a bit longer. Maybe I can make it a single expression: ""Calculate 15 divided by 3 multiplied by 2."" That's still a short expression.
 
-Wait, but the user wants a question that assesses multiplication and division using a short numerical expression. So maybe I can phrase it as a problem to solve, like ""What is 15 divided by 3 multiplied",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,0,mathematics,0.7147537171840668,0.7147537171840668,0.2852462828159332,0.7147537171840668,0.2852462828159332,1,OTRO,1.0,0.0,1.0,0.0,1.0,1,algebra,0.9964916110038757,0.002841584151610732,0.9964916110038757,0.0001743351895129308,2.6912480279861484e-06,0.0004897349863313138
+Wait, but the user wants a question that assesses multiplication and division using a short numerical expression. So maybe I can phrase it as a problem to solve, like ""What is 15 divided by 3 multiplied",0,0,0.9528523273766041,0.9528523273766041,0.04714767262339592,0.9528523273766041,0.04714767262339592,1,otro,0.5676993131637573,0.4323006868362427,0.5676993131637573,0.4323006868362427,0.5676993131637573,1,OTRO,0.9872450232505798,0.012754976749420166,0.9872450232505798,0.012754976749420166,0.9872450232505798,1,algebra,0.3955513536930084,0.32527852058410645,0.3955513536930084,0.21518610417842865,0.02766227535903454,0.0363217256963253
 45,"Okay, so I need to create a word problem where equal groups are formed, and the student uses multiplication to find the total number of objects. The user has already provided an example, but I need to come up with a different one. Let me think about how to approach this.
 
 First, I should understand the structure of the example. It starts with a scenario, introduces equal groups, and then asks for the total using multiplication. The example given is about a classroom with 4 groups of desks, each containing 5 desks. The problem then asks how many desks there are in total.
@@ -948,7 +948,7 @@ I should also ensure that the problem is clear and that the multiplication is th
 I think that's a solid approach. Now, I'll write the problem in a clear, concise manner, making sure it's text only as requested.
 </think>
 
-There are 5 rows of chairs in a classroom, and each row has 6 chairs. How many chairs are there in total?",1,1,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,0,mathematics,0.711813747882843,0.711813747882843,0.288186252117157,0.711813747882843,0.288186252117157,1,OTRO,1.0,0.0,1.0,0.0,1.0,1,algebra,0.9859349727630615,0.009490283206105232,0.9859349727630615,0.0014638180145993829,4.355723831395153e-06,0.0031065267976373434
+There are 5 rows of chairs in a classroom, and each row has 6 chairs. How many chairs are there in total?",0,0,0.7479990422725677,0.7479990422725677,0.25200095772743225,0.7479990422725677,0.25200095772743225,1,otro,0.7543153762817383,0.24568462371826172,0.7543153762817383,0.24568462371826172,0.7543153762817383,1,OTRO,0.968818724155426,0.031181275844573975,0.968818724155426,0.031181275844573975,0.968818724155426,0,addition-subtraction,0.5281115174293518,0.5281115174293518,0.013584624975919724,0.17484933137893677,0.2569156587123871,0.02653883583843708
 46,"Alright, so the user wants me to generate a word problem where objects are shared equally, and the student uses division to find out how many each group gets. They specified to use text only, so I need to make sure the entire problem is in plain text without any formatting.
 
 First, I should think about a relatable scenario. Maybe something like sharing candies or toys. That's a common example for students. I'll need to set up a situation where a certain number of items are divided among several groups.
@@ -966,7 +966,7 @@ I should double-check that the problem is solvable and that the division is the 
 Overall, this should fulfill the user's request effectively. I'll present the problem in a clear, concise manner without any additional text or formatting.
 </think>
 
-There are 24 candies to be shared equally among 6 children. How many candies does each child get?",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.7525220066308975,0.7525220066308975,0.24747799336910248,0.7525220066308975,0.24747799336910248,1,OTRO,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1,algebra,0.9803063869476318,0.01647377759218216,0.9803063869476318,0.002411209512501955,2.9980110411997885e-05,0.0007786333444528282
+There are 24 candies to be shared equally among 6 children. How many candies does each child get?",0,0,0.9563418477773666,0.9563418477773666,0.04365815222263336,0.9563418477773666,0.04365815222263336,1,otro,0.6312832236289978,0.3687167763710022,0.6312832236289978,0.3687167763710022,0.6312832236289978,1,OTRO,0.9597872495651245,0.04021275043487549,0.9597872495651245,0.04021275043487549,0.9597872495651245,0,addition-subtraction,0.4373246729373932,0.4373246729373932,0.23314034938812256,0.1667877584695816,0.13126899302005768,0.0314781591296196
 47,"Okay, so I need to create a problem where the student first finds a total using multiplication and then shares it equally using division. The user provided an example, but I need to come up with a different one. Let me think about how to structure this.
 
 First, I should choose a relatable scenario. Maybe something involving sharing food or toys. Let's say a group of children is sharing pizzas. That seems like a common context and easy to visualize.
@@ -984,7 +984,7 @@ I think that works. It uses multiplication to find the total slices and then div
 I don't think I need to add any extra information or make it too complicated. The example provided was clear, so this should be just as good. I'll present it as a problem to solve.
 </think>
 
-There are 4 pizzas, each cut into 6 slices. If 6 children share the pizza equally, how many slices does each child get?",1,1,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,0,mathematics,0.9126893281936646,0.9126893281936646,0.08731067180633545,0.9126893281936646,0.08731067180633545,1,OTRO,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1,algebra,0.989612877368927,0.005725544411689043,0.989612877368927,0.0045160711742937565,1.866149432316888e-05,0.00012690361472778022
+There are 4 pizzas, each cut into 6 slices. If 6 children share the pizza equally, how many slices does each child get?",0,0,0.9282917603850365,0.9282917603850365,0.07170823961496353,0.9282917603850365,0.07170823961496353,1,otro,0.6887438297271729,0.31125617027282715,0.6887438297271729,0.31125617027282715,0.6887438297271729,1,OTRO,0.9334247708320618,0.06657522916793823,0.9334247708320618,0.06657522916793823,0.9334247708320618,0,addition-subtraction,0.7147238850593567,0.7147238850593567,0.02599247545003891,0.18508674204349518,0.047889064997434616,0.026307830587029457
 48,"Okay, so I need to create a problem involving rows and columns where the student uses multiplication to find the total and then uses division to verify it. Let me think about how to structure this.
 
 First, I should come up with a scenario that naturally involves rows and columns. Maybe something like arranging books on a shelf. That way, rows can represent one category, and columns another.
@@ -1023,7 +1023,7 @@ Imagine you have a bookshelf with 4 rows. Each row contains 5 books. Use multipl
    - This confirms that each row indeed contains **5** books, verifying the total number of books on the shelf is **20**.
 
 **Final Answer:**
-The total number of books on the bookshelf is \boxed{20",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.6583780646324158,0.6583780646324158,0.34162193536758423,0.6583780646324158,0.34162193536758423,1,OTRO,1.0,0.0,1.0,0.0,1.0,1,algebra,0.995980978012085,0.0003226491971872747,0.995980978012085,0.003281368874013424,1.944211544468999e-05,0.0003955337160732597
+The total number of books on the bookshelf is \boxed{20",0,0,0.9308449253439903,0.9308449253439903,0.06915507465600967,0.9308449253439903,0.06915507465600967,0,mathematics,0.6861805617809296,0.6861805617809296,0.31381943821907043,0.6861805617809296,0.31381943821907043,1,OTRO,0.9368387460708618,0.06316125392913818,0.9368387460708618,0.06316125392913818,0.9368387460708618,2,division-multiplication,0.4738727807998657,0.17059706151485443,0.1451364904642105,0.4738727807998657,0.18342380225658417,0.02696988359093666
 49,"Okay, so I need to create a word problem where the student has to figure out how many equal packages can be made from a total number of items. Let me think about how to approach this.
 
 First, I should decide on the total number of items. Maybe something like 24 apples. That seems like a good number because it can be divided into various equal packages.
@@ -1041,7 +1041,7 @@ I should check if this makes sense. The total is 24, each package is 3 apples, s
 I think this meets all the requirements. It's a simple word problem that clearly shows the division process. The student needs to perform the division to find the number of packages, which is a fundamental math skill.
 </think>
 
-There are 24 apples in a bag. Each student will receive 3 apples. How many equal packages can be made from the bag?",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.7554935067892075,0.7554935067892075,0.24450649321079254,0.7554935067892075,0.24450649321079254,1,OTRO,0.9999985694885254,1.430511474609375e-06,0.9999985694885254,1.430511474609375e-06,0.9999985694885254,1,algebra,0.9906366467475891,0.0067476737312972546,0.9906366467475891,0.0012679771753028035,6.4330120039812755e-06,0.0013413656270131469
+There are 24 apples in a bag. Each student will receive 3 apples. How many equal packages can be made from the bag?",1,1,0.6438355445861816,0.35616445541381836,0.6438355445861816,0.35616445541381836,0.6438355445861816,0,mathematics,0.8849518597126007,0.8849518597126007,0.11504814028739929,0.8849518597126007,0.11504814028739929,1,OTRO,0.8432314395904541,0.1567685604095459,0.8432314395904541,0.1567685604095459,0.8432314395904541,2,division-multiplication,0.7352975606918335,0.16919293999671936,0.0029141423292458057,0.7352975606918335,0.0851263701915741,0.007468953263014555
 50,"Okay, so I need to create a math question that combines addition and subtraction with natural numbers for elementary students. Let me think about how to approach this.
 
 First, I should consider the basic concepts of addition and subtraction. Since it's for elementary students, the numbers should be simple, maybe single-digit numbers. That makes it easier for them to visualize and understand.
@@ -1061,7 +1061,7 @@ Another thought: maybe using a number line could be a visual aid, but since the 
 I think the first example I came up with is good. It's a simple subtraction problem using natural numbers. It's also a relatable scenario, which helps students visualize the problem. I don't see any issues with it, so I'll go with that.
 </think>
 
-""If you have 5 apples and you eat 2, how many apples do you have left?""",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,0,mathematics,0.9349959939718246,0.9349959939718246,0.06500400602817535,0.9349959939718246,0.06500400602817535,1,OTRO,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,1,algebra,0.9951522350311279,0.004111816640943289,0.9951522350311279,0.000533726008143276,4.103744231542805e-06,0.00019802781753242016
+""If you have 5 apples and you eat 2, how many apples do you have left?""",0,0,0.7653867453336716,0.7653867453336716,0.23461325466632843,0.7653867453336716,0.23461325466632843,1,otro,0.6873701810836792,0.3126298189163208,0.6873701810836792,0.3126298189163208,0.6873701810836792,1,OTRO,0.8882176280021667,0.11178237199783325,0.8882176280021667,0.11178237199783325,0.8882176280021667,0,addition-subtraction,0.7215316295623779,0.7215316295623779,0.07730695605278015,0.17697025835514069,0.02070661634206772,0.003484569489955902
 51,"Okay, so I need to create a question where the student adds two quantities and then subtracts a third. Let me think about how to structure this. 
 
 First, I should come up with two quantities. Maybe something like 15 and 20. That's a common number, and it's easy to work with. 
@@ -1077,7 +1077,7 @@ I should make sure the question is clear and uses simple language. It should be 
 I think that's it. The question meets all the criteria: it involves addition followed by subtraction, and it's presented in a straightforward way.
 </think>
 
-What is the result of adding 15 and 20, then subtracting 10?",1,1,1.0,0.0,1.0,0.0,1.0,1,otro,0.5378580093383789,0.4621419906616211,0.5378580093383789,0.4621419906616211,0.5378580093383789,1,OTRO,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,1,algebra,0.9911820888519287,0.005790035706013441,0.9911820888519287,0.0006561529589816928,1.935880163728143e-06,0.0023698473814874887
+What is the result of adding 15 and 20, then subtracting 10?",0,0,0.755970373749733,0.755970373749733,0.24402962625026703,0.755970373749733,0.24402962625026703,0,mathematics,0.6320270895957947,0.6320270895957947,0.3679729104042053,0.6320270895957947,0.3679729104042053,1,OTRO,0.9539400339126587,0.04605996608734131,0.9539400339126587,0.04605996608734131,0.9539400339126587,0,addition-subtraction,0.5328444242477417,0.5328444242477417,0.09257504343986511,0.06287689507007599,0.29284271597862244,0.018860949203372
 52,"I need to create an addition and subtraction question involving two-digit numbers that can be solved using basic operations.
 
 First, I'll choose two two-digit numbers. Let's go with 45 and 67.
@@ -1103,7 +1103,7 @@ Add the following two-digit numbers:
 Subtract the following two-digit numbers:
 \[
 67 - 45 = \boxed{22}
-\]",1,1,0.9999970197677612,2.9802322387695312e-06,0.9999970197677612,2.9802322387695312e-06,0.9999970197677612,1,otro,0.6280127763748169,0.3719872236251831,0.6280127763748169,0.3719872236251831,0.6280127763748169,1,OTRO,0.9997156262397766,0.00028437376022338867,0.9997156262397766,0.00028437376022338867,0.9997156262397766,4,otro,0.45271769165992737,0.44794899225234985,0.09726450592279434,0.0020657756831496954,3.0687831440445734e-06,0.45271769165992737
+\]",0,0,0.9892418486997485,0.9892418486997485,0.010758151300251484,0.9892418486997485,0.010758151300251484,1,otro,0.9245440363883972,0.07545596361160278,0.9245440363883972,0.07545596361160278,0.9245440363883972,1,OTRO,0.9888889789581299,0.011111021041870117,0.9888889789581299,0.011111021041870117,0.9888889789581299,4,otro,0.6313344836235046,0.11037322878837585,0.0963020920753479,0.08995013684034348,0.07204010337591171,0.6313344836235046
 53,"Okay, so I need to create a question that practices subtraction first and then addition using simple natural numbers. Let me think about how to approach this.
 
 First, I should start with a simple subtraction problem. Maybe something like 10 minus 3. That's straightforward. Then, after solving that, I need to use the result in an addition problem. So, if 10 minus 3 is 7, the next step would be adding that result to another number, say 4. So, 7 plus 4.
@@ -1113,7 +1113,7 @@ Putting it together, the question should first ask the subtraction part and then
 I should make sure the numbers are simple and natural, which they are. Also, the question should flow naturally, starting with subtraction and then moving on to addition. I think that's a good structure. Let me double-check to ensure it's clear and meets the requirements.
 </think>
 
-What is 10 minus 3, and then what is the sum of that result plus 4?",1,1,0.999991774559021,8.225440979003906e-06,0.999991774559021,8.225440979003906e-06,0.999991774559021,0,mathematics,0.6313391625881195,0.6313391625881195,0.3686608374118805,0.6313391625881195,0.3686608374118805,1,OTRO,0.999998927116394,1.0728836059570312e-06,0.999998927116394,1.0728836059570312e-06,0.999998927116394,1,algebra,0.9762333035469055,0.020336691290140152,0.9762333035469055,0.0013852912234142423,1.648958345867868e-06,0.0020430737640708685
+What is 10 minus 3, and then what is the sum of that result plus 4?",0,0,0.9974404065869749,0.9974404065869749,0.0025595934130251408,0.9974404065869749,0.0025595934130251408,0,mathematics,0.869264617562294,0.869264617562294,0.130735382437706,0.869264617562294,0.130735382437706,1,OTRO,0.8482407331466675,0.15175926685333252,0.8482407331466675,0.15175926685333252,0.8482407331466675,0,addition-subtraction,0.9514369368553162,0.9514369368553162,0.01767534203827381,0.01534952037036419,0.015222379937767982,0.0003158931795042008
 54,"Okay, so I need to create a math question with three quantities where the student has to decide whether to add or subtract. The user provided an example, but I need to come up with a different one. Let me think about how to approach this.
 
 First, I should identify three quantities that can be related through addition or subtraction. Maybe something involving money, since that's a common context where these operations are used. Let's say we have a starting amount, then some transactions, and we need to find the final amount.
@@ -1134,7 +1134,7 @@ Suppose a student has $200. They spend $50, then receive $100, and then spend an
 
 But the question should be structured as a problem, not just a calculation. Maybe the problem should present the situation and ask which operation to use. For example: ""If you have $200, spend $50, then receive $100, and then spend another $75, how much money do you have left?""
 
-Wait, that's a bit convoluted. Maybe a simpler example: ""You have $100. You spend $30, then receive $20, and then spend another $15. How much do",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,0,mathematics,0.7620662301778793,0.7620662301778793,0.23793376982212067,0.7620662301778793,0.23793376982212067,1,OTRO,1.0,0.0,1.0,0.0,1.0,1,algebra,0.9707372784614563,0.021329689770936966,0.9707372784614563,0.0072884284891188145,1.1638823707471602e-05,0.0006328420131467283
+Wait, that's a bit convoluted. Maybe a simpler example: ""You have $100. You spend $30, then receive $20, and then spend another $15. How much do",0,0,0.8216714560985565,0.8216714560985565,0.17832854390144348,0.8216714560985565,0.17832854390144348,1,otro,0.8356157541275024,0.16438424587249756,0.8356157541275024,0.16438424587249756,0.8356157541275024,1,OTRO,0.9821451902389526,0.017854809761047363,0.9821451902389526,0.017854809761047363,0.9821451902389526,3,geometry,0.4756695330142975,0.08265849202871323,0.019849753007292747,0.38096165657043457,0.4756695330142975,0.04086054489016533
 55,"Okay, so I need to write a calculation question that combines addition and subtraction with numbers below 100 for elementary education. Let me think about how to approach this.
 
 First, I should consider the basic operations: addition and subtraction. Since it's for elementary students, the numbers should be manageable, not too big to cause confusion. The total should be below 100, so I need to make sure the numbers I choose don't add up to 100 or more.
@@ -1150,7 +1150,7 @@ Let me double-check the numbers. 45 + 32 is indeed 77, and 77 - 23 is 54. That's
 I think that's a good question. It combines both operations, is clear, and is appropriate for elementary students. It also provides a straightforward answer, which is helpful for checking if the student understood the problem correctly.
 </think>
 
-What is the result of adding 45 and 32, then subtracting 23?",1,1,0.9999934434890747,6.556510925292969e-06,0.9999934434890747,6.556510925292969e-06,0.9999934434890747,0,mathematics,0.7955438643693924,0.7955438643693924,0.2044561356306076,0.7955438643693924,0.2044561356306076,1,OTRO,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,1,algebra,0.9951091408729553,0.0029306684155017138,0.9951091408729553,0.0016263474244624376,1.5203430848487187e-05,0.0003186608955729753
+What is the result of adding 45 and 32, then subtracting 23?",0,0,0.7265380322933197,0.7265380322933197,0.2734619677066803,0.7265380322933197,0.2734619677066803,0,mathematics,0.9802761524915695,0.9802761524915695,0.01972384750843048,0.9802761524915695,0.01972384750843048,1,OTRO,0.8647769689559937,0.13522303104400635,0.8647769689559937,0.13522303104400635,0.8647769689559937,0,addition-subtraction,0.5820665955543518,0.5820665955543518,0.06358620524406433,0.3227591812610626,0.029351864010095596,0.002236094791442156
 56,"Okay, so I need to create a question where the student has to find a missing number using both addition and subtraction. Let me think about how to structure this.
 
 First, I should decide on the scenario. Maybe a simple word problem involving money or something relatable. Let's go with money because it's easy to visualize.
@@ -1173,7 +1173,7 @@ Let me try this: the student starts with $20, spends $5, and then gains $3. The 
 
 I need to make it so that the initial amount is part of both operations. Maybe the student starts with some money, spends some, and then gains more, but the total is given, and we have to find the initial amount.
 
-Wait, perhaps the student starts with $10, spends $3, and then gains $2. The total after these transactions is $9. So, the",1,1,0.9997153878211975,0.00028461217880249023,0.9997153878211975,0.00028461217880249023,0.9997153878211975,0,mathematics,0.8517952412366867,0.8517952412366867,0.1482047587633133,0.8517952412366867,0.1482047587633133,1,OTRO,1.0,0.0,1.0,0.0,1.0,1,algebra,0.9956715106964111,0.0026061502285301685,0.9956715106964111,0.0014983918517827988,9.261548257200047e-06,0.000214754298212938
+Wait, perhaps the student starts with $10, spends $3, and then gains $2. The total after these transactions is $9. So, the",0,0,0.9953848388977349,0.9953848388977349,0.0046151611022651196,0.9953848388977349,0.0046151611022651196,1,otro,0.6034166812896729,0.39658331871032715,0.6034166812896729,0.39658331871032715,0.6034166812896729,1,OTRO,0.9705326557159424,0.029467344284057617,0.9705326557159424,0.029467344284057617,0.9705326557159424,0,addition-subtraction,0.8500599265098572,0.8500599265098572,0.09465992450714111,0.033849552273750305,0.009122316725552082,0.012308293953537941
 57,"Okay, so I need to create a question where students have to compare two results from an addition and a subtraction using natural numbers. Let me think about how to structure this.
 
 First, I should decide on the two numbers involved. Maybe 15 and 9. That's a good starting point because it's a common number and easy to work with.
@@ -1193,7 +1193,7 @@ Let me double-check the numbers. 15 + 9 is 24, and 15 - 9 is 6. So, 24 is larger
 I think that's a solid question. It's clear, uses natural numbers, and tests the student's ability to compare results from addition and subtraction.
 </think>
 
-""Which is larger: the sum of 15 and 9 or the difference of 15 and 9?""",1,1,0.9999943971633911,5.602836608886719e-06,0.9999943971633911,5.602836608886719e-06,0.9999943971633911,0,mathematics,0.7791541516780853,0.7791541516780853,0.22084584832191467,0.7791541516780853,0.22084584832191467,1,OTRO,0.9999985694885254,1.430511474609375e-06,0.9999985694885254,1.430511474609375e-06,0.9999985694885254,1,algebra,0.8064233064651489,0.1886550337076187,0.8064233064651489,0.0024709871504455805,1.6380903616664e-05,0.0024342897813767195
+""Which is larger: the sum of 15 and 9 or the difference of 15 and 9?""",0,0,0.9432402327656746,0.9432402327656746,0.05675976723432541,0.9432402327656746,0.05675976723432541,1,otro,0.7773785591125488,0.22262144088745117,0.7773785591125488,0.22262144088745117,0.7773785591125488,1,OTRO,0.9837586283683777,0.016241371631622314,0.9837586283683777,0.016241371631622314,0.9837586283683777,0,addition-subtraction,0.8770158886909485,0.8770158886909485,0.004384483676403761,0.015988828614354134,0.08943597227334976,0.013174918480217457
 58,"Okay, so I need to write a question where the student has to solve two additions and one subtraction to find the final result. The user provided an example, but I need to create a new one. Let me think about how to approach this.
 
 First, I should come up with a scenario that involves numbers and operations. Maybe something like shopping or budgeting, since those are common contexts for addition and subtraction. Let me choose shopping because it's relatable and easy to visualize.
@@ -1213,7 +1213,7 @@ I should also check if the numbers make sense. $15 + $5 = $20, and then $20 - $2
 I think this meets all the requirements: it's a simple scenario, involves two additions and one subtraction, and clearly shows the process. I don't see any errors in the structure or the numbers. It should work well for the student to practice their arithmetic skills.
 </think>
 
-A student has $100. They buy a book for $15 and a pen for $5. Then, they spend $20 on a notebook. How much money does the student have left?",1,1,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,0,mathematics,0.6995692253112793,0.6995692253112793,0.3004307746887207,0.6995692253112793,0.3004307746887207,1,OTRO,1.0,0.0,1.0,0.0,1.0,1,algebra,0.9955767393112183,0.002582400804385543,0.9955767393112183,0.0015113458503037691,5.492443960974924e-06,0.0003240229852963239
+A student has $100. They buy a book for $15 and a pen for $5. Then, they spend $20 on a notebook. How much money does the student have left?",0,0,0.6856859922409058,0.6856859922409058,0.31431400775909424,0.6856859922409058,0.31431400775909424,1,otro,0.9433239102363586,0.05667608976364136,0.9433239102363586,0.05667608976364136,0.9433239102363586,1,OTRO,0.9902532696723938,0.009746730327606201,0.9902532696723938,0.009746730327606201,0.9902532696723938,2,division-multiplication,0.3574678301811218,0.08746550232172012,0.2400423139333725,0.3574678301811218,0.20061124861240387,0.11441311985254288
 59,"First, I need to create an addition problem using three-digit numbers. I'll choose two numbers, say 456 and 789, and add them together to get 1245.
 
 Next, I'll create a subtraction problem using the same numbers. I'll subtract 789 from 1245 to get 456.
@@ -1230,7 +1230,7 @@ Calculate the following:
 
 **Answer:**
 - Addition: \( 456 + 789 = 1245 \)
-- Subtraction: \( 1245 - 789 = 456 \)",1,1,0.9999949932098389,5.0067901611328125e-06,0.9999949932098389,5.0067901611328125e-06,0.9999949932098389,1,otro,0.7905235886573792,0.20947641134262085,0.7905235886573792,0.20947641134262085,0.7905235886573792,1,OTRO,0.9997718930244446,0.00022810697555541992,0.9997718930244446,0.00022810697555541992,0.9997718930244446,4,otro,0.7454323768615723,0.06948267668485641,0.18501023948192596,7.443511276505888e-05,1.5783622586695856e-07,0.7454323768615723
+- Subtraction: \( 1245 - 789 = 456 \)",0,0,0.998023965395987,0.998023965395987,0.001976034604012966,0.998023965395987,0.001976034604012966,1,otro,0.6973962783813477,0.30260372161865234,0.6973962783813477,0.30260372161865234,0.6973962783813477,1,OTRO,0.9679209589958191,0.03207904100418091,0.9679209589958191,0.03207904100418091,0.9679209589958191,0,addition-subtraction,0.36931470036506653,0.36931470036506653,0.24761076271533966,0.27804794907569885,0.020148981362581253,0.0848776176571846
 60,"Okay, so I need to create a question where the student has to figure out which operation—addition or subtraction—produces a given result. The user provided an example where the result is 10, and the options are addition and subtraction. Now, I need to come up with a similar question but with different numbers and a different result.
 
 First, I should decide on the result. Let's say the result is 15. That's a good number because it's not too big, and it's a common result in simple arithmetic. Next, I need to think of two numbers that, when added together, give 15. Maybe 7 and 8. Alternatively, I could use subtraction, like 20 minus 5 equals 15. Either way, the key is to have two numbers that, when combined with either addition or subtraction, result in the target number.
@@ -1245,7 +1245,7 @@ I should also ensure that the question is not too vague. The numbers should be s
 
 Let me think of another example. Suppose the result is 20. If I choose 12 and 8, addition gives 20. If I choose 30 and 10, subtraction gives 20. So, the question could be: ""What operation (addition or subtraction) was used to get 20 from 12 and 8?""
 
-Wait, but the user's example used 7 and 8 to get 15. So, maybe I should stick with similar numbers. Let me try with 9 and 6 to get 1",1,1,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,0,mathematics,0.6978077292442322,0.6978077292442322,0.3021922707557678,0.6978077292442322,0.3021922707557678,1,OTRO,1.0,0.0,1.0,0.0,1.0,1,algebra,0.9932550191879272,0.0033849228639155626,0.9932550191879272,0.0005345797981135547,1.6515079551027156e-05,0.0028090164996683598
+Wait, but the user's example used 7 and 8 to get 15. So, maybe I should stick with similar numbers. Let me try with 9 and 6 to get 1",0,0,0.8090421855449677,0.8090421855449677,0.19095781445503235,0.8090421855449677,0.19095781445503235,1,otro,0.9404520988464355,0.05954790115356445,0.9404520988464355,0.05954790115356445,0.9404520988464355,1,OTRO,0.9777637720108032,0.022236227989196777,0.9777637720108032,0.022236227989196777,0.9777637720108032,0,addition-subtraction,0.6838786602020264,0.6838786602020264,0.1821458339691162,0.05945165827870369,0.017819786444306374,0.05670405924320221
 61,"Okay, so I need to create a math question that involves both an incomplete addition and an incomplete subtraction. The missing values have to be found. Hmm, let me think about how to approach this.
 
 First, I should probably start by setting up two separate equations. One will be an addition problem where one of the numbers is missing, and the other will be a subtraction problem with a missing number. That way, I can have two separate equations to solve.
@@ -1274,7 +1274,7 @@ Complete the following equations by finding the missing values.
 
 **Answer:**
 1. 5 + 5 = 10  
-2. 10 - 7 = 3",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.8836482167243958,0.8836482167243958,0.11635178327560425,0.8836482167243958,0.11635178327560425,1,OTRO,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,1,algebra,0.9758672714233398,0.02315904200077057,0.9758672714233398,0.0007941605872474611,4.787818397744559e-06,0.00017477899382356554
+2. 10 - 7 = 3",1,1,0.9120612740516663,0.08793872594833374,0.9120612740516663,0.08793872594833374,0.9120612740516663,0,mathematics,0.7146263718605042,0.7146263718605042,0.28537362813949585,0.7146263718605042,0.28537362813949585,1,OTRO,0.9750356674194336,0.024964332580566406,0.9750356674194336,0.024964332580566406,0.9750356674194336,2,division-multiplication,0.4898748993873596,0.1829288750886917,0.12117085605859756,0.4898748993873596,0.19614726305007935,0.009878055192530155
 62,"Okay, so I need to generate a question where the student checks a subtraction using addition and decides if the result is correct. The user provided an example, but I need to create a new one. Let me think about how to approach this.
 
 First, I should understand the structure of the example. It starts with a subtraction problem, then asks the student to use addition to check if the answer is correct. The example uses 45 - 23 = 22 and then asks if 23 + 22 equals 45. That makes sense because if the sum of the subtrahend and the difference equals the minuend, then the subtraction is correct.
@@ -1291,7 +1291,7 @@ I think I have a good structure. Now, I'll write the question accordingly. The s
 
 So, putting it all together, the question would be: ""Check the subtraction 67 - 45 = 22 using addition. Is 45 + 22 equal to 67?""
 
-Wait, but in the example, the subtraction was 45 - 23 = 22, and the addition was 23 + 22",1,1,0.9999861717224121,1.3828277587890625e-05,0.9999861717224121,1.3828277587890625e-05,0.9999861717224121,0,mathematics,0.7805578261613846,0.7805578261613846,0.21944217383861542,0.7805578261613846,0.21944217383861542,1,OTRO,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1,algebra,0.9976029992103577,0.0009546534856781363,0.9976029992103577,0.000983353122137487,1.1679403542075306e-05,0.0004473525914363563
+Wait, but in the example, the subtraction was 45 - 23 = 22, and the addition was 23 + 22",0,0,0.9002108424901962,0.9002108424901962,0.09978915750980377,0.9002108424901962,0.09978915750980377,0,mathematics,0.8207417577505112,0.8207417577505112,0.17925824224948883,0.8207417577505112,0.17925824224948883,1,OTRO,0.92434161901474,0.07565838098526001,0.92434161901474,0.07565838098526001,0.92434161901474,0,addition-subtraction,0.5793639421463013,0.5793639421463013,0.14993588626384735,0.15357698500156403,0.0974835529923439,0.019639521837234497
 63,"Okay, so I need to create a question with four natural numbers that requires additions and subtractions in the correct order. Hmm, let me think about how to approach this.
 
 First, natural numbers are positive integers, right? So I should pick four numbers that are all positive. Maybe I can start with some small numbers to keep it simple. Let's say 1, 2, 3, and 4. That seems straightforward.
@@ -1310,7 +1310,7 @@ I think that's a good question. It uses four natural numbers, requires both addi
 
 Another thought: maybe I can make it more interesting by using different numbers. Let's say 5, 7, 2, 9. Then the question could be ""What is the result of 5 + 7 - 2 + 9?"" That would be 5 + 7 = 12, 12 - 2 = 10, 10 + 9 = 19. That's also a valid question.
 
-But since the user asked for four natural numbers and the example I provided was 1, 2, 3, 4, I think sticking with that is better. It's simple and clear. Plus, it's easy to solve without any confusion.",1,1,0.999998927116394,1.0728836059570312e-06,0.999998927116394,1.0728836059570312e-06,0.999998927116394,0,mathematics,0.7951422184705734,0.7951422184705734,0.20485778152942657,0.7951422184705734,0.20485778152942657,1,OTRO,0.9999972581863403,2.7418136596679688e-06,0.9999972581863403,2.7418136596679688e-06,0.9999972581863403,1,algebra,0.9912779331207275,0.007040073629468679,0.9912779331207275,0.001099062617868185,8.89144757820759e-06,0.0005740485503338277
+But since the user asked for four natural numbers and the example I provided was 1, 2, 3, 4, I think sticking with that is better. It's simple and clear. Plus, it's easy to solve without any confusion.",1,1,0.7691660523414612,0.23083394765853882,0.7691660523414612,0.23083394765853882,0.7691660523414612,0,mathematics,0.7660598605871201,0.7660598605871201,0.23394013941287994,0.7660598605871201,0.23394013941287994,1,OTRO,0.9575792551040649,0.04242074489593506,0.9575792551040649,0.04242074489593506,0.9575792551040649,2,division-multiplication,0.6725530028343201,0.162594735622406,0.01021786779165268,0.6725530028343201,0.14827926456928253,0.0063551124185323715
 64,"I need to create a mental-math question that combines one addition and one subtraction with numbers below 50.
 
 First, I'll choose two numbers below 50. Let's go with 34 and 27.
@@ -1335,7 +1335,7 @@ This way, the question combines both operations and stays within the specified r
    \( 61 - 27 = 34 \)
 
 **Final Answer:**  
-\(\boxed{34}\)",1,1,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,0,mathematics,0.5017028152942657,0.5017028152942657,0.49829718470573425,0.5017028152942657,0.49829718470573425,1,OTRO,0.9995369911193848,0.0004630088806152344,0.9995369911193848,0.0004630088806152344,0.9995369911193848,1,algebra,0.480267196893692,0.37560325860977173,0.480267196893692,0.00010202805424341932,7.466788929377799e-07,0.14402681589126587
+\(\boxed{34}\)",0,0,0.9940868462435901,0.9940868462435901,0.0059131537564098835,0.9940868462435901,0.0059131537564098835,0,mathematics,0.6402716338634491,0.6402716338634491,0.3597283661365509,0.6402716338634491,0.3597283661365509,1,OTRO,0.8901264667510986,0.10987353324890137,0.8901264667510986,0.10987353324890137,0.8901264667510986,1,algebra,0.6603429317474365,0.14483289420604706,0.6603429317474365,0.06322883814573288,0.030005762353539467,0.10158959776163101
 65,"Okay, so I need to generate a question where I compare two expressions that involve both addition and subtraction. The goal is to determine which expression results in a greater value. Let me think about how to approach this.
 
 First, I should come up with two different expressions. They should each have both addition and subtraction. Maybe I can use variables or numbers. Let's go with numbers for simplicity.
@@ -1351,7 +1351,7 @@ Let me double-check the calculations to ensure I didn't make any mistakes. For t
 I think that's a good question. It clearly asks which of the two expressions is greater and provides the necessary information to compare them. I don't see any issues with this approach.
 </think>
 
-Which expression is greater: 15 + 20 - 5 or 10 + 15 - 8?",1,1,0.9999204874038696,7.95125961303711e-05,0.9999204874038696,7.95125961303711e-05,0.9999204874038696,0,mathematics,0.751942440867424,0.751942440867424,0.248057559132576,0.751942440867424,0.248057559132576,1,OTRO,0.9999730587005615,2.6941299438476562e-05,0.9999730587005615,2.6941299438476562e-05,0.9999730587005615,1,algebra,0.5170429944992065,0.47548553347587585,0.5170429944992065,0.002560744760558009,8.242226613219827e-06,0.004902505781501532
+Which expression is greater: 15 + 20 - 5 or 10 + 15 - 8?",1,1,0.7252893447875977,0.27471065521240234,0.7252893447875977,0.27471065521240234,0.7252893447875977,0,mathematics,0.981664702296257,0.981664702296257,0.01833529770374298,0.981664702296257,0.01833529770374298,1,OTRO,0.7411102652549744,0.25888973474502563,0.7411102652549744,0.25888973474502563,0.7411102652549744,0,addition-subtraction,0.9570767283439636,0.9570767283439636,0.0033106044866144657,0.033537425100803375,0.0055154720321297646,0.0005597209674306214
 66,"Okay, so I need to create an addition and subtraction question where the student has to find the starting value from a known final result. Hmm, let me think about how to approach this.
 
 First, I should decide on the final result. Maybe something simple like 20. That's easy to work with. Now, I need to set up an equation where the final result is the sum or difference of two numbers, and one of them is the starting value that we need to find.
@@ -1366,7 +1366,7 @@ Alternatively, I can structure it as a subtraction problem where the starting va
 
 Wait, maybe I should use a two-step problem. Let's say the starting value is added to 10, then subtracted by 5, and the final result is 20. So, x + 10 - 5 = 20. That simplifies to x + 5 = 20, so x = 15. But again, the question should be phrased as a problem to find the starting value.
 
-Alternatively, I can present it as a subtraction problem where the starting value is subtracted by a number, and then another number is added to reach the final result. For example, x - 5 +",1,1,0.9999974966049194,2.5033950805664062e-06,0.9999974966049194,2.5033950805664062e-06,0.9999974966049194,0,mathematics,0.8482069224119186,0.8482069224119186,0.15179307758808136,0.8482069224119186,0.15179307758808136,1,OTRO,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,1,algebra,0.9982082843780518,0.0003207807894796133,0.9982082843780518,0.0011374267050996423,4.5129140744393226e-06,0.0003289439482614398
+Alternatively, I can present it as a subtraction problem where the starting value is subtracted by a number, and then another number is added to reach the final result. For example, x - 5 +",0,0,0.6253147423267365,0.6253147423267365,0.37468525767326355,0.6253147423267365,0.37468525767326355,0,mathematics,0.9440676718950272,0.9440676718950272,0.05593232810497284,0.9440676718950272,0.05593232810497284,1,OTRO,0.922765851020813,0.07723414897918701,0.922765851020813,0.07723414897918701,0.922765851020813,2,division-multiplication,0.3647198975086212,0.23824690282344818,0.023053253069519997,0.3647198975086212,0.3572496175765991,0.016730336472392082
 67,"Okay, so I need to write a question where the student has to correct an incorrect result from an operation that combines addition and subtraction. The user provided an example, but I need to come up with a new one. Let me think about how to approach this.
 
 First, I should create a scenario where addition and subtraction are involved. Maybe a real-life situation like shopping or budgeting. That makes it relatable. Let's say someone is calculating their weekly expenses.
@@ -1383,7 +1383,7 @@ I think that's a solid setup. Now, I'll write the question based on this scenari
 </think>
 
 Question:  
-You have a weekly budget of $500. You spend $200 on groceries, $150 on utilities, and $50 on transportation. However, you forgot to subtract the transportation cost from your total. What mistake did you make?",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,0,mathematics,0.8624925762414932,0.8624925762414932,0.13750742375850677,0.8624925762414932,0.13750742375850677,1,OTRO,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1,algebra,0.9608578681945801,0.034107040613889694,0.9608578681945801,0.003479490289464593,9.25459335121559e-06,0.0015463936142623425
+You have a weekly budget of $500. You spend $200 on groceries, $150 on utilities, and $50 on transportation. However, you forgot to subtract the transportation cost from your total. What mistake did you make?",0,0,0.5103972852230072,0.5103972852230072,0.4896027147769928,0.5103972852230072,0.4896027147769928,1,otro,0.8215939998626709,0.1784060001373291,0.8215939998626709,0.1784060001373291,0.8215939998626709,1,OTRO,0.9678937196731567,0.03210628032684326,0.9678937196731567,0.03210628032684326,0.9678937196731567,0,addition-subtraction,0.8239361643791199,0.8239361643791199,0.0625460296869278,0.01744988188147545,0.02401978150010109,0.0720481127500534
 68,"Okay, so I need to generate a question that involves consecutive natural numbers, and it should require one addition and one subtraction to solve. Hmm, let me think about how to approach this.
 
 First, I should probably start by identifying two consecutive natural numbers. Natural numbers are positive integers starting from 1, so examples would be 1, 2, 3, etc. Consecutive numbers would be like 5 and 6, or 10 and 11, right?
@@ -1408,7 +1408,7 @@ Alternatively, maybe I can phrase it differently. For example, ""If the sum of t
 
 Another way could be to present the problem as a word problem. For instance, ""A number and the next consecutive number add up to 15. What are the numbers?"" This also requires addition and subtraction.
 
-I think",1,1,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,0,mathematics,0.9094592183828354,0.9094592183828354,0.09054078161716461,0.9094592183828354,0.09054078161716461,1,OTRO,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,1,algebra,0.9552859663963318,0.03344267979264259,0.9552859663963318,0.009406263008713722,3.101610855082981e-05,0.0018341102404519916
+I think",0,0,0.710083395242691,0.710083395242691,0.28991660475730896,0.710083395242691,0.28991660475730896,0,mathematics,0.8907385617494583,0.8907385617494583,0.10926143825054169,0.8907385617494583,0.10926143825054169,1,OTRO,0.9361459016799927,0.06385409832000732,0.9361459016799927,0.06385409832000732,0.9361459016799927,0,addition-subtraction,0.5171156525611877,0.5171156525611877,0.07067900896072388,0.2120542824268341,0.19719922542572021,0.0029518278315663338
 69,"First, I need to create a question that assesses addition and subtraction using a numerical expression with three simple operations.
 
 I'll start by selecting three numbers: 12, 15, and 20.
@@ -1426,7 +1426,7 @@ Create a numerical expression using three simple operations (addition, subtracti
 
 \[
 \boxed{12 \times 15 \div 20 + 15}
-\]",1,1,0.9999994039535522,5.960464477539062e-07,0.9999994039535522,5.960464477539062e-07,0.9999994039535522,0,mathematics,0.5612455010414124,0.5612455010414124,0.43875449895858765,0.5612455010414124,0.43875449895858765,1,OTRO,0.9999816417694092,1.8358230590820312e-05,0.9999816417694092,1.8358230590820312e-05,0.9999816417694092,1,algebra,0.5178145170211792,0.0335216149687767,0.5178145170211792,0.006191963795572519,9.280056474381126e-07,0.4424709677696228
+\]",0,0,0.8927658125758171,0.8927658125758171,0.10723418742418289,0.8927658125758171,0.10723418742418289,1,otro,0.9178090691566467,0.08219093084335327,0.9178090691566467,0.08219093084335327,0.9178090691566467,1,OTRO,0.989996075630188,0.010003924369812012,0.989996075630188,0.010003924369812012,0.989996075630188,4,otro,0.9340693950653076,0.005297808442264795,0.042007602751255035,0.013575672172009945,0.005049603525549173,0.9340693950653076
 70,"I need to create a subtraction question involving two-digit natural numbers where the student must find the correct difference.
 
 First, I'll choose two two-digit numbers. Let's go with 45 and 23.
@@ -1439,7 +1439,7 @@ Finally, I'll phrase it as a question asking for the difference: ""What is the d
 Sure! Here's a subtraction question for you:
 
 **Question:**  
-""Find the difference between 45 and 23.""",1,1,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,0,mathematics,0.8815921619534492,0.8815921619534492,0.11840783804655075,0.8815921619534492,0.11840783804655075,1,OTRO,0.9999223947525024,7.76052474975586e-05,0.9999223947525024,7.76052474975586e-05,0.9999223947525024,1,algebra,0.8689837455749512,0.07190990447998047,0.8689837455749512,0.000769209407735616,7.633051382072154e-07,0.05833641439676285
+""Find the difference between 45 and 23.""",0,0,0.969120629131794,0.969120629131794,0.030879370868206024,0.969120629131794,0.030879370868206024,1,otro,0.603545069694519,0.39645493030548096,0.603545069694519,0.39645493030548096,0.603545069694519,1,OTRO,0.9224750399589539,0.07752496004104614,0.9224750399589539,0.07752496004104614,0.9224750399589539,1,algebra,0.39801836013793945,0.36411070823669434,0.39801836013793945,0.14680685102939606,0.040219902992248535,0.05084420368075371
 71,"I need to create a subtraction question where the student subtracts a three-digit number from a larger number. 
 
 First, I'll choose two numbers: a larger number and a three-digit number. For example, 5,432 is a larger number, and 123 is a three-digit number.
@@ -1460,7 +1460,7 @@ Subtract a three-digit number from a larger number.
 Calculate:  
 \[
 \boxed{5,\!432} - \boxed{123} = \boxed{?}
-\]",1,1,0.9999988079071045,1.1920928955078125e-06,0.9999988079071045,1.1920928955078125e-06,0.9999988079071045,0,mathematics,0.7117365896701813,0.7117365896701813,0.2882634103298187,0.7117365896701813,0.2882634103298187,1,OTRO,0.9999657869338989,3.421306610107422e-05,0.9999657869338989,3.421306610107422e-05,0.9999657869338989,1,algebra,0.8184128403663635,0.020298149436712265,0.8184128403663635,0.0012571592815220356,5.241396593191894e-06,0.16002658009529114
+\]",0,0,0.895626112818718,0.895626112818718,0.10437388718128204,0.895626112818718,0.10437388718128204,0,mathematics,0.9631935544312,0.9631935544312,0.03680644556879997,0.9631935544312,0.03680644556879997,1,OTRO,0.9034050107002258,0.09659498929977417,0.9034050107002258,0.09659498929977417,0.9034050107002258,0,addition-subtraction,0.6253089308738708,0.6253089308738708,0.2566750645637512,0.015429319813847542,0.056987907737493515,0.045598696917295456
 72,"I need to create a subtraction question with an unknown value for the student to solve. I'll start by choosing two numbers where one is larger than the other to ensure a positive result. 
 
 I'll pick 45 as the larger number and 23 as the smaller number. This will give me a subtraction problem that the student can work with. 
@@ -1473,7 +1473,7 @@ Finally, I'll write the complete question: ""45 minus 23 equals what number?"" T
 Sure! Here's a subtraction question with an unknown value for you to solve:
 
 **Question:**  
-45 minus 23 equals what number?",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.7089560031890869,0.7089560031890869,0.2910439968109131,0.7089560031890869,0.2910439968109131,1,OTRO,0.9999974966049194,2.5033950805664062e-06,0.9999974966049194,2.5033950805664062e-06,0.9999974966049194,1,algebra,0.9946615099906921,0.0015030043432489038,0.9946615099906921,0.00035645102616399527,1.5115845144464402e-06,0.003477495163679123
+45 minus 23 equals what number?",1,1,0.9833676815032959,0.0166323184967041,0.9833676815032959,0.0166323184967041,0.9833676815032959,1,otro,0.8075166344642639,0.19248336553573608,0.8075166344642639,0.19248336553573608,0.8075166344642639,1,OTRO,0.9766287207603455,0.02337127923965454,0.9766287207603455,0.02337127923965454,0.9766287207603455,4,otro,0.30931171774864197,0.16345679759979248,0.09471321105957031,0.22334519028663635,0.2091730386018753,0.30931171774864197
 73,"Okay, so I need to create a subtraction question with regrouping using natural numbers suitable for elementary students. Let me think about how to approach this.
 
 First, I should recall what regrouping means in subtraction. Regrouping, also known as borrowing, is when you need to subtract a larger digit from a smaller digit in a particular place value, so you borrow from the next higher place value. For example, if you have 32 - 15, you can't subtract 5 from 2, so you borrow 1 from the tens place, making it 12 - 5 in the ones place and 2 becomes 1 in the tens place. Then, subtract 1 from 1 in the tens place, giving you 17.
@@ -1489,7 +1489,7 @@ I should write this out clearly, making sure it's easy for elementary students t
 I think that's a good start. Let me put it all together in a clear format.
 </think>
 
-34 - 19 = 15",1,1,0.9999840259552002,1.5974044799804688e-05,0.9999840259552002,1.5974044799804688e-05,0.9999840259552002,0,mathematics,0.9035034105181694,0.9035034105181694,0.0964965894818306,0.9035034105181694,0.0964965894818306,1,OTRO,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,1,algebra,0.9788511991500854,0.01719665713608265,0.9788511991500854,0.0035392032004892826,8.197734132409096e-06,0.0004047964757774025
+34 - 19 = 15",0,0,0.8504270762205124,0.8504270762205124,0.1495729237794876,0.8504270762205124,0.1495729237794876,0,mathematics,0.8178670406341553,0.8178670406341553,0.18213295936584473,0.8178670406341553,0.18213295936584473,1,OTRO,0.8815122246742249,0.11848777532577515,0.8815122246742249,0.11848777532577515,0.8815122246742249,3,geometry,0.6439303755760193,0.09913589805364609,0.11287227272987366,0.09698266535997391,0.6439303755760193,0.04707881435751915
 74,"Okay, so I need to create a mental-math question based on subtraction with numbers below 100. Hmm, let me think about how to approach this. First, I should make sure the question is simple enough for someone to solve in their head without needing paper or a calculator. 
 
 Maybe I can use numbers that are easy to subtract, like multiples of 10 or numbers that are close to each other. That way, the subtraction will be straightforward. Let me pick two numbers, say 85 and 37. Subtracting 37 from 85 should be manageable.
@@ -1501,7 +1501,7 @@ So, the question would be: What is 85 minus 37? That should be a good mental mat
 I think that's a solid question. It's simple, uses numbers below 100, and is a typical subtraction problem that can be solved mentally without any issues. I don't think there's any trick or twist here that would make it more challenging. It's just a straightforward subtraction problem that tests basic arithmetic skills.
 </think>
 
-85 - 37 = 48",1,1,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,0,mathematics,0.94952542334795,0.94952542334795,0.05047457665205002,0.94952542334795,0.05047457665205002,1,OTRO,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,1,algebra,0.9986187219619751,0.000594872166402638,0.9986187219619751,0.000760741822887212,1.2781147233908996e-05,1.2886477634310722e-05
+85 - 37 = 48",1,1,0.7594413161277771,0.2405586838722229,0.7594413161277771,0.2405586838722229,0.7594413161277771,1,otro,0.6547127366065979,0.3452872633934021,0.6547127366065979,0.3452872633934021,0.6547127366065979,1,OTRO,0.9508985280990601,0.04910147190093994,0.9508985280990601,0.04910147190093994,0.9508985280990601,2,division-multiplication,0.7071554660797119,0.06055310368537903,0.08015784621238708,0.7071554660797119,0.13658936321735382,0.01554413978010416
 75,"Okay, so I need to create a simple algebra question where the student has to find the value of an unknown letter. Let me think about how to approach this.
 
 First, I should decide on the type of equation. Since it's a basic algebra question, maybe a one-step equation would work best. That way, it's straightforward and doesn't require multiple steps, which might be a bit advanced for some students.
@@ -1519,7 +1519,7 @@ This setup should be clear and direct. It doesn't require any additional steps o
 I think that's a solid plan. The equation is simple, and the question is straightforward. It should help students practice solving for a variable in a basic algebraic equation.
 </think>
 
-2x + 3 = 7",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,0,mathematics,0.5906809270381927,0.5906809270381927,0.40931907296180725,0.5906809270381927,0.40931907296180725,1,OTRO,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,1,algebra,0.9995368719100952,4.3514130084076896e-05,0.9995368719100952,0.00018845857994165272,2.753963417490013e-05,0.000203639647224918
+2x + 3 = 7",0,0,0.7438347637653351,0.7438347637653351,0.2561652362346649,0.7438347637653351,0.2561652362346649,1,otro,0.6943179368972778,0.30568206310272217,0.6943179368972778,0.30568206310272217,0.6943179368972778,1,OTRO,0.9740061163902283,0.02599388360977173,0.9740061163902283,0.02599388360977173,0.9740061163902283,2,division-multiplication,0.3112378716468811,0.29514381289482117,0.13507379591464996,0.3112378716468811,0.11646676808595657,0.1420777440071106
 76,"I need to create a question that involves an equation with a variable and addition. The goal is to find the missing value.
 
 First, I'll choose a variable, say ""x,"" to represent the unknown value.
@@ -1545,7 +1545,7 @@ Let's set up an equation where the sum of two known numbers and a variable equal
 5 + x + 6 = 17
 \]
 
-To find the value of \( x \), you can solve the equation step by step.",1,1,0.9999994039535522,5.960464477539062e-07,0.9999994039535522,5.960464477539062e-07,0.9999994039535522,0,mathematics,0.5685680210590363,0.5685680210590363,0.43143197894096375,0.5685680210590363,0.43143197894096375,1,OTRO,0.9999904632568359,9.5367431640625e-06,0.9999904632568359,9.5367431640625e-06,0.9999904632568359,1,algebra,0.9574355483055115,0.005601612851023674,0.9574355483055115,0.00040707094012759626,2.742631522778538e-06,0.036552976816892624
+To find the value of \( x \), you can solve the equation step by step.",0,0,0.9985630536684766,0.9985630536684766,0.0014369463315233588,0.9985630536684766,0.0014369463315233588,1,otro,0.952979326248169,0.047020673751831055,0.952979326248169,0.047020673751831055,0.952979326248169,1,OTRO,0.97808438539505,0.02191561460494995,0.97808438539505,0.02191561460494995,0.97808438539505,3,geometry,0.4044513702392578,0.11242122203111649,0.1897735595703125,0.06628496944904327,0.4044513702392578,0.22706885635852814
 77,"I need to create an algebra question where a variable appears in a subtraction problem. The question should be clear and straightforward.
 
 First, I'll choose a variable, say 'x', to represent the unknown number.
@@ -1560,7 +1560,7 @@ Finally, I'll phrase the question in a way that's easy to understand, ensuring c
 Sure! Here's an algebra question where a variable appears in a subtraction:
 
 **Question:**  
-*If 12 minus a number equals 5, what is the number?*",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.7740998715162277,0.7740998715162277,0.22590012848377228,0.7740998715162277,0.22590012848377228,1,OTRO,0.9999971389770508,2.86102294921875e-06,0.9999971389770508,2.86102294921875e-06,0.9999971389770508,1,algebra,0.9977341890335083,0.0003835455281659961,0.9977341890335083,0.00044747377978637815,6.745918653905392e-06,0.0014279572060331702
+*If 12 minus a number equals 5, what is the number?*",0,0,0.9440757930278778,0.9440757930278778,0.05592420697212219,0.9440757930278778,0.05592420697212219,1,otro,0.9381901621818542,0.06180983781814575,0.9381901621818542,0.06180983781814575,0.9381901621818542,1,OTRO,0.9483136534690857,0.05168634653091431,0.9483136534690857,0.05168634653091431,0.9483136534690857,3,geometry,0.42261555790901184,0.17177365720272064,0.11123491823673248,0.10527950525283813,0.42261555790901184,0.1890963464975357
 78,"I need to create a question that involves multiplication with an unknown variable and can be solved using natural numbers.
 
 First, I'll choose a multiplication problem that includes a variable. Let's say 5 times a number equals 35.
@@ -1575,7 +1575,7 @@ Finally, I'll calculate the value of x: x = 7.
 Sure! Here's a question that involves multiplication and has an unknown variable that can be solved using natural numbers:
 
 **Question:**  
-*If \( 5 \times x = 35 \), what is the value of \( x \)?*",1,1,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,0,mathematics,0.8736078888177872,0.8736078888177872,0.12639211118221283,0.8736078888177872,0.12639211118221283,1,OTRO,0.999972939491272,2.7060508728027344e-05,0.999972939491272,2.7060508728027344e-05,0.999972939491272,1,algebra,0.9373193383216858,0.021522266790270805,0.9373193383216858,0.0020103345159441233,1.898416485346388e-06,0.03914617374539375
+*If \( 5 \times x = 35 \), what is the value of \( x \)?*",0,0,0.9927978026680648,0.9927978026680648,0.007202197331935167,0.9927978026680648,0.007202197331935167,0,mathematics,0.5925961136817932,0.5925961136817932,0.4074038863182068,0.5925961136817932,0.4074038863182068,1,OTRO,0.7171534299850464,0.2828465700149536,0.7171534299850464,0.2828465700149536,0.7171534299850464,3,geometry,0.6837686896324158,0.07791130989789963,0.03852153196930885,0.04329919070005417,0.6837686896324158,0.15649929642677307
 79,"Okay, so I need to create a simple division question where the dividend is a variable and the quotient is known. Hmm, let me think about how to approach this.
 
 First, I know that division can be represented as dividend divided by divisor equals quotient. So, if I let the dividend be a variable, say 'x', and the quotient be a known number, then I can set up the equation as x divided by the divisor equals the quotient.
@@ -1598,7 +1598,7 @@ Alternatively, maybe I can use a different number for the quotient to make it mo
 
 Wait, but the user didn't specify a particular quotient, so maybe I should keep it general. So, the division question would be something like ""What is x divided by d equals q?"" and then provide the values for d and q to solve for x.
 
-Alternatively, maybe I can write it as a problem where the dividend is a variable, say x,",1,1,0.9999477863311768,5.221366882324219e-05,0.9999477863311768,5.221366882324219e-05,0.9999477863311768,0,mathematics,0.8817151784896851,0.8817151784896851,0.11828482151031494,0.8817151784896851,0.11828482151031494,1,OTRO,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,1,algebra,0.9506244659423828,0.042554501444101334,0.9506244659423828,0.0013287852052599192,4.999658995075151e-05,0.005442225839942694
+Alternatively, maybe I can write it as a problem where the dividend is a variable, say x,",0,0,0.9919767007231712,0.9919767007231712,0.008023299276828766,0.9919767007231712,0.008023299276828766,1,otro,0.5594759583473206,0.44052404165267944,0.5594759583473206,0.44052404165267944,0.5594759583473206,1,OTRO,0.979035496711731,0.020964503288269043,0.979035496711731,0.020964503288269043,0.979035496711731,3,geometry,0.8437446355819702,0.01994035206735134,0.005931176245212555,0.023852135986089706,0.8437446355819702,0.10653176158666611
 80,"Okay, so I need to write a question where the student has to complete a number sequence and describe the rule using a simple operation. Let me think about how to approach this.
 
 First, I should create a number sequence. Maybe something that's easy to follow but also has a clear pattern. Let's go with 2, 4, 6, 8, 10. That's a sequence of even numbers increasing by 2 each time.
@@ -1612,7 +1612,7 @@ Putting it all together, the question should be something like: ""Complete the n
 I think that covers everything. It's straightforward, uses a simple operation, and clearly asks for both the completion of the sequence and the rule explanation.
 </think>
 
-Complete the number sequence by adding 2 each time. The sequence is 2, 4, 6, 8, 10. Describe the rule you used to get from one number to the next.",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,0,mathematics,0.5630914568901062,0.5630914568901062,0.4369085431098938,0.5630914568901062,0.4369085431098938,1,OTRO,0.9999978542327881,2.1457672119140625e-06,0.9999978542327881,2.1457672119140625e-06,0.9999978542327881,1,algebra,0.9975027441978455,0.001809572451747954,0.9975027441978455,0.00026796606834977865,1.1773382539104205e-05,0.00040792470099404454
+Complete the number sequence by adding 2 each time. The sequence is 2, 4, 6, 8, 10. Describe the rule you used to get from one number to the next.",0,0,0.9969218557234854,0.9969218557234854,0.0030781442765146494,0.9969218557234854,0.0030781442765146494,1,otro,0.7835471034049988,0.21645289659500122,0.7835471034049988,0.21645289659500122,0.7835471034049988,1,OTRO,0.9764435291290283,0.02355647087097168,0.9764435291290283,0.02355647087097168,0.9764435291290283,2,division-multiplication,0.7141057848930359,0.062062542885541916,0.05056013539433479,0.7141057848930359,0.016622785478830338,0.15664876997470856
 81,"I need to create a question where the student has to determine if two simple algebraic expressions have the same value.
 
 First, I'll choose two expressions that are straightforward to evaluate.
@@ -1646,7 +1646,7 @@ x = 3
 \]
 
 **Conclusion:**  
-When \( x = 3 \), both expressions have the same value. Therefore, the expressions are equal when \( x = 3 \).",1,1,1.0,0.0,1.0,0.0,1.0,1,otro,0.8378238081932068,0.1621761918067932,0.8378238081932068,0.1621761918067932,0.8378238081932068,1,OTRO,0.9999139308929443,8.606910705566406e-05,0.9999139308929443,8.606910705566406e-05,0.9999139308929443,1,algebra,0.9118624925613403,0.00584357138723135,0.9118624925613403,0.00019541663641575724,3.7554948448814685e-06,0.0820946916937828
+When \( x = 3 \), both expressions have the same value. Therefore, the expressions are equal when \( x = 3 \).",0,0,0.6474003791809082,0.6474003791809082,0.3525996208190918,0.6474003791809082,0.3525996208190918,1,otro,0.9864161014556885,0.013583898544311523,0.9864161014556885,0.013583898544311523,0.9864161014556885,1,OTRO,0.9444223642349243,0.055577635765075684,0.9444223642349243,0.055577635765075684,0.9444223642349243,4,otro,0.883160412311554,0.08036605268716812,0.017803771421313286,0.01106487400829792,0.007604849990457296,0.883160412311554
 82,"Okay, so I need to create a question for elementary students that involves a simple equation with variables on both sides. Let me think about how to approach this.
 
 First, I should consider the age group. Elementary students are typically around 6-12 years old, so the question should be simple enough for them to understand but not too easy. The equation needs to have variables on both sides, which means something like x + 3 = 2x - 5. That seems like a good starting point because it's straightforward and doesn't require too much prior knowledge.
@@ -1660,7 +1660,7 @@ Putting it all together, the question becomes: ""What is the value of x in the e
 I should check if this meets all the criteria. It's a simple equation with variables on both sides, suitable for elementary students, clear and concise, and includes a box for the answer. I think this should work well for the intended purpose.
 </think>
 
-What is the value of x in the equation x + 3 = 2x - 5? Please put your final answer within \boxed{}.",1,1,0.9999988079071045,1.1920928955078125e-06,0.9999988079071045,1.1920928955078125e-06,0.9999988079071045,1,otro,0.5024237632751465,0.4975762367248535,0.5024237632751465,0.4975762367248535,0.5024237632751465,1,OTRO,0.9999959468841553,4.0531158447265625e-06,0.9999959468841553,4.0531158447265625e-06,0.9999959468841553,1,algebra,0.9880067110061646,0.004317582119256258,0.9880067110061646,0.004816806875169277,9.095210407394916e-05,0.0027679780032485723
+What is the value of x in the equation x + 3 = 2x - 5? Please put your final answer within \boxed{}.",1,1,0.5032199621200562,0.49678003787994385,0.5032199621200562,0.49678003787994385,0.5032199621200562,0,mathematics,0.7056367993354797,0.7056367993354797,0.29436320066452026,0.7056367993354797,0.29436320066452026,1,OTRO,0.9751366376876831,0.024863362312316895,0.9751366376876831,0.024863362312316895,0.9751366376876831,1,algebra,0.3423236012458801,0.2545517086982727,0.3423236012458801,0.2545323669910431,0.07496249675750732,0.07362981140613556
 83,"I need to create a question where the student substitutes a given value into an algebraic expression and calculates the result.
 
 First, I'll choose a simple algebraic expression to keep it straightforward.
@@ -1675,7 +1675,7 @@ Finally, I'll present the question in a clear and concise manner.
 Sure! Here's a question for you:
 
 **Question:**  
-Substitute the value \( x = 3 \) into the algebraic expression \( 2x + 5 \) and calculate the result.",1,1,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,4.76837158203125e-07,0.9999995231628418,0,mathematics,0.5495375096797943,0.5495375096797943,0.4504624903202057,0.5495375096797943,0.4504624903202057,1,OTRO,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1,algebra,0.9864931702613831,0.001353294006548822,0.9864931702613831,0.0002545085735619068,9.448113473808917e-07,0.011898051016032696
+Substitute the value \( x = 3 \) into the algebraic expression \( 2x + 5 \) and calculate the result.",0,0,0.7903551012277603,0.7903551012277603,0.20964489877223969,0.7903551012277603,0.20964489877223969,1,otro,0.9478154182434082,0.0521845817565918,0.9478154182434082,0.0521845817565918,0.9478154182434082,1,OTRO,0.9758627414703369,0.024137258529663086,0.9758627414703369,0.024137258529663086,0.9758627414703369,4,otro,0.7988811731338501,0.0794207826256752,0.03190927952528,0.014319107867777348,0.07546960562467575,0.7988811731338501
 84,"Okay, so I need to figure out how to generate a question that asks which value of a variable makes a simple mathematical equation true. The user wants the question to be in text only, so I should make sure it's clear and straightforward.
 
 First, I should consider what a simple mathematical equation looks like. It could be something like 2x + 3 = 7, where x is the variable we're solving for. The question should be asking for the value of x that makes this equation true.
@@ -1687,7 +1687,7 @@ I also need to make sure the question is concise and doesn't have any unnecessar
 Putting it all together, the question should be: ""What value of x makes the equation 2x + 3 = 7 true?"" This clearly asks for the solution to the equation, which is a fundamental algebraic problem.
 </think>
 
-What value of x makes the equation 2x + 3 = 7 true?",1,1,0.9999616146087646,3.838539123535156e-05,0.9999616146087646,3.838539123535156e-05,0.9999616146087646,0,mathematics,0.5852837264537811,0.5852837264537811,0.41471627354621887,0.5852837264537811,0.41471627354621887,1,OTRO,0.9999980926513672,1.9073486328125e-06,0.9999980926513672,1.9073486328125e-06,0.9999980926513672,1,algebra,0.9912202954292297,0.0011413804022595286,0.9912202954292297,0.000977222342044115,3.994478174718097e-05,0.006621174048632383
+What value of x makes the equation 2x + 3 = 7 true?",1,1,0.600803554058075,0.39919644594192505,0.600803554058075,0.39919644594192505,0.600803554058075,0,mathematics,0.5591752231121063,0.5591752231121063,0.4408247768878937,0.5591752231121063,0.4408247768878937,1,OTRO,0.9886302947998047,0.011369705200195312,0.9886302947998047,0.011369705200195312,0.9886302947998047,2,division-multiplication,0.8428913354873657,0.0237776767462492,0.00770793529227376,0.8428913354873657,0.04738406836986542,0.07823894917964935
 85,"Okay, so I need to create a question where the student has to write a simple algebraic expression based on a relationship between numbers. The user provided an example, but I need to come up with a different one. Let me think about how to approach this.
 
 First, I should understand the structure of the example. The example given was: ""The sum of twice a number and five is equal to thirty."" The algebraic expression for this would be 2x + 5 = 30. So, the question is asking the student to translate a verbal description into an algebraic equation.
@@ -1709,7 +1709,7 @@ Alternatively, maybe a multiplication and addition. Let's say, ""Four times a nu
 I think I've got it. Let me write down the question and the expression clearly.
 </think>
 
-The sum of four times a number and five is equal to twenty-three. The algebraic expression for this is 4x + 5 = 23.",1,1,0.9999984502792358,1.5497207641601562e-06,0.9999984502792358,1.5497207641601562e-06,0.9999984502792358,0,mathematics,0.7471921145915985,0.7471921145915985,0.2528078854084015,0.7471921145915985,0.2528078854084015,1,OTRO,0.9999994039535522,5.960464477539062e-07,0.9999994039535522,5.960464477539062e-07,0.9999994039535522,1,algebra,0.9881373047828674,0.004959827288985252,0.9881373047828674,0.004042447078973055,8.487116247124504e-06,0.00285186804831028
+The sum of four times a number and five is equal to twenty-three. The algebraic expression for this is 4x + 5 = 23.",1,1,0.7117835879325867,0.28821641206741333,0.7117835879325867,0.28821641206741333,0.7117835879325867,1,otro,0.6725070476531982,0.32749295234680176,0.6725070476531982,0.32749295234680176,0.6725070476531982,1,OTRO,0.9875782132148743,0.012421786785125732,0.9875782132148743,0.012421786785125732,0.9875782132148743,3,geometry,0.5045227408409119,0.183793842792511,0.23850789666175842,0.05130426585674286,0.5045227408409119,0.021871201694011688
 86,"Okay, so I need to write a question that involves evaluating an expression with a variable for two different values. Let me think about how to approach this.
 
 First, I should choose a simple expression that includes a variable. Maybe something like 2x + 3. That's straightforward and easy to work with.
@@ -1727,7 +1727,7 @@ Let me double-check to make sure I didn't miss anything. The expression has a va
 
 ""Evaluate the expression \(2x + 3\) for \(x = 4\) and \(x = 7\).""
 
-This question asks the student to substitute the given values of \(x\) into the expression and compute the result for each value.",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1,otro,0.6188709139823914,0.38112908601760864,0.6188709139823914,0.38112908601760864,0.6188709139823914,1,OTRO,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1,algebra,0.9509099125862122,0.032248999923467636,0.9509099125862122,0.0010777547722682357,2.8704653232125565e-05,0.01573466695845127
+This question asks the student to substitute the given values of \(x\) into the expression and compute the result for each value.",0,0,0.9773452542722225,0.9773452542722225,0.02265474572777748,0.9773452542722225,0.02265474572777748,1,otro,0.5773820877075195,0.42261791229248047,0.5773820877075195,0.42261791229248047,0.5773820877075195,1,OTRO,0.9093965888023376,0.09060341119766235,0.9093965888023376,0.09060341119766235,0.9093965888023376,3,geometry,0.4985395669937134,0.4322552978992462,0.010800148360431194,0.04376594349741936,0.4985395669937134,0.014639010652899742
 87,"I need to create a question where the student has to find the unknown term in a simple increasing number pattern. The pattern should be straightforward, using basic arithmetic operations like addition or subtraction.
 
 First, I'll choose a starting number. Let's go with 12.
@@ -1748,7 +1748,7 @@ In the number pattern below, find the missing number.
 12, 17, 22, 27, __, 37, 42, 47  
 
 **Answer:**  
-The missing number is **32**.",1,1,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,0,mathematics,0.5642497837543488,0.5642497837543488,0.43575021624565125,0.5642497837543488,0.43575021624565125,1,OTRO,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1,algebra,0.996450662612915,0.0013376855058595538,0.996450662612915,5.2992145356256515e-05,1.0022899914474692e-06,0.0021576571743935347
+The missing number is **32**.",0,0,0.9278544187545776,0.9278544187545776,0.07214558124542236,0.9278544187545776,0.07214558124542236,0,mathematics,0.7695812582969666,0.7695812582969666,0.23041874170303345,0.7695812582969666,0.23041874170303345,1,OTRO,0.9606304168701172,0.03936958312988281,0.9606304168701172,0.03936958312988281,0.9606304168701172,0,addition-subtraction,0.5014925599098206,0.5014925599098206,0.16124168038368225,0.2428477555513382,0.031635209918022156,0.0627828910946846
 88,"I need to create an algebra question that uses a letter to represent an unknown number in an addition operation. The question should be clear and straightforward.
 
 First, I'll choose a variable, say 'x', to represent the unknown number.
@@ -1765,7 +1765,7 @@ Finally, I'll present the question in a clear and concise manner, using only tex
 Sure! Here's an algebra question using a letter to represent an unknown number in an addition operation:
 
 **Question:**  
-Let \( x \) represent an unknown number. If \( x + 5 = 12 \), what is the value of \( x \)?",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1,otro,0.5442482233047485,0.45575177669525146,0.5442482233047485,0.45575177669525146,0.5442482233047485,1,OTRO,0.9999957084655762,4.291534423828125e-06,0.9999957084655762,4.291534423828125e-06,0.9999957084655762,1,algebra,0.9853435754776001,0.00208590948022902,0.9853435754776001,6.273236795095727e-05,2.4387832127104048e-06,0.01250535249710083
+Let \( x \) represent an unknown number. If \( x + 5 = 12 \), what is the value of \( x \)?",0,0,0.7348595559597015,0.7348595559597015,0.26514044404029846,0.7348595559597015,0.26514044404029846,1,otro,0.9845678806304932,0.015432119369506836,0.9845678806304932,0.015432119369506836,0.9845678806304932,1,OTRO,0.9899290204048157,0.010070979595184326,0.9899290204048157,0.010070979595184326,0.9899290204048157,4,otro,0.48054373264312744,0.2654676139354706,0.12731654942035675,0.017481572926044464,0.10919054597616196,0.48054373264312744
 89,"Okay, so I need to write a question where a variable represents an unknown factor and must be found using multiplication. The user wants the question to be in text only, so I can't use any special formatting or symbols. Let me think about how to approach this.
 
 First, I should identify what kind of problem would involve an unknown factor. Maybe something like finding the number of items in a group when the total and the number of groups are known. That makes sense because it's a common multiplication scenario.
@@ -1783,7 +1783,7 @@ Let me double-check to ensure that the question meets all the requirements. It u
 I think that's a solid approach. The question is clear, the equation is straightforward, and it effectively demonstrates the use of multiplication to find the unknown factor.
 </think>
 
-What is the number of apples in each box if there are 24 apples in total and 6 boxes?",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,0,mathematics,0.606266438961029,0.606266438961029,0.39373356103897095,0.606266438961029,0.39373356103897095,1,OTRO,1.0,0.0,1.0,0.0,1.0,1,algebra,0.9963562488555908,0.0006651346920989454,0.9963562488555908,0.002299930201843381,2.5752640794962645e-05,0.0006529373349621892
+What is the number of apples in each box if there are 24 apples in total and 6 boxes?",0,0,0.9016096666455269,0.9016096666455269,0.09839033335447311,0.9016096666455269,0.09839033335447311,1,otro,0.8674106001853943,0.1325893998146057,0.8674106001853943,0.1325893998146057,0.8674106001853943,1,OTRO,0.9903625845909119,0.009637415409088135,0.9903625845909119,0.009637415409088135,0.9903625845909119,2,division-multiplication,0.7338014245033264,0.0077395192347466946,0.015994995832443237,0.7338014245033264,0.22645536065101624,0.016008729115128517
 90,"Okay, so I need to help the user by generating a question that asks the student to select the correct algebraic expression for a given numerical equality. Let me break this down.
 
 First, the user wants a question, not a prompt. So I should focus on the structure of the question. It needs to be clear and direct. The question should present a numerical equality and ask the student to choose the correct algebraic expression from multiple options.
@@ -1804,7 +1804,7 @@ I need to ensure that the question is not too long. It should be a single questi
 
 Also, the options should be presented in a way that's easy to compare. Maybe using different fonts or colors to make them stand out, but since I'm just writing text, I can use different spacing or alignment.
 
-I should also consider the possibility that the numerical equality might involve more complex operations, like multiplication or division. For example, 2 * 3",1,1,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,1.3113021850585938e-06,0.9999986886978149,0,mathematics,0.7597900480031967,0.7597900480031967,0.24020995199680328,0.7597900480031967,0.24020995199680328,1,OTRO,0.9999877214431763,1.2278556823730469e-05,0.9999877214431763,1.2278556823730469e-05,0.9999877214431763,1,algebra,0.9909419417381287,0.004927428439259529,0.9909419417381287,0.0012481292942538857,1.7641665181145072e-05,0.0028649403247982264
+I should also consider the possibility that the numerical equality might involve more complex operations, like multiplication or division. For example, 2 * 3",0,0,0.620563268661499,0.620563268661499,0.379436731338501,0.620563268661499,0.379436731338501,0,mathematics,0.6071672737598419,0.6071672737598419,0.3928327262401581,0.6071672737598419,0.3928327262401581,1,OTRO,0.9942160248756409,0.005783975124359131,0.9942160248756409,0.005783975124359131,0.9942160248756409,2,division-multiplication,0.4645180106163025,0.0184879582375288,0.08080043643712997,0.4645180106163025,0.3520713746547699,0.08412224799394608
 91,"Okay, so I need to create a question where the student completes a simple number table by following a rule written with a variable. The user provided an example where the rule is ""Add 3"" and the starting number is 1. The table goes up to 13, and the question is asking what the next number should be. 
 
 First, I should understand the structure of the example. The rule is given as a variable, say ""add 3"", and the starting number is 1. The table shows the progression: 1, 4, 7, 10, 13. The question then asks what the next number is, which is 16. 
@@ -1821,7 +1821,7 @@ I think that's a good start. Now, I'll structure the question accordingly.
 </think>
 
 What is the next number in the table?  
-The table shows the progression: 2, 4, 8, 16, 32. The rule is ""multiply by 2"".",1,1,0.9999861717224121,1.3828277587890625e-05,0.9999861717224121,1.3828277587890625e-05,0.9999861717224121,0,mathematics,0.8572604656219482,0.8572604656219482,0.14273953437805176,0.8572604656219482,0.14273953437805176,1,OTRO,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,1,algebra,0.9737527370452881,0.02103717438876629,0.9737527370452881,0.0013702111318707466,5.598489678959595e-06,0.0038343549240380526
+The table shows the progression: 2, 4, 8, 16, 32. The rule is ""multiply by 2"".",0,0,0.9841485191136599,0.9841485191136599,0.01585148088634014,0.9841485191136599,0.01585148088634014,0,mathematics,0.910326860845089,0.910326860845089,0.08967313915491104,0.910326860845089,0.08967313915491104,1,OTRO,0.8767534494400024,0.12324655055999756,0.8767534494400024,0.12324655055999756,0.8767534494400024,0,addition-subtraction,0.478313684463501,0.478313684463501,0.4511479437351227,0.0068345824256539345,0.056219711899757385,0.00748400017619133
 92,"I need to create an algebra question where students can discover a simple rule by observing pairs of numbers. The question should be clear and straightforward, allowing students to identify the relationship between the numbers.
 
 First, I'll present a set of pairs of numbers. These pairs should follow a consistent rule, which students can then deduce.
@@ -1850,7 +1850,7 @@ Look at the following pairs of numbers and try to find a pattern or rule that co
 
 The rule is related to the first number. Can you figure out what it is?
 
----",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1,otro,0.8666563034057617,0.13334369659423828,0.8666563034057617,0.13334369659423828,0.8666563034057617,1,OTRO,0.9999878406524658,1.2159347534179688e-05,0.9999878406524658,1.2159347534179688e-05,0.9999878406524658,1,algebra,0.9351755380630493,0.0005520135164260864,0.9351755380630493,0.0005658810259774327,5.312158918968635e-06,0.06370124220848083
+---",1,1,0.908169686794281,0.091830313205719,0.908169686794281,0.091830313205719,0.908169686794281,1,otro,0.9455836415290833,0.05441635847091675,0.9455836415290833,0.05441635847091675,0.9455836415290833,1,OTRO,0.9880269765853882,0.011973023414611816,0.9880269765853882,0.011973023414611816,0.9880269765853882,2,division-multiplication,0.5148018598556519,0.00851684994995594,0.009493039920926094,0.5148018598556519,0.369564414024353,0.097623810172081
 93,"I need to create a question that involves solving an equation with two possible values for a variable. The equation should be simple enough for a beginner to understand but still demonstrate the concept of multiple solutions.
 
 I'll start by choosing a basic linear equation. Let's go with 2x + 3 = 5. This equation has a single variable, x, and it's straightforward to solve.
@@ -1870,7 +1870,7 @@ Sure! Here's a question for you:
 
 ""Which value of \( x \) satisfies the equation \( 2x + 3 = 5 \)? \( x = 1 \) or \( x = 3 \).""
 
-Please provide your answer in the form of a text block.",1,1,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,2.384185791015625e-07,0.9999997615814209,0,mathematics,0.5706495046615601,0.5706495046615601,0.42935049533843994,0.5706495046615601,0.42935049533843994,1,OTRO,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1,algebra,0.9801396131515503,0.0018992972327396274,0.9801396131515503,0.0027930180076509714,1.8267601262778044e-06,0.015166271477937698
+Please provide your answer in the form of a text block.",1,1,0.963746190071106,0.03625380992889404,0.963746190071106,0.03625380992889404,0.963746190071106,1,otro,0.8408053517341614,0.15919464826583862,0.8408053517341614,0.15919464826583862,0.8408053517341614,1,OTRO,0.981875479221344,0.018124520778656006,0.981875479221344,0.018124520778656006,0.981875479221344,1,algebra,0.77020263671875,0.01636558026075363,0.77020263671875,0.024431847035884857,0.038782160729169846,0.15021778643131256
 94,"First, I need to create an algebraic expression that combines a variable, addition, and multiplication using small numbers.
 
 I'll start by choosing a variable, say \( x \).
@@ -1896,7 +1896,7 @@ Let \( x \) be the variable. The expression can be written as:
 2(3x + 4)
 \]
 
-This expression combines a variable \( x \), multiplication by 3, addition of 4, and multiplication by 2.",1,1,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,1.1920928955078125e-07,0.9999998807907104,0,mathematics,0.5541491806507111,0.5541491806507111,0.44585081934928894,0.5541491806507111,0.44585081934928894,1,OTRO,0.9999082088470459,9.179115295410156e-05,0.9999082088470459,9.179115295410156e-05,0.9999082088470459,1,algebra,0.6657142043113708,0.2412470430135727,0.6657142043113708,0.00012530683306977153,2.5197186914738268e-06,0.09291090071201324
+This expression combines a variable \( x \), multiplication by 3, addition of 4, and multiplication by 2.",0,0,0.9015839844942093,0.9015839844942093,0.09841601550579071,0.9015839844942093,0.09841601550579071,1,otro,0.5389156937599182,0.4610843062400818,0.5389156937599182,0.4610843062400818,0.5389156937599182,1,OTRO,0.8829625844955444,0.11703741550445557,0.8829625844955444,0.11703741550445557,0.8829625844955444,4,otro,0.4037986993789673,0.18661829829216003,0.12177217751741409,0.00652681989595294,0.2812839150428772,0.4037986993789673
 95,"I need to create a word problem where an unknown number of objects is represented by x. The student should write and solve an addition equation.
 
 First, I'll choose a relatable scenario, like collecting marbles. 
@@ -1940,7 +1940,7 @@ x = 6
 
 ---
 
-**Answer:** Your friend gave you \(\boxed{6}\) marbles.",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.8475724011659622,0.8475724011659622,0.15242759883403778,0.8475724011659622,0.15242759883403778,1,OTRO,0.9999769926071167,2.300739288330078e-05,0.9999769926071167,2.300739288330078e-05,0.9999769926071167,1,algebra,0.5354580283164978,0.42368724942207336,0.5354580283164978,0.004027185961604118,2.029517190749175e-06,0.036825425922870636
+**Answer:** Your friend gave you \(\boxed{6}\) marbles.",0,0,0.8056965470314026,0.8056965470314026,0.1943034529685974,0.8056965470314026,0.1943034529685974,1,otro,0.8968756794929504,0.10312432050704956,0.8968756794929504,0.10312432050704956,0.8968756794929504,1,OTRO,0.9029561281204224,0.09704387187957764,0.9029561281204224,0.09704387187957764,0.9029561281204224,4,otro,0.3532763421535492,0.07163278013467789,0.13655751943588257,0.0912497416138649,0.34728363156318665,0.3532763421535492
 96,"To create a balance problem, I need to ensure that both sides of the balance are equal. I'll start by setting up the equation with two expressions on either side of a balance scale.
 
 I'll choose a variable, let's say 'x', to represent the missing value. This makes it easy for students to understand and work with.
@@ -1964,7 +1964,7 @@ On one side of a balance scale, place a weight of **x** grams. On the other side
 x = 5
 \]
 
-So, the missing value is **5** grams.",1,1,1.0,0.0,1.0,0.0,1.0,0,mathematics,0.744073361158371,0.744073361158371,0.25592663884162903,0.744073361158371,0.25592663884162903,1,OTRO,0.9999963045120239,3.6954879760742188e-06,0.9999963045120239,3.6954879760742188e-06,0.9999963045120239,1,algebra,0.9150758981704712,0.02763073705136776,0.9150758981704712,9.813212091103196e-05,1.7917286641022656e-06,0.05719347298145294
+So, the missing value is **5** grams.",0,0,0.583551675081253,0.583551675081253,0.41644832491874695,0.583551675081253,0.41644832491874695,1,otro,0.9936880469322205,0.006311953067779541,0.9936880469322205,0.006311953067779541,0.9936880469322205,1,OTRO,0.9877285957336426,0.012271404266357422,0.9877285957336426,0.012271404266357422,0.9877285957336426,4,otro,0.637668251991272,0.06508105248212814,0.04110357537865639,0.19894537329673767,0.05720173940062523,0.637668251991272
 97,"I need to create a problem where a number is doubled and then increased by a small amount, and the student is asked to find the original number.
 
 First, I'll define the starting number as \( x \).
@@ -2009,7 +2009,7 @@ Let the starting number be \( x \).
 
 **Answer:**
 
-The starting number is \(\boxed{\frac{15 - a}{2}}\).",1,1,1.0,0.0,1.0,0.0,1.0,1,otro,0.7635173201560974,0.2364826798439026,0.7635173201560974,0.2364826798439026,0.7635173201560974,1,OTRO,0.9999880790710449,1.1920928955078125e-05,0.9999880790710449,1.1920928955078125e-05,0.9999880790710449,1,algebra,0.6527429819107056,0.11331582069396973,0.6527429819107056,0.0001286914775846526,9.604746992408764e-06,0.2338028997182846
+The starting number is \(\boxed{\frac{15 - a}{2}}\).",0,0,0.7359940111637115,0.7359940111637115,0.26400598883628845,0.7359940111637115,0.26400598883628845,1,otro,0.9794051647186279,0.02059483528137207,0.9794051647186279,0.02059483528137207,0.9794051647186279,1,OTRO,0.9569538831710815,0.04304611682891846,0.9569538831710815,0.04304611682891846,0.9569538831710815,4,otro,0.8014623522758484,0.022266849875450134,0.01238207146525383,0.0030292985029518604,0.16085945069789886,0.8014623522758484
 98,"Okay, so I need to create a pattern problem where the student has to predict the next two terms and write a simple rule using n. The user provided an example, but I need to come up with a different one. Let me think about how to approach this.
 
 First, I should choose a sequence that's easy to understand but has a clear pattern. Maybe something involving multiplication or addition. Let's see, if I start with 1, and each term is multiplied by 3, that would give me 1, 3, 9, 27, and so on. That seems straightforward.
@@ -2028,7 +2028,7 @@ How about a pattern where each term increases by 5. Starting with 1, then 6, 11,
 
 Alternatively, maybe a pattern that alternates between adding 2 and adding 4. Starting with 1, then 3, then 7, then 11, then 15, etc. So, the nth term alternates between adding 2 and 4. But that might be more complex for a simple rule.
 
-I think the user's example was a good one because it's",1,1,0.9999991655349731,8.344650268554688e-07,0.9999991655349731,8.344650268554688e-07,0.9999991655349731,0,mathematics,0.8726173937320709,0.8726173937320709,0.12738260626792908,0.8726173937320709,0.12738260626792908,1,OTRO,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,3.5762786865234375e-07,0.9999996423721313,1,algebra,0.9964009523391724,0.0009860328864306211,0.9964009523391724,0.001910596271045506,1.1724845535354689e-05,0.0006906677153892815
+I think the user's example was a good one because it's",0,0,0.9987087436020374,0.9987087436020374,0.0012912563979625702,0.9987087436020374,0.0012912563979625702,1,otro,0.5297178626060486,0.4702821373939514,0.5297178626060486,0.4702821373939514,0.5297178626060486,1,OTRO,0.9620597958564758,0.03794020414352417,0.9620597958564758,0.03794020414352417,0.9620597958564758,2,division-multiplication,0.38285985589027405,0.22228282690048218,0.2172982096672058,0.38285985589027405,0.0591546930372715,0.11840446293354034
 99,"I need to create a word problem where the student translates a short statement into an equation with one unknown and solves it. The problem should be simple and straightforward to ensure clarity.
 
 First, I'll choose a relatable scenario, such as buying apples. This will make the problem relatable and easier for students to understand.
@@ -2069,4 +2069,4 @@ Sure! Here's a word problem for you:
    - So, you can buy \( \frac{3}{5} \) of an apple with $1.
 
 4. **Final Answer:**
-   - You can buy \(\boxed{\frac{3}{5}}\) apples with $1.",1,1,1.0,0.0,1.0,0.0,1.0,1,otro,0.6755053400993347,0.3244946599006653,0.6755053400993347,0.3244946599006653,0.6755053400993347,1,OTRO,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,7.152557373046875e-07,0.9999992847442627,1,algebra,0.9966553449630737,0.0003120685869362205,0.9966553449630737,7.104172254912555e-05,1.9119190710625844e-06,0.0029596230015158653
+   - You can buy \(\boxed{\frac{3}{5}}\) apples with $1.",0,0,0.7596504241228104,0.7596504241228104,0.24034957587718964,0.7596504241228104,0.24034957587718964,1,otro,0.9755969643592834,0.024403035640716553,0.9755969643592834,0.024403035640716553,0.9755969643592834,1,OTRO,0.9910011887550354,0.0089988112449646,0.9910011887550354,0.0089988112449646,0.9910011887550354,4,otro,0.6135199666023254,0.06053416058421135,0.051616232842206955,0.13398496806621552,0.14034469425678253,0.6135199666023254

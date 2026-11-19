@@ -1,516 +1,230 @@
+"""Inferencia de cabezales RLAIF compatible con createVectorBases.py.
+
+La vectorización reproduce el procedimiento de preparar_dataset_vectores
+(pooling='mean') empleado por createVectorBases.py:
+AutoTokenizer(..., fix_mistral_regex=True), AutoModel, eval(), tokenización
+con padding dinámico y longitud 256, lotes de embeddings de 8, promedio
+con máscara y conversión final a float32 en CPU.
+
+La equivalencia bit a bit no está garantizada entre versiones/hardware.
+"""
 from __future__ import annotations
 
-from json import encoder
 from pathlib import Path
 from typing import Sequence
+
+import joblib
 import numpy as np
 import pandas as pd
-import joblib
-from zmq import device
 import torch
-import torch.nn as nn
+from torch import nn
 from sklearn.preprocessing import LabelEncoder
 from transformers import AutoModel, AutoTokenizer
 
 
-# ============================================================
-# 1. Configuración
-# ============================================================
+TRAINING_EMBEDDING_BATCH_SIZE = 8
+TRAINING_MAX_LENGTH = 256
 
 
-
-# ============================================================
-# 2. Cargar encoder y tokenizer
-# ============================================================
-
-def load_encoder(
-    encoder_path: str,
-    device: torch.device,
-):
-    from transformers import AutoModel, AutoTokenizer
-
+def load_encoder(encoder_path: str | Path, device: torch.device):
+    """Carga el tokenizador y el encoder como en createVectorBases.py."""
     ruta = Path(encoder_path)
-
     if not ruta.is_dir():
-        raise FileNotFoundError(
-            f"No existe el directorio: {ruta}"
-        )
+        raise FileNotFoundError(f"No existe el directorio: {ruta}")
 
-    print("Cargando tokenizador DeBERTa...")
-
+    # Importante: NO forzar use_fast=False. createVectorBases.py no lo fuerza.
     tokenizer = AutoTokenizer.from_pretrained(
         str(ruta),
         local_files_only=True,
-        use_fast=False,
-        fix_mistral_regex=True
+        fix_mistral_regex=True,
     )
-
-    print("Tokenizador:", type(tokenizer))
-    print("Fast tokenizer:", tokenizer.is_fast)
-
-    print("Cargando modelo DeBERTa...")
-
-    encoder = AutoModel.from_pretrained(
-        str(ruta),
-        local_files_only=True,
-    )
-
-    encoder = encoder.to(device=device, dtype=torch.float32)
-
-    encoder.eval()
-
+    encoder = AutoModel.from_pretrained(str(ruta), local_files_only=True)
+    encoder = encoder.to(device)
     for parametro in encoder.parameters():
-        parametro.requires_grad_(False)
-
+        parametro.requires_grad = False
+    encoder.eval()
+    print(f"Tokenizer: {type(tokenizer).__name__}, is_fast={tokenizer.is_fast}")
+    print(f"Encoder: {type(encoder).__name__}; hidden_size={encoder.config.hidden_size}")
     return tokenizer, encoder
 
-# ============================================================
-# 3. Cargar el cabezal completo
-# ============================================================
 
-def load_complete_classifier(
-    classifier_path: Path,
-    device: torch.device,
-) -> nn.Module:
+def load_complete_classifier(classifier_path: str | Path, device: torch.device) -> nn.Module:
+    """Abre modelos completos guardados con torch.save(model, ...).
 
-    if not classifier_path.exists():
-        raise FileNotFoundError(
-            f"No se encontró el cabezal: {classifier_path}"
-        )
-
-    classifier = torch.load(
-        classifier_path,
-        map_location=device,
-        weights_only=False,
-    )
-
+    Solo cargar modelos propios/confiables: weights_only=False deserializa Python.
+    """
+    ruta = Path(classifier_path)
+    if not ruta.is_file():
+        raise FileNotFoundError(f"No se encontró el cabezal: {ruta}")
+    classifier = torch.load(ruta, map_location=device, weights_only=False)
     if not isinstance(classifier, nn.Module):
-        raise TypeError(
-            "El archivo no contiene un modelo completo "
-            "de tipo torch.nn.Module."
-        )
-
-    classifier.to(device)
+        raise TypeError(f"{ruta} no contiene un modelo torch.nn.Module completo")
+    classifier = classifier.to(device=device, dtype=torch.float32)
     classifier.eval()
-
     return classifier
 
 
-# ============================================================
-# 4. Cargar LabelEncoder
-# ============================================================
-
-def load_label_encoder(
-    labels_path: Path,
-) -> LabelEncoder:
-
-    if not labels_path.exists():
-        raise FileNotFoundError(
-            f"No se encontró el archivo: {labels_path}"
-        )
-
-    label_encoder=joblib.load(labels_path)
-
-    return label_encoder
+def load_label_encoder(labels_path: str | Path) -> LabelEncoder:
+    """El joblib debe ser el LabelEncoder usado al construir los tensores."""
+    ruta = Path(labels_path)
+    if not ruta.is_file():
+        raise FileNotFoundError(f"No se encontró LabelEncoder: {ruta}")
+    objeto = joblib.load(ruta)  # Solo archivos propios/confiables.
+    if not isinstance(objeto, LabelEncoder) or not hasattr(objeto, "classes_"):
+        raise TypeError(f"{ruta} no contiene un LabelEncoder ajustado")
+    return objeto
 
 
-# ============================================================
-# 5. Mean pooling
-# ============================================================
-
-def mean_pooling(
-    last_hidden_state: torch.Tensor,
-    attention_mask: torch.Tensor,
-) -> torch.Tensor:
-    """
-    Calcula el promedio de los embeddings de los tokens válidos.
-
-    Parámetros
-    ----------
-    last_hidden_state:
-        Tensor con forma:
-        [batch_size, sequence_length, hidden_size]
-
-    attention_mask:
-        Tensor con forma:
-        [batch_size, sequence_length]
-
-        Contiene:
-        - 1 para tokens reales.
-        - 0 para tokens de padding.
-
-    Retorna
-    -------
-    torch.Tensor:
-        Tensor con forma:
-        [batch_size, hidden_size]
-    """
-
-    # Convierte:
-    # [batch_size, sequence_length]
-    #
-    # en:
-    # [batch_size, sequence_length, 1]
-    expanded_mask = attention_mask.unsqueeze(-1)
-
-    # Adapta el tipo de dato de la máscara al tipo
-    # de los embeddings, por ejemplo float16 o bfloat16.
-    expanded_mask = expanded_mask.to(
-        dtype=last_hidden_state.dtype
-    )
-
-    # Los embeddings de los tokens de padding se multiplican por 0.
-    masked_embeddings = (
-        last_hidden_state * expanded_mask
-    )
-
-    # Suma los embeddings de los tokens válidos.
-    summed_embeddings = masked_embeddings.sum(
-        dim=1
-    )
-
-    # Cuenta cuántos tokens válidos tiene cada texto.
-    valid_token_count = expanded_mask.sum(
-        dim=1
-    )
-
-    # Evita una división por cero.
-    valid_token_count = valid_token_count.clamp(
-        min=1e-9
-    )
-
-    # Promedio de los tokens válidos.
-    pooled_embeddings = (
-        summed_embeddings / valid_token_count
-    )
-
-    return pooled_embeddings
+def mean_pooling(last_hidden_state: torch.Tensor, attention_mask: torch.Tensor) -> torch.Tensor:
+    """Misma operación que preparar_dataset_vectores(..., pooling='mean')."""
+    if last_hidden_state.ndim != 3 or attention_mask.shape != last_hidden_state.shape[:2]:
+        raise ValueError("Dimensiones incompatibles en mean_pooling")
+    expanded_mask = attention_mask.unsqueeze(-1).to(last_hidden_state.dtype)
+    suma = (last_hidden_state * expanded_mask).sum(dim=1)
+    validos = expanded_mask.sum(dim=1).clamp(min=1.0)
+    return suma / validos
 
 
-# ============================================================
-# 6. Crear embeddings mediante mean pooling
-# ============================================================
 @torch.inference_mode()
 def create_embeddings(
     prompts: Sequence[str],
     tokenizer,
     encoder: nn.Module,
     device: torch.device,
-    batch_size: int = 8,
-    max_length: int = 256,
+    batch_size: int = TRAINING_EMBEDDING_BATCH_SIZE,
+    max_length: int = TRAINING_MAX_LENGTH,
 ) -> torch.Tensor:
+    """Embeddings mean con la misma preparación y lote 8 de createVectorBases.py.
 
-    if len(prompts) == 0:
-        raise ValueError(
-            "La colección de respuestas está vacía."
-        )
-
-    if batch_size <= 0:
-        raise ValueError(
-            "batch_size debe ser mayor que cero."
-        )
-
-    if any(
-        not isinstance(prompt, str)
-        for prompt in prompts
-    ):
-        raise ValueError(
-            "Todos los prompts deben ser cadenas de texto. "
-            "Comprueba valores nulos en el CSV."
-        )
-
+    Para comparar contra skill_mean.pt, los textos y la composición de
+    cada lote deben conservar el orden original del CSV de entrenamiento.
+    """
+    if not prompts:
+        raise ValueError("La colección de respuestas está vacía")
+    if batch_size <= 0 or max_length <= 0:
+        raise ValueError("batch_size y max_length deben ser positivos")
+    if not all(isinstance(t, str) for t in prompts):
+        raise TypeError("Todas las respuestas deben ser texto; filtre nulos antes")
     encoder.eval()
-
     all_embeddings = []
-
-    for start in range(0, len(prompts), batch_size):
-
-        batch_prompts = prompts[
-            start:start + batch_size
-        ]
-
-        encoded = tokenizer(
-            list(batch_prompts),
+    for inicio in range(0, len(prompts), batch_size):
+        lote = list(prompts[inicio:inicio + batch_size])
+        tokens = tokenizer(
+            lote,
             padding=True,
             truncation=True,
             max_length=max_length,
             return_tensors="pt",
         )
+        tokens = {clave: valor.to(device) for clave, valor in tokens.items()}
+        outputs = encoder(**tokens)
+        embeddings = mean_pooling(outputs.last_hidden_state, tokens["attention_mask"])
+        # Igual que preparar_dataset_vectores: float32 y CPU tras el pooling.
+        all_embeddings.append(embeddings.float().cpu())
+    return torch.cat(all_embeddings, dim=0)
 
-        encoded = {
-            key: value.to(device)
-            for key, value in encoded.items()
-        }
 
-        outputs = encoder(**encoded)
+@torch.inference_mode()
+def classify_embeddings(
+    embeddings: torch.Tensor,
+    classifier: nn.Module,
+    label_encoder: LabelEncoder,
+    device: torch.device,
+    batch_size: int = 12,
+    threshold: float = 0.5,
+) -> pd.DataFrame:
+    """Evalúa embeddings precomputados sin alterar las etiquetas originales."""
+    if batch_size <= 0:
+        raise ValueError("batch_size debe ser positivo")
+    if not 0.0 <= threshold <= 1.0:
+        raise ValueError("threshold debe estar entre 0 y 1")
+    classifier = classifier.to(device=device, dtype=torch.float32)
+    classifier.eval()
+    classes = [str(x) for x in label_encoder.classes_]
+    rows = []
+    for inicio in range(0, len(embeddings), batch_size):
+        lote = embeddings[inicio:inicio + batch_size].to(device=device, dtype=torch.float32)
+        logits = classifier(lote)
+        if logits.ndim == 1 or (logits.ndim == 2 and logits.shape[1] == 1):
+            if len(classes) != 2:
+                raise ValueError("El cabezal binario tiene una salida, pero no dos clases")
+            logits = logits.reshape(-1)
+            if not torch.isfinite(logits).all():
+                raise ValueError("Logits no finitos en clasificación binaria")
+            positives = torch.sigmoid(logits).cpu().numpy()
+            for prob in positives:
+                idx = int(prob >= threshold)
+                neg = 1.0 - float(prob)
+                pos = float(prob)
+                rows.append({
+                    "predicted_index": idx,
+                    "predicted_label": classes[idx],
+                    "confidence": max(neg, pos),
+                    "probability_class_0": neg,
+                    "probability_class_1": pos,
+                    f"prob_{classes[0]}": neg,
+                    f"prob_{classes[1]}": pos,
+                })
+        elif logits.ndim == 2:
+            if logits.shape[1] != len(classes):
+                raise ValueError(
+                    f"Salidas del cabezal: {logits.shape[1]}, clases del encoder: {len(classes)}"
+                )
+            if not torch.isfinite(logits).all():
+                raise ValueError("Logits no finitos en clasificación multiclase")
+            probs = torch.softmax(logits, dim=1).cpu().numpy()
+            for prob in probs:
+                idx = int(np.argmax(prob))
+                row = {
+                    "predicted_index": idx,
+                    "predicted_label": str(label_encoder.inverse_transform([idx])[0]),
+                    "confidence": float(prob[idx]),
+                }
+                row.update({f"prob_{nombre}": float(prob[j]) for j, nombre in enumerate(classes)})
+                rows.append(row)
+        else:
+            raise ValueError(f"Dimensión de logits inesperada: {tuple(logits.shape)}")
+    return pd.DataFrame(rows)
 
-        embeddings = mean_pooling(
-            last_hidden_state=outputs.last_hidden_state,
-            attention_mask=encoded["attention_mask"],
-        )
 
-        all_embeddings.append(
-            embeddings.to(
-                dtype=torch.float32
-            ).cpu()
-        )
-
-    return torch.cat(
-        all_embeddings,
-        dim=0,
-    )
-# ============================================================
-# 7. Clasificar prompts
-# ============================================================
 @torch.inference_mode()
 def classify_prompts(
-    prompts,
-    tokenizer,
-    encoder,
-    classifier,
-    label_encoder,
-    device,
-    batch_size=8,
-    max_length=128,
-    threshold=0.5,
+    prompts, tokenizer, encoder, classifier, label_encoder, device,
+    batch_size: int = TRAINING_EMBEDDING_BATCH_SIZE,
+    max_length: int = TRAINING_MAX_LENGTH,
+    threshold: float = 0.5,
 ):
- 
+    """API de compatibilidad: vectoriza y clasifica una lista de textos."""
+    vectores = create_embeddings(prompts, tokenizer, encoder, device, batch_size, max_length)
+    resultados = classify_embeddings(vectores, classifier, label_encoder, device, batch_size, threshold)
+    resultados.insert(0, "response", list(prompts))
+    return resultados
 
-    classifier = classifier.to(
-    device=device,
-    dtype=torch.float32
-)
 
-    
-    classifier.eval()
-    
-    embeddings = create_embeddings(
-        prompts=prompts,
-        tokenizer=tokenizer,
-        encoder=encoder,
-        device=device,
-        batch_size=batch_size,
-        max_length=max_length,
+def evaluateResponses(
+    BASE_RESPONSES: str,
+    responseColumn: str,
+    ENCODER_PATH: str,
+    CLASSIFIER_PATH: str | Path,
+    LABELS_PATH: str | Path,
+    BATCH_SIZE: int,
+    MAX_LENGTH: int,
+    DEVICE: torch.device,
+) -> pd.DataFrame:
+    """Función pública compatible con el script anterior.
+
+    Los nulos se omiten aquí; el script principal preserva su fila de origen.
+    """
+    data = pd.read_csv(BASE_RESPONSES)
+    if responseColumn not in data.columns:
+        raise KeyError(f"Falta la columna {responseColumn}")
+    responses = [x for x in data[responseColumn].tolist() if isinstance(x, str) and x.strip()]
+    if not responses:
+        raise ValueError("No hay respuestas válidas para evaluar")
+    tokenizer, encoder = load_encoder(ENCODER_PATH, DEVICE)
+    classifier = load_complete_classifier(CLASSIFIER_PATH, DEVICE)
+    labels = load_label_encoder(LABELS_PATH)
+    return classify_prompts(
+        responses, tokenizer, encoder, classifier, labels, DEVICE,
+        batch_size=BATCH_SIZE, max_length=MAX_LENGTH,
     )
-
-    predictions = []
-
-    for start in range(0, len(embeddings), batch_size):
-
-        batch_embeddings = embeddings[
-            start:start + batch_size
-        ].to(device = device,
-             dtype=next(classifier.parameters()).dtype)
-
-        logits = classifier(batch_embeddings)
-
-        # ----------------------------------------------------
-        # Clasificación binaria:
-        # salida [batch_size] o [batch_size, 1]
-        # ----------------------------------------------------
-        if logits.ndim == 1 or logits.shape[1] == 1:
-
-            logits = logits.squeeze(-1)
-
-            positive_probabilities = torch.sigmoid(logits)
-
-            predicted_indices = (
-                positive_probabilities >= threshold
-            ).long()
-
-            positive_probabilities = (
-                positive_probabilities
-                .detach()
-                .cpu()
-                .numpy()
-            )
-
-            predicted_indices = (
-                predicted_indices
-                .detach()
-                .cpu()
-                .numpy()
-            )
-
-            for local_index, predicted_index in enumerate(
-                predicted_indices
-            ):
-                prompt_index = start + local_index
-
-                positive_probability = float(
-                    positive_probabilities[local_index]
-                )
-
-                negative_probability = (
-                    1.0 - positive_probability
-                )
-
-                predicted_label = label_encoder.inverse_transform(
-                    [int(predicted_index)]
-                )[0]
-
-                confidence = max(
-                    negative_probability,
-                    positive_probability,
-                )
-
-                row = {
-                    "response": prompts[prompt_index],
-                    "predicted_index": int(predicted_index),
-                    "predicted_label": str(predicted_label),
-                    "confidence": float(confidence),
-                    "probability_class_0": negative_probability,
-                    "probability_class_1": positive_probability,
-                }
-
-                # Añadir los nombres reales de las clases.
-                if len(label_encoder.classes_) == 2:
-                    row[
-                        f"prob_{label_encoder.classes_[0]}"
-                    ] = negative_probability
-
-                    row[
-                        f"prob_{label_encoder.classes_[1]}"
-                    ] = positive_probability
-
-                predictions.append(row)
-
-        # ----------------------------------------------------
-        # Clasificación multiclase:
-        # salida [batch_size, num_classes]
-        # ----------------------------------------------------
-        else:
-
-            probabilities = torch.softmax(
-                logits,
-                dim=1,
-            )
-
-            predicted_indices = probabilities.argmax(
-                dim=1
-            )
-
-            confidence_values = probabilities.max(
-                dim=1
-            ).values
-
-            probabilities = (
-                probabilities
-                .detach()
-                .cpu()
-                .numpy()
-            )
-
-            predicted_indices = (
-                predicted_indices
-                .detach()
-                .cpu()
-                .numpy()
-            )
-
-            confidence_values = (
-                confidence_values
-                .detach()
-                .cpu()
-                .numpy()
-            )
-
-            for local_index, predicted_index in enumerate(
-                predicted_indices
-            ):
-                prompt_index = start + local_index
-
-                predicted_label = label_encoder.inverse_transform(
-                    [int(predicted_index)]
-                )[0]
-
-                row = {
-                    "response": prompts[prompt_index],
-                    "predicted_index": int(predicted_index),
-                    "predicted_label": str(predicted_label),
-                    "confidence": float(
-                        confidence_values[local_index]
-                    ),
-                }
-
-                for class_position, class_name in enumerate(
-                    label_encoder.classes_
-                ):
-                    row[f"prob_{class_name}"] = float(
-                        probabilities[
-                            local_index,
-                            class_position,
-                        ]
-                    )
-
-                predictions.append(row)
-
-    return pd.DataFrame(predictions)
-
-# ============================================================
-# 8. Ejecución principal
-# ============================================================
-
-def evaluateResponses(BASE_RESPONSES:str, responseColumn:str,ENCODER_PATH:str,CLASSIFIER_PATH:str, LABELS_PATH:str,BATCH_SIZE:int, MAX_LENGTH:int,DEVICE:str) -> pd.DataFrame:
-
-    responseBase= pd.read_csv(f"{BASE_RESPONSES}")
-    responses=responseBase[responseColumn].to_list()
-    print("TOTAL  RESPONSES ",len(responses))
-    print("Cargando tokenizer y encoder...")
-    
-
-    tokenizer, encoder = load_encoder(
-        encoder_path=ENCODER_PATH,
-        device=DEVICE,
-    )
-
-    print(
-        f"Dimensión de los embeddings: "
-        f"{encoder.config.hidden_size}"
-    )
-
-    print("Cargando cabezal clasificador...")
-
-    classifier = load_complete_classifier(
-        classifier_path=CLASSIFIER_PATH,
-        device=DEVICE,
-    )
-
-    print("Cabezal cargado correctamente:")
-    print(classifier)
-
-    print("Cargando etiquetas...")
-
-    label_encoder = load_label_encoder(
-        labels_path=LABELS_PATH
-    )
-
-    print(
-        "Etiquetas:",
-        list(label_encoder.classes_),
-    )
-
-    print("Clasificando prompts...")
-
-    results = classify_prompts(
-        prompts=responses,
-        tokenizer=tokenizer,
-        encoder=encoder,
-        classifier=classifier,
-        label_encoder=label_encoder,
-        device=DEVICE,
-        batch_size=BATCH_SIZE,
-        max_length=MAX_LENGTH,
-    )
-
-    columns_to_show = [
-        "response",
-        "predicted_index",
-        "predicted_label",
-        "confidence",
-    ]
-
-    print("\nResultados:")
-    
-
-    return results
