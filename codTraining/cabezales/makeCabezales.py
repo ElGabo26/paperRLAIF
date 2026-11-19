@@ -155,7 +155,7 @@ for i,j in params1.items():
         resultadoTest['cabezal']=i
         result_binary.append(resultadoTest)
         result_binary.append(resultadoVal)
-    torch.save(model,f"{OUTPUT_MODEL}/{i}_{param['pooling']}.pt")
+    torch.save(model,f"{OUTPUT_MODEL}/{i}.pt")
     print(f'CABEZAL {i} GUARDADO')
 
 resultBinary=pd.DataFrame(result_binary)
