@@ -42,6 +42,7 @@ def load_encoder(
         str(ruta),
         local_files_only=True,
         use_fast=False,
+        fix_mistral_regex=True
     )
 
     print("Tokenizador:", type(tokenizer))
