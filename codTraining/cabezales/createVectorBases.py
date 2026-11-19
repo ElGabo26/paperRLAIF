@@ -16,9 +16,9 @@ from transformers import AutoModel, AutoTokenizer
 # ============================================================
 # CONFIGURACIÓN
 # ============================================================
-DATABASES_ROUTE="/workspace/papaerRLAIF/codTraining/cabezales/trainingCabezales"
-OUTPUT_ROUTE="/workspace/papaerRLAIF/codTraining/cabezales/vectorBases"
-ENCODER_ROUTE="/workspace/papaerRLAIF/codTraining/cabezales/encoders"
+DATABASES_ROUTE="/workspace/paperRLAIF/codTraining/cabezales/trainingCabezales"
+OUTPUT_ROUTE="/workspace/paperRLAIF/codTraining/cabezales/vectorBases"
+ENCODER_ROUTE="/workspace/paperRLAIF/codTraining/cabezales/encoders"
 SEED =42
 
 DEVICE = torch.device(
