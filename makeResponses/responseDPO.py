@@ -3,7 +3,7 @@ import tqdm
 import os
 from loadAlginModelTools import cargar_modelo, generar_respuestas_batch
 
-PROMPTS_CSV = "/workspace/papaerRLAIF/makeResponses/promptBases/finalPromptBases/elementary_math_prompts_1200.csv"
+PROMPTS_CSV = "/workspace/paperRLAIF/makeResponses/promptBases/finalPromptBases/elementary_math_prompts_1200.csv"
 prompts_df = pd.read_csv(PROMPTS_CSV)
 DPO_MODELS_PATH="/workspace/adaptedModels/DPO"
 PPO_MODELS_PATH="/workspace/adaptedModels/PPO/finalPPOModels"
