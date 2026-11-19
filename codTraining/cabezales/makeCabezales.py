@@ -131,7 +131,7 @@ for i,j in params1.items():
         valores_unicos = torch.unique(etiquetas)
         print("Valores únicos eval:", valores_unicos)
         
-        resultadoVal=eval_multiclass(model,evalL,DEVICE,criterio,class_names)
+        resultadoVal=eval_multiclass(i,model,evalL,DEVICE,criterio,class_names)
         print('MODELO EVALUADO')
         
         
