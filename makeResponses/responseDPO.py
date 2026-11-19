@@ -41,5 +41,5 @@ for ppoRoute in ppoRoutes:
     result_df['algin']="PPO"
     result_df['model']=ppoRoute
     result_df['prompt_id']=prompts_df["prompt_id"]
-    result_df.to_csv(os.path.join(RESPONSES_PATH, f"responses_PPO_{ppoRoute}.csv"), index=False)
+    result_df.to_csv(os.path.join(RESPONSES_PATH, f"responses_DPO_{ppoRoute}.csv"), index=False)
     print(f"Respuestas generadas y guardadas para el modelo PPO: {ppoRoute}")
