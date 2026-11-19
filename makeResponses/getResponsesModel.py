@@ -8,7 +8,7 @@ from loadAlginModelTools import cargar_modelo, generar_respuestas_batch
 
 REPETITIONS=1
 MODEL_ROUTE="/workspace/models"
-RUTAOUTPUT="/workspace/papaerRLAIF/makeResponses/responses"
+RUTAOUTPUT="/workspace/paperRLAIF/makeResponses/responses"
 base=pd.read_csv("/workspace/papaerRLAIF/makeResponses/promptBases/finalPromptBases/elementary_math_prompts_1200.csv")
 prompts=base['prompt'].values.tolist()
 total=len(prompts)
@@ -37,7 +37,7 @@ for ruta in models:
             
             tokenizer,model = testModel(ruta)
             resultado=generar_respuestas_batch(model,tokenizer,
-                                       prompts,batch_size=20,max_new_tokens=200,num_responses=1)
+                                       prompts,batch_size=20,max_new_tokens=600,num_responses=1)
             r= pd.DataFrame({"prompt": prompts, "response": resultado})
             r['prompt_id']=base['prompt_id']
             name='result'+ruta.split('/')[-1]
