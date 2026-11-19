@@ -90,7 +90,7 @@ def makeRed_multi(config:dict, DEVICE:str, seed:int,trainL,testL):
 
 params1={}
 params1=params
-print(params1)
+print(params1.keys())
 
 for i,j in params1.items():
     param=j.copy()
