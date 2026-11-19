@@ -17,7 +17,7 @@ dpoRoutes=os.listdir(DPO_MODELS_PATH)
 print(dpoRoutes)
 for dpoRoute in dpoRoutes:
     responses=[]
-    model_path = os.path.join(DPO_MODELS_PATH, dpoRoute)
+    model_path = os.path.join(DPO_MODELS_PATH, dpoRoute,'best_model')
     model, tokenizer = cargar_modelo(model_path)
     responses=generar_respuestas_batch(model,tokenizer,
                                        prompts,batch_size=120,max_new_tokens=200,num_responses=1)
